@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-19T02:54:56.552Z</id>
+    <id>urn:2024-08-19T03:13:58.494Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-19T02:54:56.552Z</updated>
+    <updated>2024-08-19T03:13:58.494Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[RSS URI changed - migration to Jekyll]]></title>
         <id>6D9CAD12-86D5-46D4-93F4-71C342F4B929</id>
         <link href="http://blog.lse.epita.fr/feed.xml"/>
-        <updated>2024-08-19T02:54:51.096Z</updated>
+        <updated>2024-08-19T03:13:53.516Z</updated>
         <summary type="html"><![CDATA[This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml]]></summary>
         <author>
             <name>LSE Blog</name>

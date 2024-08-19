@@ -141,7 +141,7 @@
           "author": null,
           "description": "This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml",
           "link": "http://blog.lse.epita.fr/feed.xml",
-          "publishedOn": "2024-08-19T02:54:51.096Z",
+          "publishedOn": "2024-08-19T03:13:53.516Z",
           "wordCount": null,
           "title": "RSS URI changed - migration to Jekyll",
           "imageUrl": null
@@ -286,18 +286,6 @@
       "articles": []
     },
     {
-      "title": null,
-      "feedUrl": "https://blog.sina.com.cn/rss/3194858670.xml",
-      "siteUrl": null,
-      "articles": []
-    },
-    {
-      "title": null,
-      "feedUrl": "https://blog.sina.com.cn/rss/streethacker.xml",
-      "siteUrl": null,
-      "articles": []
-    },
-    {
       "title": "ArthurChiao's Blog",
       "feedUrl": "https://arthurchiao.art/feed.xml",
       "siteUrl": "https://arthurchiao.github.io/",
@@ -334,126 +322,6 @@
       "title": "blog[wuntee]",
       "feedUrl": "https://blog.wuntee.sexy/atom.xml",
       "siteUrl": "http://wuntee.github.io//atom.xml",
-      "articles": []
-    },
-    {
-      "title": "新浪博客",
-      "feedUrl": "https://blog.sina.com.cn/rss/1998123724.xml",
-      "siteUrl": "http://blog.sina.com.cn/",
-      "articles": []
-    },
-    {
-      "title": "Azimuth Security",
-      "feedUrl": "http://blog.azimuthsecurity.com/feeds/posts/default",
-      "siteUrl": "http://blog.azimuthsecurity.com/",
-      "articles": []
-    },
-    {
-      "title": "Chromium Blog",
-      "feedUrl": "https://blog.chromium.org/feeds/posts/default",
-      "siteUrl": "https://blog.chromium.org/",
-      "articles": []
-    },
-    {
-      "title": "ADD / XOR / ROL",
-      "feedUrl": "https://addxorrol.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://addxorrol.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Colt's Blog",
-      "feedUrl": "https://coltf.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://coltf.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "C-skills",
-      "feedUrl": "https://c-skills.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://c-skills.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Dividead’s Blog",
-      "feedUrl": "https://dividead.wordpress.com/feed/",
-      "siteUrl": "https://dividead.wordpress.com",
-      "articles": []
-    },
-    {
-      "title": "Coding (In)Security",
-      "feedUrl": "https://coding-insecurity.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://coding-insecurity.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Secure Belief",
-      "feedUrl": "https://amolnaik4.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://amolnaik4.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Codingo",
-      "feedUrl": "https://codingo.io/feed.xml",
-      "siteUrl": "http://codingo.io/",
-      "articles": []
-    },
-    {
-      "title": "StalkR's Blog",
-      "feedUrl": "https://blog.stalkr.net/feeds/posts/default",
-      "siteUrl": "https://blog.stalkr.net/",
-      "articles": []
-    },
-    {
-      "title": "Deep Exploit Space",
-      "feedUrl": "https://exploitspace.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://exploitspace.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "d0c_s4vage",
-      "feedUrl": "https://d0cs4vage.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://d0cs4vage.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "A box of chocolate",
-      "feedUrl": "https://dakutenpura.hatenablog.com/feed",
-      "siteUrl": "https://dakutenpura.hatenablog.com/",
-      "articles": []
-    },
-    {
-      "title": "contagio mobile",
-      "feedUrl": "https://contagiominidump.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://contagiominidump.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Brute XSS",
-      "feedUrl": "https://brutelogic.com.br/blog/feed/",
-      "siteUrl": "https://brutelogic.com.br/blog/",
-      "articles": []
-    },
-    {
-      "title": "Black.hat",
-      "feedUrl": "https://e-omidfar.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://e-omidfar.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Chybeta",
-      "feedUrl": "https://chybeta.github.io/atom.xml",
-      "siteUrl": "/atom.xml",
-      "articles": []
-    },
-    {
-      "title": "DarkLapu",
-      "feedUrl": "https://darklapu.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://darklapu.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "Damien Deville",
-      "feedUrl": "https://ddeville.me/feed.xml",
-      "siteUrl": "https://ddeville.me",
       "articles": []
     }
   ],
