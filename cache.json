@@ -141,7 +141,7 @@
           "author": null,
           "description": "This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml",
           "link": "http://blog.lse.epita.fr/feed.xml",
-          "publishedOn": "2024-08-19T03:43:56.988Z",
+          "publishedOn": "2024-08-19T03:47:11.173Z",
           "wordCount": null,
           "title": "RSS URI changed - migration to Jekyll",
           "imageUrl": null
@@ -481,12 +481,6 @@
       "articles": []
     },
     {
-      "title": "博客园 - allin.android",
-      "feedUrl": "https://feed.cnblogs.com/blog/u/70231/rss",
-      "siteUrl": null,
-      "articles": []
-    },
-    {
       "title": "android cracking",
       "feedUrl": "https://feeds.feedburner.com/AndroidCracking",
       "siteUrl": "http://androidcracking.blogspot.com/",
@@ -570,12 +564,6 @@
       "title": "tessrijogo",
       "feedUrl": "https://feeds.feedburner.com/blogspot/CqwP",
       "siteUrl": "http://tessrijogo.blogspot.com/",
-      "articles": []
-    },
-    {
-      "title": "g0tmi1k",
-      "feedUrl": "https://blog.g0tmi1k.com/atom.xml",
-      "siteUrl": "https://blog.g0tmi1k.com/atom.xml",
       "articles": []
     },
     {
@@ -664,12 +652,6 @@
       "articles": []
     },
     {
-      "title": "Confessions of a Penetration Tester",
-      "feedUrl": "https://feeds.feedburner.com/blogspot/qnNMU",
-      "siteUrl": "http://pentesterconfessions.blogspot.com/",
-      "articles": []
-    },
-    {
       "title": "cawan's blog",
       "feedUrl": "https://cawanblog.blogspot.com/feeds/posts/default",
       "siteUrl": "https://cawanblog.blogspot.com/",
@@ -691,18 +673,6 @@
       "title": "Blog postings from honeynet.org",
       "feedUrl": "https://feeds2.feedburner.com/HoneynetProjectAggregated",
       "siteUrl": "http://www.honeynet.org/feed/blogfeed",
-      "articles": []
-    },
-    {
-      "title": "Positive Technologies - learn and secure",
-      "feedUrl": "https://feeds.feedburner.com/positiveTechnologiesResearchLab",
-      "siteUrl": "http://blog.ptsecurity.com/",
-      "articles": []
-    },
-    {
-      "title": "the Forensics Ferret Blog",
-      "feedUrl": "https://forensicsferret.wordpress.com/feed/",
-      "siteUrl": "https://forensicsferret.wordpress.com",
       "articles": []
     }
   ],
