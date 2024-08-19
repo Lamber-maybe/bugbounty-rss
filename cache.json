@@ -141,7 +141,7 @@
           "author": null,
           "description": "This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml",
           "link": "http://blog.lse.epita.fr/feed.xml",
-          "publishedOn": "2024-08-19T03:37:15.816Z",
+          "publishedOn": "2024-08-19T03:43:56.988Z",
           "wordCount": null,
           "title": "RSS URI changed - migration to Jekyll",
           "imageUrl": null
@@ -481,6 +481,12 @@
       "articles": []
     },
     {
+      "title": "博客园 - allin.android",
+      "feedUrl": "https://feed.cnblogs.com/blog/u/70231/rss",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
       "title": "android cracking",
       "feedUrl": "https://feeds.feedburner.com/AndroidCracking",
       "siteUrl": "http://androidcracking.blogspot.com/",
@@ -564,6 +570,139 @@
       "title": "tessrijogo",
       "feedUrl": "https://feeds.feedburner.com/blogspot/CqwP",
       "siteUrl": "http://tessrijogo.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "g0tmi1k",
+      "feedUrl": "https://blog.g0tmi1k.com/atom.xml",
+      "siteUrl": "https://blog.g0tmi1k.com/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "HAHWUL",
+      "feedUrl": "https://feeds.feedburner.com/hahwul",
+      "siteUrl": "https://www.hahwul.com/",
+      "articles": []
+    },
+    {
+      "title": "Sucuri Blog",
+      "feedUrl": "https://feeds.feedburner.com/sucuri/blog",
+      "siteUrl": "https://blog.sucuri.net/",
+      "articles": [
+        {
+          "id": "https://blog.sucuri.net/?p=34275",
+          "author": "Kyle Knight",
+          "description": "The prospect of obtaining premium features without spending a dime is tempting. Nulled WordPress plugins and themes, often being advertised as the no cost versions of their premium counterparts, can seem like a dream come true for many WordPress users. Who doesn’t want to save some money while still enjoying the enhancements and extended features that premium plugins and themes provide? But the reality of using these “free” versions is much riskier than you might think.\nContinue reading The Security Risks of Using Nulled WordPress Plugins at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/the-security-risks-of-using-nulled-wordpress-plugins.html",
+          "publishedOn": "2024-08-16T21:10:24.000Z",
+          "wordCount": null,
+          "title": "The Security Risks of Using Nulled WordPress Plugins",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34258",
+          "author": "Ben Martin",
+          "description": "During a recent investigation we uncovered another credit card skimmer leveraging a web socket connection to steal credit card details from an infected PrestaShop website.\nWhile PrestaShop is not the most popular eCommerce solution for online stores it is still in the top 10 most common ecommerce platforms in use on the web, and clocks in at just above 1% of all websites (over 60,000 in total).\nAttackers are not discerning with what platforms they attack.\nContinue reading PrestaShop GTAG Websocket Skimmer at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/prestashop-gtag-websocket-skimmer.html",
+          "publishedOn": "2024-08-14T22:20:00.000Z",
+          "wordCount": null,
+          "title": "PrestaShop GTAG Websocket Skimmer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34250",
+          "author": "Kyle Knight",
+          "description": "Picture this: It’s October 2016, and you’re trying to access your favorite websites – Twitter, Netflix, Spotify – but nothing’s loading. If you can believe it, this wasn’t just a bad day for the internet; it was the result of one of the largest DDoS attacks in history, targeting Dyn, a major DNS provider. Fast forward to 2023, and Google Cloud is fending off another massive attack, this time peaking at 398 million requests per second.\nContinue reading What is Website Monitoring? at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/what-is-website-monitoring.html",
+          "publishedOn": "2024-08-08T21:50:09.000Z",
+          "wordCount": null,
+          "title": "What is Website Monitoring?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34243",
+          "author": "Kyle Knight",
+          "description": "Keeping your website secure is crucial to protecting user data and maintaining trust. Think of your website as a digital vault that needs constant safeguarding against potential threats. By understanding and implementing key security practices, you can significantly reduce the risk of attacks and ensure a safe experience for your users. Let’s break down some essential tips and strategies to enhance your website’s security.\nUnderstanding the basics of website security\nThe internet can be a dangerous place, and your website is like a storefront in a busy digital city.\nContinue reading Security Tips for Modern Web Administrators at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/security-tips-for-modern-web-administrators.html",
+          "publishedOn": "2024-08-02T17:53:15.000Z",
+          "wordCount": null,
+          "title": "Security Tips for Modern Web Administrators",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34234",
+          "author": "Sucuri Malware Research Team",
+          "description": "Vulnerability reports and responsible disclosures are essential for website security awareness and education. Automated attacks targeting known software vulnerabilities are one of the leading causes of website compromises.\nTo help educate website owners about potential threats to their environments, we’ve compiled a list of important security updates and vulnerability patches for the WordPress ecosystem this past month.\nThe vulnerabilities listed below are virtually patched by the Sucuri Firewall and existing clients are protected.\nContinue reading WordPress Vulnerability & Patch Roundup July 2024 at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/07/wordpress-vulnerability-patch-roundup-july-2024.html",
+          "publishedOn": "2024-07-29T18:07:12.000Z",
+          "wordCount": null,
+          "title": "WordPress Vulnerability & Patch Roundup July 2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34226",
+          "author": "Kyle Knight",
+          "description": "HTTP/2 is a game-changer in web protocol technology, offering significant improvements in speed, efficiency, and security over its predecessor, HTTP/1.1. With features like multiplexing, header compression, and server push, HTTP/2 can drastically reduce web page load times and enhance the overall user experience. Additionally, HTTP/2 is enabled by default for Sucuri’s Web Application Firewall (WAF), making it even easier to leverage these benefits right out of the box. \nIn this blog, we’ll demystify HTTP/2 and guide you through the process of enabling it on your server using common control panels like Plesk and cPanel.\nContinue reading How to Enable HTTP/2 On a Server at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/07/how-to-enable-http-2-on-a-server.html",
+          "publishedOn": "2024-07-24T18:44:55.000Z",
+          "wordCount": null,
+          "title": "How to Enable HTTP/2 On a Server",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "pentestmonkey",
+      "feedUrl": "https://feeds.feedburner.com/pentestmonkey",
+      "siteUrl": "https://pentestmonkey.net",
+      "articles": []
+    },
+    {
+      "title": "SpyLogic.net",
+      "feedUrl": "https://feeds.feedburner.com/spylogic",
+      "siteUrl": "https://www.spylogic.net",
+      "articles": []
+    },
+    {
+      "title": "Confessions of a Penetration Tester",
+      "feedUrl": "https://feeds.feedburner.com/blogspot/qnNMU",
+      "siteUrl": "http://pentesterconfessions.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "cawan's blog",
+      "feedUrl": "https://cawanblog.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://cawanblog.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "the world. according to koto",
+      "feedUrl": "https://feeds.feedburner.com/TheWorldAccordingToKoto",
+      "siteUrl": "http://blog.kotowicz.net/",
+      "articles": []
+    },
+    {
+      "title": "Solution 36",
+      "feedUrl": "https://feeds2.feedburner.com/intheknow-security",
+      "siteUrl": "http://solution-36.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Blog postings from honeynet.org",
+      "feedUrl": "https://feeds2.feedburner.com/HoneynetProjectAggregated",
+      "siteUrl": "http://www.honeynet.org/feed/blogfeed",
+      "articles": []
+    },
+    {
+      "title": "Positive Technologies - learn and secure",
+      "feedUrl": "https://feeds.feedburner.com/positiveTechnologiesResearchLab",
+      "siteUrl": "http://blog.ptsecurity.com/",
+      "articles": []
+    },
+    {
+      "title": "the Forensics Ferret Blog",
+      "feedUrl": "https://forensicsferret.wordpress.com/feed/",
+      "siteUrl": "https://forensicsferret.wordpress.com",
       "articles": []
     }
   ],
