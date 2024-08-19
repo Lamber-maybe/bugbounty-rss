@@ -11,6 +11,153 @@
       "feedUrl": "https://www.codersec.net/feed.xml",
       "siteUrl": "http://www.codersec.net/",
       "articles": []
+    },
+    {
+      "title": "Sec-News 安全文摘",
+      "feedUrl": "https://govuln.com/news/feed/",
+      "siteUrl": "https://govuln.com/news/feed/",
+      "articles": [
+        {
+          "id": "https://govuln.com/news/url/3KJN",
+          "author": null,
+          "description": "如何巧妙构建“LDAPS”服务器利用JNDI注入",
+          "link": "https://govuln.com/news/url/3KJN",
+          "publishedOn": "2024-08-16T15:24:14.047Z",
+          "wordCount": 331,
+          "title": "如何巧妙构建“LDAPS”服务器利用JNDI注入",
+          "imageUrl": null
+        },
+        {
+          "id": "https://govuln.com/news/url/a6kA",
+          "author": null,
+          "description": "Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE",
+          "link": "https://govuln.com/news/url/a6kA",
+          "publishedOn": "2024-08-15T09:26:25.852Z",
+          "wordCount": 6315,
+          "title": "Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE",
+          "imageUrl": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2024/08/OpenVpn-featured-image-1.png"
+        },
+        {
+          "id": "https://govuln.com/news/url/B16r",
+          "author": null,
+          "description": "详解：L4LB四层负载均衡IP伪造漏洞",
+          "link": "https://govuln.com/news/url/B16r",
+          "publishedOn": "2024-08-11T14:39:13.675Z",
+          "wordCount": 39502,
+          "title": "详解：L4LB四层负载均衡IP伪造漏洞",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/IjnZ9ic9bGHuk6kVdCJWH6TaOmibMOJ8apYV5vhGbUYUM24HdRwMqqJTPMHWcyuG9e4KWcDIH8dGDBYv94acuDcQ/0?wx_fmt=jpeg"
+        },
+        {
+          "id": "https://govuln.com/news/url/q60v",
+          "author": null,
+          "description": "XenForo RCE via CSRF",
+          "link": "https://govuln.com/news/url/q60v",
+          "publishedOn": "2024-08-08T03:12:09.993Z",
+          "wordCount": 3284,
+          "title": "XenForo RCE via CSRF",
+          "imageUrl": "https://ssd-disclosure.com/wp-content/uploads/2024/06/screenshot.png"
+        },
+        {
+          "id": "https://govuln.com/news/url/rm0V",
+          "author": null,
+          "description": "SonicWall SMA100 Stored XSS to RCE",
+          "link": "https://govuln.com/news/url/rm0V",
+          "publishedOn": "2024-08-08T03:11:24.401Z",
+          "wordCount": 3823,
+          "title": "SonicWall SMA100 Stored XSS to RCE",
+          "imageUrl": "https://ssd-disclosure.com/wp-content/uploads/2024/07/sonicwall_log_view.png"
+        },
+        {
+          "id": "https://govuln.com/news/url/ApDJ",
+          "author": null,
+          "description": "Listen to the whispers: web timing attacks that actually work",
+          "link": "https://govuln.com/news/url/ApDJ",
+          "publishedOn": "2024-08-08T03:01:01.097Z",
+          "wordCount": 6696,
+          "title": "Listen to the whispers: web timing attacks that actually work",
+          "imageUrl": "https://portswigger.net/cms/images/39/7f/e41b-twittercard-listen-to-the-whispers-twitter.png"
+        },
+        {
+          "id": "https://govuln.com/news/url/mb0D",
+          "author": null,
+          "description": "From opcode to code: how AI chatbots can help with decompilation",
+          "link": "https://govuln.com/news/url/mb0D",
+          "publishedOn": "2024-08-07T12:03:11.571Z",
+          "wordCount": 1194,
+          "title": "From opcode to code: how AI chatbots can help with decompilation",
+          "imageUrl": "https://swarm.ptsecurity.com/wp-content/uploads/2024/07/6871f90c-image3.png"
+        },
+        {
+          "id": "https://govuln.com/news/url/6ynr",
+          "author": null,
+          "description": "结合 Jimureport 的某个漏洞披露看 Aviator 表达式注入",
+          "link": "https://govuln.com/news/url/6ynr",
+          "publishedOn": "2024-08-07T11:12:22.470Z",
+          "wordCount": 469,
+          "title": "结合 Jimureport 的某个漏洞披露看 Aviator 表达式注入",
+          "imageUrl": null
+        },
+        {
+          "id": "https://govuln.com/news/url/7RKO",
+          "author": null,
+          "description": "从零开始搭建本地安全 AI 大模型攻防知识库",
+          "link": "https://govuln.com/news/url/7RKO",
+          "publishedOn": "2024-08-07T09:57:52.376Z",
+          "wordCount": null,
+          "title": "从零开始搭建本地安全 AI 大模型攻防知识库",
+          "imageUrl": null
+        },
+        {
+          "id": "https://govuln.com/news/url/21Pp",
+          "author": null,
+          "description": "Becoming any Android app via Zygote command injection",
+          "link": "https://govuln.com/news/url/21Pp",
+          "publishedOn": "2024-07-30T16:14:55.442Z",
+          "wordCount": 4676,
+          "title": "Becoming any Android app via Zygote command injection",
+          "imageUrl": null
+        },
+        {
+          "id": "https://govuln.com/news/url/DoAM",
+          "author": null,
+          "description": "JNDI Injection Remote Code Execution via Path Manipulation in MemoryUserDatabaseFactory",
+          "link": "https://govuln.com/news/url/DoAM",
+          "publishedOn": "2024-07-25T16:19:29.544Z",
+          "wordCount": 1838,
+          "title": "JNDI Injection Remote Code Execution via Path Manipulation in MemoryUserDatabaseFactory",
+          "imageUrl": null
+        },
+        {
+          "id": "https://govuln.com/news/url/WQbG",
+          "author": null,
+          "description": "CVE-2024-36401 JDK 11-22 通杀内存马",
+          "link": "https://govuln.com/news/url/WQbG",
+          "publishedOn": "2024-07-25T07:44:26.950Z",
+          "wordCount": 39084,
+          "title": "CVE-2024-36401 JDK 11-22 通杀内存马",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/vlekRjgqic0exB4eGsmEK5her4xibskb0ZXpxHUE1icSptWS4QOMA9yUzGUm9l2dK0ptM66uCNPOibeECkc2A2pTGg/0?wx_fmt=jpeg"
+        },
+        {
+          "id": "https://govuln.com/news/url/yZd4",
+          "author": null,
+          "description": "wb近期流传漏洞-验真情报合集",
+          "link": "https://govuln.com/news/url/yZd4",
+          "publishedOn": "2024-07-24T09:22:29.573Z",
+          "wordCount": 264,
+          "title": "wb近期流传漏洞-验真情报合集",
+          "imageUrl": null
+        },
+        {
+          "id": "https://govuln.com/news/url/R0nV",
+          "author": null,
+          "description": "使用eUICC卡片将手机变成eSIM手机",
+          "link": "https://govuln.com/news/url/R0nV",
+          "publishedOn": "2024-07-22T11:28:21.196Z",
+          "wordCount": 201,
+          "title": "使用eUICC卡片将手机变成eSIM手机",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

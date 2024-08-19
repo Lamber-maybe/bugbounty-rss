@@ -1,8 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-19T04:49:38.099Z</id>
+    <id>urn:2024-08-19T04:53:12.436Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-19T04:49:38.099Z</updated>
+    <updated>2024-08-19T04:53:12.436Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[如何巧妙构建“LDAPS”服务器利用JNDI注入]]></title>
+        <id>https://govuln.com/news/url/3KJN</id>
+        <link href="https://govuln.com/news/url/3KJN"/>
+        <updated>2024-08-16T15:24:14.047Z</updated>
+        <summary type="html"><![CDATA[如何巧妙构建“LDAPS”服务器利用JNDI注入]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE]]></title>
+        <id>https://govuln.com/news/url/a6kA</id>
+        <link href="https://govuln.com/news/url/a6kA"/>
+        <updated>2024-08-15T09:26:25.852Z</updated>
+        <summary type="html"><![CDATA[Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详解：L4LB四层负载均衡IP伪造漏洞]]></title>
+        <id>https://govuln.com/news/url/B16r</id>
+        <link href="https://govuln.com/news/url/B16r"/>
+        <updated>2024-08-11T14:39:13.675Z</updated>
+        <summary type="html"><![CDATA[详解：L4LB四层负载均衡IP伪造漏洞]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XenForo RCE via CSRF]]></title>
+        <id>https://govuln.com/news/url/q60v</id>
+        <link href="https://govuln.com/news/url/q60v"/>
+        <updated>2024-08-08T03:12:09.993Z</updated>
+        <summary type="html"><![CDATA[XenForo RCE via CSRF]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SonicWall SMA100 Stored XSS to RCE]]></title>
+        <id>https://govuln.com/news/url/rm0V</id>
+        <link href="https://govuln.com/news/url/rm0V"/>
+        <updated>2024-08-08T03:11:24.401Z</updated>
+        <summary type="html"><![CDATA[SonicWall SMA100 Stored XSS to RCE]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Listen to the whispers: web timing attacks that actually work]]></title>
+        <id>https://govuln.com/news/url/ApDJ</id>
+        <link href="https://govuln.com/news/url/ApDJ"/>
+        <updated>2024-08-08T03:01:01.097Z</updated>
+        <summary type="html"><![CDATA[Listen to the whispers: web timing attacks that actually work]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From opcode to code: how AI chatbots can help with decompilation]]></title>
+        <id>https://govuln.com/news/url/mb0D</id>
+        <link href="https://govuln.com/news/url/mb0D"/>
+        <updated>2024-08-07T12:03:11.571Z</updated>
+        <summary type="html"><![CDATA[From opcode to code: how AI chatbots can help with decompilation]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[结合 Jimureport 的某个漏洞披露看 Aviator 表达式注入]]></title>
+        <id>https://govuln.com/news/url/6ynr</id>
+        <link href="https://govuln.com/news/url/6ynr"/>
+        <updated>2024-08-07T11:12:22.470Z</updated>
+        <summary type="html"><![CDATA[结合 Jimureport 的某个漏洞披露看 Aviator 表达式注入]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零开始搭建本地安全 AI 大模型攻防知识库]]></title>
+        <id>https://govuln.com/news/url/7RKO</id>
+        <link href="https://govuln.com/news/url/7RKO"/>
+        <updated>2024-08-07T09:57:52.376Z</updated>
+        <summary type="html"><![CDATA[从零开始搭建本地安全 AI 大模型攻防知识库]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Becoming any Android app via Zygote command injection]]></title>
+        <id>https://govuln.com/news/url/21Pp</id>
+        <link href="https://govuln.com/news/url/21Pp"/>
+        <updated>2024-07-30T16:14:55.442Z</updated>
+        <summary type="html"><![CDATA[Becoming any Android app via Zygote command injection]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JNDI Injection Remote Code Execution via Path Manipulation in MemoryUserDatabaseFactory]]></title>
+        <id>https://govuln.com/news/url/DoAM</id>
+        <link href="https://govuln.com/news/url/DoAM"/>
+        <updated>2024-07-25T16:19:29.544Z</updated>
+        <summary type="html"><![CDATA[JNDI Injection Remote Code Execution via Path Manipulation in MemoryUserDatabaseFactory]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-36401 JDK 11-22 通杀内存马]]></title>
+        <id>https://govuln.com/news/url/WQbG</id>
+        <link href="https://govuln.com/news/url/WQbG"/>
+        <updated>2024-07-25T07:44:26.950Z</updated>
+        <summary type="html"><![CDATA[CVE-2024-36401 JDK 11-22 通杀内存马]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wb近期流传漏洞-验真情报合集]]></title>
+        <id>https://govuln.com/news/url/yZd4</id>
+        <link href="https://govuln.com/news/url/yZd4"/>
+        <updated>2024-07-24T09:22:29.573Z</updated>
+        <summary type="html"><![CDATA[wb近期流传漏洞-验真情报合集]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用eUICC卡片将手机变成eSIM手机]]></title>
+        <id>https://govuln.com/news/url/R0nV</id>
+        <link href="https://govuln.com/news/url/R0nV"/>
+        <updated>2024-07-22T11:28:21.196Z</updated>
+        <summary type="html"><![CDATA[使用eUICC卡片将手机变成eSIM手机]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
 </feed>
