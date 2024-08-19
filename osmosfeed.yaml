@@ -7,11 +7,9 @@
 sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://blog.bjornweb.nl/feed.xml
-  - href: https://blog.binklac.com/atom.xml
   - href: https://blog.cryptographyengineering.com/feeds/posts/default
   - href: https://4ch12dy.site/atom.xml
   - href: https://billwang1990.github.io/atom.xml
-  - href: https://b1twis3.ca/feed/
   - href: https://androidcracking.blogspot.com/feeds/posts/default
   - href: https://5alt.me/atom.xml
   - href: https://blog.csdn.net/21cnbao/rss/list
@@ -29,7 +27,6 @@ sources:
   - href: https://alex-ionescu.com/?feed=rss2
   - href: https://blog.csdn.net/Innost/rss/list
   - href: https://baronpan.blogspot.com/feeds/posts/default?alt=rss
-  - href: https://acez.re/rss/
   - href: https://0n0.fun/index.xml
   - href: http://blog.andlabs.org/feeds/posts/default?alt=rss
   - href: https://arighi.blogspot.com/feeds/posts/default
@@ -59,7 +56,6 @@ sources:
   - href: https://blog.csdn.net/u011721501/rss/list
   - href: https://blog.flanker017.me/?feed=rss2&amp;lang=zh-cn
   - href: https://0xeb.net/feed/
-  - href: https://blog.scoopz.com/feed/
   - href: https://blog.malwarebytes.org/feed/
   - href: https://blog.mozilla.org/security/feed/
   - href: http://blog.dragonthreatlabs.com/feeds/posts/default
@@ -77,9 +73,7 @@ sources:
   - href: https://balis0ng.com/feed
   - href: https://blog.sucuri.net/feed
   - href: http://blog.o0o.nu/feeds/posts/default
-  - href: https://blog.rewolf.pl/blog/?feed=rss2
   - href: https://blog.regehr.org/feed
-  - href: https://blog.zeltser.com/rss
   - href: https://blog.fox-it.com/feed/
   - href: https://an7isec.blogspot.com/feeds/posts/default?alt=rss
   - href: https://bugix-security.blogspot.com/feeds/posts/default
@@ -120,7 +114,6 @@ sources:
   - href: https://darklapu.blogspot.com/feeds/posts/default
   - href: https://ddeville.me/feed.xml
   - href: https://feed.cnblogs.com/blog/u/70231/rss
-  - href: https://ele7enxxh.com/atom.xml
   - href: https://feeds.feedburner.com/AndroidCracking
   - href: https://feed.cnblogs.com/blog/u/187775/rss
   - href: https://feed.cnblogs.com/blog/u/227407/rss
