@@ -133,9 +133,9 @@
           "description": "CVE-2024-36401 JDK 11-22 通杀内存马",
           "link": "https://govuln.com/news/url/WQbG",
           "publishedOn": "2024-07-25T07:44:26.950Z",
-          "wordCount": 39084,
+          "wordCount": 264,
           "title": "CVE-2024-36401 JDK 11-22 通杀内存马",
-          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/vlekRjgqic0exB4eGsmEK5her4xibskb0ZXpxHUE1icSptWS4QOMA9yUzGUm9l2dK0ptM66uCNPOibeECkc2A2pTGg/0?wx_fmt=jpeg"
+          "imageUrl": null
         },
         {
           "id": "https://govuln.com/news/url/yZd4",
@@ -143,7 +143,7 @@
           "description": "wb近期流传漏洞-验真情报合集",
           "link": "https://govuln.com/news/url/yZd4",
           "publishedOn": "2024-07-24T09:22:29.573Z",
-          "wordCount": 264,
+          "wordCount": 1932,
           "title": "wb近期流传漏洞-验真情报合集",
           "imageUrl": null
         },
@@ -158,6 +158,30 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "0e0w",
+      "feedUrl": "https://0e0w.com/feed.xml",
+      "siteUrl": "https://0e0w.com/",
+      "articles": []
+    },
+    {
+      "title": "wh1t3p1g's blog",
+      "feedUrl": "https://blog.0kami.cn/feed_rss_created.xml",
+      "siteUrl": "https://blog.0kami.cn/",
+      "articles": []
+    },
+    {
+      "title": "0xacb",
+      "feedUrl": "https://0xacb.com/feed.xml",
+      "siteUrl": "https://0xacb.com/",
+      "articles": []
+    },
+    {
+      "title": "0xRick’s Blog",
+      "feedUrl": "https://0xrick.github.io/feed.xml",
+      "siteUrl": "https://0xrick.github.io/",
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
