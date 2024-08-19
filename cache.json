@@ -7,425 +7,454 @@
       "articles": []
     },
     {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
+      "title": "RSS Feed | Björn Ruytenberg",
+      "feedUrl": "https://blog.bjornweb.nl/feed.xml",
+      "siteUrl": "https://blog.bjornweb.nl/feed.xml",
+      "articles": []
+    },
+    {
+      "title": "亚庆的 Blog",
+      "feedUrl": "https://billwang1990.github.io/atom.xml",
+      "siteUrl": "http://billwang1990.github.io/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "5alt's Blog",
+      "feedUrl": "https://5alt.me/atom.xml",
+      "siteUrl": "/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "Android Reversing",
+      "feedUrl": "https://androidreversing.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://androidreversing.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Adam Caudill",
+      "feedUrl": "https://adamcaudill.com/atom.xml",
+      "siteUrl": "https://adamcaudill.com/",
+      "articles": []
+    },
+    {
+      "title": "LIFE likes a MATRIX",
+      "feedUrl": "https://baronpan.blogspot.com/feeds/posts/default?alt=rss",
+      "siteUrl": "https://baronpan.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Li4n0's NoteBook",
+      "feedUrl": "https://0n0.fun/index.xml",
+      "siteUrl": "/",
+      "articles": []
+    },
+    {
+      "title": "Attack and Defense Labs",
+      "feedUrl": "http://blog.andlabs.org/feeds/posts/default?alt=rss",
+      "siteUrl": "http://blog.andlabs.org/",
+      "articles": []
+    },
+    {
+      "title": "arighi's blog",
+      "feedUrl": "https://arighi.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://arighi.blogspot.com/",
       "articles": [
         {
-          "id": "https://css-tricks.com/?p=379881",
-          "author": "Geoff Graham",
-          "description": "I was just going over the latest CSSWG minutes (you can subscribe to them at W3C.org) and came across a few interesting nuggets I wanted to jot down for another time. The group discussed the CSS Values, CSS Easing, and …\nCSSWG Minutes Telecon (2024-08-14) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/csswg-minutes-telecon-2024-08-14/",
-          "publishedOn": "2024-08-16T16:12:51.000Z",
-          "wordCount": 1771,
-          "title": "CSSWG Minutes Telecon (2024-08-14)",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379881"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379603",
-          "author": "Geoff Graham",
-          "description": "Yes, yes. Functionally, they are different. But heck if I didn’t know about the wacky thresholds until Jens Oliver Meiert tooted a pair of quick polls.\nAccording to the HTML Standard:\nIf the current cell has a colspan attribute, then \n…\nHow are the `colspan` and `rowspan` attributes different? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/how-are-the-colspan-and-rowspan-attributes-different/",
-          "publishedOn": "2024-08-15T13:10:58.000Z",
-          "wordCount": 1740,
-          "title": "How are the `colspan` and `rowspan` attributes different?",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379603"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379862",
-          "author": "Geoff Graham",
-          "description": "Free e-book from Jens Oliver Meiert that’ll bore you to death in the best way: Rote Learning HTML & CSS…\nQuick Hit #11 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/quick-hit-11/",
-          "publishedOn": "2024-08-14T18:05:07.000Z",
-          "wordCount": 1319,
-          "title": "Quick Hit #11",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379862"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379857",
-          "author": "Geoff Graham",
-          "description": "Killed by Google is called a “graveyard” but I also see it as a resume in experimentation.…\nQuick Hit #10 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/quick-hit-10/",
-          "publishedOn": "2024-08-14T15:34:53.000Z",
-          "wordCount": 1313,
-          "title": "Quick Hit #10",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379857"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379649",
-          "author": "Kevin Powell",
-          "description": "Modern CSS keeps giving us a lot of new, easier ways to solve old problems, but often the new features we’re getting don’t only solve old problems, they open up new possibilities as well.\nContainer queries are one of those …\n“Smart” Layouts With Container Queries originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/smart-layouts-with-container-queries/",
-          "publishedOn": "2024-08-14T13:22:55.000Z",
-          "wordCount": 3082,
-          "title": "“Smart” Layouts With Container Queries",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379649"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379846",
-          "author": "Geoff Graham",
-          "description": "“This isn’t a website. Or even a blog. It’s a conversation.”\nThat’s the idea! Jay Hoffman and I’ve been chatting a long time now, back since he began writing a series on web history. It’s easy-going talking with someone …\nDialogues Blog originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/dialogues-blog/",
-          "publishedOn": "2024-08-14T10:34:00.000Z",
-          "wordCount": 1568,
-          "title": "Dialogues Blog",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379846"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379750",
-          "author": "Geoff Graham",
-          "description": "You might recall that Alvaro suggests bumping up font-size to 1.25rem from the default user agent size of 16px. Sebastian Laube pokes at that:\nI wouldn’t adopt Alvaro’s suggestion without further ado, as I would waste so much space \n…\nfont-size Limbo originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/font-size-limbo/",
-          "publishedOn": "2024-08-13T13:15:58.000Z",
-          "wordCount": 2870,
-          "title": "font-size Limbo",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379750"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379717",
-          "author": "Geoff Graham",
-          "description": "Mental health is always tough to talk about, especially in an industry that, to me, often rewards ego over vulnerability. I still find it tough even after having written about my own chronic depression and exploring UX case studies about …\nMental Health in Tech Podcast Interview originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/mental-health-in-tech-podcast-interview/",
-          "publishedOn": "2024-08-12T17:11:24.000Z",
-          "wordCount": 1499,
-          "title": "Mental Health in Tech Podcast Interview",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379717"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379747",
-          "author": "Geoff Graham",
-          "description": "Heydon with a reminder that <address isn’t for, you know, mailing addresses.…\nQuick Hit #9 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/quick-hit-9/",
-          "publishedOn": "2024-08-12T16:19:42.000Z",
-          "wordCount": 1303,
-          "title": "Quick Hit #9",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379747"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379644",
-          "author": "Geoff Graham",
-          "description": "A new explainer for a new HTML attribute to handle handwritten inputs. Like this:\n<input type=\"text\" handwriting=\"true\" ... <input type=\"text\" handwriting=\"false\" ... <textarea handwriting=\"\" ... <!-- evaluates to \"true\" --<div contenteditable handwriting=\"true\"...</div<!-- maybe? --\nThe primary use …\nHTML Attribute to Allow/Disallow Handwriting Input originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/html-attribute-to-allow-disallow-handwriting-input/",
-          "publishedOn": "2024-08-12T14:00:47.000Z",
-          "wordCount": 1579,
-          "title": "HTML Attribute to Allow/Disallow Handwriting Input",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379644"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379385",
-          "author": "Geoff Graham",
-          "description": "Remember these? Chris would write a post now and then to chronicle things happening around the ol’ CSS-Tricks site. It’s only been 969 days since the last one, give or take. Just think: back then we were poking at …\nCSS Chronicles XLII originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-chronicles-xlii/",
-          "publishedOn": "2024-08-09T15:27:49.000Z",
-          "wordCount": 3401,
-          "title": "CSS Chronicles XLII",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379385"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379630",
-          "author": "Geoff Graham",
-          "description": "Ever search for CSS info and run into some article — perhaps even one or a dozen on this site — that looks promising until you realize it was published when dinosaurs roamed the planet? The information is good, but …\nIt’s Time To Talk About “CSS5” originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/its-time-to-talk-about-css5/",
-          "publishedOn": "2024-08-09T15:11:41.000Z",
-          "wordCount": 1650,
-          "title": "It’s Time To Talk About “CSS5”",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379630"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379570",
-          "author": "Geoff Graham",
-          "description": "Christian Heilmann gave this talk at Typo3 Developer Days. I’m linking it up because it strikes an already stricken nerve in me. The increasing complexity of web development has an inverse relationship with the decreasing number of entry points …\nLet’s make a simpler, more accessible web originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/christian-heilmann-lets-make-a-simpler-more-accessible-web/",
-          "publishedOn": "2024-08-08T15:07:50.000Z",
-          "wordCount": 2325,
-          "title": "Let’s make a simpler, more accessible web",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379570"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379541",
-          "author": "Amit Sheen",
-          "description": "It was a few years ago during the 2020 Olympics in Tokyo 2020 that I made a demo of animated 3D Olympic rings. I like it, it looks great, and I love the effect of the rings crossing each other.…\nCSS Olympic Rings originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-olympic-rings/",
-          "publishedOn": "2024-08-07T13:10:56.000Z",
-          "wordCount": 4090,
-          "title": "CSS Olympic Rings",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379541"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379420",
-          "author": "Geoff Graham",
-          "description": "Heydon on the virtues of hyperlinking hypertext in an anchor element:\nSometimes, the <a> is referred to as a hyperlink, or simply a link. But it is not one of these and people who say it is one are \n…\n(Hyper) Links About (Hyper) Links originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/hyper-links-about-hyper-links/",
-          "publishedOn": "2024-08-02T16:41:54.000Z",
-          "wordCount": 2203,
-          "title": "(Hyper) Links About (Hyper) Links",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379420"
+          "id": "https://arighi.blogspot.com/2024/08/re-implementing-my-linux-rust-scheduler.html",
+          "author": null,
+          "description": "Overview\nThe main bottleneck of scx_rustland, a Linux scheduler\nwritten in Rust, is the communication between kernel and user space.\nEven if the communication itself has been improved a lot using ring\nbuffers (BPF_MAP_TYPE_RINGBUF /\nBPF_MAP_TYPE_USER_RINGBUF) the multiple level of queues is\ninevitably leading to the scheduler operating in a less work-conserving\nway.\nThis has the double effect of making the vruntime-based scheduling\npolicy more effective (being able to accumulate more tasks and\nprioritizing those that have more strict latency requirements), but the\nqueuing of tasks also has the downside of not using the CPUs at their\nfull capacity, potentially causing regressions in terms of\nthroughput.\nTo reduce this “bufferbloat” effect I have decided to re-implement\nscx_rustland fully in…",
+          "link": "https://arighi.blogspot.com/2024/08/re-implementing-my-linux-rust-scheduler.html",
+          "publishedOn": "2024-08-10T14:39:00.003Z",
+          "wordCount": null,
+          "title": "Re-implementing my Linux Rust scheduler in eBPF",
+          "imageUrl": null
         }
       ]
     },
     {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
+      "title": "Tavis Ormandy",
+      "feedUrl": "https://blog.cmpxchg8b.com/feeds/posts/default",
+      "siteUrl": "https://blog.cmpxchg8b.com/",
+      "articles": []
+    },
+    {
+      "title": "i, Claud",
+      "feedUrl": "https://blog.claudxiao.net/feed/",
+      "siteUrl": "https://www.claudxiao.net",
+      "articles": []
+    },
+    {
+      "title": "Swing'Blog 浮生若梦",
+      "feedUrl": "https://bestwing.me/atom.xml",
+      "siteUrl": "https://bestwing.me/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "Medici.Yan's Blog",
+      "feedUrl": "https://blog.evalbug.com/atom.xml",
+      "siteUrl": "/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "Z3r0 H4x0r",
+      "feedUrl": "https://0haxor.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://0haxor.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Shortjump!",
+      "feedUrl": "https://0xeb.net/feed/",
+      "siteUrl": "https://0xeb.net",
+      "articles": []
+    },
+    {
+      "title": "Mozilla Security Blog",
+      "feedUrl": "https://blog.mozilla.org/security/feed/",
+      "siteUrl": "https://blog.mozilla.org/security/",
+      "articles": []
+    },
+    {
+      "title": "Dragon Threat Labs",
+      "feedUrl": "http://blog.dragonthreatlabs.com/feeds/posts/default",
+      "siteUrl": "http://blog.dragonthreatlabs.com/",
+      "articles": []
+    },
+    {
+      "title": "Nearg1e",
+      "feedUrl": "https://blog.neargle.com/atom.xml",
+      "siteUrl": "/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "The Exploit Laboratory",
+      "feedUrl": "https://blog.exploitlab.net/feeds/posts/default",
+      "siteUrl": "https://blog.exploitlab.net/",
+      "articles": []
+    },
+    {
+      "title": "LSE Blog",
+      "feedUrl": "https://blog.lse.epita.fr/rssfeed.xml",
+      "siteUrl": "http://blog.lse.epita.fr/",
       "articles": [
         {
-          "id": "https://smashingmagazine.com/2024/08/pricing-projects-freelancer-agency-owner/",
-          "author": "hello@smashingmagazine.com (Paul Boag)",
-          "description": "Discover effective pricing strategies for digital projects. Learn how to balance fixed pricing, time and materials, and value-based approaches while managing client expectations and scope creep.",
-          "link": "https://smashingmagazine.com/2024/08/pricing-projects-freelancer-agency-owner/",
-          "publishedOn": "2024-08-16T13:00:00.000Z",
-          "wordCount": 4686,
-          "title": "Pricing Projects As A Freelancer Or Agency Owner",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/pricing-projects-freelancer-agency-owner/pricing-projects-freelancer-agency-owner.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/pricing-projects-freelancer-agency-owner/pricing-projects-freelancer-agency-owner.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/how-defend-your-design-process/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "Ever felt pressure to speed up your design process? Here’s how to address unrealistic expectations and foster a shared understanding with stakeholders, ensuring everyone is aligned on the path to a successful delivery. Part of [Smart Interface Design Patterns](https://smart-interface-design-patterns.com) by yours truly.",
-          "link": "https://smashingmagazine.com/2024/08/how-defend-your-design-process/",
-          "publishedOn": "2024-08-15T10:00:00.000Z",
-          "wordCount": 3695,
-          "title": "How To Defend Your Design Process",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/how-defend-your-design-process/how-defend-your-design-process.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/how-defend-your-design-process/how-defend-your-design-process.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part2/",
-          "author": "hello@smashingmagazine.com (Andrii Zhdan)",
-          "description": "In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. In Part 2, Andrii speaks about how you can grow faster in your brand-new junior UX job.",
-          "link": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part2/",
-          "publishedOn": "2024-08-09T11:00:00.000Z",
-          "wordCount": 6151,
-          "title": "If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 2)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/best-pro-scheduler-libraries/",
-          "author": "hello@smashingmagazine.com (Preethi Sam)",
-          "description": "For teams working remotely across the globe or together in an office, as well as for any group of collaborating users, a scheduler can be a valuable tool indeed. In this post, you’ll find some of the best commercial web scheduler libraries (JavaScript based) with amazing UX and high efficiency that are currently available.",
-          "link": "https://smashingmagazine.com/2024/08/best-pro-scheduler-libraries/",
-          "publishedOn": "2024-08-08T20:00:00.000Z",
-          "wordCount": 3687,
-          "title": "Best Of Pro Scheduler Libraries",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/best-pro-scheduler-libraries/best-pro-scheduler-libraries.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/best-pro-scheduler-libraries/best-pro-scheduler-libraries.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/time-to-talk-about-css5/",
-          "author": "hello@smashingmagazine.com (Brecht De Ruyte)",
-          "description": "Have you ever wondered what happened after CSS3? It’s common knowledge that we never saw CSS4 come after it, yet we have a plethora of new features that have no similar way of defining when they were introduced. The W3C CSS-Next community group is actively searching for better approaches for how we describe the evolution of CSS over time and identify feature sets as effectively as we did with CSS3 way back in 2009 — and you can help.",
-          "link": "https://smashingmagazine.com/2024/08/time-to-talk-about-css5/",
-          "publishedOn": "2024-08-05T10:00:00.000Z",
-          "wordCount": 5075,
-          "title": "It’s Time To Talk About “CSS5”",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/time-to-talk-about-css5/time-to-talk-about-css5.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/time-to-talk-about-css5/time-to-talk-about-css5.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part1/",
-          "author": "hello@smashingmagazine.com (Andrii Zhdan)",
-          "description": "In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. Learn why mastering design tools is crucial, how to build a strong portfolio, and tips for acing your first interviews.",
-          "link": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part1/",
-          "publishedOn": "2024-08-02T11:00:00.000Z",
-          "wordCount": 6486,
-          "title": "If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 1)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/how-build-multilingual-website-nuxt-i18n/",
-          "author": "hello@smashingmagazine.com (Tim Benniks)",
-          "description": "Handling translations for multilingual websites is famously difficult and, yet, crucial for many companies and organizations that serve a global audience. Thankfully, modern tooling abstracts away a great deal of the work, allowing for seamless translations that dynamically update the rendered content on a page, as demonstrated in this step-by-step tutorial.",
-          "link": "https://smashingmagazine.com/2024/08/how-build-multilingual-website-nuxt-i18n/",
-          "publishedOn": "2024-08-01T15:00:00.000Z",
-          "wordCount": 5732,
-          "title": "How To Build A Multilingual Website With Nuxt.js",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/how-build-multilingual-website-nuxtjs/how-build-multilingual-website-nuxt.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/how-build-multilingual-website-nuxtjs/how-build-multilingual-website-nuxt.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/desktop-wallpaper-calendars-august-2024/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers might be for you. Designed by the community for the community, they come in versions with and without a calendar for August 2024. Enjoy!",
-          "link": "https://smashingmagazine.com/2024/07/desktop-wallpaper-calendars-august-2024/",
-          "publishedOn": "2024-07-31T09:30:00.000Z",
-          "wordCount": 4779,
-          "title": "Sweet Nostalgia In August (2024 Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/desktop-wallpaper-calendars-august-2024/aug-23-summer-day-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/desktop-wallpaper-calendars-august-2024/aug-23-summer-day-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/rethinking-role-ux-teams-mov-beyond-firefighting/",
-          "author": "hello@smashingmagazine.com (Paul Boag)",
-          "description": "Many UX professionals often find themselves working alone, and usually face more projects impacting user experience than they can handle. In this article, Paul Boag explains how UX teams can be transformed into a significant driver of customer-centric innovation within organizations.",
-          "link": "https://smashingmagazine.com/2024/07/rethinking-role-ux-teams-mov-beyond-firefighting/",
-          "publishedOn": "2024-07-29T18:00:00.000Z",
-          "wordCount": 4302,
-          "title": "Rethinking The Role Of Your UX Teams And Move Beyond Firefighting",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/rethinking-role-ux-teams-mov-beyond-firefighting/rethinking-role-ux-teams-mov-beyond-firefighting.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/rethinking-role-ux-teams-mov-beyond-firefighting/rethinking-role-ux-teams-mov-beyond-firefighting.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/integrating-image-to-text-and-text-to-speech-models-part1/",
-          "author": "hello@smashingmagazine.com (Joas Pambou)",
-          "description": "Joas Pambou built an app that integrates vision language models (VLMs) and text-to-speech (TTS) AI technologies to describe images audibly with speech. This audio description tool can be a big help for people with sight challenges to understand what’s in an image. But how this does it even work? Joas explains how these AI systems work and their potential uses, including how he built the app and ways to further improve it.",
-          "link": "https://smashingmagazine.com/2024/07/integrating-image-to-text-and-text-to-speech-models-part1/",
-          "publishedOn": "2024-07-24T10:00:00.000Z",
-          "wordCount": 6403,
-          "title": "Integrating Image-To-Text And Text-To-Speech Models (Part 1)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/integrating-image-to-text-and-text-to-speech-models-part1/integrating-image-to-text-and-text-to-speech-models-part1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/integrating-image-to-text-and-text-to-speech-models-part1/integrating-image-to-text-and-text-to-speech-models-part1.jpg"
+          "id": "6D9CAD12-86D5-46D4-93F4-71C342F4B929",
+          "author": null,
+          "description": "This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml",
+          "link": "http://blog.lse.epita.fr/feed.xml",
+          "publishedOn": "2024-08-19T02:54:51.096Z",
+          "wordCount": null,
+          "title": "RSS URI changed - migration to Jekyll",
+          "imageUrl": null
         }
       ]
     },
     {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news/",
+      "title": "I hack, therefore I am",
+      "feedUrl": "https://blog.ikotler.org/feeds/posts/default",
+      "siteUrl": "https://blog.ikotler.org/",
+      "articles": []
+    },
+    {
+      "title": "ElcomSoft blog",
+      "feedUrl": "https://blog.elcomsoft.com/feed/",
+      "siteUrl": "https://blog.elcomsoft.com",
       "articles": [
         {
-          "id": "https://www.freecodecamp.org/news/vm-data-protection-best-practices/",
-          "author": "Alex Tray",
-          "description": "Vast amounts of data flow through virtualized environments these days. And that data needs to be protected. So making sure that your virtual machines are secured, along with their associated data, is key for maintaining operational continuity and saf...",
-          "link": "https://www.freecodecamp.org/news/vm-data-protection-best-practices/",
-          "publishedOn": "2024-08-16T12:44:31.000Z",
-          "wordCount": 3035,
-          "title": "VM Data Protection Best Practices: How to Mitigate Risk in a Virtual Environment",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723559872911/f9953e98-7948-47a0-a054-62028df854b9.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/rahul-pandey-quit-his-800k-per-year-faang-developer-job-to-build-a-startup-podcast-137/",
-          "author": "Quincy Larson",
-          "description": "On this week's episode of the podcast, freeCodeCamp founder Quincy Larson interviews Rahul Pandey. He's a software engineer who left his $800K / year FAANG job to build his own startup. We talk about: The post-layoff developer job landscape Develop...",
-          "link": "https://www.freecodecamp.org/news/rahul-pandey-quit-his-800k-per-year-faang-developer-job-to-build-a-startup-podcast-137/",
-          "publishedOn": "2024-08-15T21:57:33.000Z",
-          "wordCount": 781,
-          "title": "Rahul Pandey quit his $800,000/year FAANG developer job to build a startup [Podcast #137]",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723758894150/3f49d5b1-b7bc-4ffe-bfc4-09fdf5a509ac.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/a-beginners-guide-to-large-language-models/",
-          "author": "Bhavishya Pandit",
-          "description": "ChatGPT was released in November 2022. Since then, we’ve witnessed rapid advancements in the field of AI and technology. But did you know that the journey of AI chatbots began way back in 1966 with ELIZA? ELIZA was not as sophisticated as today’s mod...",
-          "link": "https://www.freecodecamp.org/news/a-beginners-guide-to-large-language-models/",
-          "publishedOn": "2024-08-15T19:41:19.000Z",
-          "wordCount": 2035,
-          "title": "A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723750839199/0dc3a4ff-3e4e-4055-b3c1-955474946b0f.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/how-asynchronous-programming-works-in-rust/",
-          "author": "Oduah Chigozie",
-          "description": "If you're familiar with languages like JavaScript and Python, you may have heard about asynchronous programming. And perhaps you're wondering how it works in Rust. In this article, I'll give you a simple overview of how asynchronous programming works...",
-          "link": "https://www.freecodecamp.org/news/how-asynchronous-programming-works-in-rust/",
-          "publishedOn": "2024-08-15T15:18:18.000Z",
-          "wordCount": 1589,
-          "title": "How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723746256888/b046d857-161c-41be-96d0-1c05b1e448b8.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/create-color-picker-using-html-css-and-javascript/",
-          "author": "Fanny Nyayic",
-          "description": "Have you ever wanted to create your own interactive tools using just HTML, CSS, and JavaScript? In this article, we'll create a fun and straightforward project: a color picker tool. This handy little tool will let users select any color they like and...",
-          "link": "https://www.freecodecamp.org/news/create-color-picker-using-html-css-and-javascript/",
-          "publishedOn": "2024-08-15T11:01:37.000Z",
-          "wordCount": 1487,
-          "title": "How to Create A Color Picker Tool Using HTML, CSS, and JavaScript",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723709466316/80aae148-6211-4070-ba33-eb4290408912.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/integration-tests-using-testcontainers/",
-          "author": "Alex Pliutau",
-          "description": "What is Integration Testing? The purpose of integration tests is to validate that different software components, subsystems, or applications work well together combined as a group. It’s an important step in the testing pyramid that can help you ident...",
-          "link": "https://www.freecodecamp.org/news/integration-tests-using-testcontainers/",
-          "publishedOn": "2024-08-14T19:55:12.000Z",
-          "wordCount": 2040,
-          "title": "How to Emulate Real Dependencies in Integration Tests using Testcontainers",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723631770942/c82aabb6-a9b4-4085-8b06-b4ba1b1cdbd3.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/learn-ml5js-for-machine-learning-in-javascript/",
-          "author": "Beau Carnes",
-          "description": "Machine learning is becoming an essential skill for developers and enthusiasts alike. ml5.js offers a great opportunity to start implementing machine learning in your projects, thanks to its user-friendly JavaScript library that simplifies the integr...",
-          "link": "https://www.freecodecamp.org/news/learn-ml5js-for-machine-learning-in-javascript/",
-          "publishedOn": "2024-08-14T14:48:38.000Z",
-          "wordCount": 832,
-          "title": "Learn ml5.js for Machine Learning in JavaScript",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723646904774/4f225758-a451-4dc5-a06c-287ba2977c55.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/how-to-implement-message-queues-in-your-backend-applications/",
-          "author": "Oluwatobi",
-          "description": "The goal of every web developer is to create a product that appeals to a wide range of users. However, this comes with its problems, chief among them being scalability issues to meet overwhelming user demands. If not addressed, this can result in a d...",
-          "link": "https://www.freecodecamp.org/news/how-to-implement-message-queues-in-your-backend-applications/",
-          "publishedOn": "2024-08-14T09:56:07.000Z",
-          "wordCount": 1797,
-          "title": "How to Implement Message Queues in Your Backend Applications",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723280791863/cdc4faaa-2f95-4219-8753-881dfcafbf45.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/",
-          "author": "Alex Pliutau",
-          "description": "Have you ever pulled the power cord out of your computer in frustration? While this might seem like a quick solution to certain problems, it can lead to data loss and system instability. In the world of software, a similar concept exists: the hard sh...",
-          "link": "https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/",
-          "publishedOn": "2024-08-13T20:30:58.000Z",
-          "wordCount": 1949,
-          "title": "How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723496940277/5fe7a894-9c67-40fd-95c4-64ef32444a4d.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/merge-word-documents-in-python/",
-          "author": "Vikram Aruchamy",
-          "description": "In today's fast-paced work environment, automation is crucial for optimizing your repetitive tasks and enhancing your productivity. Deploying Python functions to automate the merging of multiple Word documents into a single, cohesive file can help yo...",
-          "link": "https://www.freecodecamp.org/news/merge-word-documents-in-python/",
-          "publishedOn": "2024-08-13T17:19:23.000Z",
-          "wordCount": 2139,
-          "title": "How to Merge Word Documents in Python – Three Effective Methods with Examples",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723552225928/558a428b-d6a1-487c-a563-5aa6bee8e029.png"
+          "id": "https://blog.elcomsoft.com/?p=11659",
+          "author": "Oleg Afonin",
+          "description": "In the field of digital forensics, properly handling the task of disk imaging is crucial for preserving data integrity. Using write blockers ensures that no data is altered during the imaging process, a key requirement for maintaining the chain of custody. While there are many factors influencing the efficiency and speed of this process, this […]",
+          "link": "https://blog.elcomsoft.com/2024/08/maximizing-disk-imaging-speeds/",
+          "publishedOn": "2024-08-05T08:02:08.000Z",
+          "wordCount": null,
+          "title": "Maximizing Disk Imaging Speeds",
+          "enclosure": {
+            "url": "https://blog.elcomsoft.com/wp-content/uploads/2024/08/sata-blocker.jpg",
+            "length": "204011",
+            "type": "image/jpg"
+          },
+          "imageUrl": "https://blog.elcomsoft.com/wp-content/uploads/2024/08/sata-blocker.jpg"
         }
       ]
+    },
+    {
+      "title": "(gdb) break *0x972",
+      "feedUrl": "https://blog.0x972.info/rss.php",
+      "siteUrl": "https://blog.0x972.info/",
+      "articles": []
+    },
+    {
+      "title": "Balis0ng's blog",
+      "feedUrl": "https://balis0ng.com/feed",
+      "siteUrl": "http://balis0ng.com/",
+      "articles": []
+    },
+    {
+      "title": "Sucuri Blog",
+      "feedUrl": "https://blog.sucuri.net/feed",
+      "siteUrl": "https://blog.sucuri.net/",
+      "articles": [
+        {
+          "id": "https://blog.sucuri.net/?p=34275",
+          "author": "Kyle Knight",
+          "description": "The prospect of obtaining premium features without spending a dime is tempting. Nulled WordPress plugins and themes, often being advertised as the no cost versions of their premium counterparts, can seem like a dream come true for many WordPress users. Who doesn’t want to save some money while still enjoying the enhancements and extended features that premium plugins and themes provide? But the reality of using these “free” versions is much riskier than you might think.\nContinue reading The Security Risks of Using Nulled WordPress Plugins at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/the-security-risks-of-using-nulled-wordpress-plugins.html",
+          "publishedOn": "2024-08-16T21:10:24.000Z",
+          "wordCount": null,
+          "title": "The Security Risks of Using Nulled WordPress Plugins",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34258",
+          "author": "Ben Martin",
+          "description": "During a recent investigation we uncovered another credit card skimmer leveraging a web socket connection to steal credit card details from an infected PrestaShop website.\nWhile PrestaShop is not the most popular eCommerce solution for online stores it is still in the top 10 most common ecommerce platforms in use on the web, and clocks in at just above 1% of all websites (over 60,000 in total).\nAttackers are not discerning with what platforms they attack.\nContinue reading PrestaShop GTAG Websocket Skimmer at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/prestashop-gtag-websocket-skimmer.html",
+          "publishedOn": "2024-08-14T22:20:00.000Z",
+          "wordCount": null,
+          "title": "PrestaShop GTAG Websocket Skimmer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34250",
+          "author": "Kyle Knight",
+          "description": "Picture this: It’s October 2016, and you’re trying to access your favorite websites – Twitter, Netflix, Spotify – but nothing’s loading. If you can believe it, this wasn’t just a bad day for the internet; it was the result of one of the largest DDoS attacks in history, targeting Dyn, a major DNS provider. Fast forward to 2023, and Google Cloud is fending off another massive attack, this time peaking at 398 million requests per second.\nContinue reading What is Website Monitoring? at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/what-is-website-monitoring.html",
+          "publishedOn": "2024-08-08T21:50:09.000Z",
+          "wordCount": null,
+          "title": "What is Website Monitoring?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34243",
+          "author": "Kyle Knight",
+          "description": "Keeping your website secure is crucial to protecting user data and maintaining trust. Think of your website as a digital vault that needs constant safeguarding against potential threats. By understanding and implementing key security practices, you can significantly reduce the risk of attacks and ensure a safe experience for your users. Let’s break down some essential tips and strategies to enhance your website’s security.\nUnderstanding the basics of website security\nThe internet can be a dangerous place, and your website is like a storefront in a busy digital city.\nContinue reading Security Tips for Modern Web Administrators at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/08/security-tips-for-modern-web-administrators.html",
+          "publishedOn": "2024-08-02T17:53:15.000Z",
+          "wordCount": null,
+          "title": "Security Tips for Modern Web Administrators",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34234",
+          "author": "Sucuri Malware Research Team",
+          "description": "Vulnerability reports and responsible disclosures are essential for website security awareness and education. Automated attacks targeting known software vulnerabilities are one of the leading causes of website compromises.\nTo help educate website owners about potential threats to their environments, we’ve compiled a list of important security updates and vulnerability patches for the WordPress ecosystem this past month.\nThe vulnerabilities listed below are virtually patched by the Sucuri Firewall and existing clients are protected.\nContinue reading WordPress Vulnerability & Patch Roundup July 2024 at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/07/wordpress-vulnerability-patch-roundup-july-2024.html",
+          "publishedOn": "2024-07-29T18:07:12.000Z",
+          "wordCount": null,
+          "title": "WordPress Vulnerability & Patch Roundup July 2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.sucuri.net/?p=34226",
+          "author": "Kyle Knight",
+          "description": "HTTP/2 is a game-changer in web protocol technology, offering significant improvements in speed, efficiency, and security over its predecessor, HTTP/1.1. With features like multiplexing, header compression, and server push, HTTP/2 can drastically reduce web page load times and enhance the overall user experience. Additionally, HTTP/2 is enabled by default for Sucuri’s Web Application Firewall (WAF), making it even easier to leverage these benefits right out of the box. \nIn this blog, we’ll demystify HTTP/2 and guide you through the process of enabling it on your server using common control panels like Plesk and cPanel.\nContinue reading How to Enable HTTP/2 On a Server at Sucuri Blog.",
+          "link": "https://blog.sucuri.net/2024/07/how-to-enable-http-2-on-a-server.html",
+          "publishedOn": "2024-07-24T18:44:55.000Z",
+          "wordCount": null,
+          "title": "How to Enable HTTP/2 On a Server",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "o0o",
+      "feedUrl": "http://blog.o0o.nu/feeds/posts/default",
+      "siteUrl": "http://blog.o0o.nu/",
+      "articles": []
+    },
+    {
+      "title": "Embedded in Academia",
+      "feedUrl": "https://blog.regehr.org/feed",
+      "siteUrl": "https://blog.regehr.org",
+      "articles": []
+    },
+    {
+      "title": "Fox-IT International blog",
+      "feedUrl": "https://blog.fox-it.com/feed/",
+      "siteUrl": "https://blog.fox-it.com",
+      "articles": []
+    },
+    {
+      "title": "An7i Security",
+      "feedUrl": "https://an7isec.blogspot.com/feeds/posts/default?alt=rss",
+      "siteUrl": "https://an7isec.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "BugiX - Security Research",
+      "feedUrl": "https://bugix-security.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://bugix-security.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": null,
+      "feedUrl": "https://blog.sina.com.cn/rss/3194858670.xml",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
+      "title": null,
+      "feedUrl": "https://blog.sina.com.cn/rss/streethacker.xml",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
+      "title": "ArthurChiao's Blog",
+      "feedUrl": "https://arthurchiao.art/feed.xml",
+      "siteUrl": "https://arthurchiao.github.io/",
+      "articles": [
+        {
+          "id": "https://arthurchiao.github.io/blog/rag-basis-bge-zh/",
+          "author": null,
+          "description": "本文整理一些文本向量化（embedding）和信息检索的知识，它们是如今大模型生成文本时常用的技术 —— “增强检索生成”（RAG）—— 的基础：\n\nFig. Similarity score based on BERT embedding. Image source\n水平及维护精力所限，文中不免存在错误或过时之处，请酌情参考。\n传播知识，尊重劳动，年满十八周岁，转载请注明出处。\n1 信息检索（information retrieval）技术三大发展阶段    \n1.1 基于统计信息和关键词匹配（1970s-2010s）        \n1.1.1 典型算法：TF-IDF、BM25\n1.1.2 原理\n1.1.3 优缺点\n1.2 基于深度学习和上下文语义        \n1.2.1 Word2Vec (Google, 2013)\n1.2.2 BERT (Google, 2019)            \n核心设计和优点\n局限性：领域外（Out-of-Domain）信息检索效果差\n1.3 学习型：组合前两种的优点        \n1.3.1 原理：传统 sparse vector 与上下文化信息的融合\n1.3.2 与传统 sparse embedding 的区别\n1.3.3 优点\n2 信息检索：三种 embedding 的对比    \n2.1 Sparse embedding (lexical matching)\n2.2 Dense embedding (e.g. BERT-based)\n2.3 Learned sparse embedding\n3 Embedding & retrieval 工作原理详解    \n3.1 BERT 是如何工作的        \n3.1.1 理论基础\n3.1.2 BERT dense embedding 工作流\n3.2 基于 BERT dense…",
+          "link": "https://arthurchiao.github.io/blog/rag-basis-bge-zh/",
+          "publishedOn": "2024-08-04T00:00:00.000Z",
+          "wordCount": null,
+          "title": "大模型 RAG 基础：信息检索、文本向量化及 BGE-M3 embedding 实践（2024）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://arthurchiao.github.io/blog/linux-clock-source-tsc-zh/",
+          "author": null,
+          "description": "本文整理了一些 Linux 时钟源 tsc 相关的软硬件知识，在一些故障排查场景可能会用到。\n\nFig. Scaling up crystal frequency for different components of a computer.\nImage source Youtube\n水平及维护精力所限，文中不免存在错误或过时之处，请酌情参考。\n传播知识，尊重劳动，年满十八周岁，转载请注明出处。\n1 计算机组件的运行频率    \n1.1 时钟源：~20MHz 的石英晶体谐振器（quartz crystal resonator）\n1.2 Clock generator：针对不同部分（内存、PCIe、CPU 等）倍频\n1.3 CPU 频率是如何从 ~20MHz 提升到 ~3GHz 的        \n1.3.1 传递路径：最终连接到 CPU CLK 引脚\n1.3.2 CPU 内部：还有一个 clock generator\n2 x86 架构的寄存器    \n2.1 通用目的寄存器\n2.2 特殊目的寄存器        \n2.2.1 model-specific register (MSR)\n2.2.2 MSR 之一：TSC\n3 TSC（时间戳计数器）    \n3.1 本质：X86 处理器中的一个 特殊寄存器\n3.2 作用：记录 cpu 启动以来累计的 cycles 数量\n3.3 实际：经常被当做（高精度）时钟用        \n3.3.1 使用代码\n3.3.1 潜在问题\n3.4 挑战：TSC 的准确性越来越难以保证\n3.5 改进：引入 constant/invariant TSC\n3.5 小结：计数器（counter），而非时钟（clock）\n4 查看和监控 TSC 相关信息    \n4.1 Linux 系统时钟源（clocksource）配置        \n4.1.1 tsc…",
+          "link": "https://arthurchiao.github.io/blog/linux-clock-source-tsc-zh/",
+          "publishedOn": "2024-07-28T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Linux 时钟源之 TSC：软硬件原理、使用场景、已知问题（2024）",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "[robert swiecki]",
+      "feedUrl": "https://blog.swiecki.net/feeds/posts/default",
+      "siteUrl": "https://blog.swiecki.net/",
+      "articles": []
+    },
+    {
+      "title": "blog[wuntee]",
+      "feedUrl": "https://blog.wuntee.sexy/atom.xml",
+      "siteUrl": "http://wuntee.github.io//atom.xml",
+      "articles": []
+    },
+    {
+      "title": "新浪博客",
+      "feedUrl": "https://blog.sina.com.cn/rss/1998123724.xml",
+      "siteUrl": "http://blog.sina.com.cn/",
+      "articles": []
+    },
+    {
+      "title": "Azimuth Security",
+      "feedUrl": "http://blog.azimuthsecurity.com/feeds/posts/default",
+      "siteUrl": "http://blog.azimuthsecurity.com/",
+      "articles": []
+    },
+    {
+      "title": "Chromium Blog",
+      "feedUrl": "https://blog.chromium.org/feeds/posts/default",
+      "siteUrl": "https://blog.chromium.org/",
+      "articles": []
+    },
+    {
+      "title": "ADD / XOR / ROL",
+      "feedUrl": "https://addxorrol.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://addxorrol.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Colt's Blog",
+      "feedUrl": "https://coltf.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://coltf.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "C-skills",
+      "feedUrl": "https://c-skills.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://c-skills.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Dividead’s Blog",
+      "feedUrl": "https://dividead.wordpress.com/feed/",
+      "siteUrl": "https://dividead.wordpress.com",
+      "articles": []
+    },
+    {
+      "title": "Coding (In)Security",
+      "feedUrl": "https://coding-insecurity.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://coding-insecurity.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Secure Belief",
+      "feedUrl": "https://amolnaik4.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://amolnaik4.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Codingo",
+      "feedUrl": "https://codingo.io/feed.xml",
+      "siteUrl": "http://codingo.io/",
+      "articles": []
+    },
+    {
+      "title": "StalkR's Blog",
+      "feedUrl": "https://blog.stalkr.net/feeds/posts/default",
+      "siteUrl": "https://blog.stalkr.net/",
+      "articles": []
+    },
+    {
+      "title": "Deep Exploit Space",
+      "feedUrl": "https://exploitspace.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://exploitspace.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "d0c_s4vage",
+      "feedUrl": "https://d0cs4vage.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://d0cs4vage.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "A box of chocolate",
+      "feedUrl": "https://dakutenpura.hatenablog.com/feed",
+      "siteUrl": "https://dakutenpura.hatenablog.com/",
+      "articles": []
+    },
+    {
+      "title": "contagio mobile",
+      "feedUrl": "https://contagiominidump.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://contagiominidump.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Brute XSS",
+      "feedUrl": "https://brutelogic.com.br/blog/feed/",
+      "siteUrl": "https://brutelogic.com.br/blog/",
+      "articles": []
+    },
+    {
+      "title": "Black.hat",
+      "feedUrl": "https://e-omidfar.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://e-omidfar.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Chybeta",
+      "feedUrl": "https://chybeta.github.io/atom.xml",
+      "siteUrl": "/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "DarkLapu",
+      "feedUrl": "https://darklapu.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://darklapu.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Damien Deville",
+      "feedUrl": "https://ddeville.me/feed.xml",
+      "siteUrl": "https://ddeville.me",
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
