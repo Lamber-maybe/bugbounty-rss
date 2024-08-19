@@ -141,7 +141,7 @@
           "author": null,
           "description": "This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml",
           "link": "http://blog.lse.epita.fr/feed.xml",
-          "publishedOn": "2024-08-19T03:23:29.269Z",
+          "publishedOn": "2024-08-19T03:37:15.816Z",
           "wordCount": null,
           "title": "RSS URI changed - migration to Jekyll",
           "imageUrl": null
@@ -379,6 +379,12 @@
       "articles": []
     },
     {
+      "title": "知道创宇",
+      "feedUrl": "https://blog.knownsec.com/feed/",
+      "siteUrl": "https://blog.knownsec.com",
+      "articles": []
+    },
+    {
       "title": "Coding (In)Security",
       "feedUrl": "https://coding-insecurity.blogspot.com/feeds/posts/default",
       "siteUrl": "https://coding-insecurity.blogspot.com/",
@@ -388,6 +394,176 @@
       "title": "Secure Belief",
       "feedUrl": "https://amolnaik4.blogspot.com/feeds/posts/default",
       "siteUrl": "https://amolnaik4.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Codingo",
+      "feedUrl": "https://codingo.io/feed.xml",
+      "siteUrl": "http://codingo.io/",
+      "articles": []
+    },
+    {
+      "title": "StalkR's Blog",
+      "feedUrl": "https://blog.stalkr.net/feeds/posts/default",
+      "siteUrl": "https://blog.stalkr.net/",
+      "articles": []
+    },
+    {
+      "title": "Deep Exploit Space",
+      "feedUrl": "https://exploitspace.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://exploitspace.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "d0c_s4vage",
+      "feedUrl": "https://d0cs4vage.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://d0cs4vage.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "博客园 - l3m0n",
+      "feedUrl": "https://feed.cnblogs.com/blog/u/242399/rss",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
+      "title": "A box of chocolate",
+      "feedUrl": "https://dakutenpura.hatenablog.com/feed",
+      "siteUrl": "https://dakutenpura.hatenablog.com/",
+      "articles": []
+    },
+    {
+      "title": "contagio mobile",
+      "feedUrl": "https://contagiominidump.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://contagiominidump.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Brute XSS",
+      "feedUrl": "https://brutelogic.com.br/blog/feed/",
+      "siteUrl": "https://brutelogic.com.br/blog/",
+      "articles": []
+    },
+    {
+      "title": "Black.hat",
+      "feedUrl": "https://e-omidfar.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://e-omidfar.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "博客园 - __Shadow",
+      "feedUrl": "https://feed.cnblogs.com/blog/u/101485/rss",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
+      "title": "Going on my way…",
+      "feedUrl": "https://domonkos.tomcsanyi.net/?feed=rss2",
+      "siteUrl": "https://domonkos.tomcsanyi.net",
+      "articles": []
+    },
+    {
+      "title": "Chybeta",
+      "feedUrl": "https://chybeta.github.io/atom.xml",
+      "siteUrl": "/atom.xml",
+      "articles": []
+    },
+    {
+      "title": "DarkLapu",
+      "feedUrl": "https://darklapu.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://darklapu.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Damien Deville",
+      "feedUrl": "https://ddeville.me/feed.xml",
+      "siteUrl": "https://ddeville.me",
+      "articles": []
+    },
+    {
+      "title": "android cracking",
+      "feedUrl": "https://feeds.feedburner.com/AndroidCracking",
+      "siteUrl": "http://androidcracking.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Red XOR Blue",
+      "feedUrl": "https://blog.redxorblue.com/feeds/posts/default?alt=rss",
+      "siteUrl": "https://blog.redxorblue.com/",
+      "articles": []
+    },
+    {
+      "title": "Orange",
+      "feedUrl": "https://feeds.feedburner.com/blogspot/Aohx",
+      "siteUrl": "http://blog.orange.tw/",
+      "articles": [
+        {
+          "id": "tag:blogger.com,1999:blog-2987759532072489303.post-63371703473550635",
+          "author": "noreply@blogger.com (Orange Tsai)",
+          "description": "",
+          "link": "http://blog.orange.tw/2024/08/confusion-attacks-en.html",
+          "publishedOn": "2024-08-09T03:00:00.000Z",
+          "wordCount": null,
+          "title": "[EN] Confusion Attacks: Exploiting Hidden Semantic Ambiguity in Apache HTTP Server!",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "tag:blogger.com,1999:blog-2987759532072489303.post-7490293080162529882",
+          "author": "noreply@blogger.com (Orange Tsai)",
+          "description": "",
+          "link": "http://blog.orange.tw/2024/08/confusion-attacks-ch.html",
+          "publishedOn": "2024-08-09T03:00:00.000Z",
+          "wordCount": null,
+          "title": "[中文] Confusion Attacks: Exploiting Hidden Semantic Ambiguity in Apache HTTP Server!",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Взрывной блог",
+      "feedUrl": "https://feeds.feedburner.com/bo0om",
+      "siteUrl": "https://bo0om.ru/",
+      "articles": []
+    },
+    {
+      "title": "Взрывной блог",
+      "feedUrl": "https://feeds.feedburner.com/bo0om?format=xml",
+      "siteUrl": "https://bo0om.ru/",
+      "articles": []
+    },
+    {
+      "title": "gynvael.coldwind//vx.log (en)",
+      "feedUrl": "https://feeds.feedburner.com/GynvaelColdwindEN",
+      "siteUrl": "https://gynvael.coldwind.pl/",
+      "articles": [
+        {
+          "id": "https://gynvael.coldwind.pl/?id=791",
+          "author": null,
+          "description": "Obligatory FAQ note: Sometimes I get asked questions, e.g. on my Discord/IRC, via e-mail, or during my livestreams. And sometimes I get asked the same question repeatedly. To save myself some time and be able to give the same answer instead of conflicting ones, I decided to write up selected answers in separate blog posts. Please remember that these answers aren't necessarily authoritative - they are limited by my experience, my knowledge, and my opinions on things. Do look in the comment section as well - a lot of smart people read my blog and might have a different, and likely better, answer to the same question. If you disagree or just have something to add - by all means, please do comment.\n\r\n\r\n\r\n  Q: I love low-level exploitation and exploit development! How can I make this my whole c…",
+          "link": "https://gynvael.coldwind.pl/?id=791",
+          "publishedOn": "2024-08-03T00:13:11.000Z",
+          "wordCount": null,
+          "title": "FAQ: The tragedy of low-level exploitation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://gynvael.coldwind.pl/?id=789",
+          "author": null,
+          "description": "Last week I livestreamed solving Hx8 Teaser 2 challenge from the Google CTF 2024 Qualification Round's. As I know not everyone has time to watch a 3h livestream, here are highlight videos (3 parts):\n\r\n\r\n\r\n  \nPart 1: https://www.youtube.com/watch?v=6KGsshjzkEc\n\r\n  \nPart 2: https://www.youtube.com/watch?v=S6PmBvvJwUk\n\r\n  \nPart 3: https://www.youtube.com/watch?v=Hze_heJkQYQ\n\r\n\r\n\r\nEnjoy!\n\r\ngynvael",
+          "link": "https://gynvael.coldwind.pl/?id=789",
+          "publishedOn": "2024-07-21T00:13:09.000Z",
+          "wordCount": null,
+          "title": "Solving Hx8 Teaser 2 highlight videos!",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "tessrijogo",
+      "feedUrl": "https://feeds.feedburner.com/blogspot/CqwP",
+      "siteUrl": "http://tessrijogo.blogspot.com/",
       "articles": []
     }
   ],

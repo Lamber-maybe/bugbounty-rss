@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-19T03:23:35.089Z</id>
+    <id>urn:2024-08-19T03:37:21.207Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-19T03:23:35.089Z</updated>
+    <updated>2024-08-19T03:37:21.207Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[RSS URI changed - migration to Jekyll]]></title>
         <id>6D9CAD12-86D5-46D4-93F4-71C342F4B929</id>
         <link href="http://blog.lse.epita.fr/feed.xml"/>
-        <updated>2024-08-19T03:23:29.269Z</updated>
+        <updated>2024-08-19T03:37:15.816Z</updated>
         <summary type="html"><![CDATA[This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml]]></summary>
         <author>
             <name>LSE Blog</name>
@@ -62,6 +62,24 @@ To reduce this “bufferbloat” effect I have decided to re-implement
 scx_rustland fully in…]]></summary>
         <author>
             <name>arighi's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[EN] Confusion Attacks: Exploiting Hidden Semantic Ambiguity in Apache HTTP Server!]]></title>
+        <id>tag:blogger.com,1999:blog-2987759532072489303.post-63371703473550635</id>
+        <link href="http://blog.orange.tw/2024/08/confusion-attacks-en.html"/>
+        <updated>2024-08-09T03:00:00.000Z</updated>
+        <author>
+            <name>noreply@blogger.com (Orange Tsai)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[中文] Confusion Attacks: Exploiting Hidden Semantic Ambiguity in Apache HTTP Server!]]></title>
+        <id>tag:blogger.com,1999:blog-2987759532072489303.post-7490293080162529882</id>
+        <link href="http://blog.orange.tw/2024/08/confusion-attacks-ch.html"/>
+        <updated>2024-08-09T03:00:00.000Z</updated>
+        <author>
+            <name>noreply@blogger.com (Orange Tsai)</name>
         </author>
     </entry>
     <entry>
@@ -120,6 +138,20 @@ Fig. Similarity score based on BERT embedding. Image source
 3.2 基于 BERT dense…]]></summary>
         <author>
             <name>ArthurChiao's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FAQ: The tragedy of low-level exploitation]]></title>
+        <id>https://gynvael.coldwind.pl/?id=791</id>
+        <link href="https://gynvael.coldwind.pl/?id=791"/>
+        <updated>2024-08-03T00:13:11.000Z</updated>
+        <summary type="html"><![CDATA[Obligatory FAQ note: Sometimes I get asked questions, e.g. on my Discord/IRC, via e-mail, or during my livestreams. And sometimes I get asked the same question repeatedly. To save myself some time and be able to give the same answer instead of conflicting ones, I decided to write up selected answers in separate blog posts. Please remember that these answers aren't necessarily authoritative - they are limited by my experience, my knowledge, and my opinions on things. Do look in the comment section as well - a lot of smart people read my blog and might have a different, and likely better, answer to the same question. If you disagree or just have something to add - by all means, please do comment.
+
+
+
+  Q: I love low-level exploitation and exploit development! How can I make this my whole c…]]></summary>
+        <author>
+            <name>gynvael.coldwind//vx.log (en)</name>
         </author>
     </entry>
     <entry>
@@ -196,6 +228,33 @@ In this blog, we’ll demystify HTTP/2 and guide you through the process of 
 Continue reading How to Enable HTTP/2 On a Server at Sucuri Blog.]]></summary>
         <author>
             <name>Kyle Knight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving Hx8 Teaser 2 highlight videos!]]></title>
+        <id>https://gynvael.coldwind.pl/?id=789</id>
+        <link href="https://gynvael.coldwind.pl/?id=789"/>
+        <updated>2024-07-21T00:13:09.000Z</updated>
+        <summary type="html"><![CDATA[Last week I livestreamed solving Hx8 Teaser 2 challenge from the Google CTF 2024 Qualification Round's. As I know not everyone has time to watch a 3h livestream, here are highlight videos (3 parts):
+
+
+
+  
+Part 1: https://www.youtube.com/watch?v=6KGsshjzkEc
+
+  
+Part 2: https://www.youtube.com/watch?v=S6PmBvvJwUk
+
+  
+Part 3: https://www.youtube.com/watch?v=Hze_heJkQYQ
+
+
+
+Enjoy!
+
+gynvael]]></summary>
+        <author>
+            <name>gynvael.coldwind//vx.log (en)</name>
         </author>
     </entry>
 </feed>
