@@ -141,7 +141,7 @@
           "author": null,
           "description": "This blog has been migrated to Jekyll, please find the new RSS link here: http://blog.lse.epita.fr/feed.xml",
           "link": "http://blog.lse.epita.fr/feed.xml",
-          "publishedOn": "2024-08-19T03:13:53.516Z",
+          "publishedOn": "2024-08-19T03:23:29.269Z",
           "wordCount": null,
           "title": "RSS URI changed - migration to Jekyll",
           "imageUrl": null
@@ -286,6 +286,18 @@
       "articles": []
     },
     {
+      "title": null,
+      "feedUrl": "https://blog.sina.com.cn/rss/3194858670.xml",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
+      "title": null,
+      "feedUrl": "https://blog.sina.com.cn/rss/streethacker.xml",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
       "title": "ArthurChiao's Blog",
       "feedUrl": "https://arthurchiao.art/feed.xml",
       "siteUrl": "https://arthurchiao.github.io/",
@@ -322,6 +334,60 @@
       "title": "blog[wuntee]",
       "feedUrl": "https://blog.wuntee.sexy/atom.xml",
       "siteUrl": "http://wuntee.github.io//atom.xml",
+      "articles": []
+    },
+    {
+      "title": "新浪博客",
+      "feedUrl": "https://blog.sina.com.cn/rss/1998123724.xml",
+      "siteUrl": "http://blog.sina.com.cn/",
+      "articles": []
+    },
+    {
+      "title": "Azimuth Security",
+      "feedUrl": "http://blog.azimuthsecurity.com/feeds/posts/default",
+      "siteUrl": "http://blog.azimuthsecurity.com/",
+      "articles": []
+    },
+    {
+      "title": "Chromium Blog",
+      "feedUrl": "https://blog.chromium.org/feeds/posts/default",
+      "siteUrl": "https://blog.chromium.org/",
+      "articles": []
+    },
+    {
+      "title": "ADD / XOR / ROL",
+      "feedUrl": "https://addxorrol.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://addxorrol.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Colt's Blog",
+      "feedUrl": "https://coltf.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://coltf.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "C-skills",
+      "feedUrl": "https://c-skills.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://c-skills.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Dividead’s Blog",
+      "feedUrl": "https://dividead.wordpress.com/feed/",
+      "siteUrl": "https://dividead.wordpress.com",
+      "articles": []
+    },
+    {
+      "title": "Coding (In)Security",
+      "feedUrl": "https://coding-insecurity.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://coding-insecurity.blogspot.com/",
+      "articles": []
+    },
+    {
+      "title": "Secure Belief",
+      "feedUrl": "https://amolnaik4.blogspot.com/feeds/posts/default",
+      "siteUrl": "https://amolnaik4.blogspot.com/",
       "articles": []
     }
   ],
