@@ -245,7 +245,7 @@
           "description": "详解：L4LB四层负载均衡IP伪造漏洞",
           "link": "https://govuln.com/news/url/B16r",
           "publishedOn": "2024-08-11T14:39:13.675Z",
-          "wordCount": 39502,
+          "wordCount": 39508,
           "title": "详解：L4LB四层负载均衡IP伪造漏洞",
           "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/IjnZ9ic9bGHuk6kVdCJWH6TaOmibMOJ8apYV5vhGbUYUM24HdRwMqqJTPMHWcyuG9e4KWcDIH8dGDBYv94acuDcQ/0?wx_fmt=jpeg"
         },
@@ -285,9 +285,9 @@
           "description": "From opcode to code: how AI chatbots can help with decompilation",
           "link": "https://govuln.com/news/url/mb0D",
           "publishedOn": "2024-08-07T12:03:11.571Z",
-          "wordCount": 1194,
+          "wordCount": null,
           "title": "From opcode to code: how AI chatbots can help with decompilation",
-          "imageUrl": "https://swarm.ptsecurity.com/wp-content/uploads/2024/07/6871f90c-image3.png"
+          "imageUrl": null
         },
         {
           "id": "https://govuln.com/news/url/6ynr",
@@ -335,7 +335,7 @@
           "description": "CVE-2024-36401 JDK 11-22 通杀内存马",
           "link": "https://govuln.com/news/url/WQbG",
           "publishedOn": "2024-07-25T07:44:26.950Z",
-          "wordCount": 39084,
+          "wordCount": 39090,
           "title": "CVE-2024-36401 JDK 11-22 通杀内存马",
           "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/vlekRjgqic0exB4eGsmEK5her4xibskb0ZXpxHUE1icSptWS4QOMA9yUzGUm9l2dK0ptM66uCNPOibeECkc2A2pTGg/0?wx_fmt=jpeg"
         },
@@ -345,7 +345,7 @@
           "description": "wb近期流传漏洞-验真情报合集",
           "link": "https://govuln.com/news/url/yZd4",
           "publishedOn": "2024-07-24T09:22:29.573Z",
-          "wordCount": 1932,
+          "wordCount": 264,
           "title": "wb近期流传漏洞-验真情报合集",
           "imageUrl": null
         },
@@ -365,7 +365,7 @@
           "description": "复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》",
           "link": "https://govuln.com/news/url/VdOx",
           "publishedOn": "2024-07-20T09:56:24.079Z",
-          "wordCount": 39145,
+          "wordCount": 39133,
           "title": "复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》",
           "imageUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hPq2VZ0zUBB5BmsfdicqGCtt49YBib04Hhw0RQuicq3u4leIxEY378NZFgzAJPqTYokKsKwYmJQjKwEO5zg1Um2Rw/0?wx_fmt=jpeg"
         }
