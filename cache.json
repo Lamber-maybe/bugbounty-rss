@@ -11,7 +11,7 @@
           "description": "Fixed: Favicon used as article image",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.15.1",
           "publishedOn": "2022-06-22T06:05:35.000Z",
-          "wordCount": 379,
+          "wordCount": 381,
           "title": "v1.15.1",
           "imageUrl": "https://opengraph.githubassets.com/773fe75a9ebd447ce664e0a73ba1ff89839c8a12b901abc4891691fbafe17c19/osmoscraft/osmosfeed/releases/tag/v1.15.1"
         },
@@ -21,7 +21,7 @@
           "description": "Added: Resolve relative URLs in item link and media\nAdded: Item thumbnail fallback to channel thumbnail\nChore: Dependency updates\nThank you: @cpwnd",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.15.0",
           "publishedOn": "2022-06-18T19:01:33.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "v1.15.0",
           "imageUrl": "https://opengraph.githubassets.com/ce00272fbcf40921811c2125a0228c3b60c8a0b083dbaf2601960d034cc3be27/osmoscraft/osmosfeed/releases/tag/v1.15.0"
         },
@@ -31,7 +31,7 @@
           "description": "Fixed: Several style issues",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.4",
           "publishedOn": "2022-02-14T06:58:28.000Z",
-          "wordCount": 375,
+          "wordCount": 377,
           "title": "v1.14.4",
           "imageUrl": "https://opengraph.githubassets.com/9a7043530dac30c2f389b7a285822cfe3c2b54efc7d2cdc63a0735d3cc5095a2/osmoscraft/osmosfeed/releases/tag/v1.14.4"
         },
@@ -41,7 +41,7 @@
           "description": "style tweak",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.3",
           "publishedOn": "2022-02-14T06:29:16.000Z",
-          "wordCount": 406,
+          "wordCount": 408,
           "title": "v1.14.3",
           "imageUrl": "https://repository-images.githubusercontent.com/312859305/30a63d00-a162-11eb-8a1d-a3167673e96a"
         },
@@ -51,7 +51,7 @@
           "description": "New: Adjust article grouping based on timezone. You need to add timezone in osmosfeed.yml for accurate grouping. See details in documentation.\nNew: Card title now toggles card content\nNew: all toggles on the UI are persisted with local storage. You can use it to track read/unread status within a single browser.\nNew: Build timestamp now links to the GitHub Action run\nChanged: Sources are sorted based on publish time rather than alphabetical order\nChanged: Style adjusted for easier reading\nFixed: Horizontal overflow on Safari\nFixed: HTML syntax error in default template",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.2",
           "publishedOn": "2022-02-14T05:53:33.000Z",
-          "wordCount": 478,
+          "wordCount": 480,
           "title": "v1.14.2",
           "imageUrl": "https://opengraph.githubassets.com/3d1aa7f7484f74c258c25be470129b65acc359f03644040243b05803daae68aa/osmoscraft/osmosfeed/releases/tag/v1.14.2"
         },
@@ -61,7 +61,7 @@
           "description": "git typo in gh run url",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.1",
           "publishedOn": "2022-02-14T05:26:23.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "v1.14.1",
           "imageUrl": "https://repository-images.githubusercontent.com/312859305/30a63d00-a162-11eb-8a1d-a3167673e96a"
         },
@@ -71,7 +71,7 @@
           "description": "New: Adjust article grouping based on timezone. You need to add timezone in osmosfeed.yml for accurate grouping. See details in documentation.\nNew: Card title now toggles card content\nNew: all toggles on the UI are persisted with local storage. You can use it to track read/unread status within a single browser.\nNew: Build timestamp now links to the GitHub Action run\nChanged: Sources are sorted based on publish time rather than alphabetical order\nChanged: Style adjusted for easier reading\nFixed: Horizontal overflow on Safari\nFixed: HTML syntax error in default template",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.0",
           "publishedOn": "2022-02-14T05:13:00.000Z",
-          "wordCount": 562,
+          "wordCount": 564,
           "title": "v1.14.0: V1.14.0 (#79)",
           "imageUrl": "https://repository-images.githubusercontent.com/312859305/30a63d00-a162-11eb-8a1d-a3167673e96a"
         },
@@ -81,7 +81,7 @@
           "description": "New: Thumbnail image display for each article\nNew: Improved color, spacing, and typography for easier reading\nNew: Click the date to toggle all accordions on that day. Ctrl + Click to toggle all accordions on the entire site.\nChanged: All sections are expanded by default\nChanged: Switched to vitest for easier testing\nFixed: Long string (e.g. URL) caused horizontal overflow\nThank you: @naari3, @tianheg",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0",
           "publishedOn": "2022-02-13T05:05:17.000Z",
-          "wordCount": 464,
+          "wordCount": 466,
           "title": "v1.13.0",
           "imageUrl": "https://opengraph.githubassets.com/fc77c41c87b2cd4d8990f4c940e0ddf681667b6b6e4363b0f609861b7ae5b6d8/osmoscraft/osmosfeed/releases/tag/v1.13.0"
         },
@@ -91,7 +91,7 @@
           "description": "Fixed: Future articles appeared in the feed\nFxied: Security vulnerability from axios\nThank you: @naari3",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.1",
           "publishedOn": "2022-02-12T17:46:42.000Z",
-          "wordCount": 388,
+          "wordCount": 390,
           "title": "v1.12.1",
           "imageUrl": "https://opengraph.githubassets.com/d69790a31f94b1adf743c58bae86b9754de6969cceb83f11b8fbeb28ab1ad632/osmoscraft/osmosfeed/releases/tag/v1.12.1"
         },
@@ -101,7 +101,7 @@
           "description": "New: When one of the sources download fails, fall back to cache and continue rest of the build.\nChore: Dependency updates\nAdded docs for Netlify deployment\nFixed #71 #69 #65\nThank you: @sokomin, @molakirlee, @philippnagel, @tianheg",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.0",
           "publishedOn": "2022-01-10T05:25:18.000Z",
-          "wordCount": 430,
+          "wordCount": 432,
           "title": "v1.12.0",
           "imageUrl": "https://opengraph.githubassets.com/acf2691ac8379705dfc121f0feb76e8eb7554d5de2d4c4ea49c3a70d68e30a31/osmoscraft/osmosfeed/releases/tag/v1.12.0"
         }
@@ -255,7 +255,7 @@
           "description": "XenForo RCE via CSRF",
           "link": "https://govuln.com/news/url/q60v",
           "publishedOn": "2024-08-08T03:12:09.993Z",
-          "wordCount": 3284,
+          "wordCount": 3252,
           "title": "XenForo RCE via CSRF",
           "imageUrl": "https://ssd-disclosure.com/wp-content/uploads/2024/06/screenshot.png"
         },
@@ -265,7 +265,7 @@
           "description": "SonicWall SMA100 Stored XSS to RCE",
           "link": "https://govuln.com/news/url/rm0V",
           "publishedOn": "2024-08-08T03:11:24.401Z",
-          "wordCount": 3823,
+          "wordCount": 3791,
           "title": "SonicWall SMA100 Stored XSS to RCE",
           "imageUrl": "https://ssd-disclosure.com/wp-content/uploads/2024/07/sonicwall_log_view.png"
         },
@@ -345,7 +345,7 @@
           "description": "wb近期流传漏洞-验真情报合集",
           "link": "https://govuln.com/news/url/yZd4",
           "publishedOn": "2024-07-24T09:22:29.573Z",
-          "wordCount": 264,
+          "wordCount": 1932,
           "title": "wb近期流传漏洞-验真情报合集",
           "imageUrl": null
         },
@@ -365,9 +365,9 @@
           "description": "复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》",
           "link": "https://govuln.com/news/url/VdOx",
           "publishedOn": "2024-07-20T09:56:24.079Z",
-          "wordCount": 39133,
+          "wordCount": 264,
           "title": "复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》",
-          "imageUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hPq2VZ0zUBB5BmsfdicqGCtt49YBib04Hhw0RQuicq3u4leIxEY378NZFgzAJPqTYokKsKwYmJQjKwEO5zg1Um2Rw/0?wx_fmt=jpeg"
+          "imageUrl": null
         }
       ]
     },
