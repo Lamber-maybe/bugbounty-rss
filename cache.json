@@ -335,9 +335,9 @@
           "description": "CVE-2024-36401 JDK 11-22 通杀内存马",
           "link": "https://govuln.com/news/url/WQbG",
           "publishedOn": "2024-07-25T07:44:26.950Z",
-          "wordCount": 264,
+          "wordCount": 39090,
           "title": "CVE-2024-36401 JDK 11-22 通杀内存马",
-          "imageUrl": null
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/vlekRjgqic0exB4eGsmEK5her4xibskb0ZXpxHUE1icSptWS4QOMA9yUzGUm9l2dK0ptM66uCNPOibeECkc2A2pTGg/0?wx_fmt=jpeg"
         },
         {
           "id": "https://govuln.com/news/url/yZd4",
@@ -345,7 +345,7 @@
           "description": "wb近期流传漏洞-验真情报合集",
           "link": "https://govuln.com/news/url/yZd4",
           "publishedOn": "2024-07-24T09:22:29.573Z",
-          "wordCount": 1932,
+          "wordCount": 264,
           "title": "wb近期流传漏洞-验真情报合集",
           "imageUrl": null
         },
