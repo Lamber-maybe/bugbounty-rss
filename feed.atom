@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-22T03:32:46.036Z</id>
+    <id>urn:2024-08-22T03:51:52.028Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-22T03:32:46.036Z</updated>
+    <updated>2024-08-22T03:51:52.028Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -156,6 +156,36 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[内网渗透信息搜集骚姿势]]></title>
+        <id>https://blog.zgsec.cn/archives/608.html</id>
+        <link href="https://blog.zgsec.cn/archives/608.html"/>
+        <updated>2024-06-30T11:08:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[52PoJie论坛2024春节红包-Web解题思路]]></title>
+        <id>https://blog.zgsec.cn/archives/577.html</id>
+        <link href="https://blog.zgsec.cn/archives/577.html"/>
+        <updated>2024-02-19T02:39:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Solr Backup/Restore APIs RCE (CVE-2023-50386)分析及挖掘思路]]></title>
+        <id>https://l3yx.github.io/2024/02/10/Apache-Solr-Backup-Restore-APIs-RCE-CVE-2023-50386-%E5%88%86%E6%9E%90%E5%8F%8A%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF/</id>
+        <link href="https://l3yx.github.io/2024/02/10/Apache-Solr-Backup-Restore-APIs-RCE-CVE-2023-50386-%E5%88%86%E6%9E%90%E5%8F%8A%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF/"/>
+        <updated>2024-02-10T11:52:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>Apache Solr在创建Collection时会以一个特定的目录作为classpath，从中加载一些类，而Collection的备份功能可以导出攻击者上传的恶意class文件到该目录，从而让Solr加载自定义class，造成任意Java代码执行，可以进一步绕过Solr配置的Java沙箱，最终造成任意命令执行。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Home]]></title>
         <id>https://blog.0kami.cn/</id>
         <link href="https://blog.0kami.cn/"/>
@@ -206,6 +236,46 @@ Struts2命令执行各版本记录
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Confluence环境搭建及漏洞分析]]></title>
+        <id>https://l3yx.github.io/2024/01/28/Confluence%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/</id>
+        <link href="https://l3yx.github.io/2024/01/28/Confluence%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/"/>
+        <updated>2024-01-28T03:48:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>这篇笔记是一个多月前写的，本来是想分析漏洞 CVE-2023-22522，但当时关于该漏洞的信息太少，最后也没分析出该漏洞原貌。笔记只留下一些环境搭建的方法和分析思路，另外还有一个不太算漏洞的漏洞，官方给了$300意思意思</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[感谢，渊龙三周年与龙年展望]]></title>
+        <id>https://blog.zgsec.cn/archives/573.html</id>
+        <link href="https://blog.zgsec.cn/archives/573.html"/>
+        <updated>2024-01-01T06:57:17.000Z</updated>
+        <summary type="html"><![CDATA[1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[被忽视的暗面：客户端应用漏洞挖掘之旅]]></title>
+        <id>https://gh0st.cn/archives/2023-12-18/1</id>
+        <link href="https://gh0st.cn/archives/2023-12-18/1"/>
+        <updated>2023-12-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[客户端应用漏洞是许多人在进行漏洞挖掘和安全测试时容易忽视的领域。随着技术的更迭和攻防手段的升级，客户端应用漏洞也逐渐出现在大众视野中（APT攻击、攻防赛事等等），在本次议题中，我们将重点关注PC侧的客户端应用程序，如即时通讯、远程服务、视频软件等应用，探索其中存在的漏洞和潜在的安全风险。]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一周年小记&amp;&amp;那些快乐的技术时光]]></title>
+        <id>https://blog.zgsec.cn/archives/548.html</id>
+        <link href="https://blog.zgsec.cn/archives/548.html"/>
+        <updated>2023-12-14T02:39:00.000Z</updated>
+        <summary type="html"><![CDATA[1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【tabby 案例随笔】XML-RPC RCE CVE-2023-49070]]></title>
         <id>https://blog.0kami.cn/blog/2023/%E3%80%90%E9%9A%8F%E7%AC%94%E3%80%91XML-RPC%20RCE%20CVE-2023-49070/</id>
         <link href="https://blog.0kami.cn/blog/2023/%E3%80%90%E9%9A%8F%E7%AC%94%E3%80%91XML-RPC%20RCE%20CVE-2023-49070/"/>
@@ -232,6 +302,159 @@ Struts2命令执行各版本记录
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[通过JDWP漏洞注入"不一样"的内存马]]></title>
+        <id>https://l3yx.github.io/2023/12/03/%E9%80%9A%E8%BF%87JDWP%E6%BC%8F%E6%B4%9E%E6%B3%A8%E5%85%A5%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E5%86%85%E5%AD%98%E9%A9%AC/</id>
+        <link href="https://l3yx.github.io/2023/12/03/%E9%80%9A%E8%BF%87JDWP%E6%BC%8F%E6%B4%9E%E6%B3%A8%E5%85%A5%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E5%86%85%E5%AD%98%E9%A9%AC/"/>
+        <updated>2023-12-03T10:03:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>JDWP全称Java Debug Wire Protocol，JDWP漏洞指对外开放了Java调试服务，从而可以实现远程代码执行。目前JDWP的武器化脚本一般只能命令执行，但直接执行命令可能被RASP拦截告警，或者被入侵检测发现，而且在实际渗透测试过程中，也不一定需要执行命令，更需要的可能是一个入口，这种情况下通常是注入内存马或者内存代理。本文基于这个需求实现了可以动态执行代码并注入内存马的JDWP漏洞利用工具。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache ActiveMQ Jolokia 远程代码执行漏洞(CVE-2022-41678)分析]]></title>
+        <id>https://l3yx.github.io/2023/11/29/Apache-ActiveMQ-Jolokia-%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E-CVE-2022-41678-%E5%88%86%E6%9E%90/</id>
+        <link href="https://l3yx.github.io/2023/11/29/Apache-ActiveMQ-Jolokia-%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E-CVE-2022-41678-%E5%88%86%E6%9E%90/"/>
+        <updated>2023-11-29T09:43:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>ActiveMQ中，经过身份验证的用户默认情况下可以通过<code>/api/jolokia/</code>接口操作MBean，其中FlightRecorder可以被用于写Jsp WebShell，从而造成远程代码执行漏洞</p>
+<p>FlightRecorder存在于Jdk 11+，具体类名：<code>jdk.management.jfr.FlightRecorderMXBeanImpl</code></p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一场跨越十年的超时空思维碰撞]]></title>
+        <id>https://blog.zgsec.cn/archives/535.html</id>
+        <link href="https://blog.zgsec.cn/archives/535.html"/>
+        <updated>2023-11-25T06:59:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023浙江省大学生网络与信息安全决赛-Misc篇]]></title>
+        <id>https://blog.zgsec.cn/archives/504.html</id>
+        <link href="https://blog.zgsec.cn/archives/504.html"/>
+        <updated>2023-11-12T03:29:00.000Z</updated>
+        <summary type="html"><![CDATA[比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零学习AWD比赛指导手册]]></title>
+        <id>https://blog.zgsec.cn/archives/484.html</id>
+        <link href="https://blog.zgsec.cn/archives/484.html"/>
+        <updated>2023-10-21T04:25:00.000Z</updated>
+        <summary type="html"><![CDATA[如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HaE入门到精通：三条影响你一生的HaE规则]]></title>
+        <id>https://blog.zgsec.cn/archives/481.html</id>
+        <link href="https://blog.zgsec.cn/archives/481.html"/>
+        <updated>2023-10-01T03:02:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSu...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring-Kafka 反序列化漏洞(CVE-2023-34040)分析]]></title>
+        <id>https://l3yx.github.io/2023/09/28/Spring-Kafka-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E-CVE-2023-34040-%E5%88%86%E6%9E%90/</id>
+        <link href="https://l3yx.github.io/2023/09/28/Spring-Kafka-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E-CVE-2023-34040-%E5%88%86%E6%9E%90/"/>
+        <updated>2023-09-28T03:45:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>当受影响版本的 Spring-Kafka Consumer 未对Record配置 ErrorHandlingDeserializer 并设置 checkDeserExWhenKeyNull 或 checkDeserExWhenValueNull 为 true 且攻击者可以发布 Kafka 消息时，将会存在Java反序列化漏洞。只需发布 key 或 value 为 null 的消息，且在相应的header中放入序列化数据，便可以任意反序列化</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker编译OpenJDK CodeQL数据库]]></title>
+        <id>https://l3yx.github.io/2023/09/06/Docker%E7%BC%96%E8%AF%91OpenJDK-CodeQL%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+        <link href="https://l3yx.github.io/2023/09/06/Docker%E7%BC%96%E8%AF%91OpenJDK-CodeQL%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+        <updated>2023-09-06T14:38:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>通过Docker编译OpenJDK源码，并生成CodeQL数据库。之前编译过JDK，不过没留存环境，重复手动构建编译环境有点麻烦，这次顺便记录一下编译过程及Dockerfile</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023成都CCS大会&amp;&amp;补天城市沙龙有感]]></title>
+        <id>https://blog.zgsec.cn/archives/320.html</id>
+        <link href="https://blog.zgsec.cn/archives/320.html"/>
+        <updated>2023-09-01T06:04:00.000Z</updated>
+        <summary type="html"><![CDATA[前言今年很巧，8月23日项目结束后，24号2023成都CCS网络安全大会就召开了。我今年刚好在武汉做项目，想了想，结束直接一个飞机飞往成都，开启了本次成都安全之旅。成都的师傅们都很热情，也结识了...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grafana 历史漏洞分析]]></title>
+        <id>https://l3yx.github.io/2023/08/06/Grafana-%E5%8E%86%E5%8F%B2%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/</id>
+        <link href="https://l3yx.github.io/2023/08/06/Grafana-%E5%8E%86%E5%8F%B2%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/"/>
+        <updated>2023-08-06T08:31:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近学了下Go，也准备挖一下Go WEB应用的漏洞。梳理了Grafana的结构，调试分析了Grafana的一些历史漏洞及修复方案，也在分析过程中挖到了新的。感觉Go语言确实是比较安全的，很多漏洞其实都是代码逻辑上的问题</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当无回显RCE碰上Win服务器]]></title>
+        <id>https://blog.zgsec.cn/archives/306.html</id>
+        <link href="https://blog.zgsec.cn/archives/306.html"/>
+        <updated>2023-07-17T10:15:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RocketMQ 5.1.1写计划任务RCE]]></title>
+        <id>https://l3yx.github.io/2023/06/15/RocketMQ-5-1-1%E5%86%99%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1RCE/</id>
+        <link href="https://l3yx.github.io/2023/06/15/RocketMQ-5-1-1%E5%86%99%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1RCE/"/>
+        <updated>2023-06-15T14:18:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-33246" target="_blank" rel="noopener">CVE-2023-33246</a> 是通过<code>updateBrokerConfig</code>更新Broker的<code>filterServerNums</code>和<code>rocketmqHome</code>这两项配置进行RCE的（<code>rocketmqHome</code>会被拼接到命令中执行，<code>filterServerNums</code>&gt;0 是进入命令执行的前提条件）</p>
+<p>修复的逻辑是直接删除相关代码</p>
+<p>但从仓库的修复代码来看，还存在另一处RCE的点，不过官方只发布了上述一个CVE编号</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nacos Raft Hessian反序列化漏洞分析]]></title>
+        <id>https://l3yx.github.io/2023/06/09/Nacos-Raft-Hessian%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/</id>
+        <link href="https://l3yx.github.io/2023/06/09/Nacos-Raft-Hessian%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/"/>
+        <updated>2023-06-09T07:07:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>Nacos默认的7848端口是用于Nacos集群间Raft协议的通信，该端口的服务在处理部分Jraft请求时会使用Hessian进行反序列化</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tabby学习笔记 & Java反序列化gadget分析]]></title>
+        <id>https://l3yx.github.io/2023/05/20/Tabby%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96gadget%E5%88%86%E6%9E%90/</id>
+        <link href="https://l3yx.github.io/2023/05/20/Tabby%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96gadget%E5%88%86%E6%9E%90/"/>
+        <updated>2023-05-20T09:57:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>Tabby学习笔记，挖掘反序列化gadget的思路和一些链的详细分析及POC</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Jena 代码执行漏洞(CVE-2023-22665)]]></title>
+        <id>https://l3yx.github.io/2023/05/05/Apache-Jena-%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E-CVE-2023-22665/</id>
+        <link href="https://l3yx.github.io/2023/05/05/Apache-Jena-%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E-CVE-2023-22665/"/>
+        <updated>2023-05-05T12:07:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>ARQ是Jena的一个查询引擎，它支持SPARQLRDF查询语言，同时也支持JavaScript。当Jena应用的SPARQL语句被外部可控时，将会造成任意代码执行漏洞。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Git Arbitrary Configuration Injection]]></title>
         <id>https://0xacb.com/2023/04/26/git-arbitrary-config-injection-cve-2023-29007/</id>
         <link href="https://0xacb.com/2023/04/26/git-arbitrary-config-injection-cve-2023-29007/"/>
@@ -253,6 +476,26 @@ Struts2命令执行各版本记录
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Apache Archiva 任意目录删除(CVE-2022-40309) 和 任意文件读取(CVE-2022-40308)]]></title>
+        <id>https://l3yx.github.io/2022/12/24/Apache-Archiva-%E4%BB%BB%E6%84%8F%E7%9B%AE%E5%BD%95%E5%88%A0%E9%99%A4-CVE-2022-40309-%E5%92%8C-%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96-CVE-2022-40308/</id>
+        <link href="https://l3yx.github.io/2022/12/24/Apache-Archiva-%E4%BB%BB%E6%84%8F%E7%9B%AE%E5%BD%95%E5%88%A0%E9%99%A4-CVE-2022-40309-%E5%92%8C-%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96-CVE-2022-40308/"/>
+        <updated>2022-12-24T02:20:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>Apache Archiva是一个存储库管理软件，2.2.9以下版本在删除或者下载Artifact时，可以在目录或者文件名中注入目录穿越符，导致任意目录删除/任意文件读取漏洞。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用CodeQL分析漏洞_CVE-2022-42889]]></title>
+        <id>https://l3yx.github.io/2022/12/17/%E7%94%A8CodeQL%E5%88%86%E6%9E%90%E6%BC%8F%E6%B4%9E-CVE-2022-42889/</id>
+        <link href="https://l3yx.github.io/2022/12/17/%E7%94%A8CodeQL%E5%88%86%E6%9E%90%E6%BC%8F%E6%B4%9E-CVE-2022-42889/"/>
+        <updated>2022-12-17T05:40:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>Apache Commons Text 是专门用来处理文本的一个库，据文档介绍其支持<a href="https://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/lookup/StringLookupFactory.html" target="_blank" rel="noopener">变量插值</a>。在1.5 - 1.9版本默认支持”script”类型的插值，于是可以造成任意代码执行，也就是CVE-2022-42889。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Till REcollapse]]></title>
         <id>https://0xacb.com/2022/11/21/recollapse/</id>
         <link href="https://0xacb.com/2022/11/21/recollapse/"/>
@@ -260,6 +503,36 @@ Struts2命令执行各版本记录
         <summary type="html"><![CDATA[Welcome back to my blog. In this post, I’ll explain the REcollapse technique. I’ve been researching it for the last couple of years to discover weirdly simple but impactful vulnerabilities in hardened targets while doing bug bounties and participating in HackerOne LHEs. This technique can be used to perform zero-interaction account takeovers, uncover new bypasses for web application firewalls, and more.]]></summary>
         <author>
             <name>0xacb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我眼中的红队]]></title>
+        <id>https://gh0st.cn/archives/2022-08-18/1</id>
+        <link href="https://gh0st.cn/archives/2022-08-18/1"/>
+        <updated>2022-08-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我眼中的红队]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Framework 代码执行(CVE-2010-1622)]]></title>
+        <id>https://l3yx.github.io/2022/07/21/Spring-Framework-%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C-CVE-2010-1622/</id>
+        <link href="https://l3yx.github.io/2022/07/21/Spring-Framework-%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C-CVE-2010-1622/"/>
+        <updated>2022-07-21T13:59:35.000Z</updated>
+        <summary type="html"><![CDATA[<p>Spring Framework 通过内省实现了参数绑定，可以将HTTP请求中的请求参数或者请求体内容，根据 Controller方法的参数，自动完成类型转换和赋值，导致可以覆盖classLoader中的属性，通过修改Tomcat WebappClassLoader 中的 repositoryURLs 让应用程序加载自定义jar包从而造成代码执行漏洞。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Security 权限绕过(CVE-2022-22978)]]></title>
+        <id>https://l3yx.github.io/2022/07/16/Spring-Security-%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87-CVE-2022-22978/</id>
+        <link href="https://l3yx.github.io/2022/07/16/Spring-Security-%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87-CVE-2022-22978/"/>
+        <updated>2022-07-16T09:50:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>在Java中正则表达式<code>.</code>默认不包含<code>\n</code> 和<code>\r</code>，需要设置<code>DOTALL</code>才会匹配所有字符。而<code>Spring Security</code>在通过正则设置路由权限时，未设置<code>DOTALL</code>，导致某些情况下可以通过<code>\n</code> 和<code>\r</code>来绕过权限控制。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
         </author>
     </entry>
     <entry>
@@ -286,6 +559,16 @@ Thank you: @cpwnd]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GitHub Security Lab CTF: CodeQL and Chill]]></title>
+        <id>https://l3yx.github.io/2022/05/14/GitHub-Security-Lab-CTF-CodeQL-and-Chill/</id>
+        <link href="https://l3yx.github.io/2022/05/14/GitHub-Security-Lab-CTF-CodeQL-and-Chill/"/>
+        <updated>2022-05-14T07:58:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>这是GitHub Security Lab CTF的一道<a href="https://securitylab.github.com/ctf/codeql-and-chill/" target="_blank" rel="noopener">题目</a>，利用CodeQL挖掘<a href="https://securitylab.github.com/advisories/GHSL-2020-028-netflix-titus/" target="_blank" rel="noopener">Netflix Titus服务端模板注入</a>漏洞。</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[深入理解CodeQL]]></title>
         <id>https://0e0w.com/CodeQL</id>
         <link href="https://0e0w.com/CodeQL"/>
@@ -295,6 +578,16 @@ Thank you: @cpwnd]]></summary>
 http://www.0e0w.com]]></summary>
         <author>
             <name>0e0w</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodeQL学习笔记]]></title>
+        <id>https://l3yx.github.io/2022/03/05/CodeQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+        <link href="https://l3yx.github.io/2022/03/05/CodeQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+        <updated>2022-03-05T11:05:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>CodeQL学习笔记，大部分翻译自官方文档</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
         </author>
     </entry>
     <entry>
@@ -416,6 +709,19 @@ Thank you: @sokomin, @molakirlee, @philippnagel, @tianheg]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[智能合约漏洞靶场——Ethernaut]]></title>
+        <id>https://l3yx.github.io/2021/12/02/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA%E2%80%94%E2%80%94Ethernaut/</id>
+        <link href="https://l3yx.github.io/2021/12/02/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA%E2%80%94%E2%80%94Ethernaut/"/>
+        <updated>2021-12-02T14:26:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>Solidity基础可以先看这个互动式教程：<a href="https://cryptozombies.io/zh/" target="_blank" rel="noopener">https://cryptozombies.io/zh/</a> ，以及<a href="https://solidity-by-example.org/" target="_blank" rel="noopener">https://solidity-by-example.org/</a></p>
+<p>Ethernaut是一个智能合约漏洞靶场</p>
+<p>项目地址：<a href="https://github.com/OpenZeppelin/ethernaut" target="_blank" rel="noopener">https://github.com/OpenZeppelin/ethernaut</a></p>
+<p>在线靶场：<a href="https://ethernaut.openzeppelin.com" target="_blank" rel="noopener">https://ethernaut.openzeppelin.com</a></p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A dive into the PE file format - LAB 1: Writing a PE Parser]]></title>
         <id>https://0xrick.github.io/win-internals/pe8/</id>
         <link href="https://0xrick.github.io/win-internals/pe8/"/>
@@ -524,6 +830,16 @@ Thank you: @sokomin, @molakirlee, @philippnagel, @tianheg]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[某VPN客户端远程下载文件执行模拟逆向分析]]></title>
+        <id>https://gh0st.cn/archives/2021-05-05/1</id>
+        <link href="https://gh0st.cn/archives/2021-05-05/1"/>
+        <updated>2021-05-04T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[某VPN客户端远程下载文件执行模拟逆向分析]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[如何高效的挖掘Java反序列化利用链？]]></title>
         <id>https://blog.0kami.cn/blog/2021/how_to_find_gadget_chains/</id>
         <link href="https://blog.0kami.cn/blog/2021/how_to_find_gadget_chains/"/>
@@ -598,6 +914,16 @@ HW2021高危漏洞汇总集合
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[记一次攻防演习渗透过程]]></title>
+        <id>https://gh0st.cn/archives/2020-11-22/1</id>
+        <link href="https://gh0st.cn/archives/2020-11-22/1"/>
+        <updated>2020-11-21T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记一次攻防演习渗透过程]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[xnuca2020 easyjava设计思路]]></title>
         <id>https://blog.0kami.cn/writeups/2020/xnuca-2020-easyjava/</id>
         <link href="https://blog.0kami.cn/writeups/2020/xnuca-2020-easyjava/"/>
@@ -606,6 +932,66 @@ HW2021高危漏洞汇总集合
 easyjava的设计思路主要来源于现实环境中遇到的一些问题，以及最近刚出的mybatis二级缓存反序列化的安全问题的一种设想。题目的设计目的主要考察选手对于实操性的漏洞的利用以及源码审计能力。]]></summary>
         <author>
             <name>wh1t3p1g's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DDCTF 2020 WEB WriteUp]]></title>
+        <id>https://l3yx.github.io/2020/09/04/DDCTF-2020-WEB-WriteUp/</id>
+        <link href="https://l3yx.github.io/2020/09/04/DDCTF-2020-WEB-WriteUp/"/>
+        <updated>2020-09-04T12:38:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>DDCTF 2020 WEB WriteUp</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某终端检测响应平台代码审计挖掘（RCE）]]></title>
+        <id>https://gh0st.cn/archives/2020-09-03/4</id>
+        <link href="https://gh0st.cn/archives/2020-09-03/4"/>
+        <updated>2020-09-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[某终端检测响应平台代码审计挖掘（RCE）]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某终端检测响应平台代码审计挖掘（权限绕过）]]></title>
+        <id>https://gh0st.cn/archives/2020-09-03/3</id>
+        <link href="https://gh0st.cn/archives/2020-09-03/3"/>
+        <updated>2020-09-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[某终端检测响应平台代码审计挖掘（权限绕过）]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某终端检测响应平台代码审计分析]]></title>
+        <id>https://gh0st.cn/archives/2020-09-03/2</id>
+        <link href="https://gh0st.cn/archives/2020-09-03/2"/>
+        <updated>2020-09-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[某终端检测响应平台代码审计分析]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈蓝队反制手段]]></title>
+        <id>https://gh0st.cn/archives/2020-09-03/1</id>
+        <link href="https://gh0st.cn/archives/2020-09-03/1"/>
+        <updated>2020-09-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[浅谈蓝队反制手段]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[两则JSON CSRF实例]]></title>
+        <id>https://l3yx.github.io/2020/08/27/%E4%B8%A4%E5%88%99JSON-CSRF%E5%AE%9E%E4%BE%8B/</id>
+        <link href="https://l3yx.github.io/2020/08/27/%E4%B8%A4%E5%88%99JSON-CSRF%E5%AE%9E%E4%BE%8B/"/>
+        <updated>2020-08-27T13:36:55.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近面试被问到JSON CSRF，还刚好挖过他们家SRC两个实际案例，当时挖洞的时候也特地去查过JSON CSRF的资料，可面试的时候怎么也没想起来，遂翻出以前SRC的报告记录一下再整理下JSON CSRF的利用方法</p>]]></summary>
+        <author>
+            <name>l3yx's blog</name>
         </author>
     </entry>
     <entry>
@@ -622,6 +1008,16 @@ Docker官网。
 02-Docker架构]]></summary>
         <author>
             <name>0e0w</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web层面上的那些拒绝服务攻击(DoS)]]></title>
+        <id>https://gh0st.cn/archives/2020-06-22/1</id>
+        <link href="https://gh0st.cn/archives/2020-06-22/1"/>
+        <updated>2020-06-21T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Web层面上的那些拒绝服务攻击(DoS)]]></summary>
+        <author>
+            <name>Chen's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1023,6 +1419,26 @@ JNDI的SPI层除了RMI外，还可以跟LDAP交互。与RMI类似，LDAP也能�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[XSSI]动态JS劫持用户信息]]></title>
+        <id>https://gh0st.cn/archives/2020-01-08/3</id>
+        <link href="https://gh0st.cn/archives/2020-01-08/3"/>
+        <updated>2020-01-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[XSSI]动态JS劫持用户信息]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用SourceMap还原网站原始代码(前端)]]></title>
+        <id>https://gh0st.cn/archives/2020-01-08/2</id>
+        <link href="https://gh0st.cn/archives/2020-01-08/2"/>
+        <updated>2020-01-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[利用SourceMap还原网站原始代码(前端)]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[个人随想和总结]]></title>
         <id>http://www.codersec.net/2019/12/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E6%83%B3%E5%92%8C%E6%80%BB%E7%BB%93/</id>
         <link href="http://www.codersec.net/2019/12/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E6%83%B3%E5%92%8C%E6%80%BB%E7%BB%93/"/>
@@ -1042,6 +1458,16 @@ JNDI的SPI层除了RMI外，还可以跟LDAP交互。与RMI类似，LDAP也能�
 一个人的能力再强，总归是有限的，特别是作为绝大部分普通人的我们。要学会合理和团队的其他成员沟通、合作、寻求…]]></summary>
         <author>
             <name>bsmali4的小窝</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebFuzzing方法和漏洞案例总结]]></title>
+        <id>https://gh0st.cn/archives/2019-11-11/1</id>
+        <link href="https://gh0st.cn/archives/2019-11-11/1"/>
+        <updated>2019-11-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WebFuzzing方法和漏洞案例总结]]></summary>
+        <author>
+            <name>Chen's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1067,6 +1493,56 @@ JNDI的SPI层除了RMI外，还可以跟LDAP交互。与RMI类似，LDAP也能�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[对某攻击队的Webshell进行分析]]></title>
+        <id>https://gh0st.cn/archives/2019-08-21/1</id>
+        <link href="https://gh0st.cn/archives/2019-08-21/1"/>
+        <updated>2019-08-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[对某攻击队的Webshell进行分析]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TRICK: Linux Auditd审计工具]]></title>
+        <id>https://gh0st.cn/archives/2019-08-20/1</id>
+        <link href="https://gh0st.cn/archives/2019-08-20/1"/>
+        <updated>2019-08-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TRICK: Linux Auditd审计工具]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RGPerson - 随机身份生成脚本]]></title>
+        <id>https://gh0st.cn/archives/2019-08-16/1</id>
+        <link href="https://gh0st.cn/archives/2019-08-16/1"/>
+        <updated>2019-08-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[随机身份生成脚本]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于BurpSuite快速探测越权-Authz插件]]></title>
+        <id>https://gh0st.cn/archives/2019-06-27/1</id>
+        <link href="https://gh0st.cn/archives/2019-06-27/1"/>
+        <updated>2019-06-26T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[基于BurpSuite快速探测越权-Authz插件]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈WebSocket跨域劫持漏洞(CSWSH)]]></title>
+        <id>https://gh0st.cn/archives/2019-03-20/1</id>
+        <link href="https://gh0st.cn/archives/2019-03-20/1"/>
+        <updated>2019-03-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[浅谈WebSocket跨域劫持漏洞(CSWSH)]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RCE on Steam Client via buffer overflow in Server Info]]></title>
         <id>https://0xacb.com/2019/03/15/steam-rce/</id>
         <link href="https://0xacb.com/2019/03/15/steam-rce/"/>
@@ -1077,6 +1553,36 @@ JNDI的SPI层除了RMI外，还可以跟LDAP交互。与RMI类似，LDAP也能�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[记一次移动光猫（GM219-S）安全测试]]></title>
+        <id>https://gh0st.cn/archives/2019-03-12/1</id>
+        <link href="https://gh0st.cn/archives/2019-03-12/1"/>
+        <updated>2019-03-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记一次移动光猫（GM219-S）安全测试]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我为何在博客模板留后门]]></title>
+        <id>https://gh0st.cn/archives/2019-01-23/1</id>
+        <link href="https://gh0st.cn/archives/2019-01-23/1"/>
+        <updated>2019-01-22T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[博客模板后门]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS URL Schemes与漏洞的碰撞组合]]></title>
+        <id>https://gh0st.cn/archives/2018-12-08/1</id>
+        <link href="https://gh0st.cn/archives/2018-12-08/1"/>
+        <updated>2018-12-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[iOS URL Schemes与漏洞的碰撞组合]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GitHub Desktop RCE (OSX)]]></title>
         <id>https://0xacb.com/2018/12/04/github-desktop-rce/</id>
         <link href="https://0xacb.com/2018/12/04/github-desktop-rce/"/>
@@ -1084,6 +1590,66 @@ JNDI的SPI层除了RMI外，还可以跟LDAP交互。与RMI类似，LDAP也能�
         <summary type="html"><![CDATA[I was invited to H1-702 2018, a HackerOne live-hacking event in Las Vegas that paid over $500k dollars in bounties. One of the targets of this event was GitHub. I like to hack software I use everyday, because I already know lots of features in advance, so I felt GitHub would be a good target. I started playing with GitHub Desktop and found a way to achieve RCE in OSX. But, guess what? It was out of scope for the event! It’s also out of scope in the normal program, but you can read that “occasionally, exceptional reports are rewarded at our discretion on a case by case basis.”]]></summary>
         <author>
             <name>0xacb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[打造Mac下APK逆向环境到实战接口XSS挖掘]]></title>
+        <id>https://gh0st.cn/archives/2018-11-18/1</id>
+        <link href="https://gh0st.cn/archives/2018-11-18/1"/>
+        <updated>2018-11-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[打造Mac下APK逆向环境到实战接口XSS挖掘]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一探短文件名]]></title>
+        <id>https://gh0st.cn/archives/2018-11-14/1</id>
+        <link href="https://gh0st.cn/archives/2018-11-14/1"/>
+        <updated>2018-11-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一探短文件名]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅析PDF事件导致的安全漏洞]]></title>
+        <id>https://gh0st.cn/archives/2018-11-14/2</id>
+        <link href="https://gh0st.cn/archives/2018-11-14/2"/>
+        <updated>2018-11-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[浅析PDF事件导致的安全漏洞]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wfuzz高阶功法]]></title>
+        <id>https://gh0st.cn/archives/2018-10-28/3</id>
+        <link href="https://gh0st.cn/archives/2018-10-28/3"/>
+        <updated>2018-10-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wfuzz高阶功法]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wfuzz基本功]]></title>
+        <id>https://gh0st.cn/archives/2018-10-28/2</id>
+        <link href="https://gh0st.cn/archives/2018-10-28/2"/>
+        <updated>2018-10-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wfuzz基本功]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wfuzz初上手]]></title>
+        <id>https://gh0st.cn/archives/2018-10-28/1</id>
+        <link href="https://gh0st.cn/archives/2018-10-28/1"/>
+        <updated>2018-10-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wfuzz初上手]]></summary>
+        <author>
+            <name>Chen's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1108,6 +1674,46 @@ public static void main(String[] args) throws RemoteException, AlreadyBoundExcep
     //System.setProp…]]></summary>
         <author>
             <name>bsmali4的小窝</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[刺透内网的HTTP代理]]></title>
+        <id>https://gh0st.cn/archives/2018-09-11/1</id>
+        <link href="https://gh0st.cn/archives/2018-09-11/1"/>
+        <updated>2018-09-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[刺透内网的HTTP代理]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[组合拳出击-Self型XSS变废为宝]]></title>
+        <id>https://gh0st.cn/archives/2018-08-28/1</id>
+        <link href="https://gh0st.cn/archives/2018-08-28/1"/>
+        <updated>2018-08-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[组合拳出击-Self型XSS变废为宝]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GET请求Referer限制绕过总结]]></title>
+        <id>https://gh0st.cn/archives/2018-08-01/1</id>
+        <link href="https://gh0st.cn/archives/2018-08-01/1"/>
+        <updated>2018-07-31T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GET请求Referer限制绕过总结]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的Web应用安全模糊测试之路]]></title>
+        <id>https://gh0st.cn/archives/2018-07-25/1</id>
+        <link href="https://gh0st.cn/archives/2018-07-25/1"/>
+        <updated>2018-07-24T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[议题解读《我的Web应用安全模糊测试之路》]]></summary>
+        <author>
+            <name>Chen's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1145,6 +1751,16 @@ class Person(HunterModel):
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[记一次对某企业的渗透测试实战]]></title>
+        <id>https://gh0st.cn/archives/2018-06-20/1</id>
+        <link href="https://gh0st.cn/archives/2018-06-20/1"/>
+        <updated>2018-06-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文总结一下漫长的渗透测试过程，想尽了各种方法，终于找到了突破口。so没有绝对的安全，所谓的安全性其实都是相对的～]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SSRF in Shopify Exchange to RCE]]></title>
         <id>https://0xacb.com/2018/05/23/shopify-ssrf-to-rce/</id>
         <link href="https://0xacb.com/2018/05/23/shopify-ssrf-to-rce/"/>
@@ -1155,6 +1771,56 @@ class Person(HunterModel):
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[密码重置思路-小密圈的一道题]]></title>
+        <id>https://gh0st.cn/archives/2018-05-05/1</id>
+        <link href="https://gh0st.cn/archives/2018-05-05/1"/>
+        <updated>2018-05-04T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[密码重置思路-小密圈的一道题]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限]]></title>
+        <id>https://gh0st.cn/archives/2018-04-28/1</id>
+        <link href="https://gh0st.cn/archives/2018-04-28/1"/>
+        <updated>2018-04-27T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web安全测试学习手册-业务逻辑测试]]></title>
+        <id>https://gh0st.cn/archives/2018-04-18/1</id>
+        <link href="https://gh0st.cn/archives/2018-04-18/1"/>
+        <updated>2018-04-17T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Web安全测试学习手册-业务逻辑测试]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二维码登陆的常见缺陷剖析]]></title>
+        <id>https://gh0st.cn/archives/2018-04-08/1</id>
+        <link href="https://gh0st.cn/archives/2018-04-08/1"/>
+        <updated>2018-04-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[二维码登陆，在表面上来看好像是很安全，但是深入去研究会发现很多都是存在安全隐患～]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[读取型CSRF-需要交互的内容劫持]]></title>
+        <id>https://gh0st.cn/archives/2018-03-22/1</id>
+        <link href="https://gh0st.cn/archives/2018-03-22/1"/>
+        <updated>2018-03-21T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[大部分人所认识的CSRF都是写入型的，而本文是对读取型CSRF的一个总结...]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[H1-202 CTF - Writeup]]></title>
         <id>https://0xacb.com/2018/02/23/h1-202-writeup/</id>
         <link href="https://0xacb.com/2018/02/23/h1-202-writeup/"/>
@@ -1162,6 +1828,16 @@ class Person(HunterModel):
         <summary type="html"><![CDATA[I want to dedicate this writeup to my grandma, who passed away while I was finishing it. Descansa em Paz, Avó.]]></summary>
         <author>
             <name>0xacb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OAuth2.0认证缺陷-第三方帐号快捷登录授权劫持漏洞]]></title>
+        <id>https://gh0st.cn/archives/2018-02-12/1</id>
+        <link href="https://gh0st.cn/archives/2018-02-12/1"/>
+        <updated>2018-02-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OAuth2.0认证缺陷，巧妙的使用白名单让攻击链产生...]]></summary>
+        <author>
+            <name>Chen's Blog</name>
         </author>
     </entry>
     <entry>
@@ -1390,6 +2066,16 @@ public void loadSettings() throws IOException {
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[鸡肋点搭配ClickJacking攻击-获取管理员权限]]></title>
+        <id>https://gh0st.cn/archives/2017-12-20/1</id>
+        <link href="https://gh0st.cn/archives/2017-12-20/1"/>
+        <updated>2017-12-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[笔者挖到了一个selfxss，在思考之后想起了ClickJacking，于是结合之...]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[H1-212 CTF - Writeup]]></title>
         <id>https://0xacb.com/2017/11/20/h1-212-writeup/</id>
         <link href="https://0xacb.com/2017/11/20/h1-212-writeup/"/>
@@ -1427,6 +2113,26 @@ public void loadSettings() throws IOException {
         <summary type="html"><![CDATA[This was the first challenge I solved while playing Google CTF, worth 191 points. In this writeup I’ll explain how I solved it, using both static and dynamic analysis techniques.]]></summary>
         <author>
             <name>0xacb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文件寄生——NTFS文件流实际应用]]></title>
+        <id>https://gh0st.cn/archives/2017-03-29/1</id>
+        <link href="https://gh0st.cn/archives/2017-03-29/1"/>
+        <updated>2017-03-28T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[利用文件流可以给渗透测试带来很大的便利]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[移位溢注：告别依靠人品的偏移注入]]></title>
+        <id>https://gh0st.cn/archives/2017-03-08/1</id>
+        <link href="https://gh0st.cn/archives/2017-03-08/1"/>
+        <updated>2017-03-07T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。]]></summary>
+        <author>
+            <name>Chen's Blog</name>
         </author>
     </entry>
 </feed>
