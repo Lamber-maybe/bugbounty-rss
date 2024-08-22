@@ -235,7 +235,7 @@
           "description": "Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE",
           "link": "https://govuln.com/news/url/a6kA",
           "publishedOn": "2024-08-15T09:26:25.852Z",
-          "wordCount": 6315,
+          "wordCount": 6282,
           "title": "Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE",
           "imageUrl": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2024/08/OpenVpn-featured-image-1.png"
         },
@@ -345,7 +345,7 @@
           "description": "wb近期流传漏洞-验真情报合集",
           "link": "https://govuln.com/news/url/yZd4",
           "publishedOn": "2024-07-24T09:22:29.573Z",
-          "wordCount": 1932,
+          "wordCount": 264,
           "title": "wb近期流传漏洞-验真情报合集",
           "imageUrl": null
         },
@@ -365,9 +365,9 @@
           "description": "复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》",
           "link": "https://govuln.com/news/url/VdOx",
           "publishedOn": "2024-07-20T09:56:24.079Z",
-          "wordCount": 264,
+          "wordCount": 39133,
           "title": "复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》",
-          "imageUrl": null
+          "imageUrl": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hPq2VZ0zUBB5BmsfdicqGCtt49YBib04Hhw0RQuicq3u4leIxEY378NZFgzAJPqTYokKsKwYmJQjKwEO5zg1Um2Rw/0?wx_fmt=jpeg"
         }
       ]
     },
