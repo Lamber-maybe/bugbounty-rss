@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-22T03:51:52.028Z</id>
+    <id>urn:2024-08-23T01:04:49.306Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-22T03:51:52.028Z</updated>
+    <updated>2024-08-23T01:04:49.306Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[魔形女再袭？最新Android通杀漏洞CVE-2024-31317分析与利用研究]]></title>
+        <id>https://govuln.com/news/url/ZNQv</id>
+        <link href="https://govuln.com/news/url/ZNQv"/>
+        <updated>2024-08-22T14:51:26.891Z</updated>
+        <summary type="html"><![CDATA[魔形女再袭？最新Android通杀漏洞CVE-2024-31317分析与利用研究]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何巧妙构建“LDAPS”服务器利用JNDI注入]]></title>
         <id>https://govuln.com/news/url/3KJN</id>
@@ -141,16 +151,6 @@
         <link href="https://govuln.com/news/url/R0nV"/>
         <updated>2024-07-22T11:28:21.196Z</updated>
         <summary type="html"><![CDATA[使用eUICC卡片将手机变成eSIM手机]]></summary>
-        <author>
-            <name>Sec-News 安全文摘</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》]]></title>
-        <id>https://govuln.com/news/url/VdOx</id>
-        <link href="https://govuln.com/news/url/VdOx"/>
-        <updated>2024-07-20T09:56:24.079Z</updated>
-        <summary type="html"><![CDATA[复盘《CrowdStrike技术故障引起Windows系统蓝屏导致全球航空、银行等行业大规模服务中断事件》]]></summary>
         <author>
             <name>Sec-News 安全文摘</name>
         </author>
