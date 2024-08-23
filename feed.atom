@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-23T01:04:49.306Z</id>
+    <id>urn:2024-08-23T11:42:38.955Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-23T01:04:49.306Z</updated>
+    <updated>2024-08-23T11:42:38.955Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Rethinking the Security Threats of Stale DNS Glue Records]]></title>
+        <id>https://govuln.com/news/url/g8dr</id>
+        <link href="https://govuln.com/news/url/g8dr"/>
+        <updated>2024-08-23T08:51:21.036Z</updated>
+        <summary type="html"><![CDATA[Rethinking the Security Threats of Stale DNS Glue Records]]></summary>
+        <author>
+            <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[魔形女再袭？最新Android通杀漏洞CVE-2024-31317分析与利用研究]]></title>
         <id>https://govuln.com/news/url/ZNQv</id>
@@ -26,6 +36,56 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[DIR-820 CVE-2022-26258漏洞复现]]></title>
+        <id>https://xz.aliyun.com/t/15322</id>
+        <link href="https://xz.aliyun.com/t/15322"/>
+        <updated>2024-08-16T09:29:07.000Z</updated>
+        <summary type="html"><![CDATA[DIR-820 CVE-2022-26258漏洞复现]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[量大管饱的Fscan源码详细分析]]></title>
+        <id>https://xz.aliyun.com/t/15318</id>
+        <link href="https://xz.aliyun.com/t/15318"/>
+        <updated>2024-08-16T04:54:46.000Z</updated>
+        <summary type="html"><![CDATA[量大管饱的Fscan源码详细分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某框架路由渗透]]></title>
+        <id>https://xz.aliyun.com/t/15316</id>
+        <link href="https://xz.aliyun.com/t/15316"/>
+        <updated>2024-08-15T15:43:17.000Z</updated>
+        <summary type="html"><![CDATA[某框架路由渗透]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈企业src中容易出洞的几种姿势]]></title>
+        <id>https://xz.aliyun.com/t/15315</id>
+        <link href="https://xz.aliyun.com/t/15315"/>
+        <updated>2024-08-15T12:57:12.000Z</updated>
+        <summary type="html"><![CDATA[浅谈企业src中容易出洞的几种姿势]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DLL侧加载技术分析以及如何进行武器化]]></title>
+        <id>https://xz.aliyun.com/t/15194</id>
+        <link href="https://xz.aliyun.com/t/15194"/>
+        <updated>2024-08-15T10:08:24.000Z</updated>
+        <summary type="html"><![CDATA[DLL侧加载技术分析以及如何进行武器化]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Chained for attack: OpenVPN vulnerabilities discovered leading to RCE and LPE]]></title>
         <id>https://govuln.com/news/url/a6kA</id>
         <link href="https://govuln.com/news/url/a6kA"/>
@@ -36,6 +96,196 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[针对一个JAVA套CS马的详细分析]]></title>
+        <id>https://xz.aliyun.com/t/15308</id>
+        <link href="https://xz.aliyun.com/t/15308"/>
+        <updated>2024-08-14T00:04:44.000Z</updated>
+        <summary type="html"><![CDATA[针对一个JAVA套CS马的详细分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[威胁情报作战三部曲 -- 你存在，在我们的攻击画像里]]></title>
+        <id>https://xz.aliyun.com/t/15305</id>
+        <link href="https://xz.aliyun.com/t/15305"/>
+        <updated>2024-08-13T10:38:00.000Z</updated>
+        <summary type="html"><![CDATA[威胁情报作战三部曲 -- 你存在，在我们的攻击画像里]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EDR监测遭遇滑铁卢？无驱动技术让你轻松突破EDR！]]></title>
+        <id>https://xz.aliyun.com/t/15304</id>
+        <link href="https://xz.aliyun.com/t/15304"/>
+        <updated>2024-08-13T10:24:48.000Z</updated>
+        <summary type="html"><![CDATA[EDR监测遭遇滑铁卢？无驱动技术让你轻松突破EDR！]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[伪装主流会议软件 -- "银狐”样本分析及检测规则、思路分享]]></title>
+        <id>https://xz.aliyun.com/t/15303</id>
+        <link href="https://xz.aliyun.com/t/15303"/>
+        <updated>2024-08-13T10:01:06.000Z</updated>
+        <summary type="html"><![CDATA[伪装主流会议软件 -- "银狐”样本分析及检测规则、思路分享]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[io利用之house of orange]]></title>
+        <id>https://xz.aliyun.com/t/15302</id>
+        <link href="https://xz.aliyun.com/t/15302"/>
+        <updated>2024-08-13T09:19:01.000Z</updated>
+        <summary type="html"><![CDATA[io利用之house of orange]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[逆向工程中的动态调试]]></title>
+        <id>https://xz.aliyun.com/t/15300</id>
+        <link href="https://xz.aliyun.com/t/15300"/>
+        <updated>2024-08-13T07:20:25.000Z</updated>
+        <summary type="html"><![CDATA[逆向工程中的动态调试]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[木马反制与隐藏技巧]]></title>
+        <id>https://xz.aliyun.com/t/15299</id>
+        <link href="https://xz.aliyun.com/t/15299"/>
+        <updated>2024-08-13T05:45:00.000Z</updated>
+        <summary type="html"><![CDATA[木马反制与隐藏技巧]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[快速查找内网主机外连的工具：SharpNetCheck]]></title>
+        <id>https://xz.aliyun.com/t/15298</id>
+        <link href="https://xz.aliyun.com/t/15298"/>
+        <updated>2024-08-13T04:06:26.000Z</updated>
+        <summary type="html"><![CDATA[快速查找内网主机外连的工具：SharpNetCheck]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安卓逆向——Frida的基础用法（上）]]></title>
+        <id>https://xz.aliyun.com/t/15297</id>
+        <link href="https://xz.aliyun.com/t/15297"/>
+        <updated>2024-08-13T03:03:03.000Z</updated>
+        <summary type="html"><![CDATA[安卓逆向——Frida的基础用法（上）]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[web-pwn-详细入门]]></title>
+        <id>https://xz.aliyun.com/t/15295</id>
+        <link href="https://xz.aliyun.com/t/15295"/>
+        <updated>2024-08-12T14:38:50.000Z</updated>
+        <summary type="html"><![CDATA[web-pwn-详细入门]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows凭证钓鱼方式面面观]]></title>
+        <id>https://xz.aliyun.com/t/15293</id>
+        <link href="https://xz.aliyun.com/t/15293"/>
+        <updated>2024-08-12T05:33:39.000Z</updated>
+        <summary type="html"><![CDATA[Windows凭证钓鱼方式面面观]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[windows PPTP协议通道分析]]></title>
+        <id>https://xz.aliyun.com/t/15292</id>
+        <link href="https://xz.aliyun.com/t/15292"/>
+        <updated>2024-08-12T04:26:33.000Z</updated>
+        <summary type="html"><![CDATA[windows PPTP协议通道分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vulntarget-h靶场渗透]]></title>
+        <id>https://xz.aliyun.com/t/15291</id>
+        <link href="https://xz.aliyun.com/t/15291"/>
+        <updated>2024-08-12T04:19:41.000Z</updated>
+        <summary type="html"><![CDATA[vulntarget-h靶场渗透]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[windows PPTP协议代码实现]]></title>
+        <id>https://xz.aliyun.com/t/15290</id>
+        <link href="https://xz.aliyun.com/t/15290"/>
+        <updated>2024-08-12T04:17:03.000Z</updated>
+        <summary type="html"><![CDATA[windows PPTP协议代码实现]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mqqm文件函数CQmPacket-CQmPacket分析]]></title>
+        <id>https://xz.aliyun.com/t/15289</id>
+        <link href="https://xz.aliyun.com/t/15289"/>
+        <updated>2024-08-12T04:03:23.000Z</updated>
+        <summary type="html"><![CDATA[mqqm文件函数CQmPacket-CQmPacket分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mqac文件函数ACDeviceControl漏洞分析]]></title>
+        <id>https://xz.aliyun.com/t/15288</id>
+        <link href="https://xz.aliyun.com/t/15288"/>
+        <updated>2024-08-12T03:54:49.000Z</updated>
+        <summary type="html"><![CDATA[mqac文件函数ACDeviceControl漏洞分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[海康威视ISC认证绕过分析]]></title>
+        <id>https://xz.aliyun.com/t/15287</id>
+        <link href="https://xz.aliyun.com/t/15287"/>
+        <updated>2024-08-12T03:46:56.000Z</updated>
+        <summary type="html"><![CDATA[海康威视ISC认证绕过分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内网渗透之内网权限维持]]></title>
+        <id>https://xz.aliyun.com/t/15286</id>
+        <link href="https://xz.aliyun.com/t/15286"/>
+        <updated>2024-08-12T02:59:32.000Z</updated>
+        <summary type="html"><![CDATA[内网渗透之内网权限维持]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[edusrc挖掘技巧汇总+信息收集各种姿势]]></title>
+        <id>https://xz.aliyun.com/t/15285</id>
+        <link href="https://xz.aliyun.com/t/15285"/>
+        <updated>2024-08-12T01:46:47.000Z</updated>
+        <summary type="html"><![CDATA[edusrc挖掘技巧汇总+信息收集各种姿势]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[详解：L4LB四层负载均衡IP伪造漏洞]]></title>
         <id>https://govuln.com/news/url/B16r</id>
         <link href="https://govuln.com/news/url/B16r"/>
@@ -43,6 +293,96 @@
         <summary type="html"><![CDATA[详解：L4LB四层负载均衡IP伪造漏洞]]></summary>
         <author>
             <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[程序退出调用链的利用--exit_hook]]></title>
+        <id>https://xz.aliyun.com/t/15281</id>
+        <link href="https://xz.aliyun.com/t/15281"/>
+        <updated>2024-08-11T01:43:43.000Z</updated>
+        <summary type="html"><![CDATA[程序退出调用链的利用--exit_hook]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某软BI v5反序列化绕过]]></title>
+        <id>https://xz.aliyun.com/t/15279</id>
+        <link href="https://xz.aliyun.com/t/15279"/>
+        <updated>2024-08-10T15:18:22.000Z</updated>
+        <summary type="html"><![CDATA[某软BI v5反序列化绕过]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[针对LOL玩家的最新钓鱼活动剖析-大量国内玩家受控]]></title>
+        <id>https://xz.aliyun.com/t/15277</id>
+        <link href="https://xz.aliyun.com/t/15277"/>
+        <updated>2024-08-09T13:35:35.000Z</updated>
+        <summary type="html"><![CDATA[针对LOL玩家的最新钓鱼活动剖析-大量国内玩家受控]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记录一次 Android 服务端的证书校验的详细过程]]></title>
+        <id>https://xz.aliyun.com/t/15276</id>
+        <link href="https://xz.aliyun.com/t/15276"/>
+        <updated>2024-08-09T12:57:21.000Z</updated>
+        <summary type="html"><![CDATA[记录一次 Android 服务端的证书校验的详细过程]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从一道pwn题深入理解exp的编写]]></title>
+        <id>https://xz.aliyun.com/t/15275</id>
+        <link href="https://xz.aliyun.com/t/15275"/>
+        <updated>2024-08-09T12:36:11.000Z</updated>
+        <summary type="html"><![CDATA[从一道pwn题深入理解exp的编写]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solon内存马研究]]></title>
+        <id>https://xz.aliyun.com/t/15273</id>
+        <link href="https://xz.aliyun.com/t/15273"/>
+        <updated>2024-08-09T08:44:02.000Z</updated>
+        <summary type="html"><![CDATA[Solon内存马研究]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[泛微云桥e-Bridge任意文件上传漏洞分析]]></title>
+        <id>https://xz.aliyun.com/t/15270</id>
+        <link href="https://xz.aliyun.com/t/15270"/>
+        <updated>2024-08-09T01:57:00.000Z</updated>
+        <summary type="html"><![CDATA[泛微云桥e-Bridge任意文件上传漏洞分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[终端PC Web安全 PartA]]></title>
+        <id>https://xz.aliyun.com/t/15268</id>
+        <link href="https://xz.aliyun.com/t/15268"/>
+        <updated>2024-08-08T07:54:50.000Z</updated>
+        <summary type="html"><![CDATA[终端PC Web安全 PartA]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASP.NET下Webshell编译产物免杀]]></title>
+        <id>https://xz.aliyun.com/t/15267</id>
+        <link href="https://xz.aliyun.com/t/15267"/>
+        <updated>2024-08-08T06:32:01.000Z</updated>
+        <summary type="html"><![CDATA[ASP.NET下Webshell编译产物免杀]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
         </author>
     </entry>
     <entry>
@@ -76,6 +416,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[jdk21下的jndi注入]]></title>
+        <id>https://xz.aliyun.com/t/15265</id>
+        <link href="https://xz.aliyun.com/t/15265"/>
+        <updated>2024-08-07T13:13:48.000Z</updated>
+        <summary type="html"><![CDATA[jdk21下的jndi注入]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[From opcode to code: how AI chatbots can help with decompilation]]></title>
         <id>https://govuln.com/news/url/mb0D</id>
         <link href="https://govuln.com/news/url/mb0D"/>
@@ -106,6 +456,288 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[安全开发02：fscan源码解析-下]]></title>
+        <id>https://xz.aliyun.com/t/15264</id>
+        <link href="https://xz.aliyun.com/t/15264"/>
+        <updated>2024-08-07T03:22:03.000Z</updated>
+        <summary type="html"><![CDATA[安全开发02：fscan源码解析-下]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某护网中的小程序渗透]]></title>
+        <id>https://xz.aliyun.com/t/15261</id>
+        <link href="https://xz.aliyun.com/t/15261"/>
+        <updated>2024-08-06T12:55:13.000Z</updated>
+        <summary type="html"><![CDATA[某护网中的小程序渗透]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TP-Link WR740 后门漏洞复现]]></title>
+        <id>https://xz.aliyun.com/t/15259</id>
+        <link href="https://xz.aliyun.com/t/15259"/>
+        <updated>2024-08-06T10:35:22.000Z</updated>
+        <summary type="html"><![CDATA[TP-Link WR740 后门漏洞复现]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dos攻击漏洞思路小结]]></title>
+        <id>https://xz.aliyun.com/t/15258</id>
+        <link href="https://xz.aliyun.com/t/15258"/>
+        <updated>2024-08-06T08:59:28.000Z</updated>
+        <summary type="html"><![CDATA[dos攻击漏洞思路小结]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全开发01：fscan源码解析-上]]></title>
+        <id>https://xz.aliyun.com/t/15257</id>
+        <link href="https://xz.aliyun.com/t/15257"/>
+        <updated>2024-08-06T08:47:28.000Z</updated>
+        <summary type="html"><![CDATA[安全开发01：fscan源码解析-上]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[house of banana]]></title>
+        <id>https://xz.aliyun.com/t/15256</id>
+        <link href="https://xz.aliyun.com/t/15256"/>
+        <updated>2024-08-06T04:22:34.000Z</updated>
+        <summary type="html"><![CDATA[house of banana]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[针对一个高级红队样本的详细分析]]></title>
+        <id>https://xz.aliyun.com/t/15255</id>
+        <link href="https://xz.aliyun.com/t/15255"/>
+        <updated>2024-08-05T23:51:54.000Z</updated>
+        <summary type="html"><![CDATA[针对一个高级红队样本的详细分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kerberos 中针对 RODC 的 Key List Attack 分析]]></title>
+        <id>https://xz.aliyun.com/t/15253</id>
+        <link href="https://xz.aliyun.com/t/15253"/>
+        <updated>2024-08-05T12:34:53.000Z</updated>
+        <summary type="html"><![CDATA[Kerberos 中针对 RODC 的 Key List Attack 分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JsRpc+Galaxy 实现网站HTTP报文自动加解密+自动更新签名]]></title>
+        <id>https://xz.aliyun.com/t/15252</id>
+        <link href="https://xz.aliyun.com/t/15252"/>
+        <updated>2024-08-05T09:25:23.000Z</updated>
+        <summary type="html"><![CDATA[JsRpc+Galaxy 实现网站HTTP报文自动加解密+自动更新签名]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从靶场中学习OAuth]]></title>
+        <id>https://xz.aliyun.com/t/15251</id>
+        <link href="https://xz.aliyun.com/t/15251"/>
+        <updated>2024-08-05T08:30:41.000Z</updated>
+        <summary type="html"><![CDATA[从靶场中学习OAuth]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XSS之Flash弹窗钓鱼和文件上传getshell各种姿势]]></title>
+        <id>https://xz.aliyun.com/t/15249</id>
+        <link href="https://xz.aliyun.com/t/15249"/>
+        <updated>2024-08-05T05:42:53.000Z</updated>
+        <summary type="html"><![CDATA[XSS之Flash弹窗钓鱼和文件上传getshell各种姿势]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[针对一个免杀样本的详细分析]]></title>
+        <id>https://xz.aliyun.com/t/15243</id>
+        <link href="https://xz.aliyun.com/t/15243"/>
+        <updated>2024-08-05T01:34:26.000Z</updated>
+        <summary type="html"><![CDATA[针对一个免杀样本的详细分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[java之sql注入代码审计]]></title>
+        <id>https://xz.aliyun.com/t/15242</id>
+        <link href="https://xz.aliyun.com/t/15242"/>
+        <updated>2024-08-05T01:13:54.000Z</updated>
+        <summary type="html"><![CDATA[java之sql注入代码审计]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一次异常艰难的渗透测试]]></title>
+        <id>https://xz.aliyun.com/t/15240</id>
+        <link href="https://xz.aliyun.com/t/15240"/>
+        <updated>2024-08-04T15:47:23.000Z</updated>
+        <summary type="html"><![CDATA[一次异常艰难的渗透测试]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python函数缺陷导致flask服务重启加载模板的SSTI漏洞]]></title>
+        <id>https://xz.aliyun.com/t/15238</id>
+        <link href="https://xz.aliyun.com/t/15238"/>
+        <updated>2024-08-04T14:46:39.000Z</updated>
+        <summary type="html"><![CDATA[python函数缺陷导致flask服务重启加载模板的SSTI漏洞]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[反射大师&Xposed----安卓脱壳]]></title>
+        <id>https://xz.aliyun.com/t/15232</id>
+        <link href="https://xz.aliyun.com/t/15232"/>
+        <updated>2024-08-04T13:45:30.000Z</updated>
+        <summary type="html"><![CDATA[反射大师&Xposed----安卓脱壳]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TryHackMe靶场-Holo【Windows域渗透】]]></title>
+        <id>https://xz.aliyun.com/t/15226</id>
+        <link href="https://xz.aliyun.com/t/15226"/>
+        <updated>2024-08-03T10:51:41.000Z</updated>
+        <summary type="html"><![CDATA[TryHackMe靶场-Holo【Windows域渗透】]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keeping your Android device safe from text message fraud]]></title>
+        <id>http://security.googleblog.com/2024/08/keeping-your-android-device-safe-from.html</id>
+        <link href="http://security.googleblog.com/2024/08/keeping-your-android-device-safe-from.html"/>
+        <updated>2024-08-01T17:08:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Nataliya Stanetsky and Roger Piqueras Jover, Android Security & Privacy Team
+
+
+Cell-site simulators, also known as False Base Stations (FBS) or Stingrays, are radio devices that mimic real cell sites in order to lure mobile devices to connect to them. These devices are commonly used for security and privacy attacks, such as surveillance and interception of communications. In recent years, carriers have started reporting new types of abuse perpetrated with FBSs for the purposes of financial fraud.
+
+
+In particular, there is increasingly more evidence of the exploitation of weaknesses in cellular communication standards leveraging cell-site simulators to inject SMS phishing messages directly into smartphones. This method to inject messages entirely bypasses the carrier network, thus…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实战-搞定小程序加解密通过遍历导致信息泄露]]></title>
+        <id>https://xz.aliyun.com/t/15219</id>
+        <link href="https://xz.aliyun.com/t/15219"/>
+        <updated>2024-08-01T12:58:43.000Z</updated>
+        <summary type="html"><![CDATA[实战-搞定小程序加解密通过遍历导致信息泄露]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[长城杯决赛内网渗透部分]]></title>
+        <id>https://xz.aliyun.com/t/15218</id>
+        <link href="https://xz.aliyun.com/t/15218"/>
+        <updated>2024-08-01T10:36:43.000Z</updated>
+        <summary type="html"><![CDATA[长城杯决赛内网渗透部分]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTP协议-匿名用户登录 从0到1]]></title>
+        <id>https://xz.aliyun.com/t/15217</id>
+        <link href="https://xz.aliyun.com/t/15217"/>
+        <updated>2024-08-01T10:27:07.000Z</updated>
+        <summary type="html"><![CDATA[FTP协议-匿名用户登录 从0到1]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVE-2024-37704 MySQL-Connector-Java SQL注入漏洞原理分析及漏洞利用]]></title>
+        <id>https://xz.aliyun.com/t/15216</id>
+        <link href="https://xz.aliyun.com/t/15216"/>
+        <updated>2024-08-01T10:19:00.000Z</updated>
+        <summary type="html"><![CDATA[CVE-2024-37704 MySQL-Connector-Java SQL注入漏洞原理分析及漏洞利用]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tcache Stashing Unlink Attack]]></title>
+        <id>https://xz.aliyun.com/t/15213</id>
+        <link href="https://xz.aliyun.com/t/15213"/>
+        <updated>2024-08-01T06:21:33.000Z</updated>
+        <summary type="html"><![CDATA[Tcache Stashing Unlink Attack]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows逆向之脱壳-脱壳实战]]></title>
+        <id>https://xz.aliyun.com/t/15205</id>
+        <link href="https://xz.aliyun.com/t/15205"/>
+        <updated>2024-07-31T15:33:13.000Z</updated>
+        <summary type="html"><![CDATA[Windows逆向之脱壳-脱壳实战]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[海康威视命令执行简单分析]]></title>
+        <id>https://xz.aliyun.com/t/15202</id>
+        <link href="https://xz.aliyun.com/t/15202"/>
+        <updated>2024-07-31T10:06:35.000Z</updated>
+        <summary type="html"><![CDATA[海康威视命令执行简单分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈Sequelize下的SQL注入漏洞利用]]></title>
+        <id>https://xz.aliyun.com/t/15200</id>
+        <link href="https://xz.aliyun.com/t/15200"/>
+        <updated>2024-07-31T09:58:26.000Z</updated>
+        <summary type="html"><![CDATA[浅谈Sequelize下的SQL注入漏洞利用]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving the security of Chrome cookies on Windows]]></title>
+        <id>http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html</id>
+        <link href="http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html"/>
+        <updated>2024-07-30T17:01:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Will Harris, Chrome Security Team
+
+
+Cybercriminals using cookie theft infostealer malware continue to pose a risk to the safety and security of our users. We already have a number of initiatives in this area including Chrome’s download protection using Safe Browsing, Device Bound Session Credentials, and Google’s account-based threat detection to flag the use of stolen cookies. Today, we’re announcing another layer of protection to make Windows users safer from this type of malware.
+
+
+Like other software that needs to store secrets, Chrome currently secures sensitive data like cookies and passwords using the strongest techniques the OS makes available to us - on macOS this is the Keychain services, and on Linux we use a system provided wallet such as kwallet or gnome-libsecret. O…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Becoming any Android app via Zygote command injection]]></title>
         <id>https://govuln.com/news/url/21Pp</id>
         <link href="https://govuln.com/news/url/21Pp"/>
@@ -113,6 +745,416 @@
         <summary type="html"><![CDATA[Becoming any Android app via Zygote command injection]]></summary>
         <author>
             <name>Sec-News 安全文摘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DjangoORM注入分享]]></title>
+        <id>https://xz.aliyun.com/t/15034</id>
+        <link href="https://xz.aliyun.com/t/15034"/>
+        <updated>2024-07-30T11:49:32.000Z</updated>
+        <summary type="html"><![CDATA[DjangoORM注入分享]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最新版frp二开]]></title>
+        <id>https://xz.aliyun.com/t/15193</id>
+        <link href="https://xz.aliyun.com/t/15193"/>
+        <updated>2024-07-30T06:43:27.000Z</updated>
+        <summary type="html"><![CDATA[最新版frp二开]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某个国外的真实XSS漏洞利用探寻]]></title>
+        <id>https://xz.aliyun.com/t/15038</id>
+        <link href="https://xz.aliyun.com/t/15038"/>
+        <updated>2024-07-30T06:37:08.000Z</updated>
+        <summary type="html"><![CDATA[某个国外的真实XSS漏洞利用探寻]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HITCON CTF2024 web复现]]></title>
+        <id>https://xz.aliyun.com/t/15130</id>
+        <link href="https://xz.aliyun.com/t/15130"/>
+        <updated>2024-07-30T03:49:32.000Z</updated>
+        <summary type="html"><![CDATA[HITCON CTF2024 web复现]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[largebin attack高低版本的使用]]></title>
+        <id>https://xz.aliyun.com/t/15191</id>
+        <link href="https://xz.aliyun.com/t/15191"/>
+        <updated>2024-07-30T03:47:39.000Z</updated>
+        <summary type="html"><![CDATA[largebin attack高低版本的使用]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[由剑桥大学的Stephen Dolan教授《mov is Turing-complete》出发的程序逆向分析]]></title>
+        <id>https://xz.aliyun.com/t/15190</id>
+        <link href="https://xz.aliyun.com/t/15190"/>
+        <updated>2024-07-30T03:13:05.000Z</updated>
+        <summary type="html"><![CDATA[由剑桥大学的Stephen Dolan教授《mov is Turing-complete》出发的程序逆向分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[帆软/view/ReportServer 远程代码执行漏洞分析]]></title>
+        <id>https://xz.aliyun.com/t/15188</id>
+        <link href="https://xz.aliyun.com/t/15188"/>
+        <updated>2024-07-30T01:44:00.000Z</updated>
+        <summary type="html"><![CDATA[帆软/view/ReportServer 远程代码执行漏洞分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某黑产最新免杀攻击样本详细分析]]></title>
+        <id>https://xz.aliyun.com/t/15182</id>
+        <link href="https://xz.aliyun.com/t/15182"/>
+        <updated>2024-07-29T23:48:12.000Z</updated>
+        <summary type="html"><![CDATA[某黑产最新免杀攻击样本详细分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows逆向之脱壳-IAT修复]]></title>
+        <id>https://xz.aliyun.com/t/15181</id>
+        <link href="https://xz.aliyun.com/t/15181"/>
+        <updated>2024-07-29T16:35:59.000Z</updated>
+        <summary type="html"><![CDATA[Windows逆向之脱壳-IAT修复]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TOTOLINK_NR1800X绕过登录漏洞分析--lighttpd服务]]></title>
+        <id>https://xz.aliyun.com/t/15178</id>
+        <link href="https://xz.aliyun.com/t/15178"/>
+        <updated>2024-07-29T10:18:40.000Z</updated>
+        <summary type="html"><![CDATA[TOTOLINK_NR1800X绕过登录漏洞分析--lighttpd服务]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RedLine红线窃贼恶意软件的详细分析过程]]></title>
+        <id>https://xz.aliyun.com/t/15177</id>
+        <link href="https://xz.aliyun.com/t/15177"/>
+        <updated>2024-07-29T09:29:00.000Z</updated>
+        <summary type="html"><![CDATA[RedLine红线窃贼恶意软件的详细分析过程]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yara规则安装和使用学习-RedLine编写Yara检测]]></title>
+        <id>https://xz.aliyun.com/t/15176</id>
+        <link href="https://xz.aliyun.com/t/15176"/>
+        <updated>2024-07-29T09:28:50.000Z</updated>
+        <summary type="html"><![CDATA[Yara规则安装和使用学习-RedLine编写Yara检测]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大模型图像安全风险探析]]></title>
+        <id>https://xz.aliyun.com/t/15175</id>
+        <link href="https://xz.aliyun.com/t/15175"/>
+        <updated>2024-07-29T07:58:05.000Z</updated>
+        <summary type="html"><![CDATA[大模型图像安全风险探析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[程序源码保护攻防对抗录]]></title>
+        <id>https://xz.aliyun.com/t/15173</id>
+        <link href="https://xz.aliyun.com/t/15173"/>
+        <updated>2024-07-29T05:31:00.000Z</updated>
+        <summary type="html"><![CDATA[程序源码保护攻防对抗录]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weblogic T3/IIOP反序列化漏洞CVE-2024-21181分析]]></title>
+        <id>https://xz.aliyun.com/t/15172</id>
+        <link href="https://xz.aliyun.com/t/15172"/>
+        <updated>2024-07-29T05:11:46.000Z</updated>
+        <summary type="html"><![CDATA[Weblogic T3/IIOP反序列化漏洞CVE-2024-21181分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[house of roman（poc以及题目详解）]]></title>
+        <id>https://xz.aliyun.com/t/15170</id>
+        <link href="https://xz.aliyun.com/t/15170"/>
+        <updated>2024-07-29T03:34:54.000Z</updated>
+        <summary type="html"><![CDATA[house of roman（poc以及题目详解）]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于pwn中json的逆向]]></title>
+        <id>https://xz.aliyun.com/t/15169</id>
+        <link href="https://xz.aliyun.com/t/15169"/>
+        <updated>2024-07-29T03:06:32.000Z</updated>
+        <summary type="html"><![CDATA[关于pwn中json的逆向]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于web pwn中socket的理解]]></title>
+        <id>https://xz.aliyun.com/t/15168</id>
+        <link href="https://xz.aliyun.com/t/15168"/>
+        <updated>2024-07-29T02:52:57.000Z</updated>
+        <summary type="html"><![CDATA[关于web pwn中socket的理解]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通天星CMSV6 车载定位监控平台漏洞分析及思考]]></title>
+        <id>https://xz.aliyun.com/t/15167</id>
+        <link href="https://xz.aliyun.com/t/15167"/>
+        <updated>2024-07-29T02:50:09.000Z</updated>
+        <summary type="html"><![CDATA[通天星CMSV6 车载定位监控平台漏洞分析及思考]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[php pwn学习]]></title>
+        <id>https://xz.aliyun.com/t/15166</id>
+        <link href="https://xz.aliyun.com/t/15166"/>
+        <updated>2024-07-29T02:43:58.000Z</updated>
+        <summary type="html"><![CDATA[php pwn学习]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ORW针对缺O、R、W情况的总结]]></title>
+        <id>https://xz.aliyun.com/t/15164</id>
+        <link href="https://xz.aliyun.com/t/15164"/>
+        <updated>2024-07-29T02:27:52.000Z</updated>
+        <summary type="html"><![CDATA[ORW针对缺O、R、W情况的总结]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[house of orange新理解-无idx上限检查的任意地址写任意值]]></title>
+        <id>https://xz.aliyun.com/t/15163</id>
+        <link href="https://xz.aliyun.com/t/15163"/>
+        <updated>2024-07-29T01:41:50.000Z</updated>
+        <summary type="html"><![CDATA[house of orange新理解-无idx上限检查的任意地址写任意值]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NodeJS沙箱逃逸]]></title>
+        <id>https://xz.aliyun.com/t/15159</id>
+        <link href="https://xz.aliyun.com/t/15159"/>
+        <updated>2024-07-28T16:08:13.000Z</updated>
+        <summary type="html"><![CDATA[NodeJS沙箱逃逸]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jinjia2沙箱下SSTI获取属性漏洞的利用]]></title>
+        <id>https://xz.aliyun.com/t/15158</id>
+        <link href="https://xz.aliyun.com/t/15158"/>
+        <updated>2024-07-28T14:25:38.000Z</updated>
+        <summary type="html"><![CDATA[Jinjia2沙箱下SSTI获取属性漏洞的利用]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[武功山杯web&misc全部题解]]></title>
+        <id>https://xz.aliyun.com/t/15156</id>
+        <link href="https://xz.aliyun.com/t/15156"/>
+        <updated>2024-07-28T11:04:33.000Z</updated>
+        <summary type="html"><![CDATA[武功山杯web&misc全部题解]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[针对Swagger接口泄露未授权访问的各种姿势]]></title>
+        <id>https://xz.aliyun.com/t/15153</id>
+        <link href="https://xz.aliyun.com/t/15153"/>
+        <updated>2024-07-28T07:10:14.000Z</updated>
+        <summary type="html"><![CDATA[针对Swagger接口泄露未授权访问的各种姿势]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[House Of Rabbit原理与例题]]></title>
+        <id>https://xz.aliyun.com/t/15152</id>
+        <link href="https://xz.aliyun.com/t/15152"/>
+        <updated>2024-07-28T06:36:18.000Z</updated>
+        <summary type="html"><![CDATA[House Of Rabbit原理与例题]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nacos系列安全问题整理]]></title>
+        <id>https://xz.aliyun.com/t/15151</id>
+        <link href="https://xz.aliyun.com/t/15151"/>
+        <updated>2024-07-28T02:44:31.000Z</updated>
+        <summary type="html"><![CDATA[Nacos系列安全问题整理]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iofile基础结构以及stdout泄露libc在栈堆的利用原理]]></title>
+        <id>https://xz.aliyun.com/t/15145</id>
+        <link href="https://xz.aliyun.com/t/15145"/>
+        <updated>2024-07-27T14:17:14.000Z</updated>
+        <summary type="html"><![CDATA[iofile基础结构以及stdout泄露libc在栈堆的利用原理]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用environ变量实现堆题打栈--以ciscn2024 ezheap为例]]></title>
+        <id>https://xz.aliyun.com/t/15144</id>
+        <link href="https://xz.aliyun.com/t/15144"/>
+        <updated>2024-07-27T13:55:49.000Z</updated>
+        <summary type="html"><![CDATA[利用environ变量实现堆题打栈--以ciscn2024 ezheap为例]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sanic框架下原型链污染(以国赛sanic和dasctf-sanic题复现为例)]]></title>
+        <id>https://xz.aliyun.com/t/15143</id>
+        <link href="https://xz.aliyun.com/t/15143"/>
+        <updated>2024-07-27T13:50:38.000Z</updated>
+        <summary type="html"><![CDATA[Sanic框架下原型链污染(以国赛sanic和dasctf-sanic题复现为例)]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记一次JS到WAF绕过上传]]></title>
+        <id>https://xz.aliyun.com/t/15142</id>
+        <link href="https://xz.aliyun.com/t/15142"/>
+        <updated>2024-07-27T09:21:48.000Z</updated>
+        <summary type="html"><![CDATA[记一次JS到WAF绕过上传]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从0到1学会Jetty内存马注入]]></title>
+        <id>https://xz.aliyun.com/t/15141</id>
+        <link href="https://xz.aliyun.com/t/15141"/>
+        <updated>2024-07-27T08:03:40.000Z</updated>
+        <summary type="html"><![CDATA[从0到1学会Jetty内存马注入]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内网域渗透之提权&隧道应用]]></title>
+        <id>https://xz.aliyun.com/t/15139</id>
+        <link href="https://xz.aliyun.com/t/15139"/>
+        <updated>2024-07-26T10:43:47.000Z</updated>
+        <summary type="html"><![CDATA[内网域渗透之提权&隧道应用]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jeecgboot3.50前台漏洞汇总+审计]]></title>
+        <id>https://xz.aliyun.com/t/15138</id>
+        <link href="https://xz.aliyun.com/t/15138"/>
+        <updated>2024-07-26T09:44:54.000Z</updated>
+        <summary type="html"><![CDATA[jeecgboot3.50前台漏洞汇总+审计]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实战内测-某内测项目站点FUZZ到Sql注入]]></title>
+        <id>https://xz.aliyun.com/t/15137</id>
+        <link href="https://xz.aliyun.com/t/15137"/>
+        <updated>2024-07-26T09:17:41.000Z</updated>
+        <summary type="html"><![CDATA[实战内测-某内测项目站点FUZZ到Sql注入]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅析黑猫勒索软件中的UAC绕过提权技术]]></title>
+        <id>https://xz.aliyun.com/t/15136</id>
+        <link href="https://xz.aliyun.com/t/15136"/>
+        <updated>2024-07-26T09:17:34.000Z</updated>
+        <summary type="html"><![CDATA[浅析黑猫勒索软件中的UAC绕过提权技术]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于Windows&Linux权限维持]]></title>
+        <id>https://xz.aliyun.com/t/15135</id>
+        <link href="https://xz.aliyun.com/t/15135"/>
+        <updated>2024-07-26T09:12:36.000Z</updated>
+        <summary type="html"><![CDATA[基于Windows&Linux权限维持]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析ShellCode hash获取api函数]]></title>
+        <id>https://xz.aliyun.com/t/15133</id>
+        <link href="https://xz.aliyun.com/t/15133"/>
+        <updated>2024-07-26T04:48:15.000Z</updated>
+        <summary type="html"><![CDATA[分析ShellCode hash获取api函数]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[对ejs引擎漏洞及函数特性的利用]]></title>
+        <id>https://xz.aliyun.com/t/15132</id>
+        <link href="https://xz.aliyun.com/t/15132"/>
+        <updated>2024-07-26T03:54:58.000Z</updated>
+        <summary type="html"><![CDATA[对ejs引擎漏洞及函数特性的利用]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[对vbs文件传播远程访问木马的粗浅分析]]></title>
+        <id>https://xz.aliyun.com/t/15129</id>
+        <link href="https://xz.aliyun.com/t/15129"/>
+        <updated>2024-07-26T03:35:55.000Z</updated>
+        <summary type="html"><![CDATA[对vbs文件传播远程访问木马的粗浅分析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
         </author>
     </entry>
     <entry>
@@ -136,21 +1178,30 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Building security into the redesigned Chrome downloads experience]]></title>
+        <id>http://security.googleblog.com/2024/07/building-security-into-redesigned.html</id>
+        <link href="http://security.googleblog.com/2024/07/building-security-into-redesigned.html"/>
+        <updated>2024-07-24T16:00:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Jasika Bawa, Lily Chen, and Daniel Rubery, Chrome Security
+
+
+Last year, we introduced a redesign of the Chrome downloads experience on desktop to make it easier for users to interact with recent downloads. At the time, we mentioned that the additional space and more flexible UI of the new Chrome downloads experience would give us new opportunities to make sure users stay safe when downloading files. 
+
+
+Adding context and consistency to download warnings
+
+
+The redesigned Chrome downloads experience gives us the opportunity to provide even more context when Chrome protects a user from a potentially malicious file. Taking advantage of the additional space available in the new downloads UI, we have replaced our previous warning messages with more detailed ones that convey more nuance…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[wb近期流传漏洞-验真情报合集]]></title>
         <id>https://govuln.com/news/url/yZd4</id>
         <link href="https://govuln.com/news/url/yZd4"/>
         <updated>2024-07-24T09:22:29.573Z</updated>
         <summary type="html"><![CDATA[wb近期流传漏洞-验真情报合集]]></summary>
-        <author>
-            <name>Sec-News 安全文摘</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用eUICC卡片将手机变成eSIM手机]]></title>
-        <id>https://govuln.com/news/url/R0nV</id>
-        <link href="https://govuln.com/news/url/R0nV"/>
-        <updated>2024-07-22T11:28:21.196Z</updated>
-        <summary type="html"><![CDATA[使用eUICC卡片将手机变成eSIM手机]]></summary>
         <author>
             <name>Sec-News 安全文摘</name>
         </author>
@@ -163,6 +1214,472 @@
         <summary type="html"><![CDATA[0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...]]></summary>
         <author>
             <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sustaining Digital Certificate Security - Entrust Certificate Distrust]]></title>
+        <id>http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html</id>
+        <link href="http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html"/>
+        <updated>2024-06-27T17:16:00.001Z</updated>
+        <summary type="html"><![CDATA[Posted by Chrome Root Program, Chrome Security Team
+
+
+Update (07/22/2024): Website operators who will be impacted by the upcoming change in Chrome for new TLS certificates issued after October 31, 2024 can explore continuity options offered by Entrust. Entrust has expressed its commitment to continuing to support customer needs, and is best positioned to describe the available options for website operators. Learn more at Entrust’s TLS Certificate Information Center.
+
+
+    
+.code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11.8px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    white-space: pre-wrap;
+    display: inline-block;
+    line-height: 12px;
+}
+.highlight {
+    color: red;
+}
+    …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Virtual Escape; Real Reward: Introducing Google’s kvmCTF]]></title>
+        <id>http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html</id>
+        <link href="http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html"/>
+        <updated>2024-06-27T17:12:00.004Z</updated>
+        <summary type="html"><![CDATA[Marios Pomonis, Software Engineer
+
+
+Google is committed to enhancing the security of open-source technologies, especially those that make up the foundation for many of our products, like Linux and KVM. To this end we are excited to announce the launch of kvmCTF, a vulnerability reward program (VRP) for the Kernel-based Virtual Machine (KVM) hypervisor first announced in October 2023.
+
+
+
+
+
+KVM is a robust hypervisor with over 15 years of open-source development and is widely used throughout the consumer and enterprise landscape, including platforms such as Android and Google Cloud. Google is an active contributor to the project and we designed kvmCTF as a collaborative way to help identify & remediate vulnerabilities and further harden this fundamental security boundary. 
+
+
+
+
+
+Similar to ke…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking for Defenders: approaches to DARPA’s AI Cyber Challenge]]></title>
+        <id>http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html</id>
+        <link href="http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html"/>
+        <updated>2024-06-25T12:57:00.001Z</updated>
+        <summary type="html"><![CDATA[Oliver Chang, Jonathan Metzman, OSS-Fuzz and Alex Rebert, Security Engineering
+
+
+
+
+
+
+The US Defense Advanced Research Projects Agency, DARPA, recently kicked off a two-year AI Cyber Challenge (AIxCC), inviting top AI and cybersecurity experts to design new AI systems to help secure major open source projects which our critical infrastructure relies upon. As AI continues to grow, it’s crucial to invest in AI tools for Defenders, and this competition will help advance technology to do so. 
+
+
+
+
+
+Google’s OSS-Fuzz and Security Engineering teams have been excited to assist AIxCC organizers in designing their challenges and competition framework. We also playtested the competition by building a Cyber Reasoning System (CRS) tackling DARPA’s exemplar challenge. 
+
+
+
+
+
+This blog post will share our …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Staying Safe with Chrome Extensions]]></title>
+        <id>http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html</id>
+        <link href="http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html"/>
+        <updated>2024-06-20T16:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Benjamin Ackerman, Anunoy Ghosh and David Warren, Chrome Security Team 
+
+
+    
+.code {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 13px;
+
+  
+}
+.highlight {
+    color: red;
+}
+    
+
+
+
+
+Chrome extensions can boost your browsing, empowering you to do anything from customizing the look of sites to providing personalized advice when you’re planning a vacation. But as with any software, extensions can also introduce risk. 
+
+
+That’s why we have a team whose only job is to focus on keeping you safe as you install and take advantage of Chrome extensions. Our team:
+Provides you with a personalized summary of the extensions you’ve installed
+
+
+Reviews extensions before they’re published on the Chrome Web Store
+
+
+Continuously monitors extensi…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Time to challenge yourself in the 2024 Google CTF]]></title>
+        <id>http://security.googleblog.com/2024/06/time-to-challenge-yourself-in-2024.html</id>
+        <link href="http://security.googleblog.com/2024/06/time-to-challenge-yourself-in-2024.html"/>
+        <updated>2024-06-12T19:37:00.008Z</updated>
+        <summary type="html"><![CDATA[Hlynur Gudmundsson, Software Engineer
+
+
+It’s Google CTF time! Install your tools, commit your scripts, and clear your schedule. The competition kicks off on June 21 2024 6:00 PM UTC and runs through June 23 2024 6:00 PM UTC. Registration is now open at goo.gle/ctf.
+
+
+Join the Google CTF (at goo.gle/ctf), a thrilling arena to showcase your technical prowess. The Google CTF consists of a set of computer security puzzles (or challenges) involving reverse-engineering, memory corruption, cryptography, web technologies, and more. Participants can use obscure security knowledge to find exploits through bugs and creative misuse, and with each completed challenge your team will earn points and move up through the ranks. 
+
+
+
+
+
+The top 8 teams of the Google CTF will qualify for our Hackceler8 competi…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Fire Drills and Phishing Tests]]></title>
+        <id>http://security.googleblog.com/2024/05/on-fire-drills-and-phishing-tests.html</id>
+        <link href="http://security.googleblog.com/2024/05/on-fire-drills-and-phishing-tests.html"/>
+        <updated>2024-05-22T16:09:00.005Z</updated>
+        <summary type="html"><![CDATA[Matt Linton, Chaos Specialist
+
+
+
+
+In the late 19th and early 20th century, a series of catastrophic fires in short succession led an outraged public to demand action from the budding fire protection industry. Among the experts, one initial focus was on “Fire Evacuation Tests”. The earliest of these tests focused on individual performance and tested occupants on their evacuation speed, sometimes performing the tests “by surprise” as though the fire drill were a real fire. These early tests were more likely to result in injuries to the test-takers than any improvement in survivability. It wasn’t until introducing better protective engineering - wider doors, push bars at exits, firebreaks in construction, lighted exit signs, and so on - that survival rates from building fires began to improve…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I/O 2024: What’s new in Android security and privacy]]></title>
+        <id>http://security.googleblog.com/2024/05/io-2024-whats-new-in-android-security.html</id>
+        <link href="http://security.googleblog.com/2024/05/io-2024-whats-new-in-android-security.html"/>
+        <updated>2024-05-15T16:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Dave Kleidermacher, VP Engineering, Android Security and Privacy
+
+
+
+Our commitment to user safety is a top priority for Android. We’ve been consistently working to stay ahead of the world’s scammers, fraudsters and bad actors. And as their tactics evolve in sophistication and scale, we continually adapt and enhance our advanced security features and AI-powered protections to help keep Android users safe. 
+
+
+In addition to our new suite of advanced theft protection features to help keep your device and data safe in the case of theft, we’re also focusing increasingly on providing additional protections against mobile financial fraud and scams. 
+Google Play Protect live threat detection
+
+
+Google Play Protect now scans 200 billion Android apps daily, helping keep more than 3 billion …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google and Apple deliver support for unwanted tracking alerts in Android and iOS]]></title>
+        <id>http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html</id>
+        <link href="http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html"/>
+        <updated>2024-05-13T17:00:00.001Z</updated>
+        <summary type="html"><![CDATA[Detecting Unwanted Location Trackers – for Bluetooth tracking devices that makes it possible to alert users across both Android and iOS if such a device is unknowingly being used to track them. This will help mitigate the misuse of devices designed to help keep track of belongings. Google is now launching this capability on Android 6.0+ devices, and today Apple is implementing this capability in iOS 17.5.
+Multi-layered user protections, including first of its kind safety-first protections, help mitigate potential risks to user privacy and safety while allowing users to effectively locate and recover lost devices. This cross-platform collaboration — an industry first, involving community and industry input — offers instructions and best practices for manufacturers, should they choose to build unwanted tracking alert capabilities into their products. Google and Apple will continue to work with the Internet Engineering Task Force via the Detecting Unwanted Location Trackers working group to develop the official standard for this technology.]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your Google Account allows you to create passkeys on your phone, computer and security keys]]></title>
+        <id>http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html</id>
+        <link href="http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html"/>
+        <updated>2024-05-02T11:59:00.001Z</updated>
+        <summary type="html"><![CDATA[Sriram Karra and Christiaan Brand, Google product managers
+
+
+Last year, Google launched passkey support for Google Accounts. Passkeys are a new industry standard that give users an easy, highly secure way to sign-in to apps and websites. Today, we announced that passkeys have been used to authenticate users more than 1 billion times across over 400 million Google Accounts.
+
+
+
+
+
+As more users encounter passkeys, we’re often asked questions about how they relate to security keys, how Google Workspace administrators can configure passkeys for the user accounts that they manage, and how they relate to the Advanced Protection Program (APP). This post will seek to clarify these topics.
+
+
+
+
+
+Passkeys and security keys
+Passkeys are an evolution of security keys, meaning users get the same security…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting browser data theft using Windows Event Logs]]></title>
+        <id>http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html</id>
+        <link href="http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html"/>
+        <updated>2024-04-30T16:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by  Will Harris, Chrome Security Team
+
+
+
+
+    
+.code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11.8px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    white-space: pre-wrap;
+    display: inline-block;
+    line-height: 12px;
+}
+.highlight {
+    color: red;
+}
+    
+
+
+
+
+
+
+Chromium's sandboxed process model defends well from malicious web content, but there are limits to how well the application can protect itself from malware already on the computer. Cookies and other credentials remain a high value target for attackers, and we are trying to tackle this ongoing threat in multiple ways, including working on web standards like
+  DBSC
+  that will help disrupt the cookie theft industry …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we fought bad apps and bad actors in 2023]]></title>
+        <id>http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html</id>
+        <link href="http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html"/>
+        <updated>2024-04-29T15:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Steve Kafka and Khawaja Shams (Android Security and Privacy Team), and Mohet Saxena (Play Trust and Safety)
+
+
+A safe and trusted Google Play experience is our top priority. We leverage our SAFE (see below) principles to provide the framework to create that experience for both users and developers. Here's what these principles mean in practice:
+(S)afeguard our Users. Help them discover quality apps that they can trust.
+
+(A)dvocate for Developer Protection. Build platform safeguards to enable developers to focus on growth.
+
+(F)oster Responsible Innovation. Thoughtfully unlock value for all without compromising on user safety.
+
+(E)volve Platform Defenses. Stay ahead of emerging threats by evolving our policies, tools and technology.
+
+
+
+With those principles in mind, we’ve made recen…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating incident response using generative AI]]></title>
+        <id>http://security.googleblog.com/2024/04/accelerating-incident-response-using.html</id>
+        <link href="http://security.googleblog.com/2024/04/accelerating-incident-response-using.html"/>
+        <updated>2024-04-26T17:27:00.023Z</updated>
+        <summary type="html"><![CDATA[Lambert Rosique and Jan Keller, Security Workflow Automation, and Diana Kramer, Alexandra Bowen and Andrew Cho, Privacy and Security Incident Response
+
+
+
+
+
+
+
+
+Introduction
+As security professionals, we're constantly looking for ways to reduce risk and improve our workflow's efficiency. We've made great strides in using AI to identify malicious content, block threats, and discover and fix vulnerabilities. We also published the Secure AI Framework (SAIF), a conceptual framework for secure AI systems to ensure we are deploying AI in a responsible manner. 
+
+
+
+
+
+Today we are highlighting another way we use generative AI to help the defenders gain the advantage: Leveraging LLMs (Large Language Model) to speed-up our security and privacy incidents workflows.
+
+
+
+
+
+Incident management is a team spo…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uncovering potential threats to your web application by leveraging security reports]]></title>
+        <id>http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html</id>
+        <link href="http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html"/>
+        <updated>2024-04-23T17:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Yoshi Yamaguchi, Santiago Díaz, Maud Nalpas,  Eiji Kitamura, DevRel team
+
+
+The Reporting API is an emerging web standard that provides a generic reporting mechanism for issues occurring on the browsers visiting your production website. The reports you receive detail issues such as security violations or soon-to-be-deprecated APIs, from users’ browsers from all over the world.
+
+
+Collecting reports is often as simple as specifying an endpoint URL in the HTTP header; the browser will automatically start forwarding reports covering the issues you are interested in to those endpoints. However, processing and analyzing these reports is not that simple. For example, you may receive a massive number of reports on your endpoint, and it is possible that not all of them will be helpful in i…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prevent Generative AI Data Leaks with Chrome Enterprise DLP]]></title>
+        <id>http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html</id>
+        <link href="http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html"/>
+        <updated>2024-04-18T16:07:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted Kaleigh Rosenblat, Chrome Enterprise Senior Staff Software Engineer, Security Lead 
+
+
+Generative AI has emerged as a powerful and popular tool to automate content creation and simple tasks. From customized content creation to source code generation, it can increase both our productivity and creative potential.
+
+
+Businesses want to leverage the power of LLMs, like Gemini, but many may have security concerns and want more control around how employees make sure of these new tools. For example, companies may want to ensure that various forms of sensitive data, such as Personally Identifiable Information (PII), financial records and internal intellectual property, is not to be shared publicly on Generative AI platforms. Security leaders face the challenge of finding the right balance — e…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we built the new Find My Device network with user security and privacy in mind]]></title>
+        <id>http://security.googleblog.com/2024/04/find-my-device-network-security-privacy-protections.html</id>
+        <link href="http://security.googleblog.com/2024/04/find-my-device-network-security-privacy-protections.html"/>
+        <updated>2024-04-08T16:00:00.011Z</updated>
+        <summary type="html"><![CDATA[Posted by Dave Kleidermacher, VP Engineering, Android Security and Privacy
+
+
+the new Find My Device, which uses a crowdsourced device-locating network to help you find your lost or misplaced devices and belongings quickly – even when they’re offline. We gave careful consideration to the potential user security and privacy challenges that come with device finding services. 
+During development, it was important for us to ensure the new Find My Device was secure by default and private by design. To build a private, crowdsourced device-locating network, we first conducted user research and gathered feedback from privacy and advocacy groups. Next, we developed multi-layered protections across three main areas: data safeguards, safety-first protections, and user controls. This approach provides …]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Public DNS’s approach to fight against cache poisoning attacks]]></title>
+        <id>http://security.googleblog.com/2024/03/google-public-dnss-approach-to-fight.html</id>
+        <link href="http://security.googleblog.com/2024/03/google-public-dnss-approach-to-fight.html"/>
+        <updated>2024-03-28T17:41:00.007Z</updated>
+        <summary type="html"><![CDATA[Tianhao Chi and Puneet Sood, Google Public DNS
+
+
+
+
+The Domain Name System (DNS) is a fundamental protocol used on the Internet to translate human-readable domain names (e.g., www.example.com) into numeric IP addresses (e.g., 192.0.2.1) so that devices and servers can find and communicate with each other. When a user enters a domain name in their browser, the DNS resolver (e.g. Google Public DNS) locates the authoritative DNS nameservers for the requested name, and queries one or more of them to obtain the IP address(es) to return to the browser.
+When DNS was launched in the early 1980s as a trusted, content-neutral infrastructure, security was not yet a pressing concern, however, as the Internet grew DNS became vulnerable to various attacks. In this post, we will look at DNS cache poisonin…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Address Sanitizer for Bare-metal Firmware]]></title>
+        <id>http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html</id>
+        <link href="http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html"/>
+        <updated>2024-03-26T15:59:00.004Z</updated>
+        <summary type="html"><![CDATA[Posted by Eugene Rodionov and Ivan Lozano, Android Team
+
+
+With steady improvements to Android userspace and kernel security, we have noticed an increasing interest from security researchers directed towards lower level firmware. This area has traditionally received less scrutiny, but is critical to device security. We have previously discussed how we have been prioritizing firmware security, and how to apply mitigations in a firmware environment to mitigate unknown vulnerabilities.
+
+
+ 
+
+
+In this post we will show how the Kernel Address Sanitizer (KASan) can be used to proactively discover vulnerabilities earlier in the development lifecycle. Despite the narrow application implied by its name, KASan is applicable to a wide-range of firmware targets. Using KASan enabled builds during testing…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time, privacy-preserving URL protection]]></title>
+        <id>http://security.googleblog.com/2024/03/blog-post.html</id>
+        <link href="http://security.googleblog.com/2024/03/blog-post.html"/>
+        <updated>2024-03-14T14:00:00.010Z</updated>
+        <summary type="html"><![CDATA[Posted by Jasika Bawa, Xinghui Lu, Google Chrome Security & Jonathan Li, Alex Wozniak, Google Safe Browsing
+
+
+For more than 15 years, Google Safe Browsing has been protecting users from phishing, malware, unwanted software and more, by identifying and warning users about potentially abusive sites on more than 5 billion devices around the world. As attackers grow more sophisticated, we've seen the need for protections that can adapt as quickly as the threats they defend against. That’s why we're excited to announce a new version of Safe Browsing that will provide real-time, privacy-preserving URL protection for people using the Standard protection mode of Safe Browsing in Chrome.
+
+Current landscape
+hash-based checks.
+
+
+
+
+
+
+Hash-based check overview
+
+
+But unsafe sites have adapted — today, t…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vulnerability Reward Program: 2023 Year in Review]]></title>
+        <id>http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html</id>
+        <link href="http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html"/>
+        <updated>2024-03-12T15:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted by Sarah Jacobus, Vulnerability Rewards Team
+
+
+Last year, we again witnessed the power of community-driven security efforts as researchers from around the world contributed to help us identify and address thousands of vulnerabilities in our products and services. Working with our dedicated bug hunter community, we awarded $10 million to our 600+ researchers based in 68 countries. 
+
+
+New Resources and Improvements
+
+
+Just like every year, 2023 brought a series of changes and improvements to our vulnerability reward programs:
+
+
+
+Through our new Bonus Awards program, we now periodically offer time-limited, extra rewards for reports to specific VRP targets.
+
+We expanded our exploit reward program to Chrome and Cloud through the launch of  v8CTF, a CTF focused on V8, the JavaScript engine…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Secure by Design: Google’s Perspective on Memory Safety]]></title>
+        <id>http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html</id>
+        <link href="http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html"/>
+        <updated>2024-03-04T19:00:00.022Z</updated>
+        <summary type="html"><![CDATA[Alex Rebert, Software Engineer, Christoph Kern, Principal Engineer, Security Foundations
+
+
+
+
+Google’s Project Zero reports that memory safety vulnerabilities—security defects caused by subtle coding errors related to how a program accesses memory—have been "the standard for attacking software for the last few decades and it’s still how attackers are having success". Their analysis shows two thirds of 0-day exploits detected in the wild used memory corruption vulnerabilities. Despite substantial investments to improve memory-unsafe languages, those vulnerabilities continue to top the most commonly exploited vulnerability classes.
+
+In this post, we share our perspective on memory safety in a comprehensive whitepaper. This paper delves into the data, challenges of tackling memory unsafety, an…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
@@ -183,6 +1700,36 @@
         <summary type="html"><![CDATA[<p>Apache Solr在创建Collection时会以一个特定的目录作为classpath，从中加载一些类，而Collection的备份功能可以导出攻击者上传的恶意class文件到该目录，从而让Solr加载自定义class，造成任意Java代码执行，可以进一步绕过Solr配置的Java沙箱，最终造成任意命令执行。</p>]]></summary>
         <author>
             <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Piloting new ways of protecting Android users from financial fraud]]></title>
+        <id>http://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html</id>
+        <link href="http://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html"/>
+        <updated>2024-02-07T01:44:00.006Z</updated>
+        <summary type="html"><![CDATA[Posted by Eugene Liderman, Director of Mobile Security Strategy, Google
+
+
+From its founding, Android has been guided by principles of openness, transparency, safety, and choice. Android gives you the freedom to choose which device best fits your needs, while also providing the flexibility to download apps from a variety of sources, including preloaded app stores such as the Google Play Store or the Galaxy Store; third-party app stores; and direct downloads from the Internet.
+Keeping users safe in an open ecosystem takes sophisticated defenses. That’s why Android provides multiple layers of protections, powered by AI and backed by a large dedicated security & privacy team, to help to protect our users from security threats while continually making the platform more resilient. We also provid…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Interoperability Between Rust and C++]]></title>
+        <id>http://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html</id>
+        <link href="http://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html"/>
+        <updated>2024-02-05T16:59:00.002Z</updated>
+        <summary type="html"><![CDATA[Posted by Lars Bergstrom – Director, Android Platform Tools & Libraries and Chair of the Rust Foundation Board
+
+
+Back in 2021, we announced that Google was joining the Rust Foundation. At the time, Rust was already in wide use across Android and other Google products. Our announcement emphasized our commitment to improving the security reviews of Rust code and its interoperability with C++ code. Rust is one of the strongest tools we have to address memory safety security issues. Since that announcement, industry leaders and government agencies have echoed our sentiment. 
+
+
+We are delighted to announce that Google has provided a grant of $1 million to the Rust Foundation to support efforts that will improve the ability of Rust code to interoperate with existing legacy C++ codebases. We’re a…]]></summary>
+        <author>
+            <name>Google Online Security Blog</name>
         </author>
     </entry>
     <entry>
@@ -333,6 +1880,16 @@ Struts2命令执行各版本记录
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[CVE-2023-22518 Confluence 未授权恢复站点漏洞]]></title>
+        <id>https://tttang.com/archive/1910/</id>
+        <link href="https://tttang.com/archive/1910/"/>
+        <updated>2023-11-13T12:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Confluence Data Center and Server 是 Atlassian 公司提供的企业级团队协作和知识管理软件，它旨在帮助团队协同工作、共享知识、记录文档和协作编辑等。经过分析，其 /json/setup-restore 接口存在未授权访问漏洞，攻击者可以通过访问该接口对站点进行恶意恢复，从而导致站点内容被完全替换，以及管理员账号密码的重置。]]></summary>
+        <author>
+            <name>1nhann</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2023浙江省大学生网络与信息安全决赛-Misc篇]]></title>
         <id>https://blog.zgsec.cn/archives/504.html</id>
         <link href="https://blog.zgsec.cn/archives/504.html"/>
@@ -403,6 +1960,16 @@ Struts2命令执行各版本记录
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[浅谈 URL 解析与鉴权中的陷阱]]></title>
+        <id>https://tttang.com/archive/1899/</id>
+        <link href="https://tttang.com/archive/1899/"/>
+        <updated>2023-07-30T03:11:00.000Z</updated>
+        <summary type="html"><![CDATA[最近一段时间都在审计 Java 代码，也算是积累了一些各式各样小技巧，但总感觉不够体系化。因此有必要先停下来，跳出业务逻辑并后退一步，更加深入地思考一下漏洞背后的成因。]]></summary>
+        <author>
+            <name>有价值炮灰</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[当无回显RCE碰上Win服务器]]></title>
         <id>https://blog.zgsec.cn/archives/306.html</id>
         <link href="https://blog.zgsec.cn/archives/306.html"/>
@@ -462,6 +2029,88 @@ Struts2命令执行各版本记录
         <summary type="html"><![CDATA[Please check the blog post here: https://blog.ethiack.com/en/blog/git-arbitrary-configuration-injection-cve-2023-29007]]></summary>
         <author>
             <name>0xacb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内网渗透之横向移动基础总结（一）]]></title>
+        <id>https://tttang.com/archive/1890/</id>
+        <link href="https://tttang.com/archive/1890/"/>
+        <updated>2023-04-23T09:50:00.000Z</updated>
+        <summary type="html"><![CDATA[这篇文章介绍内网渗透种的横向移动。]]></summary>
+        <author>
+            <name>uf9n1x</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Break frida-objc-bridge]]></title>
+        <id>https://tttang.com/archive/1889/</id>
+        <link href="https://tttang.com/archive/1889/"/>
+        <updated>2023-04-23T08:46:00.000Z</updated>
+        <summary type="html"><![CDATA[回顾上上上…篇发布的文章《打造macOS下”最强”的微信取证工具》中使用 frida 工具从内存中获取到了关键数据，frida objc 的能力都来自于 frida-objc-bridge ，本着好奇探索心理想研究下原理，也没找到相关文章资料，倒是找到不少 frida-java-bridge 的文章。那么本文将从了解 Objective-C Runtime 开始，例如它的消息发送机制、Method Swizzling 等，再去探索 frida 中的 frida-objc-bridge 实现原理以及它最关键的 choose 方法的实现。]]></summary>
+        <author>
+            <name>巴斯.zznQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[近源攻击方式总结]]></title>
+        <id>https://tttang.com/archive/1888/</id>
+        <link href="https://tttang.com/archive/1888/"/>
+        <updated>2023-04-23T07:23:00.000Z</updated>
+        <summary type="html"><![CDATA[前段时间身边的大佬去搞攻防，近源攻击挺有成效的，拿了上千的分数，之前自己也有搞过但是一直没用到攻防上面，整理下相关的方式，后续可以参考参考，近源攻击，顾名思义😏你走近点打他，攻击队通过靠近或者位于攻击目标内部，利用各类智能设备、通信技术、物理接口等方法进行突破，也就是说，攻防期间，除了待在小黑屋里面坐牢，还可以接近目标现场，通过现场的环境进行渗透突破，达到进入内网，获取数据的目的，比起在网上打点，近源攻击能够又快又准的进入目标内网，且方法多种多样，成功率很高，但是有点随缘，运气不好的话，可能你丢的Badusb被保洁阿姨丢掉了或者被保安抓了也不一定，关键还是运气和苟住🤔]]></summary>
+        <author>
+            <name>AX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个隐藏在Go语言标准库中的目录穿越漏洞 CVE-2022-29804]]></title>
+        <id>https://tttang.com/archive/1884/</id>
+        <link href="https://tttang.com/archive/1884/"/>
+        <updated>2023-03-24T04:46:00.000Z</updated>
+        <summary type="html"><![CDATA[一天，我看完了番剧后，闲着无聊审计了一下我用来做内网共享的小工具——"Go HTTP File Server"。
+这是一个文件服务器,可以快速搭建http服务器共享文件.
+启动的默认路径为当前路径(./)]]></summary>
+        <author>
+            <name>白帽酱</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go语言项目容器化导致的Server-Side MIME Sniff]]></title>
+        <id>https://tttang.com/archive/1880/</id>
+        <link href="https://tttang.com/archive/1880/"/>
+        <updated>2023-03-02T06:36:00.000Z</updated>
+        <summary type="html"><![CDATA[跳跳糖 - 安全与分享社区]]></summary>
+        <author>
+            <name>无在无不在</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MYSQL JDBC反序列化解析]]></title>
+        <id>https://tttang.com/archive/1877/</id>
+        <link href="https://tttang.com/archive/1877/"/>
+        <updated>2023-02-02T01:14:00.000Z</updated>
+        <summary type="html"><![CDATA[JDBC（Java DataBase Connectivity）是一种用于执行Sql语句的Java Api，即Java数据库连接，是Java语言中用来规范客户端程序如何来访问数据库的应用程序接口，可以为多种关系数据库提供统一访问，提供了诸如查询和更新数据库中数据的方法，是Java访问数据库的标准规范。简单理解为链接数据库、对数据库操作都需要通过jdbc来实现。]]></summary>
+        <author>
+            <name>白给</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python原型链污染变体(prototype-pollution-in-python)]]></title>
+        <id>https://tttang.com/archive/1876/</id>
+        <link href="https://tttang.com/archive/1876/"/>
+        <updated>2023-01-27T03:36:00.000Z</updated>
+        <summary type="html"><![CDATA[前些时间看了idekctf 2022*的task manager，出题人参考了另一位博主Python原型链污染变体的博文，于是打算写一篇文章简单学习下这种攻击方式和题目中的一些解题技巧等内容等]]></summary>
+        <author>
+            <name>Article_kelp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记一次Webshell检测引擎绕过测试]]></title>
+        <id>https://tttang.com/archive/1875/</id>
+        <link href="https://tttang.com/archive/1875/"/>
+        <updated>2023-01-13T02:32:00.000Z</updated>
+        <summary type="html"><![CDATA[跳跳糖 - 安全与分享社区]]></summary>
+        <author>
+            <name>BOT</name>
         </author>
     </entry>
     <entry>
