@@ -1,4 +1,5 @@
 https://rdist.root.org/feed/
+http://cnblogs.com/coderzh/rss
 http://blog.csdn.net/nokiaguy/rss/list
 http://ysl-paradise.blogspot.com/feeds/posts/default
 https://xianzhi2rss.xlab.app/feed.xml
