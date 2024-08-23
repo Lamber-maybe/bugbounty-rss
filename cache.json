@@ -128,7 +128,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 732,
+          "wordCount": 729,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -138,7 +138,7 @@
           "description": "1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...",
           "link": "https://blog.zgsec.cn/archives/573.html",
           "publishedOn": "2024-01-01T06:57:17.000Z",
-          "wordCount": 653,
+          "wordCount": 669,
           "title": "感谢，渊龙三周年与龙年展望",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -158,7 +158,7 @@
           "description": "0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...",
           "link": "https://blog.zgsec.cn/archives/535.html",
           "publishedOn": "2023-11-25T06:59:00.000Z",
-          "wordCount": 894,
+          "wordCount": 892,
           "title": "一场跨越十年的超时空思维碰撞",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -168,7 +168,7 @@
           "description": "比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...",
           "link": "https://blog.zgsec.cn/archives/504.html",
           "publishedOn": "2023-11-12T03:29:00.000Z",
-          "wordCount": 852,
+          "wordCount": 842,
           "title": "2023浙江省大学生网络与信息安全决赛-Misc篇",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -178,7 +178,7 @@
           "description": "如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...",
           "link": "https://blog.zgsec.cn/archives/484.html",
           "publishedOn": "2023-10-21T04:25:00.000Z",
-          "wordCount": 1634,
+          "wordCount": 1652,
           "title": "从零学习AWD比赛指导手册",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -188,7 +188,7 @@
           "description": "0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSu...",
           "link": "https://blog.zgsec.cn/archives/481.html",
           "publishedOn": "2023-10-01T03:02:00.000Z",
-          "wordCount": 804,
+          "wordCount": 806,
           "title": "HaE入门到精通：三条影响你一生的HaE规则",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -198,7 +198,7 @@
           "description": "前言今年很巧，8月23日项目结束后，24号2023成都CCS网络安全大会就召开了。我今年刚好在武汉做项目，想了想，结束直接一个飞机飞往成都，开启了本次成都安全之旅。成都的师傅们都很热情，也结识了...",
           "link": "https://blog.zgsec.cn/archives/320.html",
           "publishedOn": "2023-09-01T06:04:00.000Z",
-          "wordCount": 688,
+          "wordCount": 690,
           "title": "2023成都CCS大会&amp;&amp;补天城市沙龙有感",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -208,7 +208,7 @@
           "description": "0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，...",
           "link": "https://blog.zgsec.cn/archives/306.html",
           "publishedOn": "2023-07-17T10:15:00.000Z",
-          "wordCount": 945,
+          "wordCount": 947,
           "title": "当无回显RCE碰上Win服务器",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         }
@@ -825,263 +825,6 @@
           "wordCount": 450,
           "title": "两则JSON CSRF实例",
           "imageUrl": "https://l3yx.github.io/2020/08/27/%E4%B8%A4%E5%88%99JSON-CSRF%E5%AE%9E%E4%BE%8B/image-20200827230154850.png"
-        }
-      ]
-    },
-    {
-      "title": "Google Online Security Blog",
-      "feedUrl": "http://googleonlinesecurity.blogspot.com/feeds/posts/default",
-      "siteUrl": "http://security.googleblog.com/",
-      "articles": [
-        {
-          "id": "http://security.googleblog.com/2024/08/keeping-your-android-device-safe-from.html",
-          "author": null,
-          "description": "Posted by Nataliya Stanetsky and Roger Piqueras Jover, Android Security & Privacy Team\n\n\nCell-site simulators, also known as False Base Stations (FBS) or Stingrays, are radio devices that mimic real cell sites in order to lure mobile devices to connect to them. These devices are commonly used for security and privacy attacks, such as surveillance and interception of communications. In recent years, carriers have started reporting new types of abuse perpetrated with FBSs for the purposes of financial fraud.\n\n\nIn particular, there is increasingly more evidence of the exploitation of weaknesses in cellular communication standards leveraging cell-site simulators to inject SMS phishing messages directly into smartphones. This method to inject messages entirely bypasses the carrier network, thus…",
-          "link": "http://security.googleblog.com/2024/08/keeping-your-android-device-safe-from.html",
-          "publishedOn": "2024-08-01T17:08:00.002Z",
-          "wordCount": 6304,
-          "title": "Keeping your Android device safe from text message fraud",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html",
-          "author": null,
-          "description": "Posted by Will Harris, Chrome Security Team\n\n\nCybercriminals using cookie theft infostealer malware continue to pose a risk to the safety and security of our users. We already have a number of initiatives in this area including Chrome’s download protection using Safe Browsing, Device Bound Session Credentials, and Google’s account-based threat detection to flag the use of stolen cookies. Today, we’re announcing another layer of protection to make Windows users safer from this type of malware.\n\n\nLike other software that needs to store secrets, Chrome currently secures sensitive data like cookies and passwords using the strongest techniques the OS makes available to us - on macOS this is the Keychain services, and on Linux we use a system provided wallet such as kwallet or gnome-libsecret. O…",
-          "link": "http://security.googleblog.com/2024/07/improving-security-of-chrome-cookies-on.html",
-          "publishedOn": "2024-07-30T17:01:00.002Z",
-          "wordCount": 5287,
-          "title": "Improving the security of Chrome cookies on Windows",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/07/building-security-into-redesigned.html",
-          "author": null,
-          "description": "Posted by Jasika Bawa, Lily Chen, and Daniel Rubery, Chrome Security\n\n\nLast year, we introduced a redesign of the Chrome downloads experience on desktop to make it easier for users to interact with recent downloads. At the time, we mentioned that the additional space and more flexible UI of the new Chrome downloads experience would give us new opportunities to make sure users stay safe when downloading files. \n\n\nAdding context and consistency to download warnings\n\n\nThe redesigned Chrome downloads experience gives us the opportunity to provide even more context when Chrome protects a user from a potentially malicious file. Taking advantage of the additional space available in the new downloads UI, we have replaced our previous warning messages with more detailed ones that convey more nuance…",
-          "link": "http://security.googleblog.com/2024/07/building-security-into-redesigned.html",
-          "publishedOn": "2024-07-24T16:00:00.002Z",
-          "wordCount": 5760,
-          "title": "Building security into the redesigned Chrome downloads experience",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
-          "author": null,
-          "description": "Posted by Chrome Root Program, Chrome Security Team\n\n\nUpdate (07/22/2024): Website operators who will be impacted by the upcoming change in Chrome for new TLS certificates issued after October 31, 2024 can explore continuity options offered by Entrust. Entrust has expressed its commitment to continuing to support customer needs, and is best positioned to describe the available options for website operators. Learn more at Entrust’s TLS Certificate Information Center.\n\n\n    \n.code {\n    font-family: \"Courier New\", Courier, monospace;\n    font-size: 11.8px;\n    font-weight: bold;\n    background-color: #f4f4f4;\n    padding: 10px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    white-space: pre-wrap;\n    display: inline-block;\n    line-height: 12px;\n}\n.highlight {\n    color: red;\n}\n    …",
-          "link": "http://security.googleblog.com/2024/06/sustaining-digital-certificate-security.html",
-          "publishedOn": "2024-06-27T17:16:00.001Z",
-          "wordCount": 6569,
-          "title": "Sustaining Digital Certificate Security - Entrust Certificate Distrust",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html",
-          "author": null,
-          "description": "Marios Pomonis, Software Engineer\n\n\nGoogle is committed to enhancing the security of open-source technologies, especially those that make up the foundation for many of our products, like Linux and KVM. To this end we are excited to announce the launch of kvmCTF, a vulnerability reward program (VRP) for the Kernel-based Virtual Machine (KVM) hypervisor first announced in October 2023.\n\n\n\n\n\nKVM is a robust hypervisor with over 15 years of open-source development and is widely used throughout the consumer and enterprise landscape, including platforms such as Android and Google Cloud. Google is an active contributor to the project and we designed kvmCTF as a collaborative way to help identify & remediate vulnerabilities and further harden this fundamental security boundary. \n\n\n\n\n\nSimilar to ke…",
-          "link": "http://security.googleblog.com/2024/06/virtual-escape-real-reward-introducing.html",
-          "publishedOn": "2024-06-27T17:12:00.004Z",
-          "wordCount": 6869,
-          "title": "Virtual Escape; Real Reward: Introducing Google’s kvmCTF",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html",
-          "author": null,
-          "description": "Oliver Chang, Jonathan Metzman, OSS-Fuzz and Alex Rebert, Security Engineering\n\n\n\n\n\n\nThe US Defense Advanced Research Projects Agency, DARPA, recently kicked off a two-year AI Cyber Challenge (AIxCC), inviting top AI and cybersecurity experts to design new AI systems to help secure major open source projects which our critical infrastructure relies upon. As AI continues to grow, it’s crucial to invest in AI tools for Defenders, and this competition will help advance technology to do so. \n\n\n\n\n\nGoogle’s OSS-Fuzz and Security Engineering teams have been excited to assist AIxCC organizers in designing their challenges and competition framework. We also playtested the competition by building a Cyber Reasoning System (CRS) tackling DARPA’s exemplar challenge. \n\n\n\n\n\nThis blog post will share our …",
-          "link": "http://security.googleblog.com/2024/06/hacking-for-defenders-approaches-to.html",
-          "publishedOn": "2024-06-25T12:57:00.001Z",
-          "wordCount": 13163,
-          "title": "Hacking for Defenders: approaches to DARPA’s AI Cyber Challenge",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html",
-          "author": null,
-          "description": "Posted by Benjamin Ackerman, Anunoy Ghosh and David Warren, Chrome Security Team \n\n\n    \n.code {\n    background-color: #f4f4f4;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    padding: 13px;\n\n  \n}\n.highlight {\n    color: red;\n}\n    \n\n\n\n\nChrome extensions can boost your browsing, empowering you to do anything from customizing the look of sites to providing personalized advice when you’re planning a vacation. But as with any software, extensions can also introduce risk. \n\n\nThat’s why we have a team whose only job is to focus on keeping you safe as you install and take advantage of Chrome extensions. Our team:\nProvides you with a personalized summary of the extensions you’ve installed\n\n\nReviews extensions before they’re published on the Chrome Web Store\n\n\nContinuously monitors extensi…",
-          "link": "http://security.googleblog.com/2024/06/staying-safe-with-chrome-extensions.html",
-          "publishedOn": "2024-06-20T16:20:00.000Z",
-          "wordCount": 5980,
-          "title": "Staying Safe with Chrome Extensions",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/06/time-to-challenge-yourself-in-2024.html",
-          "author": null,
-          "description": "Hlynur Gudmundsson, Software Engineer\n\n\nIt’s Google CTF time! Install your tools, commit your scripts, and clear your schedule. The competition kicks off on June 21 2024 6:00 PM UTC and runs through June 23 2024 6:00 PM UTC. Registration is now open at goo.gle/ctf.\n\n\nJoin the Google CTF (at goo.gle/ctf), a thrilling arena to showcase your technical prowess. The Google CTF consists of a set of computer security puzzles (or challenges) involving reverse-engineering, memory corruption, cryptography, web technologies, and more. Participants can use obscure security knowledge to find exploits through bugs and creative misuse, and with each completed challenge your team will earn points and move up through the ranks. \n\n\n\n\n\nThe top 8 teams of the Google CTF will qualify for our Hackceler8 competi…",
-          "link": "http://security.googleblog.com/2024/06/time-to-challenge-yourself-in-2024.html",
-          "publishedOn": "2024-06-12T19:37:00.008Z",
-          "wordCount": 6881,
-          "title": "Time to challenge yourself in the 2024 Google CTF",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/05/on-fire-drills-and-phishing-tests.html",
-          "author": null,
-          "description": "Matt Linton, Chaos Specialist\n\n\n\n\nIn the late 19th and early 20th century, a series of catastrophic fires in short succession led an outraged public to demand action from the budding fire protection industry. Among the experts, one initial focus was on “Fire Evacuation Tests”. The earliest of these tests focused on individual performance and tested occupants on their evacuation speed, sometimes performing the tests “by surprise” as though the fire drill were a real fire. These early tests were more likely to result in injuries to the test-takers than any improvement in survivability. It wasn’t until introducing better protective engineering - wider doors, push bars at exits, firebreaks in construction, lighted exit signs, and so on - that survival rates from building fires began to improve…",
-          "link": "http://security.googleblog.com/2024/05/on-fire-drills-and-phishing-tests.html",
-          "publishedOn": "2024-05-22T16:09:00.005Z",
-          "wordCount": 10606,
-          "title": "On Fire Drills and Phishing Tests",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/05/io-2024-whats-new-in-android-security.html",
-          "author": null,
-          "description": "Posted by Dave Kleidermacher, VP Engineering, Android Security and Privacy\n\n\n\nOur commitment to user safety is a top priority for Android. We’ve been consistently working to stay ahead of the world’s scammers, fraudsters and bad actors. And as their tactics evolve in sophistication and scale, we continually adapt and enhance our advanced security features and AI-powered protections to help keep Android users safe. \n\n\nIn addition to our new suite of advanced theft protection features to help keep your device and data safe in the case of theft, we’re also focusing increasingly on providing additional protections against mobile financial fraud and scams. \nGoogle Play Protect live threat detection\n\n\nGoogle Play Protect now scans 200 billion Android apps daily, helping keep more than 3 billion …",
-          "link": "http://security.googleblog.com/2024/05/io-2024-whats-new-in-android-security.html",
-          "publishedOn": "2024-05-15T16:59:00.000Z",
-          "wordCount": 6545,
-          "title": "I/O 2024: What’s new in Android security and privacy",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html",
-          "author": null,
-          "description": "Detecting Unwanted Location Trackers – for Bluetooth tracking devices that makes it possible to alert users across both Android and iOS if such a device is unknowingly being used to track them. This will help mitigate the misuse of devices designed to help keep track of belongings. Google is now launching this capability on Android 6.0+ devices, and today Apple is implementing this capability in iOS 17.5.\nMulti-layered user protections, including first of its kind safety-first protections, help mitigate potential risks to user privacy and safety while allowing users to effectively locate and recover lost devices. This cross-platform collaboration — an industry first, involving community and industry input — offers instructions and best practices for manufacturers, should they choose to build unwanted tracking alert capabilities into their products. Google and Apple will continue to work with the Internet Engineering Task Force via the Detecting Unwanted Location Trackers working group to develop the official standard for this technology.",
-          "link": "http://security.googleblog.com/2024/05/google-and-apple-deliver-support-for.html",
-          "publishedOn": "2024-05-13T17:00:00.001Z",
-          "wordCount": 4578,
-          "title": "Google and Apple deliver support for unwanted tracking alerts in Android and iOS",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html",
-          "author": null,
-          "description": "Sriram Karra and Christiaan Brand, Google product managers\n\n\nLast year, Google launched passkey support for Google Accounts. Passkeys are a new industry standard that give users an easy, highly secure way to sign-in to apps and websites. Today, we announced that passkeys have been used to authenticate users more than 1 billion times across over 400 million Google Accounts.\n\n\n\n\n\nAs more users encounter passkeys, we’re often asked questions about how they relate to security keys, how Google Workspace administrators can configure passkeys for the user accounts that they manage, and how they relate to the Advanced Protection Program (APP). This post will seek to clarify these topics.\n\n\n\n\n\nPasskeys and security keys\nPasskeys are an evolution of security keys, meaning users get the same security…",
-          "link": "http://security.googleblog.com/2024/05/passkeys-on-your-phone-computer-and-security-keys.html",
-          "publishedOn": "2024-05-02T11:59:00.001Z",
-          "wordCount": 7590,
-          "title": "Your Google Account allows you to create passkeys on your phone, computer and security keys",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html",
-          "author": null,
-          "description": "Posted by  Will Harris, Chrome Security Team\n\n\n\n\n    \n.code {\n    font-family: \"Courier New\", Courier, monospace;\n    font-size: 11.8px;\n    font-weight: bold;\n    background-color: #f4f4f4;\n    padding: 2px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    white-space: pre-wrap;\n    display: inline-block;\n    line-height: 12px;\n}\n.highlight {\n    color: red;\n}\n    \n\n\n\n\n\n\nChromium's sandboxed process model defends well from malicious web content, but there are limits to how well the application can protect itself from malware already on the computer. Cookies and other credentials remain a high value target for attackers, and we are trying to tackle this ongoing threat in multiple ways, including working on web standards like\n  DBSC\n  that will help disrupt the cookie theft industry …",
-          "link": "http://security.googleblog.com/2024/04/detecting-browser-data-theft-using.html",
-          "publishedOn": "2024-04-30T16:14:00.000Z",
-          "wordCount": 7482,
-          "title": "Detecting browser data theft using Windows Event Logs",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html",
-          "author": null,
-          "description": "Posted by Steve Kafka and Khawaja Shams (Android Security and Privacy Team), and Mohet Saxena (Play Trust and Safety)\n\n\nA safe and trusted Google Play experience is our top priority. We leverage our SAFE (see below) principles to provide the framework to create that experience for both users and developers. Here's what these principles mean in practice:\n(S)afeguard our Users. Help them discover quality apps that they can trust.\n\n(A)dvocate for Developer Protection. Build platform safeguards to enable developers to focus on growth.\n\n(F)oster Responsible Innovation. Thoughtfully unlock value for all without compromising on user safety.\n\n(E)volve Platform Defenses. Stay ahead of emerging threats by evolving our policies, tools and technology.\n\n\n\nWith those principles in mind, we’ve made recen…",
-          "link": "http://security.googleblog.com/2024/04/how-we-fought-bad-apps-and-bad-actors-in-2023.html",
-          "publishedOn": "2024-04-29T15:59:00.000Z",
-          "wordCount": 5924,
-          "title": "How we fought bad apps and bad actors in 2023",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/accelerating-incident-response-using.html",
-          "author": null,
-          "description": "Lambert Rosique and Jan Keller, Security Workflow Automation, and Diana Kramer, Alexandra Bowen and Andrew Cho, Privacy and Security Incident Response\n\n\n\n\n\n\n\n\nIntroduction\nAs security professionals, we're constantly looking for ways to reduce risk and improve our workflow's efficiency. We've made great strides in using AI to identify malicious content, block threats, and discover and fix vulnerabilities. We also published the Secure AI Framework (SAIF), a conceptual framework for secure AI systems to ensure we are deploying AI in a responsible manner. \n\n\n\n\n\nToday we are highlighting another way we use generative AI to help the defenders gain the advantage: Leveraging LLMs (Large Language Model) to speed-up our security and privacy incidents workflows.\n\n\n\n\n\nIncident management is a team spo…",
-          "link": "http://security.googleblog.com/2024/04/accelerating-incident-response-using.html",
-          "publishedOn": "2024-04-26T17:27:00.023Z",
-          "wordCount": 14348,
-          "title": "Accelerating incident response using generative AI",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html",
-          "author": null,
-          "description": "Posted by Yoshi Yamaguchi, Santiago Díaz, Maud Nalpas,  Eiji Kitamura, DevRel team\n\n\nThe Reporting API is an emerging web standard that provides a generic reporting mechanism for issues occurring on the browsers visiting your production website. The reports you receive detail issues such as security violations or soon-to-be-deprecated APIs, from users’ browsers from all over the world.\n\n\nCollecting reports is often as simple as specifying an endpoint URL in the HTTP header; the browser will automatically start forwarding reports covering the issues you are interested in to those endpoints. However, processing and analyzing these reports is not that simple. For example, you may receive a massive number of reports on your endpoint, and it is possible that not all of them will be helpful in i…",
-          "link": "http://security.googleblog.com/2024/04/uncovering-potential-threats-to-your.html",
-          "publishedOn": "2024-04-23T17:15:00.000Z",
-          "wordCount": 11949,
-          "title": "Uncovering potential threats to your web application by leveraging security reports",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html",
-          "author": null,
-          "description": "Posted Kaleigh Rosenblat, Chrome Enterprise Senior Staff Software Engineer, Security Lead \n\n\nGenerative AI has emerged as a powerful and popular tool to automate content creation and simple tasks. From customized content creation to source code generation, it can increase both our productivity and creative potential.\n\n\nBusinesses want to leverage the power of LLMs, like Gemini, but many may have security concerns and want more control around how employees make sure of these new tools. For example, companies may want to ensure that various forms of sensitive data, such as Personally Identifiable Information (PII), financial records and internal intellectual property, is not to be shared publicly on Generative AI platforms. Security leaders face the challenge of finding the right balance — e…",
-          "link": "http://security.googleblog.com/2024/04/prevent-generative-ai-data-leaks-with.html",
-          "publishedOn": "2024-04-18T16:07:00.002Z",
-          "wordCount": 4809,
-          "title": "Prevent Generative AI Data Leaks with Chrome Enterprise DLP",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/04/find-my-device-network-security-privacy-protections.html",
-          "author": null,
-          "description": "Posted by Dave Kleidermacher, VP Engineering, Android Security and Privacy\n\n\nthe new Find My Device, which uses a crowdsourced device-locating network to help you find your lost or misplaced devices and belongings quickly – even when they’re offline. We gave careful consideration to the potential user security and privacy challenges that come with device finding services. \nDuring development, it was important for us to ensure the new Find My Device was secure by default and private by design. To build a private, crowdsourced device-locating network, we first conducted user research and gathered feedback from privacy and advocacy groups. Next, we developed multi-layered protections across three main areas: data safeguards, safety-first protections, and user controls. This approach provides …",
-          "link": "http://security.googleblog.com/2024/04/find-my-device-network-security-privacy-protections.html",
-          "publishedOn": "2024-04-08T16:00:00.011Z",
-          "wordCount": 6443,
-          "title": "How we built the new Find My Device network with user security and privacy in mind",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/google-public-dnss-approach-to-fight.html",
-          "author": null,
-          "description": "Tianhao Chi and Puneet Sood, Google Public DNS\n\n\n\n\nThe Domain Name System (DNS) is a fundamental protocol used on the Internet to translate human-readable domain names (e.g., www.example.com) into numeric IP addresses (e.g., 192.0.2.1) so that devices and servers can find and communicate with each other. When a user enters a domain name in their browser, the DNS resolver (e.g. Google Public DNS) locates the authoritative DNS nameservers for the requested name, and queries one or more of them to obtain the IP address(es) to return to the browser.\nWhen DNS was launched in the early 1980s as a trusted, content-neutral infrastructure, security was not yet a pressing concern, however, as the Internet grew DNS became vulnerable to various attacks. In this post, we will look at DNS cache poisonin…",
-          "link": "http://security.googleblog.com/2024/03/google-public-dnss-approach-to-fight.html",
-          "publishedOn": "2024-03-28T17:41:00.007Z",
-          "wordCount": 8046,
-          "title": "Google Public DNS’s approach to fight against cache poisoning attacks",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html",
-          "author": null,
-          "description": "Posted by Eugene Rodionov and Ivan Lozano, Android Team\n\n\nWith steady improvements to Android userspace and kernel security, we have noticed an increasing interest from security researchers directed towards lower level firmware. This area has traditionally received less scrutiny, but is critical to device security. We have previously discussed how we have been prioritizing firmware security, and how to apply mitigations in a firmware environment to mitigate unknown vulnerabilities.\n\n\n \n\n\nIn this post we will show how the Kernel Address Sanitizer (KASan) can be used to proactively discover vulnerabilities earlier in the development lifecycle. Despite the narrow application implied by its name, KASan is applicable to a wide-range of firmware targets. Using KASan enabled builds during testing…",
-          "link": "http://security.googleblog.com/2024/03/address-sanitizer-for-bare-metal.html",
-          "publishedOn": "2024-03-26T15:59:00.004Z",
-          "wordCount": 8519,
-          "title": "Address Sanitizer for Bare-metal Firmware",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/blog-post.html",
-          "author": null,
-          "description": "Posted by Jasika Bawa, Xinghui Lu, Google Chrome Security & Jonathan Li, Alex Wozniak, Google Safe Browsing\n\n\nFor more than 15 years, Google Safe Browsing has been protecting users from phishing, malware, unwanted software and more, by identifying and warning users about potentially abusive sites on more than 5 billion devices around the world. As attackers grow more sophisticated, we've seen the need for protections that can adapt as quickly as the threats they defend against. That’s why we're excited to announce a new version of Safe Browsing that will provide real-time, privacy-preserving URL protection for people using the Standard protection mode of Safe Browsing in Chrome.\n\nCurrent landscape\nhash-based checks.\n\n\n\n\n\n\nHash-based check overview\n\n\nBut unsafe sites have adapted — today, t…",
-          "link": "http://security.googleblog.com/2024/03/blog-post.html",
-          "publishedOn": "2024-03-14T14:00:00.010Z",
-          "wordCount": 7255,
-          "title": "Real-time, privacy-preserving URL protection",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html",
-          "author": null,
-          "description": "Posted by Sarah Jacobus, Vulnerability Rewards Team\n\n\nLast year, we again witnessed the power of community-driven security efforts as researchers from around the world contributed to help us identify and address thousands of vulnerabilities in our products and services. Working with our dedicated bug hunter community, we awarded $10 million to our 600+ researchers based in 68 countries. \n\n\nNew Resources and Improvements\n\n\nJust like every year, 2023 brought a series of changes and improvements to our vulnerability reward programs:\n\n\n\nThrough our new Bonus Awards program, we now periodically offer time-limited, extra rewards for reports to specific VRP targets.\n\nWe expanded our exploit reward program to Chrome and Cloud through the launch of  v8CTF, a CTF focused on V8, the JavaScript engine…",
-          "link": "http://security.googleblog.com/2024/03/vulnerability-reward-program-2023-year.html",
-          "publishedOn": "2024-03-12T15:59:00.000Z",
-          "wordCount": 6185,
-          "title": "Vulnerability Reward Program: 2023 Year in Review",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html",
-          "author": null,
-          "description": "Alex Rebert, Software Engineer, Christoph Kern, Principal Engineer, Security Foundations\n\n\n\n\nGoogle’s Project Zero reports that memory safety vulnerabilities—security defects caused by subtle coding errors related to how a program accesses memory—have been \"the standard for attacking software for the last few decades and it’s still how attackers are having success\". Their analysis shows two thirds of 0-day exploits detected in the wild used memory corruption vulnerabilities. Despite substantial investments to improve memory-unsafe languages, those vulnerabilities continue to top the most commonly exploited vulnerability classes.\n\nIn this post, we share our perspective on memory safety in a comprehensive whitepaper. This paper delves into the data, challenges of tackling memory unsafety, an…",
-          "link": "http://security.googleblog.com/2024/03/secure-by-design-googles-perspective-on.html",
-          "publishedOn": "2024-03-04T19:00:00.022Z",
-          "wordCount": 9034,
-          "title": "Secure by Design: Google’s Perspective on Memory Safety",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html",
-          "author": null,
-          "description": "Posted by Eugene Liderman, Director of Mobile Security Strategy, Google\n\n\nFrom its founding, Android has been guided by principles of openness, transparency, safety, and choice. Android gives you the freedom to choose which device best fits your needs, while also providing the flexibility to download apps from a variety of sources, including preloaded app stores such as the Google Play Store or the Galaxy Store; third-party app stores; and direct downloads from the Internet.\nKeeping users safe in an open ecosystem takes sophisticated defenses. That’s why Android provides multiple layers of protections, powered by AI and backed by a large dedicated security & privacy team, to help to protect our users from security threats while continually making the platform more resilient. We also provid…",
-          "link": "http://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html",
-          "publishedOn": "2024-02-07T01:44:00.006Z",
-          "wordCount": 6496,
-          "title": "Piloting new ways of protecting Android users from financial fraud",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
-        },
-        {
-          "id": "http://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html",
-          "author": null,
-          "description": "Posted by Lars Bergstrom – Director, Android Platform Tools & Libraries and Chair of the Rust Foundation Board\n\n\nBack in 2021, we announced that Google was joining the Rust Foundation. At the time, Rust was already in wide use across Android and other Google products. Our announcement emphasized our commitment to improving the security reviews of Rust code and its interoperability with C++ code. Rust is one of the strongest tools we have to address memory safety security issues. Since that announcement, industry leaders and government agencies have echoed our sentiment. \n\n\nWe are delighted to announce that Google has provided a grant of $1 million to the Rust Foundation to support efforts that will improve the ability of Rust code to interoperate with existing legacy C++ codebases. We’re a…",
-          "link": "http://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html",
-          "publishedOn": "2024-02-05T16:59:00.002Z",
-          "wordCount": 4957,
-          "title": "Improving Interoperability Between Rust and C++",
-          "imageUrl": "http://2.bp.blogspot.com/-7bZ5EziliZQ/VynIS9F7OAI/AAAAAAAASQ0/BJFntXCAntstZe6hQuo5KTrhi5Dyz9yHgCK4B/s1600/googlelogo_color_200x200.png"
         }
       ]
     },
