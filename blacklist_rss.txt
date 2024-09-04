@@ -1,4 +1,9 @@
 https://rdist.root.org/feed/
+http://feeds2.feedburner.com/intheknow-security
+http://blog.sina.com.cn/rss/streethacker.xml
+https://xerub.github.io/feed.xml
+https://blog.attify.com/rss/
+https://rsshub.app/ieee/journal/10206
 http://cnblogs.com/coderzh/rss
 http://blog.csdn.net/nokiaguy/rss/list
 http://ysl-paradise.blogspot.com/feeds/posts/default
