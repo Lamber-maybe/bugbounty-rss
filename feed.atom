@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-04T01:07:40.406Z</id>
+    <id>urn:2024-09-04T10:09:40.650Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-04T01:07:40.406Z</updated>
+    <updated>2024-09-04T10:09:40.650Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -33,6 +33,16 @@
         <summary type="html"><![CDATA[<p>Apache Solr在创建Collection时会以一个特定的目录作为classpath，从中加载一些类，而Collection的备份功能可以导出攻击者上传的恶意class文件到该目录，从而让Solr加载自定义class，造成任意Java代码执行，可以进一步绕过Solr配置的Java沙箱，最终造成任意命令执行。</p>]]></summary>
         <author>
             <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Howto: Use Burp Hackvertor Plugin to Re-sign Requests]]></title>
+        <id>https://www.pmnh.site/post/howto-hackvertor-request-resigning/</id>
+        <link href="https://www.pmnh.site/post/howto-hackvertor-request-resigning/"/>
+        <updated>2024-02-02T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary More and more in modern web applications, particularly sensitive applications such as financial apps, we see the introduction of signature headers which are used to provide some mechanism of tamper-proofing of the request from the client. These signatures can be problematic if using common tools such as Burp Suite or even automated tools such as sqlmap. In this article I describe a technique for recalculating these header values using the excellent Burp Suite plugin Hackvertor and custom tag definitions available in this plugin.]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
         </author>
     </entry>
     <entry>
@@ -197,6 +207,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Mastering Small Scope Programs: A Comprehensive Guide for Bug Hunting]]></title>
+        <id>https://medium.com/p/989c2c9106a4</id>
+        <link href="https://akashhamal0x01.medium.com/mastering-small-scope-programs-a-comprehensive-guide-for-bug-hunting-989c2c9106a4?source=rss-fcc70121c978------2"/>
+        <updated>2023-08-05T18:43:16.000Z</updated>
+        <summary type="html"><![CDATA[Hi there, I hope you all are doing well. This is my 4th writeup here and today i will be discussing how to approach small scope programs…]]></summary>
+        <author>
+            <name>Akash Hamal</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[当无回显RCE碰上Win服务器]]></title>
         <id>https://blog.zgsec.cn/archives/306.html</id>
         <link href="https://blog.zgsec.cn/archives/306.html"/>
@@ -204,6 +224,16 @@
         <summary type="html"><![CDATA[0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，...]]></summary>
         <author>
             <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bug Writeup: Stored XSS to Account Takeover (ATO) via GraphQL API]]></title>
+        <id>https://www.pmnh.site/post/witeup_lhe_graphql_stored_xss/</id>
+        <link href="https://www.pmnh.site/post/witeup_lhe_graphql_stored_xss/"/>
+        <updated>2023-06-29T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stored XSS to Account Takeover (ATO) via GraphQL API Late last year on HackerOne during an LHE (this is only important later due to an extreme time crunch), I found an extremely challenging vulnerability on a major brand's web site involving several layers of exploitation ultimately resulting in a stored XSS payload that was able to take over a victim's account simply by visiting a specific, innocuous page on the brand's main website (www.]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
         </author>
     </entry>
     <entry>
@@ -226,6 +256,17 @@
         <summary type="html"><![CDATA[<p>Nacos默认的7848端口是用于Nacos集群间Raft协议的通信，该端口的服务在处理部分Jraft请求时会使用Hessian进行反序列化</p>]]></summary>
         <author>
             <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CTF Writeup: 2023 DeadSec CTF: Trailblazer]]></title>
+        <id>https://www.pmnh.site/post/ctf-deadsec-2023-trailblazer/</id>
+        <link href="https://www.pmnh.site/post/ctf-deadsec-2023-trailblazer/"/>
+        <updated>2023-05-21T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary One of the things that I love about CTFs is when they provide challenges that don't require knowledge of weird language quirks or obscure exploits or (ugh) guesswork but instead just a clear head and some common sense. Kudos to the designer of the DeadSec 2023 CTF Trailblazer challenge, which offered exactly this type of problem.
+Recon The Trailblazer challenge provided exactly one page to the site and no source code was provided.]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
         </author>
     </entry>
     <entry>
@@ -279,6 +320,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bug Writeup: RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass]]></title>
+        <id>https://www.pmnh.site/post/writeup_spring_el_waf_bypass/</id>
+        <link href="https://www.pmnh.site/post/writeup_spring_el_waf_bypass/"/>
+        <updated>2022-12-04T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary This writeup talks about a successful collab that I did with Dark9T (@UsmanMansha) on a private program hosted on Bugcrowd. We ended up able to bypass Akamai WAF and achieve Remote Code Execution (P1) using Spring Expression Language injection on an application running Spring Boot. This was the 2nd RCE via SSTI we found on this program, after the 1st one, the program implemented a WAF which we were able to bypass in a different part of the application.]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cache Deception Allows Cache Poisoning]]></title>
         <id>https://medium.com/p/250ec69774c8</id>
         <link href="https://bxmbn.medium.com/chaining-cache-deception-poisoning-250ec69774c8?source=rss-7c6bece313a1------2"/>
@@ -296,6 +347,26 @@
         <summary type="html"><![CDATA[Welcome back to my blog. In this post, I’ll explain the REcollapse technique. I’ve been researching it for the last couple of years to discover weirdly simple but impactful vulnerabilities in hardened targets while doing bug bounties and participating in HackerOne LHEs. This technique can be used to perform zero-interaction account takeovers, uncover new bypasses for web application firewalls, and more.]]></summary>
         <author>
             <name>0xacb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2FA Bypass due to information disclosure & Improper access control.]]></title>
+        <id>https://medium.com/p/f9a5a8a4e0af</id>
+        <link href="https://akashhamal0x01.medium.com/2fa-bypass-due-to-information-disclosure-improper-access-control-f9a5a8a4e0af?source=rss-fcc70121c978------2"/>
+        <updated>2022-10-31T08:17:15.000Z</updated>
+        <summary type="html"><![CDATA[Today i will be explaining how i found a 2FA bypass while i was looking for DOS but DOS is possible if the logic isn’t implemented so its worth to look these types of vulnerabilities in…]]></summary>
+        <author>
+            <name>Akash Hamal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflecting on 2 Years of Bug Bounty]]></title>
+        <id>https://www.pmnh.site/post/2022-sep-2-years-bug-bounty/</id>
+        <link href="https://www.pmnh.site/post/2022-sep-2-years-bug-bounty/"/>
+        <updated>2022-09-27T14:21:50.000Z</updated>
+        <summary type="html"><![CDATA[In September 2022, I celebrated 2 years doing bug bounty as the anniversary of my first paid bounty on HackerOne passed. I thought it might be useful to write up some of the lessons learned and some tips and tricks that might help new hunters (things I wish I knew when I started). Bug bounty has been an incredible benefit in my life. It's allowed me the opportunity to achieve a lifestyle of continuous learning as well as transition to a full-time bug bounty career!]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
         </author>
     </entry>
     <entry>
@@ -349,6 +420,17 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[CTF Writeup: 2022 HTB Cyber Apolcalypse Web Challenge: Genesis Wallet]]></title>
+        <id>https://www.pmnh.site/post/ctf-htb-cyber-apolcalypse-web-genesis-wallet/</id>
+        <link href="https://www.pmnh.site/post/ctf-htb-cyber-apolcalypse-web-genesis-wallet/"/>
+        <updated>2022-05-19T19:27:19.000Z</updated>
+        <summary type="html"><![CDATA[Summary Genesis Wallet was one of the harder web challenges in the 2022 Hack the Box (HTB) CTF. Our team composed of Synack Red Team members finished a respectable 21st place, unfortunately we were very close to solving this challenge and literally were about 5 minutes from a successful solve when time expired - so sad!
+Personally I thought this was a very clever challenge and probably one of the best designed web challenges in any CTF I've done to date, so I thought I'd share it with interested readers.]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GitHub Security Lab CTF: CodeQL and Chill]]></title>
         <id>https://l3yx.github.io/2022/05/14/GitHub-Security-Lab-CTF-CodeQL-and-Chill/</id>
         <link href="https://l3yx.github.io/2022/05/14/GitHub-Security-Lab-CTF-CodeQL-and-Chill/"/>
@@ -356,6 +438,47 @@
         <summary type="html"><![CDATA[<p>这是GitHub Security Lab CTF的一道<a href="https://securitylab.github.com/ctf/codeql-and-chill/" target="_blank" rel="noopener">题目</a>，利用CodeQL挖掘<a href="https://securitylab.github.com/advisories/GHSL-2020-028-netflix-titus/" target="_blank" rel="noopener">Netflix Titus服务端模板注入</a>漏洞。</p>]]></summary>
         <author>
             <name>l3yx's blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LuxCal 5.1.x and below Authentication Bypass: CVE-2021-45914, CVE-2021-45915]]></title>
+        <id>https://www.pmnh.site/post/cve-luxcal-2021/</id>
+        <link href="https://www.pmnh.site/post/cve-luxcal-2021/"/>
+        <updated>2022-05-09T17:23:24.000Z</updated>
+        <summary type="html"><![CDATA[Summary In research related to a Synack Red Team client, I was able to discover several authentication bypass issues in the LuxCal web calendar component. The limited details of these issues, which have been resolved by the vendor in version 5.2.0 of the software, are listed below. As an agreement with the vendor, we are releasing very limited information on this bypass. This resulted in the assignment of 2 CVEs from MITRE.]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced sqlmap Case Study]]></title>
+        <id>https://www.pmnh.site/post/advanced-sqlmap-case-study-1/</id>
+        <link href="https://www.pmnh.site/post/advanced-sqlmap-case-study-1/"/>
+        <updated>2022-05-07T03:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary Many new bug bounty hunters will blindly rely on the output of tools to magically find them bugs. As most experienced hunters know, the key to long-term success is to understand how to effectively use the many great tools and fine-tune these tools to achieve results in the form of valuable, challenging bugs.
+Since I joined the Synack Red Team, I have been digging into sqlmap and the intricacies involved in finding SQL injections "in the wild".]]></summary>
+        <author>
+            <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Watch out the links : Account takeover]]></title>
+        <id>https://medium.com/p/32b9315390a7</id>
+        <link href="https://akashhamal0x01.medium.com/watch-out-the-links-account-takeover-32b9315390a7?source=rss-fcc70121c978------2"/>
+        <updated>2022-04-06T02:27:47.000Z</updated>
+        <summary type="html"><![CDATA[This is my second writeup here :), Hope you find enjoy it too!]]></summary>
+        <author>
+            <name>Akash Hamal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Flaw — A Tale of Permanent DOS]]></title>
+        <id>https://medium.com/p/a9ef05181083</id>
+        <link href="https://akashhamal0x01.medium.com/design-flaw-a-tale-of-permanent-dos-a9ef05181083?source=rss-fcc70121c978------2"/>
+        <updated>2022-04-02T17:44:13.000Z</updated>
+        <summary type="html"><![CDATA[This is my first writeup here on medium. Hope you enjoy it :). Feedbacks are always appreciated!]]></summary>
+        <author>
+            <name>Akash Hamal</name>
         </author>
     </entry>
     <entry>

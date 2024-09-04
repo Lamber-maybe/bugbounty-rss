@@ -118,7 +118,7 @@
           "description": "0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...",
           "link": "https://blog.zgsec.cn/archives/608.html",
           "publishedOn": "2024-06-30T11:08:00.000Z",
-          "wordCount": 2489,
+          "wordCount": 2482,
           "title": "内网渗透信息搜集骚姿势",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -128,7 +128,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 720,
+          "wordCount": 723,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -138,7 +138,7 @@
           "description": "1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...",
           "link": "https://blog.zgsec.cn/archives/573.html",
           "publishedOn": "2024-01-01T06:57:17.000Z",
-          "wordCount": 659,
+          "wordCount": 653,
           "title": "感谢，渊龙三周年与龙年展望",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -148,7 +148,7 @@
           "description": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...",
           "link": "https://blog.zgsec.cn/archives/548.html",
           "publishedOn": "2023-12-14T02:39:00.000Z",
-          "wordCount": 756,
+          "wordCount": 749,
           "title": "一周年小记&amp;&amp;那些快乐的技术时光",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -168,7 +168,7 @@
           "description": "比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...",
           "link": "https://blog.zgsec.cn/archives/504.html",
           "publishedOn": "2023-11-12T03:29:00.000Z",
-          "wordCount": 832,
+          "wordCount": 836,
           "title": "2023浙江省大学生网络与信息安全决赛-Misc篇",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -178,7 +178,7 @@
           "description": "如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...",
           "link": "https://blog.zgsec.cn/archives/484.html",
           "publishedOn": "2023-10-21T04:25:00.000Z",
-          "wordCount": 1634,
+          "wordCount": 1635,
           "title": "从零学习AWD比赛指导手册",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -188,7 +188,7 @@
           "description": "0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSu...",
           "link": "https://blog.zgsec.cn/archives/481.html",
           "publishedOn": "2023-10-01T03:02:00.000Z",
-          "wordCount": 797,
+          "wordCount": 800,
           "title": "HaE入门到精通：三条影响你一生的HaE规则",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -198,7 +198,7 @@
           "description": "前言今年很巧，8月23日项目结束后，24号2023成都CCS网络安全大会就召开了。我今年刚好在武汉做项目，想了想，结束直接一个飞机飞往成都，开启了本次成都安全之旅。成都的师傅们都很热情，也结识了...",
           "link": "https://blog.zgsec.cn/archives/320.html",
           "publishedOn": "2023-09-01T06:04:00.000Z",
-          "wordCount": 678,
+          "wordCount": 677,
           "title": "2023成都CCS大会&amp;&amp;补天城市沙龙有感",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -208,7 +208,7 @@
           "description": "0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，...",
           "link": "https://blog.zgsec.cn/archives/306.html",
           "publishedOn": "2023-07-17T10:15:00.000Z",
-          "wordCount": 945,
+          "wordCount": 962,
           "title": "当无回显RCE碰上Win服务器",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         }
@@ -829,6 +829,93 @@
       ]
     },
     {
+      "title": "A developer's notes in the world of security research and bug bounty, by pmnh",
+      "feedUrl": "https://www.pmnh.site/index.xml",
+      "siteUrl": "https://www.pmnh.site/",
+      "articles": [
+        {
+          "id": "https://www.pmnh.site/post/howto-hackvertor-request-resigning/",
+          "author": null,
+          "description": "Summary More and more in modern web applications, particularly sensitive applications such as financial apps, we see the introduction of signature headers which are used to provide some mechanism of tamper-proofing of the request from the client. These signatures can be problematic if using common tools such as Burp Suite or even automated tools such as sqlmap. In this article I describe a technique for recalculating these header values using the excellent Burp Suite plugin Hackvertor and custom tag definitions available in this plugin.",
+          "link": "https://www.pmnh.site/post/howto-hackvertor-request-resigning/",
+          "publishedOn": "2024-02-02T04:00:00.000Z",
+          "wordCount": 1398,
+          "title": "Howto: Use Burp Hackvertor Plugin to Re-sign Requests",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/witeup_lhe_graphql_stored_xss/",
+          "author": null,
+          "description": "Stored XSS to Account Takeover (ATO) via GraphQL API Late last year on HackerOne during an LHE (this is only important later due to an extreme time crunch), I found an extremely challenging vulnerability on a major brand's web site involving several layers of exploitation ultimately resulting in a stored XSS payload that was able to take over a victim's account simply by visiting a specific, innocuous page on the brand's main website (www.",
+          "link": "https://www.pmnh.site/post/witeup_lhe_graphql_stored_xss/",
+          "publishedOn": "2023-06-29T04:00:00.000Z",
+          "wordCount": 3568,
+          "title": "Bug Writeup: Stored XSS to Account Takeover (ATO) via GraphQL API",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/ctf-deadsec-2023-trailblazer/",
+          "author": null,
+          "description": "Summary One of the things that I love about CTFs is when they provide challenges that don't require knowledge of weird language quirks or obscure exploits or (ugh) guesswork but instead just a clear head and some common sense. Kudos to the designer of the DeadSec 2023 CTF Trailblazer challenge, which offered exactly this type of problem.\nRecon The Trailblazer challenge provided exactly one page to the site and no source code was provided.",
+          "link": "https://www.pmnh.site/post/ctf-deadsec-2023-trailblazer/",
+          "publishedOn": "2023-05-21T04:00:00.000Z",
+          "wordCount": 1147,
+          "title": "CTF Writeup: 2023 DeadSec CTF: Trailblazer",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/writeup_spring_el_waf_bypass/",
+          "author": null,
+          "description": "Summary This writeup talks about a successful collab that I did with Dark9T (@UsmanMansha) on a private program hosted on Bugcrowd. We ended up able to bypass Akamai WAF and achieve Remote Code Execution (P1) using Spring Expression Language injection on an application running Spring Boot. This was the 2nd RCE via SSTI we found on this program, after the 1st one, the program implemented a WAF which we were able to bypass in a different part of the application.",
+          "link": "https://www.pmnh.site/post/writeup_spring_el_waf_bypass/",
+          "publishedOn": "2022-12-04T04:00:00.000Z",
+          "wordCount": 2317,
+          "title": "Bug Writeup: RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/2022-sep-2-years-bug-bounty/",
+          "author": null,
+          "description": "In September 2022, I celebrated 2 years doing bug bounty as the anniversary of my first paid bounty on HackerOne passed. I thought it might be useful to write up some of the lessons learned and some tips and tricks that might help new hunters (things I wish I knew when I started). Bug bounty has been an incredible benefit in my life. It's allowed me the opportunity to achieve a lifestyle of continuous learning as well as transition to a full-time bug bounty career!",
+          "link": "https://www.pmnh.site/post/2022-sep-2-years-bug-bounty/",
+          "publishedOn": "2022-09-27T14:21:50.000Z",
+          "wordCount": 1938,
+          "title": "Reflecting on 2 Years of Bug Bounty",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/ctf-htb-cyber-apolcalypse-web-genesis-wallet/",
+          "author": null,
+          "description": "Summary Genesis Wallet was one of the harder web challenges in the 2022 Hack the Box (HTB) CTF. Our team composed of Synack Red Team members finished a respectable 21st place, unfortunately we were very close to solving this challenge and literally were about 5 minutes from a successful solve when time expired - so sad!\nPersonally I thought this was a very clever challenge and probably one of the best designed web challenges in any CTF I've done to date, so I thought I'd share it with interested readers.",
+          "link": "https://www.pmnh.site/post/ctf-htb-cyber-apolcalypse-web-genesis-wallet/",
+          "publishedOn": "2022-05-19T19:27:19.000Z",
+          "wordCount": 2568,
+          "title": "CTF Writeup: 2022 HTB Cyber Apolcalypse Web Challenge: Genesis Wallet",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/cve-luxcal-2021/",
+          "author": null,
+          "description": "Summary In research related to a Synack Red Team client, I was able to discover several authentication bypass issues in the LuxCal web calendar component. The limited details of these issues, which have been resolved by the vendor in version 5.2.0 of the software, are listed below. As an agreement with the vendor, we are releasing very limited information on this bypass. This resulted in the assignment of 2 CVEs from MITRE.",
+          "link": "https://www.pmnh.site/post/cve-luxcal-2021/",
+          "publishedOn": "2022-05-09T17:23:24.000Z",
+          "wordCount": 464,
+          "title": "LuxCal 5.1.x and below Authentication Bypass: CVE-2021-45914, CVE-2021-45915",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        },
+        {
+          "id": "https://www.pmnh.site/post/advanced-sqlmap-case-study-1/",
+          "author": null,
+          "description": "Summary Many new bug bounty hunters will blindly rely on the output of tools to magically find them bugs. As most experienced hunters know, the key to long-term success is to understand how to effectively use the many great tools and fine-tune these tools to achieve results in the form of valuable, challenging bugs.\nSince I joined the Synack Red Team, I have been digging into sqlmap and the intricacies involved in finding SQL injections \"in the wild\".",
+          "link": "https://www.pmnh.site/post/advanced-sqlmap-case-study-1/",
+          "publishedOn": "2022-05-07T03:07:00.000Z",
+          "wordCount": 1299,
+          "title": "Advanced sqlmap Case Study",
+          "imageUrl": "https://www.pmnh.site/images/thumbnail.png"
+        }
+      ]
+    },
+    {
       "title": "Stories by bombon on Medium",
       "feedUrl": "https://medium.com/feed/@bxmbn",
       "siteUrl": "https://medium.com/@bxmbn?source=rss-7c6bece313a1------2",
@@ -912,6 +999,53 @@
           "wordCount": 1339,
           "title": "How I Made $16,500+ By Hacking Caching Servers — Part 1",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:610/1*pyZEcnS5fLESc8yUS4wbdA.png"
+        }
+      ]
+    },
+    {
+      "title": "Stories by Akash Hamal on Medium",
+      "feedUrl": "https://medium.com/feed/@akashhamal0x01",
+      "siteUrl": "https://medium.com/@akashhamal0x01?source=rss-fcc70121c978------2",
+      "articles": [
+        {
+          "id": "https://medium.com/p/989c2c9106a4",
+          "author": "Akash Hamal",
+          "description": "Hi there, I hope you all are doing well. This is my 4th writeup here and today i will be discussing how to approach small scope programs…",
+          "link": "https://akashhamal0x01.medium.com/mastering-small-scope-programs-a-comprehensive-guide-for-bug-hunting-989c2c9106a4?source=rss-fcc70121c978------2",
+          "publishedOn": "2023-08-05T18:43:16.000Z",
+          "wordCount": 4627,
+          "title": "Mastering Small Scope Programs: A Comprehensive Guide for Bug Hunting",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Q5OPzDQDQIeCSvjV"
+        },
+        {
+          "id": "https://medium.com/p/f9a5a8a4e0af",
+          "author": "Akash Hamal",
+          "description": "Today i will be explaining how i found a 2FA bypass while i was looking for DOS but DOS is possible if the logic isn’t implemented so its worth to look these types of vulnerabilities in…",
+          "link": "https://akashhamal0x01.medium.com/2fa-bypass-due-to-information-disclosure-improper-access-control-f9a5a8a4e0af?source=rss-fcc70121c978------2",
+          "publishedOn": "2022-10-31T08:17:15.000Z",
+          "wordCount": 2308,
+          "title": "2FA Bypass due to information disclosure & Improper access control.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/32b9315390a7",
+          "author": "Akash Hamal",
+          "description": "This is my second writeup here :), Hope you find enjoy it too!",
+          "link": "https://akashhamal0x01.medium.com/watch-out-the-links-account-takeover-32b9315390a7?source=rss-fcc70121c978------2",
+          "publishedOn": "2022-04-06T02:27:47.000Z",
+          "wordCount": 2006,
+          "title": "Watch out the links : Account takeover",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uuW8dj3ltZNEw2R9TTYC3Q.png"
+        },
+        {
+          "id": "https://medium.com/p/a9ef05181083",
+          "author": "Akash Hamal",
+          "description": "This is my first writeup here on medium. Hope you enjoy it :). Feedbacks are always appreciated!",
+          "link": "https://akashhamal0x01.medium.com/design-flaw-a-tale-of-permanent-dos-a9ef05181083?source=rss-fcc70121c978------2",
+          "publishedOn": "2022-04-02T17:44:13.000Z",
+          "wordCount": 2066,
+          "title": "Design Flaw — A Tale of Permanent DOS",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1118/1*17ZRkeLCVtkQJWDnhgtvQw.png"
         }
       ]
     }
