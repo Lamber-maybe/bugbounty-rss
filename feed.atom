@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-10T01:19:43.318Z</id>
+    <id>urn:2024-12-11T01:18:37.788Z</id>
     <title>osmos::feed</title>
-    <updated>2024-12-10T01:19:43.318Z</updated>
+    <updated>2024-12-11T01:18:37.788Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[干货满满之2024广州补天城市沙龙有感]]></title>
+        <id>https://blog.zgsec.cn/archives/613.html</id>
+        <link href="https://blog.zgsec.cn/archives/613.html"/>
+        <updated>2024-12-08T18:16:00.000Z</updated>
+        <summary type="html"><![CDATA[前言哈哈，好久没在博客上面更新文章了，许多朋友（不管是线上还是线下）都在问我是不是不更新博客了，也在催我赶紧更新一下博客的内容，在此也非常感谢各位师傅和朋友的关注和支持~近期不更新博客，原因如下...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[内网渗透信息搜集骚姿势]]></title>
         <id>https://blog.zgsec.cn/archives/608.html</id>
@@ -168,16 +178,6 @@
         <summary type="html"><![CDATA[Hi there, I hope you all are doing well. This is my 4th writeup here and today i will be discussing how to approach small scope programs…]]></summary>
         <author>
             <name>Akash Hamal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[当无回显RCE碰上Win服务器]]></title>
-        <id>https://blog.zgsec.cn/archives/306.html</id>
-        <link href="https://blog.zgsec.cn/archives/306.html"/>
-        <updated>2023-07-17T10:15:00.000Z</updated>
-        <summary type="html"><![CDATA[0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，...]]></summary>
-        <author>
-            <name>AabyssZG</name>
         </author>
     </entry>
     <entry>
