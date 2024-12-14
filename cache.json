@@ -118,7 +118,7 @@
           "description": "前言哈哈，好久没在博客上面更新文章了，许多朋友（不管是线上还是线下）都在问我是不是不更新博客了，也在催我赶紧更新一下博客的内容，在此也非常感谢各位师傅和朋友的关注和支持~近期不更新博客，原因如下...",
           "link": "https://blog.zgsec.cn/archives/613.html",
           "publishedOn": "2024-12-08T18:16:00.000Z",
-          "wordCount": 625,
+          "wordCount": 627,
           "title": "干货满满之2024广州补天城市沙龙有感",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -128,7 +128,7 @@
           "description": "0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...",
           "link": "https://blog.zgsec.cn/archives/608.html",
           "publishedOn": "2024-06-30T11:08:00.000Z",
-          "wordCount": 2494,
+          "wordCount": 2485,
           "title": "内网渗透信息搜集骚姿势",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -138,7 +138,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 708,
+          "wordCount": 716,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -148,7 +148,7 @@
           "description": "1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...",
           "link": "https://blog.zgsec.cn/archives/573.html",
           "publishedOn": "2024-01-01T06:57:17.000Z",
-          "wordCount": 635,
+          "wordCount": 638,
           "title": "感谢，渊龙三周年与龙年展望",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -158,7 +158,7 @@
           "description": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...",
           "link": "https://blog.zgsec.cn/archives/548.html",
           "publishedOn": "2023-12-14T02:39:00.000Z",
-          "wordCount": 738,
+          "wordCount": 746,
           "title": "一周年小记&amp;&amp;那些快乐的技术时光",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -168,7 +168,7 @@
           "description": "0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...",
           "link": "https://blog.zgsec.cn/archives/535.html",
           "publishedOn": "2023-11-25T06:59:00.000Z",
-          "wordCount": 880,
+          "wordCount": 873,
           "title": "一场跨越十年的超时空思维碰撞",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -198,7 +198,7 @@
           "description": "0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSu...",
           "link": "https://blog.zgsec.cn/archives/481.html",
           "publishedOn": "2023-10-01T03:02:00.000Z",
-          "wordCount": 840,
+          "wordCount": 842,
           "title": "HaE入门到精通：三条影响你一生的HaE规则",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -749,7 +749,7 @@
           "description": "@bxmbn",
           "link": "https://bxmbn.medium.com/ultimate-tips-and-tricks-to-find-more-cross-site-scripting-vulnerabilities-d2913765e2d5?source=rss-7c6bece313a1------2",
           "publishedOn": "2022-07-21T18:33:49.000Z",
-          "wordCount": 1284,
+          "wordCount": 1296,
           "title": "Ultimate Tips And Tricks To Find More Cross-Site Scripting Vulnerabilities",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:758/1*sPm13HvSBeFjnoW25KmG8A.png"
         },
@@ -759,7 +759,7 @@
           "description": "@bxmbn",
           "link": "https://bxmbn.medium.com/how-i-test-for-web-cache-vulnerabilities-tips-and-tricks-9b138da08ff9?source=rss-7c6bece313a1------2",
           "publishedOn": "2022-07-21T17:36:29.000Z",
-          "wordCount": 1906,
+          "wordCount": 1918,
           "title": "How I Test For Web Cache Vulnerabilities + Tips And Tricks",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:872/1*HbGT77z4KQVj4kEgCNLevA.png"
         },
@@ -806,7 +806,7 @@
           "description": "Hi there, I hope you all are doing well. This is my 4th writeup here and today i will be discussing how to approach small scope programs…",
           "link": "https://akashhamal0x01.medium.com/mastering-small-scope-programs-a-comprehensive-guide-for-bug-hunting-989c2c9106a4?source=rss-fcc70121c978------2",
           "publishedOn": "2023-08-05T18:43:16.000Z",
-          "wordCount": 4655,
+          "wordCount": 4667,
           "title": "Mastering Small Scope Programs: A Comprehensive Guide for Bug Hunting",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Q5OPzDQDQIeCSvjV"
         },
@@ -826,7 +826,7 @@
           "description": "This is my second writeup here :), Hope you find enjoy it too!",
           "link": "https://akashhamal0x01.medium.com/watch-out-the-links-account-takeover-32b9315390a7?source=rss-fcc70121c978------2",
           "publishedOn": "2022-04-06T02:27:47.000Z",
-          "wordCount": 2034,
+          "wordCount": 2046,
           "title": "Watch out the links : Account takeover",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*uuW8dj3ltZNEw2R9TTYC3Q.png"
         },
