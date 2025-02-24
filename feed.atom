@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-23T01:17:28.523Z</id>
+    <id>urn:2025-02-24T01:14:44.476Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-23T01:17:28.523Z</updated>
+    <updated>2025-02-24T01:14:44.476Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Let’s Talk About Encryption And IDORs(Yes, IDOR,s Again)— @bxmbn]]></title>
+        <id>https://medium.com/p/911bfb7a2de3</id>
+        <link href="https://bxmbn.medium.com/lets-talk-about-encryption-and-idors-yes-idor-s-again-bxmbn-911bfb7a2de3?source=rss-7c6bece313a1------2"/>
+        <updated>2025-02-23T20:54:07.000Z</updated>
+        <summary type="html"><![CDATA[Imagine a system designed to protect sensitive user data — like insurance policies — only to have a single misstep turn it into an open…]]></summary>
+        <author>
+            <name>bombon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hijacking Sessions with IDOR and XSS— @bxmbn]]></title>
+        <id>https://medium.com/p/396f99761a85</id>
+        <link href="https://bxmbn.medium.com/hijacking-sessions-with-idor-and-xss-bxmbn-396f99761a85?source=rss-7c6bece313a1------2"/>
+        <updated>2025-02-23T19:59:50.000Z</updated>
+        <summary type="html"><![CDATA[Picture a platform designed to handle sensitive documentation — think insurance claims or identity verification — turning into a goldmine…]]></summary>
+        <author>
+            <name>bombon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bank offer IDOR Fix Bypassed: How I Accessed Unauthorized Offers and Secured a $10,000 Bounty —…]]></title>
+        <id>https://medium.com/p/41052b31a2fc</id>
+        <link href="https://bxmbn.medium.com/bank-offer-idor-fix-bypassed-how-i-accessed-unauthorized-offers-and-secured-a-10-000-bounty-41052b31a2fc?source=rss-7c6bece313a1------2"/>
+        <updated>2025-02-23T17:54:29.000Z</updated>
+        <summary type="html"><![CDATA[I discovered a new weakness in the offer retrieval functionality that allows an attacker to access unauthorized offers. This issue is bypassing the previous fix, which was based on the vulnerability…]]></summary>
+        <author>
+            <name>bombon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bypassing HackerOne 2FA due to race condition.]]></title>
+        <id>https://medium.com/p/8afe2dbff7c9</id>
+        <link href="https://akashhamal0x01.medium.com/bypassing-hackerone-2fa-due-to-race-condition-8afe2dbff7c9?source=rss-fcc70121c978------2"/>
+        <updated>2025-02-23T09:56:53.000Z</updated>
+        <summary type="html"><![CDATA[I hope you all are doing well :)]]></summary>
+        <author>
+            <name>Akash Hamal</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[干货满满之2024广州补天城市沙龙有感]]></title>
         <id>https://blog.zgsec.cn/archives/613.html</id>
@@ -385,16 +425,6 @@ Since I joined the Synack Red Team, I have been digging into sqlmap and the intr
         <id>https://medium.com/p/4995ece4c6e6</id>
         <link href="https://infosecwriteups.com/how-i-made-16-500-hacking-cdn-caching-servers-part-2-4995ece4c6e6?source=rss-7c6bece313a1------2"/>
         <updated>2022-01-29T18:27:58.000Z</updated>
-        <summary type="html"><![CDATA[@bxmbn]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Made $16,500+ By Hacking Caching Servers — Part 1]]></title>
-        <id>https://medium.com/p/5541712a61c3</id>
-        <link href="https://infosecwriteups.com/how-i-made-15-000-by-hacking-caching-servers-part-1-5541712a61c3?source=rss-7c6bece313a1------2"/>
-        <updated>2022-01-29T18:27:56.000Z</updated>
         <summary type="html"><![CDATA[@bxmbn]]></summary>
         <author>
             <name>bombon</name>
