@@ -128,7 +128,7 @@
           "description": "0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...",
           "link": "https://blog.zgsec.cn/archives/608.html",
           "publishedOn": "2024-06-30T11:08:00.000Z",
-          "wordCount": 2479,
+          "wordCount": 2491,
           "title": "内网渗透信息搜集骚姿势",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -138,7 +138,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 710,
+          "wordCount": 706,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -168,7 +168,7 @@
           "description": "0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...",
           "link": "https://blog.zgsec.cn/archives/535.html",
           "publishedOn": "2023-11-25T06:59:00.000Z",
-          "wordCount": 870,
+          "wordCount": 878,
           "title": "一场跨越十年的超时空思维碰撞",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -178,7 +178,7 @@
           "description": "比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...",
           "link": "https://blog.zgsec.cn/archives/504.html",
           "publishedOn": "2023-11-12T03:29:00.000Z",
-          "wordCount": 892,
+          "wordCount": 891,
           "title": "2023浙江省大学生网络与信息安全决赛-Misc篇",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -208,7 +208,7 @@
           "description": "前言今年很巧，8月23日项目结束后，24号2023成都CCS网络安全大会就召开了。我今年刚好在武汉做项目，想了想，结束直接一个飞机飞往成都，开启了本次成都安全之旅。成都的师傅们都很热情，也结识了...",
           "link": "https://blog.zgsec.cn/archives/320.html",
           "publishedOn": "2023-09-01T06:04:00.000Z",
-          "wordCount": 679,
+          "wordCount": 669,
           "title": "2023成都CCS大会&amp;&amp;补天城市沙龙有感",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         }
@@ -826,7 +826,7 @@
           "description": "I hope you all are doing well :)",
           "link": "https://akashhamal0x01.medium.com/bypassing-hackerone-2fa-due-to-race-condition-8afe2dbff7c9?source=rss-fcc70121c978------2",
           "publishedOn": "2025-02-23T09:56:53.000Z",
-          "wordCount": 1919,
+          "wordCount": 1922,
           "title": "Bypassing HackerOne 2FA due to race condition.",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*nOB2NH1ItCfH7nLgeTTM1w.png"
         },
