@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-11T01:15:44.315Z</id>
+    <id>urn:2025-03-12T01:14:59.502Z</id>
     <title>osmos::feed</title>
-    <updated>2025-03-11T01:15:44.315Z</updated>
+    <updated>2025-03-12T01:14:59.502Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -13,46 +13,6 @@
         <summary type="html"><![CDATA[{bilibili bvid="BV19T9gY4ETm" page=""/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站...]]></summary>
         <author>
             <name>AabyssZG</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let’s Talk About Encryption And IDORs(Yes, IDOR,s Again)— @bxmbn]]></title>
-        <id>https://medium.com/p/911bfb7a2de3</id>
-        <link href="https://bxmbn.medium.com/lets-talk-about-encryption-and-idors-yes-idor-s-again-bxmbn-911bfb7a2de3?source=rss-7c6bece313a1------2"/>
-        <updated>2025-02-23T20:54:07.000Z</updated>
-        <summary type="html"><![CDATA[Imagine a system designed to protect sensitive user data — like insurance policies — only to have a single misstep turn it into an open…]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hijacking Sessions with IDOR and XSS— @bxmbn]]></title>
-        <id>https://medium.com/p/396f99761a85</id>
-        <link href="https://bxmbn.medium.com/hijacking-sessions-with-idor-and-xss-bxmbn-396f99761a85?source=rss-7c6bece313a1------2"/>
-        <updated>2025-02-23T19:59:50.000Z</updated>
-        <summary type="html"><![CDATA[Picture a platform designed to handle sensitive documentation — think insurance claims or identity verification — turning into a goldmine…]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bank offer IDOR Fix Bypassed: How I Accessed Unauthorized Offers and Secured a $10,000 Bounty —…]]></title>
-        <id>https://medium.com/p/41052b31a2fc</id>
-        <link href="https://bxmbn.medium.com/bank-offer-idor-fix-bypassed-how-i-accessed-unauthorized-offers-and-secured-a-10-000-bounty-41052b31a2fc?source=rss-7c6bece313a1------2"/>
-        <updated>2025-02-23T17:54:29.000Z</updated>
-        <summary type="html"><![CDATA[I discovered a new weakness in the offer retrieval functionality that allows an attacker to access unauthorized offers. This issue is bypassing the previous fix, which was based on the vulnerability…]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bypassing HackerOne 2FA due to race condition.]]></title>
-        <id>https://medium.com/p/8afe2dbff7c9</id>
-        <link href="https://akashhamal0x01.medium.com/bypassing-hackerone-2fa-due-to-race-condition-8afe2dbff7c9?source=rss-fcc70121c978------2"/>
-        <updated>2025-02-23T09:56:53.000Z</updated>
-        <summary type="html"><![CDATA[I hope you all are doing well :)]]></summary>
-        <author>
-            <name>Akash Hamal</name>
         </author>
     </entry>
     <entry>
@@ -93,26 +53,6 @@
         <summary type="html"><![CDATA[Summary More and more in modern web applications, particularly sensitive applications such as financial apps, we see the introduction of signature headers which are used to provide some mechanism of tamper-proofing of the request from the client. These signatures can be problematic if using common tools such as Burp Suite or even automated tools such as sqlmap. In this article I describe a technique for recalculating these header values using the excellent Burp Suite plugin Hackvertor and custom tag definitions available in this plugin.]]></summary>
         <author>
             <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I received a Bank offer in my mailbox and discovered an IDOR vulnerability - $5,000 bounty - @bxmbn]]></title>
-        <id>https://medium.com/p/5209cab1fba8</id>
-        <link href="https://bxmbn.medium.com/i-received-a-bank-offer-in-my-mailbox-and-discovered-an-idor-vulnerability-5-000-bounty-bxmbn-5209cab1fba8?source=rss-7c6bece313a1------2"/>
-        <updated>2024-01-05T00:00:03.000Z</updated>
-        <summary type="html"><![CDATA[In October 2023, I opened a bank account with the hope of uncovering any vulnerabilities. I had tested this bank program before, however I…]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Prevented a Mass Data Breach - $15,000 bounty - @bxmbn]]></title>
-        <id>https://medium.com/p/1096e6400e3d</id>
-        <link href="https://bxmbn.medium.com/how-i-prevented-a-mass-data-breach-15-000-bounty-bxmbn-1096e6400e3d?source=rss-7c6bece313a1------2"/>
-        <updated>2024-01-05T00:00:01.000Z</updated>
-        <summary type="html"><![CDATA[In July 2023, I received an invite of a significant bug bounty program, with massive assets in-scope, my approach mirrored what I typically]]></summary>
-        <author>
-            <name>bombon</name>
         </author>
     </entry>
     <entry>
@@ -211,16 +151,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mastering Small Scope Programs: A Comprehensive Guide for Bug Hunting]]></title>
-        <id>https://medium.com/p/989c2c9106a4</id>
-        <link href="https://akashhamal0x01.medium.com/mastering-small-scope-programs-a-comprehensive-guide-for-bug-hunting-989c2c9106a4?source=rss-fcc70121c978------2"/>
-        <updated>2023-08-05T18:43:16.000Z</updated>
-        <summary type="html"><![CDATA[Hi there, I hope you all are doing well. This is my 4th writeup here and today i will be discussing how to approach small scope programs…]]></summary>
-        <author>
-            <name>Akash Hamal</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Bug Writeup: Stored XSS to Account Takeover (ATO) via GraphQL API]]></title>
         <id>https://www.pmnh.site/post/witeup_lhe_graphql_stored_xss/</id>
         <link href="https://www.pmnh.site/post/witeup_lhe_graphql_stored_xss/"/>
@@ -262,16 +192,6 @@ Recon The Trailblazer challenge provided exactly one page to the site and no sou
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cache Deception Allows Cache Poisoning]]></title>
-        <id>https://medium.com/p/250ec69774c8</id>
-        <link href="https://bxmbn.medium.com/chaining-cache-deception-poisoning-250ec69774c8?source=rss-7c6bece313a1------2"/>
-        <updated>2022-12-01T07:44:43.000Z</updated>
-        <summary type="html"><![CDATA[@bxmbn]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Till REcollapse]]></title>
         <id>https://0xacb.com/2022/11/21/recollapse/</id>
         <link href="https://0xacb.com/2022/11/21/recollapse/"/>
@@ -279,16 +199,6 @@ Recon The Trailblazer challenge provided exactly one page to the site and no sou
         <summary type="html"><![CDATA[Welcome back to my blog. In this post, I’ll explain the REcollapse technique. I’ve been researching it for the last couple of years to discover weirdly simple but impactful vulnerabilities in hardened targets while doing bug bounties and participating in HackerOne LHEs. This technique can be used to perform zero-interaction account takeovers, uncover new bypasses for web application firewalls, and more.]]></summary>
         <author>
             <name>0xacb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2FA Bypass due to information disclosure & Improper access control.]]></title>
-        <id>https://medium.com/p/f9a5a8a4e0af</id>
-        <link href="https://akashhamal0x01.medium.com/2fa-bypass-due-to-information-disclosure-improper-access-control-f9a5a8a4e0af?source=rss-fcc70121c978------2"/>
-        <updated>2022-10-31T08:17:15.000Z</updated>
-        <summary type="html"><![CDATA[Today i will be explaining how i found a 2FA bypass while i was looking for DOS but DOS is possible if the logic isn’t implemented so its worth to look these types of vulnerabilities in…]]></summary>
-        <author>
-            <name>Akash Hamal</name>
         </author>
     </entry>
     <entry>
@@ -339,26 +249,6 @@ Recon The Trailblazer challenge provided exactly one page to the site and no sou
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ultimate Tips And Tricks To Find More Cross-Site Scripting Vulnerabilities]]></title>
-        <id>https://medium.com/p/d2913765e2d5</id>
-        <link href="https://bxmbn.medium.com/ultimate-tips-and-tricks-to-find-more-cross-site-scripting-vulnerabilities-d2913765e2d5?source=rss-7c6bece313a1------2"/>
-        <updated>2022-07-21T18:33:49.000Z</updated>
-        <summary type="html"><![CDATA[@bxmbn]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Test For Web Cache Vulnerabilities + Tips And Tricks]]></title>
-        <id>https://medium.com/p/9b138da08ff9</id>
-        <link href="https://bxmbn.medium.com/how-i-test-for-web-cache-vulnerabilities-tips-and-tricks-9b138da08ff9?source=rss-7c6bece313a1------2"/>
-        <updated>2022-07-21T17:36:29.000Z</updated>
-        <summary type="html"><![CDATA[@bxmbn]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CTF Writeup: 2022 HTB Cyber Apolcalypse Web Challenge: Genesis Wallet]]></title>
         <id>https://www.pmnh.site/post/ctf-htb-cyber-apolcalypse-web-genesis-wallet/</id>
         <link href="https://www.pmnh.site/post/ctf-htb-cyber-apolcalypse-web-genesis-wallet/"/>
@@ -388,46 +278,6 @@ Personally I thought this was a very clever challenge and probably one of the be
 Since I joined the Synack Red Team, I have been digging into sqlmap and the intricacies involved in finding SQL injections "in the wild".]]></summary>
         <author>
             <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watch out the links : Account takeover]]></title>
-        <id>https://medium.com/p/32b9315390a7</id>
-        <link href="https://akashhamal0x01.medium.com/watch-out-the-links-account-takeover-32b9315390a7?source=rss-fcc70121c978------2"/>
-        <updated>2022-04-06T02:27:47.000Z</updated>
-        <summary type="html"><![CDATA[This is my second writeup here :), Hope you find enjoy it too!]]></summary>
-        <author>
-            <name>Akash Hamal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design Flaw — A Tale of Permanent DOS]]></title>
-        <id>https://medium.com/p/a9ef05181083</id>
-        <link href="https://akashhamal0x01.medium.com/design-flaw-a-tale-of-permanent-dos-a9ef05181083?source=rss-fcc70121c978------2"/>
-        <updated>2022-04-02T17:44:13.000Z</updated>
-        <summary type="html"><![CDATA[This is my first writeup here on medium. Hope you enjoy it :). Feedbacks are always appreciated!]]></summary>
-        <author>
-            <name>Akash Hamal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Made +$16,500 Hacking CDN Caching Servers — Part 3]]></title>
-        <id>https://medium.com/p/91f9d836e046</id>
-        <link href="https://infosecwriteups.com/how-i-made-16-500-hacking-cdn-caching-servers-part-3-91f9d836e046?source=rss-7c6bece313a1------2"/>
-        <updated>2022-01-29T18:27:59.000Z</updated>
-        <summary type="html"><![CDATA[@bxmbn]]></summary>
-        <author>
-            <name>bombon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Made +$16,500 Hacking CDN Caching Servers — Part 2]]></title>
-        <id>https://medium.com/p/4995ece4c6e6</id>
-        <link href="https://infosecwriteups.com/how-i-made-16-500-hacking-cdn-caching-servers-part-2-4995ece4c6e6?source=rss-7c6bece313a1------2"/>
-        <updated>2022-01-29T18:27:58.000Z</updated>
-        <summary type="html"><![CDATA[@bxmbn]]></summary>
-        <author>
-            <name>bombon</name>
         </author>
     </entry>
     <entry>
