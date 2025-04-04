@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-03T01:17:42.954Z</id>
+    <id>urn:2025-04-04T01:17:32.063Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-03T01:17:42.954Z</updated>
+    <updated>2025-04-04T01:17:32.063Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[从CVE-2025-30208看任意文件读取利用]]></title>
+        <id>https://blog.zgsec.cn/archives/713.html</id>
+        <link href="https://blog.zgsec.cn/archives/713.html"/>
+        <updated>2025-03-30T07:01:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【白帽访谈录】云安全将成为未来安全研究主战场-会议纪要]]></title>
         <id>https://blog.zgsec.cn/archives/711.html</id>
@@ -136,16 +146,6 @@
         <link href="https://blog.zgsec.cn/archives/484.html"/>
         <updated>2023-10-21T04:25:00.000Z</updated>
         <summary type="html"><![CDATA[如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...]]></summary>
-        <author>
-            <name>AabyssZG</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HaE入门到精通：三条影响你一生的HaE规则]]></title>
-        <id>https://blog.zgsec.cn/archives/481.html</id>
-        <link href="https://blog.zgsec.cn/archives/481.html"/>
-        <updated>2023-10-01T03:02:00.000Z</updated>
-        <summary type="html"><![CDATA[0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSu...]]></summary>
         <author>
             <name>AabyssZG</name>
         </author>
