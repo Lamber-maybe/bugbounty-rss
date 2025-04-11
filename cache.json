@@ -118,7 +118,7 @@
           "description": "0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...",
           "link": "https://blog.zgsec.cn/archives/713.html",
           "publishedOn": "2025-03-30T07:01:00.000Z",
-          "wordCount": 777,
+          "wordCount": 771,
           "title": "从CVE-2025-30208看任意文件读取利用",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -158,7 +158,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 721,
+          "wordCount": 715,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -178,7 +178,7 @@
           "description": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...",
           "link": "https://blog.zgsec.cn/archives/548.html",
           "publishedOn": "2023-12-14T02:39:00.000Z",
-          "wordCount": 742,
+          "wordCount": 745,
           "title": "一周年小记&amp;&amp;那些快乐的技术时光",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -188,7 +188,7 @@
           "description": "0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...",
           "link": "https://blog.zgsec.cn/archives/535.html",
           "publishedOn": "2023-11-25T06:59:00.000Z",
-          "wordCount": 881,
+          "wordCount": 874,
           "title": "一场跨越十年的超时空思维碰撞",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -585,7 +585,7 @@
           "description": "什么是OAuth2.0？\nOAuth2.0是OAuth协议的下一版本，但不向后兼容OAuth 1.0即完全废止了OAuth1.0。 OAuth 2.0关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程。2012年10月，OAuth 2.0协议正式发布为RFC 6749 。\nRFC 6749 : https://tools.ietf.org/html/rfc6749\nQQ OAuth2.0 流程分析&攻击\n国内的很多厂商使用了OAuth2.0的认证方式，这里以QQ为例。\nQQ互联 : https://connect.qq.com/intro/login\n相信大家在很多网站上都见过如下的登陆界面：\n\n可以看见除了厂商本身网站的账号以外还有QQ跟微信这两个快捷登陆，首先以QQ的快捷登陆为例子：\n点击QQ图标进入登陆的链接 -> https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=100273020&redirect_uri=http://a.com/?view=null&uuid=65392bc3fc724fca8dcba23558f67ec8\n\n这里因为我的QQ是在电脑上已经登陆了，所以我可以直接进行登陆，这时候进行抓包截取整个流程，\n关键流程分析\nRequest 1：\n\nPOST /oauth2.0/authorize HTTP/1.1\nHost: graph.qq.com\n\n\n1 Response：\n\nHTTP/1.1 302 Moved Temporarily\nServer: tws\nDate: Fr…",
           "link": "https://gh0st.cn/archives/2018-02-12/1",
           "publishedOn": "2018-02-11T16:00:00.000Z",
-          "wordCount": 343,
+          "wordCount": 342,
           "title": "OAuth2.0认证缺陷-第三方帐号快捷登录授权劫持漏洞",
           "imageUrl": null
         },
