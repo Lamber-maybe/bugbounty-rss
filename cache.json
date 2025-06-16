@@ -118,7 +118,7 @@
           "description": "0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...",
           "link": "https://blog.zgsec.cn/archives/713.html",
           "publishedOn": "2025-03-30T07:01:00.000Z",
-          "wordCount": 823,
+          "wordCount": 819,
           "title": "从CVE-2025-30208看任意文件读取利用",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -128,7 +128,7 @@
           "description": "{bilibili bvid=\"BV19T9gY4ETm\" page=\"\"/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站...",
           "link": "https://blog.zgsec.cn/archives/711.html",
           "publishedOn": "2025-02-28T13:39:00.000Z",
-          "wordCount": 800,
+          "wordCount": 804,
           "title": "【白帽访谈录】云安全将成为未来安全研究主战场-会议纪要",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -148,7 +148,7 @@
           "description": "0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...",
           "link": "https://blog.zgsec.cn/archives/608.html",
           "publishedOn": "2024-06-30T11:08:00.000Z",
-          "wordCount": 2511,
+          "wordCount": 2520,
           "title": "内网渗透信息搜集骚姿势",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -158,7 +158,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 732,
+          "wordCount": 746,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -178,7 +178,7 @@
           "description": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...",
           "link": "https://blog.zgsec.cn/archives/548.html",
           "publishedOn": "2023-12-14T02:39:00.000Z",
-          "wordCount": 770,
+          "wordCount": 768,
           "title": "一周年小记&amp;&amp;那些快乐的技术时光",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
