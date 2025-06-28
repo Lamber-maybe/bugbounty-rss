@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-06-27T01:26:06.495Z</id>
+    <id>urn:2025-06-28T01:23:18.373Z</id>
     <title>osmos::feed</title>
-    <updated>2025-06-27T01:26:06.495Z</updated>
+    <updated>2025-06-28T01:23:18.373Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AI for Ethical Hacking]]></title>
+        <id>https://0xacb.com/2025/06/27/ai-for-ethical-hacking-workshop/</id>
+        <link href="https://0xacb.com/2025/06/27/ai-for-ethical-hacking-workshop/"/>
+        <updated>2025-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Please check the blog post here: https://blog.ethiack.com/blog/dont-fear-the-ai-reaper-using-llms-to-hack-better-and-faster]]></summary>
+        <author>
+            <name>0xacb</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从CVE-2025-30208看任意文件读取利用]]></title>
         <id>https://blog.zgsec.cn/archives/713.html</id>
@@ -1893,16 +1903,6 @@ ClickJacking是一种视觉欺骗攻击手段，在web端就是iframe嵌套一�
         <link href="https://0xacb.com/2017/07/16/h1702-ctf/"/>
         <updated>2017-07-16T08:15:56.000Z</updated>
         <summary type="html"><![CDATA[<div type="html"/>]]></summary>
-        <author>
-            <name>0xacb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google CTF - Writeup]]></title>
-        <id>https://0xacb.com/2017/06/25/google-ctf-food/</id>
-        <link href="https://0xacb.com/2017/06/25/google-ctf-food/"/>
-        <updated>2017-06-25T08:15:56.000Z</updated>
-        <summary type="html"><![CDATA[This was the first challenge I solved while playing Google CTF, worth 191 points. In this writeup I’ll explain how I solved it, using both static and dynamic analysis techniques.]]></summary>
         <author>
             <name>0xacb</name>
         </author>
