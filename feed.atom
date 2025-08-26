@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-08-25T01:24:38.658Z</id>
+    <id>urn:2025-08-26T01:21:49.090Z</id>
     <title>osmos::feed</title>
-    <updated>2025-08-25T01:24:38.658Z</updated>
+    <updated>2025-08-26T01:21:49.090Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -16,6 +16,56 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[从CVE-2025-30208看任意文件读取利用]]></title>
+        <id>https://blog.zgsec.cn/archives/713.html</id>
+        <link href="https://blog.zgsec.cn/archives/713.html"/>
+        <updated>2025-03-30T07:01:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【白帽访谈录】云安全将成为未来安全研究主战场-会议纪要]]></title>
+        <id>https://blog.zgsec.cn/archives/711.html</id>
+        <link href="https://blog.zgsec.cn/archives/711.html"/>
+        <updated>2025-02-28T13:39:00.000Z</updated>
+        <summary type="html"><![CDATA[{bilibili bvid="BV19T9gY4ETm" page=""/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[干货满满之2024广州补天城市沙龙有感]]></title>
+        <id>https://blog.zgsec.cn/archives/613.html</id>
+        <link href="https://blog.zgsec.cn/archives/613.html"/>
+        <updated>2024-12-08T18:16:00.000Z</updated>
+        <summary type="html"><![CDATA[前言哈哈，好久没在博客上面更新文章了，许多朋友（不管是线上还是线下）都在问我是不是不更新博客了，也在催我赶紧更新一下博客的内容，在此也非常感谢各位师傅和朋友的关注和支持~近期不更新博客，原因如下...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内网渗透信息搜集骚姿势]]></title>
+        <id>https://blog.zgsec.cn/archives/608.html</id>
+        <link href="https://blog.zgsec.cn/archives/608.html"/>
+        <updated>2024-06-30T11:08:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[52PoJie论坛2024春节红包-Web解题思路]]></title>
+        <id>https://blog.zgsec.cn/archives/577.html</id>
+        <link href="https://blog.zgsec.cn/archives/577.html"/>
+        <updated>2024-02-19T02:39:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Howto: Use Burp Hackvertor Plugin to Re-sign Requests]]></title>
         <id>https://www.pmnh.site/post/howto-hackvertor-request-resigning/</id>
         <link href="https://www.pmnh.site/post/howto-hackvertor-request-resigning/"/>
@@ -23,6 +73,16 @@
         <summary type="html"><![CDATA[Summary More and more in modern web applications, particularly sensitive applications such as financial apps, we see the introduction of signature headers which are used to provide some mechanism of tamper-proofing of the request from the client. These signatures can be problematic if using common tools such as Burp Suite or even automated tools such as sqlmap. In this article I describe a technique for recalculating these header values using the excellent Burp Suite plugin Hackvertor and custom tag definitions available in this plugin.]]></summary>
         <author>
             <name>A developer's notes in the world of security research and bug bounty, by pmnh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[感谢，渊龙三周年与龙年展望]]></title>
+        <id>https://blog.zgsec.cn/archives/573.html</id>
+        <link href="https://blog.zgsec.cn/archives/573.html"/>
+        <updated>2024-01-01T06:57:17.000Z</updated>
+        <summary type="html"><![CDATA[1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...]]></summary>
+        <author>
+            <name>AabyssZG</name>
         </author>
     </entry>
     <entry>
@@ -58,6 +118,46 @@
 这类问题很经典，在以往就有许多案例（wooyun-2015-…]]></summary>
         <author>
             <name>Chen's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一周年小记&amp;&amp;那些快乐的技术时光]]></title>
+        <id>https://blog.zgsec.cn/archives/548.html</id>
+        <link href="https://blog.zgsec.cn/archives/548.html"/>
+        <updated>2023-12-14T02:39:00.000Z</updated>
+        <summary type="html"><![CDATA[1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一场跨越十年的超时空思维碰撞]]></title>
+        <id>https://blog.zgsec.cn/archives/535.html</id>
+        <link href="https://blog.zgsec.cn/archives/535.html"/>
+        <updated>2023-11-25T06:59:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023浙江省大学生网络与信息安全决赛-Misc篇]]></title>
+        <id>https://blog.zgsec.cn/archives/504.html</id>
+        <link href="https://blog.zgsec.cn/archives/504.html"/>
+        <updated>2023-11-12T03:29:00.000Z</updated>
+        <summary type="html"><![CDATA[比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从零学习AWD比赛指导手册]]></title>
+        <id>https://blog.zgsec.cn/archives/484.html</id>
+        <link href="https://blog.zgsec.cn/archives/484.html"/>
+        <updated>2023-10-21T04:25:00.000Z</updated>
+        <summary type="html"><![CDATA[如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...]]></summary>
+        <author>
+            <name>AabyssZG</name>
         </author>
     </entry>
     <entry>
