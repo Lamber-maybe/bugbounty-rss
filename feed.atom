@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-12-01T01:48:07.031Z</id>
+    <id>urn:2025-12-02T01:24:54.711Z</id>
     <title>osmos::feed</title>
-    <updated>2025-12-01T01:48:07.031Z</updated>
+    <updated>2025-12-02T01:24:54.711Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[信息搜集之边缘资产和隐形资产的发掘]]></title>
+        <id>https://blog.zgsec.cn/archives/729.html</id>
+        <link href="https://blog.zgsec.cn/archives/729.html"/>
+        <updated>2025-11-30T04:10:51.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述0.1 本文原创首发于国家网络空间云安全社区一眨眼的时间，马上就要过年了，不知道大家今年都过得如何？近期有不少师傅在抖音咨询我，问我说：常规的漏洞原理和利用都捻熟于心，但是为什么在SR...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI for Ethical Hacking]]></title>
         <id>https://0xacb.com/2025/06/27/ai-for-ethical-hacking-workshop/</id>
@@ -200,16 +210,6 @@
         <link href="https://blog.zgsec.cn/archives/504.html"/>
         <updated>2023-11-12T03:29:00.000Z</updated>
         <summary type="html"><![CDATA[比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...]]></summary>
-        <author>
-            <name>AabyssZG</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从零学习AWD比赛指导手册]]></title>
-        <id>https://blog.zgsec.cn/archives/484.html</id>
-        <link href="https://blog.zgsec.cn/archives/484.html"/>
-        <updated>2023-10-21T04:25:00.000Z</updated>
-        <summary type="html"><![CDATA[如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你...]]></summary>
         <author>
             <name>AabyssZG</name>
         </author>
