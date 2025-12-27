@@ -106,9 +106,43 @@
           <br>
           <h3>BugBounty & Research ＠RSS</h3>
           学无止尽<br>
-          最近更新：<time class="js-relative-time" datetime="2025-12-26T01:27:44.567Z">2025-12-26T01:27:44.567Z</time>
+          最近更新：<time class="js-relative-time" datetime="2025-12-27T01:25:52.235Z">2025-12-27T01:25:52.235Z</time>
           <br>
           <ul>
+              <section class="day-container">
+                <div>
+                  <div class="date">2025-12-25</div>
+                  <div>
+
+                    <article>
+                      <h6><a href=https://gh0st.cn/archives/2025-12-26/1>黑盒视角下的 WebView 漏洞面探索</a></h6>
+                      <div><b>
+                          <span><a href=https://gh0st.cn>Chen&#x27;s Blog</a></span> |
+                          <span>更新日期: <time class="jst-iso-time" datetime="2025-12-25T16:00:00.000Z">2025-12-25T16:00:00.000Z</time></span> |
+                          <span>预计阅读时间: <time>2 min</time></span> |
+                          <span>字数: <time>549</time></span>
+                        </b>
+                      </div>
+                      <p>黑盒视角下的 WebView 漏洞面探索
+前言
+本文主要记录了在移动端探索 WebView 组件漏洞的过程，采用黑盒视角，摒弃复杂繁琐的内部逻辑分析，专注于快速且直接的漏洞挖掘方法。由于笔者才疏学浅，因此本文难免会出现一些文笔不通或专业解释不到位的情况，还望多包涵及斧正。
+WebView 组件
+介绍
+顾名思义，WebView 组件是用于在应用程序中嵌入和展示 Web 内容的系统组件。通过调用 WebView，开发者能够实现在自己的应用中直接渲染网页，这从某种程度上极大地简化了跨平台应用的开发流程。利用 WebView，开发者只需进行少量适配工作，即可将现有的 Web 应用无缝移植到移动应用环境中，显著提升了开发效率和灵活性。
+场景
+WebView 组件实际上无处不在。例如，在手机上打开一个商城 APP 时，展示的商品信息可能本质上就是通过 WebView 加载和渲染的网页。在这些实际应用场景中，用户通常不会察觉到 WebView 的存在，并且所有显示的信息可能都是由 APP 预先配置好的。
+漏洞入口
+要想让用户手机上的 APP 调用 WebView 组件对自定义页面进行渲染，方法主要分为两种：第一类是国内常见的二维码扫码，通过扫描一个指向网页链接的二维码，从而直接调用 WebView 加载特定网页；第二类是 APP 间的跳转调用，即 URL Scheme（在安卓上也称为 Deep Link），通过这种方式可以从一个 APP 直接跳转到另一个 APP 中的特定页面，而这个页面同样可能是通过 WebView 来渲染的。
+二维码扫描
+APP 上的二维码扫码功能通常作用于用户界面的左右上角，如果找不到的话则可以在 APP 的设置页面中找到“扫一扫”、“扫码”等字眼就可以打开相关功能。
+
+URL Scheme 跳转
+关于 URL Scheme，对于我来说就是老熟人了，在 2018 年…</p>
+                      </details>
+                      <hr>
+                    </article>
+
+              </section>
               <section class="day-container">
                 <div>
                   <div class="date">2025-11-30</div>
@@ -120,7 +154,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2025-11-30T04:10:51.000Z">2025-11-30T04:10:51.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>684</time></span>
+                          <span>字数: <time>710</time></span>
                         </b>
                       </div>
                       <p>0# 概述0.1 本文原创首发于国家网络空间云安全社区一眨眼的时间，马上就要过年了，不知道大家今年都过得如何？近期有不少师傅在抖音咨询我，问我说：常规的漏洞原理和利用都捻熟于心，但是为什么在SR...</p>
@@ -160,7 +194,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2025-03-30T07:01:00.000Z">2025-03-30T07:01:00.000Z</time></span> |
                           <span>预计阅读时间: <time>3 min</time></span> |
-                          <span>字数: <time>785</time></span>
+                          <span>字数: <time>784</time></span>
                         </b>
                       </div>
                       <p>0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...</p>
@@ -180,7 +214,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2025-02-28T13:39:00.000Z">2025-02-28T13:39:00.000Z</time></span> |
                           <span>预计阅读时间: <time>3 min</time></span> |
-                          <span>字数: <time>772</time></span>
+                          <span>字数: <time>783</time></span>
                         </b>
                       </div>
                       <p>{bilibili bvid&#x3D;&quot;BV19T9gY4ETm&quot; page&#x3D;&quot;&quot;/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站...</p>
@@ -259,7 +293,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-12-08T18:16:00.000Z">2024-12-08T18:16:00.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>629</time></span>
+                          <span>字数: <time>636</time></span>
                         </b>
                       </div>
                       <p>前言哈哈，好久没在博客上面更新文章了，许多朋友（不管是线上还是线下）都在问我是不是不更新博客了，也在催我赶紧更新一下博客的内容，在此也非常感谢各位师傅和朋友的关注和支持~近期不更新博客，原因如下...</p>
@@ -279,7 +313,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-06-30T11:08:00.000Z">2024-06-30T11:08:00.000Z</time></span> |
                           <span>预计阅读时间: <time>8 min</time></span> |
-                          <span>字数: <time>2480</time></span>
+                          <span>字数: <time>2491</time></span>
                         </b>
                       </div>
                       <p>0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...</p>
@@ -299,7 +333,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-02-19T02:39:00.000Z">2024-02-19T02:39:00.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>707</time></span>
+                          <span>字数: <time>717</time></span>
                         </b>
                       </div>
                       <p>0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...</p>
@@ -372,7 +406,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2024-01-01T06:57:17.000Z">2024-01-01T06:57:17.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>643</time></span>
+                          <span>字数: <time>647</time></span>
                         </b>
                       </div>
                       <p>1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...</p>
@@ -392,7 +426,7 @@
                           <span><a href=https://gh0st.cn>Chen&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-12-17T16:00:00.000Z">2023-12-17T16:00:00.000Z</time></span> |
                           <span>预计阅读时间: <time>1 min</time></span> |
-                          <span>字数: <time>410</time></span>
+                          <span>字数: <time>412</time></span>
                         </b>
                       </div>
                       <p>被忽视的暗面：客户端应用漏洞挖掘之旅
@@ -437,7 +471,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-12-14T02:39:00.000Z">2023-12-14T02:39:00.000Z</time></span> |
                           <span>预计阅读时间: <time>2 min</time></span> |
-                          <span>字数: <time>738</time></span>
+                          <span>字数: <time>745</time></span>
                         </b>
                       </div>
                       <p>1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...</p>
@@ -457,7 +491,7 @@
                           <span><a href=https://blog.zgsec.cn/>AabyssZG&#x27;s Blog</a></span> |
                           <span>更新日期: <time class="jst-iso-time" datetime="2023-11-25T06:59:00.000Z">2023-11-25T06:59:00.000Z</time></span> |
                           <span>预计阅读时间: <time>3 min</time></span> |
-                          <span>字数: <time>878</time></span>
+                          <span>字数: <time>880</time></span>
                         </b>
                       </div>
                       <p>0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...</p>
