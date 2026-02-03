@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-02-02T02:02:45.907Z</id>
+    <id>urn:2026-02-03T02:01:31.826Z</id>
     <title>osmos::feed</title>
-    <updated>2026-02-02T02:02:45.907Z</updated>
+    <updated>2026-02-03T02:01:31.826Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[OpenClaw One-Click ATO to RCE]]></title>
+        <id>https://0xacb.com/2026/01/29/openclaw-one-click-rce/</id>
+        <link href="https://0xacb.com/2026/01/29/openclaw-one-click-rce/"/>
+        <updated>2026-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Please check the blog post here: https://ethiack.com/news/blog/one-click-rce-moltbot]]></summary>
+        <author>
+            <name>0xacb</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[黑盒视角下的 WebView 漏洞面探索]]></title>
         <id>https://gh0st.cn/archives/2025-12-26/1</id>
@@ -44,7 +54,7 @@ URL Scheme 跳转
         <id>https://0xacb.com/2025/06/27/ai-for-ethical-hacking-workshop/</id>
         <link href="https://0xacb.com/2025/06/27/ai-for-ethical-hacking-workshop/"/>
         <updated>2025-06-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Please check the blog post here: https://blog.ethiack.com/blog/dont-fear-the-ai-reaper-using-llms-to-hack-better-and-faster]]></summary>
+        <summary type="html"><![CDATA[Please check the blog post here: https://ethiack.com/news/blog/dont-fear-the-ai-reaper-using-llms-to-hack-better-and-faster]]></summary>
         <author>
             <name>0xacb</name>
         </author>
@@ -273,7 +283,7 @@ Recon The Trailblazer challenge provided exactly one page to the site and no sou
         <id>https://0xacb.com/2023/04/26/git-arbitrary-config-injection-cve-2023-29007/</id>
         <link href="https://0xacb.com/2023/04/26/git-arbitrary-config-injection-cve-2023-29007/"/>
         <updated>2023-04-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Please check the blog post here: https://blog.ethiack.com/en/blog/git-arbitrary-configuration-injection-cve-2023-29007]]></summary>
+        <summary type="html"><![CDATA[Please check the blog post here: https://ethiack.com/news/blog/git-arbitrary-configuration-injection-cve-2023-29007]]></summary>
         <author>
             <name>0xacb</name>
         </author>
@@ -1960,16 +1970,6 @@ ClickJacking是一种视觉欺骗攻击手段，在web端就是iframe嵌套一�
         <link href="https://0xacb.com/2017/11/19/hxp-flag-store/"/>
         <updated>2017-11-19T08:15:56.000Z</updated>
         <summary type="html"><![CDATA[This challenge turned out to be very interesting. 15 teams managed to solve it. Thanks to my teammate @uid1000 for digging into the GLIBC internals!]]></summary>
-        <author>
-            <name>0xacb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[H1702 CTF 2017 - Writeups]]></title>
-        <id>https://0xacb.com/2017/07/16/h1702-ctf/</id>
-        <link href="https://0xacb.com/2017/07/16/h1702-ctf/"/>
-        <updated>2017-07-16T08:15:56.000Z</updated>
-        <summary type="html"><![CDATA[<div type="html"/>]]></summary>
         <author>
             <name>0xacb</name>
         </author>
