@@ -118,7 +118,7 @@
           "description": "0# 概述0.1 本文原创首发于国家网络空间云安全社区一眨眼的时间，马上就要过年了，不知道大家今年都过得如何？近期有不少师傅在抖音咨询我，问我说：常规的漏洞原理和利用都捻熟于心，但是为什么在SR...",
           "link": "https://blog.zgsec.cn/archives/729.html",
           "publishedOn": "2025-11-30T04:10:51.000Z",
-          "wordCount": 766,
+          "wordCount": 770,
           "title": "信息搜集之边缘资产和隐形资产的发掘",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -128,7 +128,7 @@
           "description": "0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...",
           "link": "https://blog.zgsec.cn/archives/713.html",
           "publishedOn": "2025-03-30T07:01:00.000Z",
-          "wordCount": 870,
+          "wordCount": 868,
           "title": "从CVE-2025-30208看任意文件读取利用",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -138,7 +138,7 @@
           "description": "{bilibili bvid=\"BV19T9gY4ETm\" page=\"\"/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站...",
           "link": "https://blog.zgsec.cn/archives/711.html",
           "publishedOn": "2025-02-28T13:39:00.000Z",
-          "wordCount": 840,
+          "wordCount": 849,
           "title": "【白帽访谈录】云安全将成为未来安全研究主战场-会议纪要",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -158,7 +158,7 @@
           "description": "0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...",
           "link": "https://blog.zgsec.cn/archives/608.html",
           "publishedOn": "2024-06-30T11:08:00.000Z",
-          "wordCount": 2550,
+          "wordCount": 2558,
           "title": "内网渗透信息搜集骚姿势",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -188,7 +188,7 @@
           "description": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原...",
           "link": "https://blog.zgsec.cn/archives/548.html",
           "publishedOn": "2023-12-14T02:39:00.000Z",
-          "wordCount": 806,
+          "wordCount": 814,
           "title": "一周年小记&amp;&amp;那些快乐的技术时光",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -198,7 +198,7 @@
           "description": "0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...",
           "link": "https://blog.zgsec.cn/archives/535.html",
           "publishedOn": "2023-11-25T06:59:00.000Z",
-          "wordCount": 938,
+          "wordCount": 943,
           "title": "一场跨越十年的超时空思维碰撞",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -208,7 +208,7 @@
           "description": "比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...",
           "link": "https://blog.zgsec.cn/archives/504.html",
           "publishedOn": "2023-11-12T03:29:00.000Z",
-          "wordCount": 994,
+          "wordCount": 998,
           "title": "2023浙江省大学生网络与信息安全决赛-Misc篇",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         }
@@ -220,12 +220,22 @@
       "siteUrl": "https://gh0st.cn",
       "articles": [
         {
+          "id": "https://gh0st.cn/archives/2026-03-16/1",
+          "author": null,
+          "description": "提权实录：通过命名管道劫持可写服务\n前言\n本文在分析某 Windows 应用的服务组件时，发现其创建的命名管道访问控制配置宽松，允许低权限用户连接并发送指令，从而触发高权限的终止任意进程操作（taskkill）。进一步分析发现，被终止的服务会自动重启，而其可执行文件的权限配置错误，允许 Everyone 组读写。结合这两个缺陷，可构造一条完整的本地提权利用链。\n漏洞挖掘过程\n命名管道\n关于命名管道\n命名管道（Named Pipe）是 Windows 操作系统提供的一种进程间通信（IPC）机制，允许不同进程（包括跨会话、跨权限级别）通过一个带名称的管道进行双向或单向数据交换。命名管道具有全局可见的名称（通常位于 \\pipe\\ 命名空间下，如 \\\\.\\pipe\\KeyServicePipe），支持多客户端连接，并可通过安全描述符（Security Descriptor） 设置访问控制列表（ACL），以限制哪些用户或组可以读取、写入或创建连接。\n命名管道常被用作高权限服务与低权限客户端之间的通信通道。然而，若开发者未正确配置管道的 ACL（例如允许 Everyone 或 Authenticated Users 具有写权限），攻击者就可以作为客户端向服务端发送消息，从而使得服务执行敏感操作（如启动/终止进程、读取文件等），以此构成权限提升或远程代码执行的风险。\n发现命名管道\n发现命名管道及查看其对应的 ACL 策略可以借助 Sysinternals Suite 内的 pipelist 和 accesschk。这里0cat向我推荐了一款可视化友好的工具：Pipetap。通过查看 Pipelist 发现存在一个 ACL 策略为 Everyone 可写的命名管道：KeyServicePipe。\n\n该命名管道对应的进程也是以 System 权限运行着，完全符合我们挖掘提权的条件。\n\n进程终…",
+          "link": "https://gh0st.cn/archives/2026-03-16/1",
+          "publishedOn": "2026-03-15T16:00:00.000Z",
+          "wordCount": 410,
+          "title": "提权实录：通过命名管道劫持可写服务",
+          "imageUrl": null
+        },
+        {
           "id": "https://gh0st.cn/archives/2025-12-26/1",
           "author": null,
           "description": "黑盒视角下的 WebView 漏洞面探索\n前言\n本文主要记录了在移动端探索 WebView 组件漏洞的过程，采用黑盒视角，摒弃复杂繁琐的内部逻辑分析，专注于快速且直接的漏洞挖掘方法。由于笔者才疏学浅，因此本文难免会出现一些文笔不通或专业解释不到位的情况，还望多包涵及斧正。\nWebView 组件\n介绍\n顾名思义，WebView 组件是用于在应用程序中嵌入和展示 Web 内容的系统组件。通过调用 WebView，开发者能够实现在自己的应用中直接渲染网页，这从某种程度上极大地简化了跨平台应用的开发流程。利用 WebView，开发者只需进行少量适配工作，即可将现有的 Web 应用无缝移植到移动应用环境中，显著提升了开发效率和灵活性。\n场景\nWebView 组件实际上无处不在。例如，在手机上打开一个商城 APP 时，展示的商品信息可能本质上就是通过 WebView 加载和渲染的网页。在这些实际应用场景中，用户通常不会察觉到 WebView 的存在，并且所有显示的信息可能都是由 APP 预先配置好的。\n漏洞入口\n要想让用户手机上的 APP 调用 WebView 组件对自定义页面进行渲染，方法主要分为两种：第一类是国内常见的二维码扫码，通过扫描一个指向网页链接的二维码，从而直接调用 WebView 加载特定网页；第二类是 APP 间的跳转调用，即 URL Scheme（在安卓上也称为 Deep Link），通过这种方式可以从一个 APP 直接跳转到另一个 APP 中的特定页面，而这个页面同样可能是通过 WebView 来渲染的。\n二维码扫描\nAPP 上的二维码扫码功能通常作用于用户界面的左右上角，如果找不到的话则可以在 APP 的设置页面中找到“扫一扫”、“扫码”等字眼就可以打开相关功能。\n\nURL Scheme 跳转\n关于 URL Scheme，对于我来说就是老熟人了，在 2018 年…",
           "link": "https://gh0st.cn/archives/2025-12-26/1",
           "publishedOn": "2025-12-25T16:00:00.000Z",
-          "wordCount": 620,
+          "wordCount": 622,
           "title": "黑盒视角下的 WebView 漏洞面探索",
           "imageUrl": null
         },

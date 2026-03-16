@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-03-15T02:12:07.923Z</id>
+    <id>urn:2026-03-16T02:13:16.364Z</id>
     <title>osmos::feed</title>
-    <updated>2026-03-15T02:12:07.923Z</updated>
+    <updated>2026-03-16T02:13:16.364Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[提权实录：通过命名管道劫持可写服务]]></title>
+        <id>https://gh0st.cn/archives/2026-03-16/1</id>
+        <link href="https://gh0st.cn/archives/2026-03-16/1"/>
+        <updated>2026-03-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[提权实录：通过命名管道劫持可写服务
+前言
+本文在分析某 Windows 应用的服务组件时，发现其创建的命名管道访问控制配置宽松，允许低权限用户连接并发送指令，从而触发高权限的终止任意进程操作（taskkill）。进一步分析发现，被终止的服务会自动重启，而其可执行文件的权限配置错误，允许 Everyone 组读写。结合这两个缺陷，可构造一条完整的本地提权利用链。
+漏洞挖掘过程
+命名管道
+关于命名管道
+命名管道（Named Pipe）是 Windows 操作系统提供的一种进程间通信（IPC）机制，允许不同进程（包括跨会话、跨权限级别）通过一个带名称的管道进行双向或单向数据交换。命名管道具有全局可见的名称（通常位于 \pipe\ 命名空间下，如 \\.\pipe\KeyServicePipe），支持多客户端连接，并可通过安全描述符（Security Descriptor） 设置访问控制列表（ACL），以限制哪些用户或组可以读取、写入或创建连接。
+命名管道常被用作高权限服务与低权限客户端之间的通信通道。然而，若开发者未正确配置管道的 ACL（例如允许 Everyone 或 Authenticated Users 具有写权限），攻击者就可以作为客户端向服务端发送消息，从而使得服务执行敏感操作（如启动/终止进程、读取文件等），以此构成权限提升或远程代码执行的风险。
+发现命名管道
+发现命名管道及查看其对应的 ACL 策略可以借助 Sysinternals Suite 内的 pipelist 和 accesschk。这里0cat向我推荐了一款可视化友好的工具：Pipetap。通过查看 Pipelist 发现存在一个 ACL 策略为 Everyone 可写的命名管道：KeyServicePipe。
+
+该命名管道对应的进程也是以 System 权限运行着，完全符合我们挖掘提权的条件。
+
+进程终…]]></summary>
+        <author>
+            <name>Chen's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenClaw One-Click ATO to RCE]]></title>
         <id>https://0xacb.com/2026/01/29/openclaw-one-click-rce/</id>
