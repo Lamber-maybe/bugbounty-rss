@@ -118,7 +118,7 @@
           "description": "0# 概述0.1 本文原创首发于国家网络空间云安全社区一眨眼的时间，马上就要过年了，不知道大家今年都过得如何？近期有不少师傅在抖音咨询我，问我说：常规的漏洞原理和利用都捻熟于心，但是为什么在SR...",
           "link": "https://blog.zgsec.cn/archives/729.html",
           "publishedOn": "2025-11-30T04:10:51.000Z",
-          "wordCount": 770,
+          "wordCount": 771,
           "title": "信息搜集之边缘资产和隐形资产的发掘",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -128,7 +128,7 @@
           "description": "0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, C...",
           "link": "https://blog.zgsec.cn/archives/713.html",
           "publishedOn": "2025-03-30T07:01:00.000Z",
-          "wordCount": 868,
+          "wordCount": 865,
           "title": "从CVE-2025-30208看任意文件读取利用",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -138,7 +138,7 @@
           "description": "{bilibili bvid=\"BV19T9gY4ETm\" page=\"\"/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站...",
           "link": "https://blog.zgsec.cn/archives/711.html",
           "publishedOn": "2025-02-28T13:39:00.000Z",
-          "wordCount": 849,
+          "wordCount": 836,
           "title": "【白帽访谈录】云安全将成为未来安全研究主战场-会议纪要",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -148,7 +148,7 @@
           "description": "前言哈哈，好久没在博客上面更新文章了，许多朋友（不管是线上还是线下）都在问我是不是不更新博客了，也在催我赶紧更新一下博客的内容，在此也非常感谢各位师傅和朋友的关注和支持~近期不更新博客，原因如下...",
           "link": "https://blog.zgsec.cn/archives/613.html",
           "publishedOn": "2024-12-08T18:16:00.000Z",
-          "wordCount": 695,
+          "wordCount": 693,
           "title": "干货满满之2024广州补天城市沙龙有感",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -158,7 +158,7 @@
           "description": "0# 概述哈哈，各位师傅好久不见啦，最近比较忙，抽空将本文写出来~说到信息搜集，一般大家都会联想到Web外部打点的暴露面信息搜集。但在内网渗透的过程中，信息搜集也是决定成败的决定性因素特别是做持...",
           "link": "https://blog.zgsec.cn/archives/608.html",
           "publishedOn": "2024-06-30T11:08:00.000Z",
-          "wordCount": 2558,
+          "wordCount": 2553,
           "title": "内网渗透信息搜集骚姿势",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -168,7 +168,7 @@
           "description": "0# 概述注：本文原创首发自T00ls论坛，文章链接：https://www.t00ls.com/thread-71282-1-1.html最近刷了刷公众号，偶然看到吾爱破解论坛官方公众号发布了...",
           "link": "https://blog.zgsec.cn/archives/577.html",
           "publishedOn": "2024-02-19T02:39:00.000Z",
-          "wordCount": 772,
+          "wordCount": 778,
           "title": "52PoJie论坛2024春节红包-Web解题思路",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -178,7 +178,7 @@
           "description": "1# 概述今天是2024年的第一天，很高兴能再次和大家见面，我是渊龙Sec安全团队的创始人——曾哥 @AabyssZG。首先，在这个日子里面祝各位师傅元旦快乐，在新的一年里面：事业如虎添翼，财运...",
           "link": "https://blog.zgsec.cn/archives/573.html",
           "publishedOn": "2024-01-01T06:57:17.000Z",
-          "wordCount": 705,
+          "wordCount": 712,
           "title": "感谢，渊龙三周年与龙年展望",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -198,7 +198,7 @@
           "description": "0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...",
           "link": "https://blog.zgsec.cn/archives/535.html",
           "publishedOn": "2023-11-25T06:59:00.000Z",
-          "wordCount": 943,
+          "wordCount": 941,
           "title": "一场跨越十年的超时空思维碰撞",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         },
@@ -208,7 +208,7 @@
           "description": "比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...",
           "link": "https://blog.zgsec.cn/archives/504.html",
           "publishedOn": "2023-11-12T03:29:00.000Z",
-          "wordCount": 998,
+          "wordCount": 994,
           "title": "2023浙江省大学生网络与信息安全决赛-Misc篇",
           "imageUrl": "https://blog.zgsec.cn/title.jpg"
         }
@@ -222,10 +222,10 @@
         {
           "id": "https://gh0st.cn/archives/2026-03-16/1",
           "author": null,
-          "description": "提权实录：通过命名管道劫持可写服务\n前言\n本文在分析某 Windows 应用的服务组件时，发现其创建的命名管道访问控制配置宽松，允许低权限用户连接并发送指令，从而触发高权限的终止任意进程操作（taskkill）。进一步分析发现，被终止的服务会自动重启，而其可执行文件的权限配置错误，允许 Everyone 组读写。结合这两个缺陷，可构造一条完整的本地提权利用链。\n漏洞挖掘过程\n命名管道\n关于命名管道\n命名管道（Named Pipe）是 Windows 操作系统提供的一种进程间通信（IPC）机制，允许不同进程（包括跨会话、跨权限级别）通过一个带名称的管道进行双向或单向数据交换。命名管道具有全局可见的名称（通常位于 \\pipe\\ 命名空间下，如 \\\\.\\pipe\\KeyServicePipe），支持多客户端连接，并可通过安全描述符（Security Descriptor） 设置访问控制列表（ACL），以限制哪些用户或组可以读取、写入或创建连接。\n命名管道常被用作高权限服务与低权限客户端之间的通信通道。然而，若开发者未正确配置管道的 ACL（例如允许 Everyone 或 Authenticated Users 具有写权限），攻击者就可以作为客户端向服务端发送消息，从而使得服务执行敏感操作（如启动/终止进程、读取文件等），以此构成权限提升或远程代码执行的风险。\n发现命名管道\n发现命名管道及查看其对应的 ACL 策略可以借助 Sysinternals Suite 内的 pipelist 和 accesschk。这里0cat向我推荐了一款可视化友好的工具：Pipetap。通过查看 Pipelist 发现存在一个 ACL 策略为 Everyone 可写的命名管道：KeyServicePipe。\n\n该命名管道对应的进程也是以 System 权限运行着，完全符合我们挖掘提权的条件。\n\n进程终…",
+          "description": "提权实录：通过命名管道劫持可写服务\n前言\n在分析某 Windows 应用的服务组件时，发现其创建的命名管道访问控制配置宽松，允许低权限用户连接并发送指令，从而触发高权限的终止任意进程操作（taskkill）。进一步分析发现，被终止的服务会自动重启，而其可执行文件的权限配置错误，允许 Everyone 组读写。结合这两个缺陷，可构造一条完整的本地提权利用链。\n漏洞挖掘过程\n命名管道\n关于命名管道\n命名管道（Named Pipe）是 Windows 操作系统提供的一种进程间通信（IPC）机制，允许不同进程（包括跨会话、跨权限级别）通过一个带名称的管道进行双向或单向数据交换。命名管道具有全局可见的名称（通常位于 \\pipe\\ 命名空间下，如 \\\\.\\pipe\\KeyServicePipe），支持多客户端连接，并可通过安全描述符（Security Descriptor） 设置访问控制列表（ACL），以限制哪些用户或组可以读取、写入或创建连接。\n命名管道常被用作高权限服务与低权限客户端之间的通信通道。然而，若开发者未正确配置管道的 ACL（例如允许 Everyone 或 Authenticated Users 具有写权限），攻击者就可以作为客户端向服务端发送消息，从而使得服务执行敏感操作（如启动/终止进程、读取文件等），以此构成权限提升或远程代码执行的风险。\n发现命名管道\n发现命名管道及查看其对应的 ACL 策略可以借助 Sysinternals Suite 内的 pipelist 和 accesschk。这里 0cat 向我推荐了一款可视化友好的工具：Pipetap。通过查看 Pipelist 发现存在一个 ACL 策略为 Everyone 可写的命名管道：KeyServicePipe。\n\n该命名管道对应的进程也是以 System 权限运行着，完全符合我们挖掘提权的条件。\n\n进程终…",
           "link": "https://gh0st.cn/archives/2026-03-16/1",
           "publishedOn": "2026-03-15T16:00:00.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "提权实录：通过命名管道劫持可写服务",
           "imageUrl": null
         },
