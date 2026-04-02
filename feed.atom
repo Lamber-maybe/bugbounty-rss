@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-04-01T02:29:05.600Z</id>
+    <id>urn:2026-04-02T02:08:04.119Z</id>
     <title>osmos::feed</title>
-    <updated>2026-04-01T02:29:05.600Z</updated>
+    <updated>2026-04-02T02:08:04.119Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[通过RouterOS建立WireGuard内网隧道]]></title>
+        <id>https://blog.zgsec.cn/archives/RouterOS-WireGuard.html</id>
+        <link href="https://blog.zgsec.cn/archives/RouterOS-WireGuard.html"/>
+        <updated>2026-03-31T09:51:00.000Z</updated>
+        <summary type="html"><![CDATA[0# 概述在近期的实战渗透过程中，当我通过历史密码泄露或者爆破成功进入RouterOS系统后台后，应该如何搭建隧道进入目标内网，就成为了实际渗透过程中的问题。RouterOS是一种路由操作系统，...]]></summary>
+        <author>
+            <name>AabyssZG</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[提权实录：通过命名管道劫持可写服务]]></title>
         <id>https://gh0st.cn/archives/2026-03-16/1</id>
@@ -257,16 +267,6 @@ URL Scheme 跳转
         <link href="https://blog.zgsec.cn/archives/535.html"/>
         <updated>2023-11-25T06:59:00.000Z</updated>
         <summary type="html"><![CDATA[0# 概述最近反正也没啥事情干，突然看到朋友 青山ya 师傅审计出了腾讯开源的xSRC系统的逻辑漏洞，于是我就没事干，把开源的xSRC源码拉下来跟着审计了一波但在审计的过程中，我在TSRC（腾讯...]]></summary>
-        <author>
-            <name>AabyssZG</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023浙江省大学生网络与信息安全决赛-Misc篇]]></title>
-        <id>https://blog.zgsec.cn/archives/504.html</id>
-        <link href="https://blog.zgsec.cn/archives/504.html"/>
-        <updated>2023-11-12T03:29:00.000Z</updated>
-        <summary type="html"><![CDATA[比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。...]]></summary>
         <author>
             <name>AabyssZG</name>
         </author>
